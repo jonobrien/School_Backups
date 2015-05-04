@@ -1,0 +1,88 @@
+package command;
+
+import java.util.Stack;
+
+import tab.Tab;
+import main.Display;
+import main.StaticUtilities;
+import command.ActionObject;
+
+
+
+
+
+/**
+ * This class holds the buffers used by the undo and redo commands to remove/reinsert data into the editor
+ */
+public class ActionBuffer {
+	/*
+	 * The undo/redo stacks being used for the current tab
+	 */
+	private Stack<ActionObject> Undo;
+	private Stack<ActionObject> Redo;
+	/*
+	 * The tab the buffer is acting on
+	 */
+	private Tab currentTab;
+	/*
+	 * The current object being manipulated for each undo/redo operation
+	 */
+	private ActionObject currentUndo = null;
+	private ActionObject currentRedo = null;
+	
+	/**
+	 * This constructs the ActonBuffer, 1 for each tab, consisting of the 
+	 * undo/redo stacks, and the current tab data for manipulation
+	 * 
+	 * @param obj - the object being added to the stack
+	 * @param currentTab - the tab being manipulated by the undo/redo functionality
+	 */
+	public ActionBuffer () {
+		//this.currentTab = StaticUtilities.getCurrentTab();
+		this.Undo = new Stack<ActionObject>();
+		this.Redo = new Stack<ActionObject>();
+		
+		}
+	public void setTab (ActionBuffer buffer) {
+		this.currentTab = StaticUtilities.getCurrentTab();
+	}
+	
+	public ActionObject getUndoTop () {
+		ActionObject obj = Undo.pop();
+		return obj;
+	}
+	
+	public ActionObject getRedoTop () {
+		ActionObject obj = Redo.pop();
+		return obj;
+	}
+	
+	public void addToUndoStack(ActionObject obj) {
+		Undo.push(obj);
+	}
+	
+	public ActionObject getTopUndo () {
+		return Undo.pop();
+		}
+	
+	public ActionObject getTopRedo () {
+		return Redo.pop();
+	}
+	
+	public void undoToRedo () {
+		ActionObject obj = getTopUndo();
+		addToRedoStack(obj);
+		
+	}
+	
+	public void redoToUndo () {
+		ActionObject obj = getTopRedo();
+		addToUndoStack(obj);
+	}
+	
+	public void addToRedoStack (ActionObject obj) {
+		Redo.push(obj);
+	}
+	
+	
+}

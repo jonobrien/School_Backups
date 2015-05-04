@@ -1,0 +1,31 @@
+#Recitation problem for week 3
+
+#Calculates gcd using euclidean method
+def gcd(m, n):
+    """ gcd: NatNum * NatNum -> NatNum"""
+    remainder = m % n
+    if remainder == 0:
+        return n
+    else:
+        gcd(n, remainder)
+    
+
+
+
+#get numbers from user. Calculates and prints gcd of the two.
+def getInputAndGetGCD():
+    """getInputAndGetGCD: None -> None"""
+    m = int(input("Enter 1st number:"))
+    n = int(input("Enter 2nd number:"))
+
+    if(m > n):
+        result = gcd(m, n)
+    else:
+        result = gcd(n, m)
+
+    print("gcd:",result)
+
+
+    
+getInputAndGetGCD()
+input("Press any to key to continue...")

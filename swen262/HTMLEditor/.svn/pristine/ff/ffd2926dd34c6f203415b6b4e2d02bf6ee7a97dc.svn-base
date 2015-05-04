@@ -1,0 +1,50 @@
+package tab;
+
+import java.util.ArrayList;
+
+import javax.swing.JScrollPane;
+
+public class TabContentLinks extends JScrollPane {
+	
+	public final int ORDER_BY_ALPAHBETICAL = 0;
+	public final int ORDER_BY_OCCURANCE = 1;
+	public final int ORDER_BY_ALPAHBETICAL_AND_CONSOLIDATE = 2;
+	public final int ORDER_BY_OCCURANCE_AND_CONSOLIDATE = 3;
+	
+	private ArrayList<Link> links;
+
+	public TabContentLinks(){
+		super(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+	}
+	
+	public void updateLinks(String text, int order){
+		extractLinks(text);
+	}
+	
+	private void extractLinks(String text){
+		links = new ArrayList<Link>();
+		int index = text.indexOf('<');
+		int currentOccurance = -1;
+		String url = "";
+		Link newLink;
+		while(index > -1){
+			while(text.charAt(index + 1) == ' '){index++;}
+			if(text.charAt(index + 1) == 'a'){
+				while(text.charAt(index + 1) != '>' && text.charAt(index + 1) != '"'){index++;}
+				foundLink:if(text.charAt(index + 1) == '"'){
+					url = text.substring(index + 2, text.indexOf('"', index + 2)).trim();
+					currentOccurance++;
+					newLink = new Link(url, currentOccurance);
+					for(Link l : links){
+						if(l.equals(newLink)){
+							l.addOccurance(currentOccurance);
+							break foundLink;
+						}
+					}
+					links.add(newLink);
+				}
+			}
+			index = text.indexOf('<', index + 1);
+		}
+	}
+}

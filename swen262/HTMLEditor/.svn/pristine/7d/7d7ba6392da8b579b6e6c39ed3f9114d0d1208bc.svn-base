@@ -1,0 +1,60 @@
+package command;
+
+import main.StaticUtilities;
+
+
+/**
+ * This class is the action objects stored in the ActionBuffers that handle undo and redo
+ * for the HTMLEditor
+ */
+public class ActionObject {
+	private int position = StaticUtilities.getCurrentTab().getContent().getBuffer().getCaretPosition();
+	private int length;
+	
+	//TODO add the data
+	private Object data; // held in the object to be taken from the previous operation in the editor
+	private Integer type; // defines what command the object was created by - tags, cut, etc...
+	
+	
+	
+	public void setPosition(int position) {
+		position = this.position;
+	}
+	
+	public int getPosition() {
+		return position;
+	}
+	
+	public int getLength() {
+		return length;
+	}
+	
+	public void setLength(int len) {
+		this.length = len;
+	}
+	
+	
+	/**
+	 * set the data from text input/insertion of object into data of ActionObject
+	 * @param obj
+	 */
+	public void setData(Object obj) {
+		this.data = obj;
+	}
+
+	/**
+	 * 
+	 * @param type - taken from the StaticUtilities type list for undo object types
+	 */
+	public void setType (int type) {
+		this.type = type;
+	}
+
+	public Object getData () {
+		return data;
+	}
+
+	
+	
+}
+

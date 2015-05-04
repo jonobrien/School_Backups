@@ -1,0 +1,53 @@
+"""
+File:  hypno.py
+Author:  Aaron Deever
+Date:  Lecture Week 4
+"""
+
+from turtle import *
+
+def init():
+    setup(600,600)
+    setworldcoordinates(-1,-1,21,21)
+    lt(90)
+    
+def drawSpiral0():
+    pass
+
+def drawSpiral1():
+    forward(1)
+    right(90)
+
+def drawSpiral2():
+    forward(2)
+    rt(90)
+    drawSpiral1()
+
+def drawSpiral(seg):
+    if(seg == 0):
+        pass
+    else:
+        forward(seg)
+        rt(90)
+        drawSpiral(seg-1)
+
+def drawIter(seg):
+    while True:
+        if(seg == 0):
+            break
+        else:
+            fd(seg)
+            rt(90)
+            seg = seg - 1
+
+def drawIter2(seg):
+    while (seg > 0):
+        fd(seg)
+        rt(90)
+        seg = seg - 1
+
+init()
+
+#drawSpiral2()
+#drawSpiral(20)
+drawIter2(20)

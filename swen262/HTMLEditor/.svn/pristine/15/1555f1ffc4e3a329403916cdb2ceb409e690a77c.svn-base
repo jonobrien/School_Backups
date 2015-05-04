@@ -1,0 +1,75 @@
+package tab;
+
+import javax.swing.JSplitPane;
+
+import main.Display;
+
+/**
+ * This class is responsible for holding the current tab's contents.
+ * All that includes is the TabConentBuffer that is the TextArea.
+ * Note : Content is centered within a BorderLayouted JPanel.
+ */
+@SuppressWarnings("serial")
+public class TabContent extends JSplitPane{
+    
+	//Content's Buffer (TextArea)
+	private TabContentText text;
+	private TabContentLinks links;
+	private boolean view;
+	
+	/**
+	 * Constructor:
+	 *     initializes TabContent to be centered within a BorderLayout (JPanel)
+	 */
+    public TabContent(){
+        super(JSplitPane.VERTICAL_SPLIT,true);
+        init();
+    }
+    
+    private void init(){
+    	this.view = false;
+    	this.links = new TabContentLinks();
+    	this.text = new TabContentText(new TabContentTextBuffer());
+    	this.add(text,JSplitPane.TOP);
+    	this.add(links,JSplitPane.BOTTOM);
+    	this.setDividerSize(0);
+    	this.setDividerLocation(Display.getDisplay().getHeight());
+    }
+    
+    /**
+     * getBuffer() is a getter method for the Tab's buffer (TextArea)
+     * @return
+     */
+    public TabContentTextBuffer getBuffer(){
+    	return this.text.getBuffer();
+    }
+    
+    public void toggleView(){
+    	view = !view;
+    	if(view){
+    		this.setDividerSize(10);
+    		this.setDividerLocation(.5);
+    	}else{
+        	this.setDividerSize(0);
+        	this.setDividerLocation(this.getHeight());
+    	}
+    	this.repaint();
+    	updateLinkView();
+    }
+    
+    public boolean getView(){
+    	return view;
+    }
+    
+    public void updateSizing(){
+    	if(!view){
+    		this.setDividerSize(0);
+    		this.setDividerLocation(this.getHeight());
+    	}
+    }
+    
+    public void updateLinkView(){
+    	links.updateLinks(this.text.getBuffer().getText(), 0);
+    }
+    
+}

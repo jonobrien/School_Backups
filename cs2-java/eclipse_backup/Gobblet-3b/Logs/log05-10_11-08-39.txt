@@ -1,0 +1,10 @@
+05-10 11:08:39 Engine Gobblet Java Client v1.3b by RIT CS Department starting up
+05-10 11:08:39 Engine Loading player LastPlace
+05-10 11:08:39 Engine Loading player THX1138
+05-10 11:08:39 Engine Loaded 2 players
+05-10 11:08:40 Engine Calling init() for player 1
+05-10 11:08:40 Engine Calling init() for player 2
+05-10 11:08:40 Model  GUI accessible at:
+https://yendor.cs.rit.edu/~royale/gobblet/gameview/animations.500/public.190a109d4643194fb69333d8719e58cd2ef44ffa536e40fb141c0/gameid.328815/myplayer.0/
+05-10 11:08:40 Engine Processing move #1
+05-10 11:08:40 Engine Getting move from player 1

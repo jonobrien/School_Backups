@@ -1,0 +1,12 @@
+package main;
+
+public class StaticUtilities {
+
+    public static int antiNegativeOne(int val){
+        if (val == -1){
+            val = 0;
+        }
+        return val;
+    }
+    
+}

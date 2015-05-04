@@ -1,0 +1,36 @@
+package main;
+
+import java.util.LinkedList;
+
+import javax.swing.JTabbedPane;
+
+public class CloseCommand extends AbstractCommand {
+
+	private int index;
+	
+	public CloseCommand(int index){
+		this.index = index;
+	}
+	
+	@Override
+	public void execute() {
+		//System.out.println("DEBUG: CloseButton.index = " + Integer.toString(index));
+		JTabbedPane tabPane = Display.getDisplay().getTabPane();
+		LinkedList<Tab> tabList = Display.getDisplay().getTabList();
+		
+		if(tabPane.getSelectedIndex() == this.index){
+		    tabPane.setSelectedIndex(Display.antiNegativeOne(this.index - 1));
+		}
+		if(tabPane.getTabCount() == 2){
+		    tabPane.setSelectedIndex( 1 );
+		}
+		tabPane.remove(this.index);
+		tabList.remove(this.index);
+		TabIndexUpdater.update();
+	}
+	
+	public void updateIndex(int newIndex){
+		this.index = newIndex;
+	}
+
+}

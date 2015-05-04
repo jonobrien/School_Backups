@@ -1,0 +1,37 @@
+package Command;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import main.Display;
+import main.MenuItemOption;
+import main.StaticUtilities;
+import Tab.Tab;
+
+public class UpdateLineWrapCommand implements CommandInterface, ActionListener {
+
+    private MenuItemOption menuItemOption;
+    
+    public UpdateLineWrapCommand(MenuItemOption menuItemOption) {
+        this.menuItemOption = menuItemOption;
+    }
+    
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        execute();
+    }
+
+    @Override
+    public void execute() {
+        StaticUtilities.toggleLineWrap();
+        for(Tab t : Display.getDisplay().getTabPanel().getList()){
+            t.getContent().getBuffer().setLineWrap( StaticUtilities.getLineWrap() );
+        }
+        if(StaticUtilities.getLineWrap()){
+            menuItemOption.setIcon( StaticUtilities.onImage );
+        }else{
+            menuItemOption.setIcon( StaticUtilities.offImage );
+        }
+    }
+
+}

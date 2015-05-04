@@ -1,0 +1,485 @@
+r51 | s262-01p1f | 2015-03-06 21:21:36 EST
+Changed paths:
+	M /HTMLEditor/src/Tab/TabContentBuffer.java
+	M /HTMLEditor/src/Command/UpdateTabSizeCommand.java
+	M /HTMLEditor/src/Command/UpdateLineWrapCommand.java
+	M /HTMLEditor/src/Command/InsertHTMLConstructCommand.java
+	M /HTMLEditor/src/Command/KeyPressedCommand.java
+	M /HTMLEditor/src/main/MenuItemOption.java
+	M /HTMLEditor/src/Tab/TabCloseButton.java
+	M /HTMLEditor/src/Tab/TabHeader.java
+	M /HTMLEditor/src/Tab/Tab.java
+	M /HTMLEditor/src/main/Display.java
+	M /HTMLEditor/src/Tab/TabSavedMonitor.java
+	M /HTMLEditor/src/main/TableOptionsSelector.java
+	M /HTMLEditor/src/Command/UpdateWrapOnWordCommand.java
+	D /HTMLEditor/src/main/main.java
+	M /HTMLEditor/src/Tab/TabContent.java
+	A /HTMLEditor/src/main/Main.java
+	M /HTMLEditor/src/main/FileSelectionManager.java
+	M /HTMLEditor/src/Tab/TabPanel.java
+	M /HTMLEditor/src/Command/UpdateAutoIndentCommand.java
+	M /HTMLEditor/src/main/HTMLTag.java
+
+Finished Documentation
+----------------------------------------------------------------------------
+r50 | s262-01p1f | 2015-03-06 20:32:35 EST
+Changed paths:
+	M /HTMLEditor/src/main/Display.java
+	A /HTMLEditor/src/main/TableOptionsSelector.java
+	A /HTMLEditor/src/Command/InsertHTMLConstructCommand.java
+	M /HTMLEditor/src/Command/KeyPressedCommand.java
+	A /HTMLEditor/src/main/HTMLTag.java
+
+Added inserting HTML Tags, finished release 1
+----------------------------------------------------------------------------
+r49 | s262-01p1f | 2015-03-06 13:25:56 EST
+Changed paths:
+	A /HTMLEditor/res/res
+	M /HTMLEditor/src/Validator/Validator.java
+	M /HTMLEditor/.classpath
+	M /HTMLEditor/src/main/Display.java
+
+Validator now accepts tags with additional parameters like sytle (Ex: <p style="background-color:lightgrey">) - Dave
+----------------------------------------------------------------------------
+r48 | s262-01p1f | 2015-03-06 10:05:32 EST
+Changed paths:
+	M /HTMLEditor/src/Tab/TabCloseButton.java
+
+Fixed icon direction on tab close buttons
+----------------------------------------------------------------------------
+r47 | s262-01p1f | 2015-03-06 03:12:36 EST
+Changed paths:
+	M /HTMLEditor/src/Validator/Validator.java
+	M /HTMLEditor/src/Validator/Tag.java
+
+Fixed valiator bug. - Dave
+----------------------------------------------------------------------------
+r46 | s262-01p1f | 2015-03-06 02:46:48 EST
+Changed paths:
+	M /HTMLEditor/src/Validator/Validator.java
+
+Made Validator more robust.. has really minor bug that will be fixed!. - Dave
+----------------------------------------------------------------------------
+r45 | s262-01p1f | 2015-03-06 00:41:43 EST
+Changed paths:
+	A /HTMLEditor/src/Command/UpdateAutoIndentCommand.java
+	A /HTMLEditor/src/Command/UpdateWrapOnWordCommand.java
+	A /HTMLEditor/res/icons/on.png
+	A /HTMLEditor/src/Command/UpdateTabSizeCommand.java
+	M /HTMLEditor/src/Command/KeyPressedCommand.java
+	A /HTMLEditor/src/Command/UpdateLineWrapCommand.java
+	M /HTMLEditor/src/main/StaticUtilities.java
+	M /HTMLEditor/src/Tab/TabSavedMonitor.java
+	A /HTMLEditor/src/main/MenuItemOption.java
+	M /HTMLEditor/src/main/Display.java
+
+Added Preference Management and new on Icon
+----------------------------------------------------------------------------
+r44 | s262-01p1f | 2015-03-05 23:29:11 EST
+Changed paths:
+	A /HTMLEditor/src/Tab/TabSavedMonitor.java
+	M /HTMLEditor/src/Command/CloseCommand.java
+	M /HTMLEditor/src/Tab/TabContentBuffer.java
+	M /HTMLEditor/src/main/StaticUtilities.java
+	A /HTMLEditor/src/Command/KeyPressedCommand.java
+
+Added save check to CloseCommand
+Added most of auto indentation
+----------------------------------------------------------------------------
+r43 | s262-01p1f | 2015-03-05 21:22:29 EST
+Changed paths:
+	M /HTMLEditor/src/Tab/TabContentBuffer.java
+	M /HTMLEditor/src/Command/OpenCommand.java
+	M /HTMLEditor/src/Validator/Validator.java
+
+Made TextArea a JTextArea
+
+----------------------------------------------------------------------------
+r42 | s262-01p1f | 2015-03-05 20:49:30 EST
+Changed paths:
+	M /HTMLEditor/src/Command/SaveCommand.java
+	M /HTMLEditor/src/Command/ExitCommand.java
+
+Save redirects to saveAs
+----------------------------------------------------------------------------
+r41 | s262-01p1f | 2015-03-05 20:36:45 EST
+Changed paths:
+	M /HTMLEditor/src/main/Display.java
+	M /HTMLEditor/src/Command/ExitCommand.java
+
+Fixed closing by X button
+
+----------------------------------------------------------------------------
+r40 | s262-01p1f | 2015-03-05 20:09:03 EST
+Changed paths:
+	M /HTMLEditor/src/Command/ExitCommand.java
+
+Fixed minor bug in exitcommand. - Dave
+----------------------------------------------------------------------------
+r39 | s262-01p1f | 2015-03-05 20:00:37 EST
+Changed paths:
+	M /HTMLEditor/src/Command/ExitCommand.java
+
+Fixed debugging code change 
+----------------------------------------------------------------------------
+r38 | s262-01p1f | 2015-03-05 19:58:19 EST
+Changed paths:
+	A /HTMLEditor/src/Command/ExitCommand.java
+	M /HTMLEditor/src/Tab/Tab.java
+	M /HTMLEditor/src/main/Display.java
+
+Added Exit concrete command. Prompts user if he/she has unsaved buffers.
+----------------------------------------------------------------------------
+r37 | s262-01p1f | 2015-03-05 17:54:57 EST
+Changed paths:
+	M /HTMLEditor/src/Command/SaveAsCommand.java
+	M /HTMLEditor/src/Command/OpenCommand.java
+	M /HTMLEditor/src/Command/AddNewTabCommand.java
+	M /HTMLEditor/src/Command/CommandInterface.java
+	M /HTMLEditor/src/Command/SaveCommand.java
+	M /HTMLEditor/src/Command/CloseCommand.java
+
+Added documentation to Command package. - Dave
+----------------------------------------------------------------------------
+r36 | s262-01p1f | 2015-03-05 17:23:45 EST
+Changed paths:
+	M /HTMLEditor/src/main/Display.java
+	M /HTMLEditor/src/main/StaticUtilities.java
+	M /HTMLEditor/src/main/main.java
+	M /HTMLEditor/src/main/FileSelectionManager.java
+
+Added documentation to main package. - Dave
+----------------------------------------------------------------------------
+r35 | s262-01p1f | 2015-03-05 16:56:35 EST
+Changed paths:
+	M /HTMLEditor/src/Tab/Tab.java
+	M /HTMLEditor/src/Tab/TabCloseButton.java
+	M /HTMLEditor/src/Tab/TabHeader.java
+	M /HTMLEditor/src/Tab/TabPanel.java
+	M /HTMLEditor/src/Tab/TabContentBuffer.java
+	M /HTMLEditor/src/Tab/TabContent.java
+
+Added documentation to Tab package. - Dave
+----------------------------------------------------------------------------
+r34 | s262-01p1f | 2015-03-05 16:04:17 EST
+Changed paths:
+	M /HTMLEditor/src/Validator/Iterator.java
+	M /HTMLEditor/src/Validator/Validator.java
+	M /HTMLEditor/src/Validator/Container.java
+	M /HTMLEditor/src/Validator/Tag.java
+
+Added documentation to Validator package. - Dave
+----------------------------------------------------------------------------
+r33 | s262-01p1f | 2015-03-05 01:06:58 EST
+Changed paths:
+	M /HTMLEditor/src/Command/SaveAsCommand.java
+	M /HTMLEditor/src/Command/OpenCommand.java
+	M /HTMLEditor/src/Command/SaveCommand.java
+
+Added validation when saving/saving as, includes warnings. - Dave
+----------------------------------------------------------------------------
+r32 | s262-01p1f | 2015-03-04 23:59:58 EST
+Changed paths:
+	M /HTMLEditor/src/Command/SaveCommand.java
+	M /HTMLEditor/src/Command/OpenCommand.java
+	M /HTMLEditor/src/Tab/Tab.java
+	M /HTMLEditor/src/Tab/TabContentBuffer.java
+	M /HTMLEditor/src/Tab/TabHeader.java
+	M /HTMLEditor/src/main/main.java
+	M /HTMLEditor/src/main/StaticUtilities.java
+	A /HTMLEditor/src/main/FileSelectionManager.java
+	M /HTMLEditor/src/main/Display.java
+	M /HTMLEditor/src/Command/SaveAsCommand.java
+
+Worked on Save and Save As
+----------------------------------------------------------------------------
+r31 | s262-01p1f | 2015-03-04 20:10:58 EST
+Changed paths:
+	M /HTMLEditor/src/Command/OpenCommand.java
+
+Fixed bug in validate() and displayed well formed/not well formed message when opening file. -Dave
+----------------------------------------------------------------------------
+r30 | s262-01p1f | 2015-03-04 19:59:46 EST
+Changed paths:
+	M /HTMLEditor/src/Command/OpenCommand.java
+	M /HTMLEditor/src/Validator/Validator.java
+
+Fixed bug in validate() - Dave
+----------------------------------------------------------------------------
+r29 | s262-01p1f | 2015-03-04 00:08:34 EST
+Changed paths:
+	M /HTMLEditor/src/main/Display.java
+	M /HTMLEditor/src/Tab/TabCloseButton.java
+	A /HTMLEditor/src/Command/SaveCommand.java
+	A /HTMLEditor/src/Command/SaveAsCommand.java
+	M /HTMLEditor/src/main/StaticUtilities.java
+	M /HTMLEditor/src/Command/OpenCommand.java
+	M /HTMLEditor/src/Tab/Tab.java
+
+Started adding save commands
+----------------------------------------------------------------------------
+r28 | s262-01p1f | 2015-03-03 22:51:12 EST
+Changed paths:
+	A /HTMLEditor/src/Command/OpenCommand.java
+	M /HTMLEditor/src/main/Display.java
+	A /HTMLEditor/src/Validator/Validator.java
+	D /HTMLEditor/src/main/Tag.java
+	M /HTMLEditor/src/Tab/TabHeader.java
+	A /HTMLEditor/src/Validator
+	M /HTMLEditor/src/Tab/Tab.java
+	M /HTMLEditor/src/main/main.java
+	A /HTMLEditor/.settings/org.eclipse.ltk.core.refactoring.prefs
+	D /HTMLEditor/src/main/Validator.java
+	A /HTMLEditor/src/Validator/Container.java
+	A /HTMLEditor/src/Validator/Iterator.java
+	D /HTMLEditor/src/main/Iterator.java
+	D /HTMLEditor/src/main/Container.java
+	A /HTMLEditor/src/Validator/Tag.java
+
+Finished refactoring Display.java
+Create openCommand
+Added open from commandline feature
+----------------------------------------------------------------------------
+r27 | s262-01p1f | 2015-03-02 23:10:35 EST
+Changed paths:
+	A /HTMLEditor/src/main/Validator.java
+	M /HTMLEditor/src/main/Display.java
+	A /HTMLEditor/src/main/Iterator.java
+	M /HTMLEditor/src/Tab/TabContentBuffer.java
+	D /HTMLEditor/src/main/Line.java
+	A /HTMLEditor/src/main/Container.java
+	A /HTMLEditor/src/main/Tag.java
+
+Validator implemented with iterator pattern... Not connected to rest of system, but has been tested and works.
+----------------------------------------------------------------------------
+r26 | s262-01p1f | 2015-03-01 00:17:04 EST
+Changed paths:
+	A /HTMLEditor/src/Tab/TabContent.java
+	D /HTMLEditor/src/main/TabContent.java
+	A /HTMLEditor/src/Tab/TabContentBuffer.java
+	A /HTMLEditor/src/Tab
+	A /HTMLEditor/src/Command/CloseCommand.java
+	A /HTMLEditor/src/main/StaticUtilities.java
+	A /HTMLEditor/src/Command
+	D /HTMLEditor/src/main/TabCloseButton.java
+	M /HTMLEditor/src/main/Display.java
+	D /HTMLEditor/src/main/AbstractCommand.java
+	A /HTMLEditor/src/Tab/TabCloseButton.java
+	D /HTMLEditor/src/main/CloseCommand.java
+	A /HTMLEditor/src/Command/CommandInterface.java
+	A /HTMLEditor/src/Command/AddNewTabCommand.java
+	D /HTMLEditor/src/main/TabContentBuffer.java
+	A /HTMLEditor/src/Tab/Tab.java
+	A /HTMLEditor/src/Tab/TabHeader.java
+	D /HTMLEditor/src/main/Tab.java
+	D /HTMLEditor/src/main/TabIndexUpdater.java
+	A /HTMLEditor/src/Tab/TabPanel.java
+	D /HTMLEditor/src/main/TabHeader.java
+
+Started refactoring Display.java and organized class files
+----------------------------------------------------------------------------
+r25 | s262-01p1f | 2015-02-27 01:18:07 EST
+Changed paths:
+	A /HTMLEditor/src/main/TabIndexUpdater.java
+	D /HTMLEditor/src/main/UpdateIndecies.java
+	M /HTMLEditor/src/main/CloseCommand.java
+	M /HTMLEditor/src/main/Display.java
+
+Fixed All Tab Closing Problems
+----------------------------------------------------------------------------
+r24 | s262-01p1f | 2015-02-25 10:48:50 EST
+Changed paths:
+	A /HTMLEditor/src/main/UpdateIndecies.java
+	A /HTMLEditor/src/main/AbstractCommand.java
+	A /HTMLEditor/src/main/CloseCommand.java
+	M /HTMLEditor/src/main/Display.java
+	M /HTMLEditor/src/main/main.java
+	D /HTMLEditor/src/main/CommandCenter.java
+	M /HTMLEditor/src/main/TabCloseButton.java
+
++closing stuff and index stuff
+----------------------------------------------------------------------------
+r23 | s262-01p1f | 2015-02-24 12:10:49 EST
+Changed paths:
+	A /HTMLEditor/src/main/Tab.java
+
++Tab.java
+
+----------------------------------------------------------------------------
+r22 | s262-01p1f | 2015-02-24 11:53:14 EST
+Changed paths:
+	M /HTMLEditor/src/main/Display.java
+
++not sure
+
+----------------------------------------------------------------------------
+r21 | s262-01p1f | 2015-02-24 11:35:49 EST
+Changed paths:
+	M /HTMLEditor/src/main/main.java
+	M /HTMLEditor/src/main/TabHeader.java
+	M /HTMLEditor/src/main/TabCloseButton.java
+	M /HTMLEditor/src/main/Display.java
+
++Tab class
+~Moved TabHeader and TabContent to be stored and accessed through a tab
+~Trickled index down through Tab
+
+----------------------------------------------------------------------------
+r20 | s262-01p1f | 2015-02-24 00:23:50 EST
+Changed paths:
+	M /HTMLEditor/src/main/Display.java
+
+Small bug fixed with multiple opening of files in tabs.
+----------------------------------------------------------------------------
+r19 | s262-01p1f | 2015-02-23 22:00:36 EST
+Changed paths:
+	A /HTMLEditor/src/main/Line.java
+	M /HTMLEditor/src/main/TabContent.java
+	M /HTMLEditor/src/main/TabContentBuffer.java
+	M /HTMLEditor/src/main/CommandCenter.java
+	M /HTMLEditor/src/main/Display.java
+
+Can now open files in TextArea. Implemented open actionlistener. Implemented Line class. Only store lines in a linked list at the moment.
+----------------------------------------------------------------------------
+r18 | s262-01p1f | 2015-02-23 21:21:40 EST
+Changed paths:
+	M /HTMLEditor/src/main/Display.java
+
+Added opening file base functionality.
+----------------------------------------------------------------------------
+r17 | s262-01p1f | 2015-02-23 16:52:42 EST
+Changed paths:
+	M /HTMLEditor/src/main/Display.java
+
+More tab closing functionality
+----------------------------------------------------------------------------
+r16 | s262-01p1f | 2015-02-23 16:11:22 EST
+Changed paths:
+	M /HTMLEditor/src/main/TabCloseButton.java
+	M /HTMLEditor/src/main/Display.java
+	M /HTMLEditor/src/main/TabHeader.java
+
+Added beginning close functionality to first tab.
+----------------------------------------------------------------------------
+r15 | s262-01p1f | 2015-02-22 18:07:10 EST
+Changed paths:
+	M /HTMLEditor/src/main/Display.java
+
+open $ save short-cut keys
+----------------------------------------------------------------------------
+r14 | s262-01p1f | 2015-02-22 18:01:56 EST
+Changed paths:
+	M /HTMLEditor/src/main/Display.java
+
+Save and Open buttons and windows
+----------------------------------------------------------------------------
+r13 | s262-01p1f | 2015-02-22 17:52:37 EST
+Changed paths:
+	M /HTMLEditor/src/main/CommandCenter.java
+
+comment in commandCenter for Jon check.
+----------------------------------------------------------------------------
+r12 | s262-01p1f | 2015-02-22 17:41:17 EST
+Changed paths:
+	M /HTMLEditor/src/main/Display.java
+	M /HTMLEditor/src/main/CommandCenter.java
+	M /HTMLEditor/src/main/main.java
+
+Dave is working
+----------------------------------------------------------------------------
+r11 | s262-01p1f | 2015-02-22 17:27:04 EST
+Changed paths:
+	M /HTMLEditor/src/main/Display.java
+	M /HTMLEditor/src/main/main.java
+	M /HTMLEditor/src/main/CommandCenter.java
+
+fixed package declaration in 3 files.
+----------------------------------------------------------------------------
+r10 | s262-01p1f | 2015-02-22 01:06:37 EST
+Changed paths:
+	A /HTMLEditor/res/icons
+	A /HTMLEditor/res
+	A /HTMLEditor/res/icons/close.png
+
++Added resources - currently only contains the icon for TabCloseButton
+----------------------------------------------------------------------------
+r9 | s262-01p1f | 2015-02-22 01:05:19 EST
+Changed paths:
+	A /HTMLEditor/src/main/TabHeader.java
+	A /HTMLEditor/src/main/TabCloseButton.java
+	M /HTMLEditor/src/main/Display.java
+
++TabHeader - Title and close button (Close button is still non-functional)
++TabCloseButton - Used almost exclusively in TabHeader as a button to close a tab
+~Diplay.java
+	~createTabbedPanes - Changed the initialized tabs to reflect the new classes
+----------------------------------------------------------------------------
+r8 | s262-01p1f | 2015-02-21 23:36:11 EST
+Changed paths:
+	M /HTMLEditor/src/main/Display.java
+	A /HTMLEditor/src/main/TabContent.java
+	A /HTMLEditor/src/main/TabContentBuffer.java
+
++Added TabContent - JPanel that holds the contents of a tab
++Added TabContentBuffer - TextArea that stores the buffer of the current file opened in a tab
+~Initialized untitled tab with a new TabContent and adds new TabContent to every added Tab
+----------------------------------------------------------------------------
+r7 | s262-01p1f | 2015-02-21 22:09:40 EST
+Changed paths:
+	M /HTMLEditor/src/main/main.java
+	M /HTMLEditor/src/main/Display.java
+	M /HTMLEditor/src/main/CommandCenter.java
+
+~Changed the way the new tab button is activated and works
+----------------------------------------------------------------------------
+r6 | s262-01p1f | 2015-02-20 11:10:11 EST
+Changed paths:
+	A /.classpath
+	M /HTMLEditor/src/main/main.java
+	M /HTMLEditor/src/main/Display.java
+	M /HTMLEditor/src/main/CommandCenter.java
+
+Edited package declaration to your main folder path because my folder had a different name.
+The .classpath file might be redundant because eclipse problems.
+----------------------------------------------------------------------------
+r5 | s262-01p1f | 2015-02-20 10:50:16 EST
+Changed paths:
+	M /HTMLEditor/src/main/Display.java
+	M /HTMLEditor/src/main/main.java
+	M /HTMLEditor/src/main/CommandCenter.java
+
+~Moved main to main.java
+~Added new tab button to JTabbedPane tabs
+----------------------------------------------------------------------------
+r4 | s262-01p1f | 2015-02-18 11:00:16 EST
+Changed paths:
+	A /HTMLEditor/src/main/CommandCenter.java
+	A /HTMLEditor/src/main/Display.java
+
+Copied all of my code to svn repo. -Dave
+----------------------------------------------------------------------------
+r3 | s262-01p1f | 2015-02-18 10:52:05 EST
+Changed paths:
+	M /HTMLEditor/src/main/main.java
+
+test svn bullshit
+----------------------------------------------------------------------------
+r2 | s262-01p1f | 2015-02-18 10:44:12 EST
+Changed paths:
+	A /HTMLEditor/src/main/main.java
+	A /HTMLEditor/.settings
+	A /HTMLEditor/.project
+	A /HTMLEditor/src
+	A /HTMLEditor/src/main
+	A /HTMLEditor/.settings/org.eclipse.jdt.core.prefs
+	A /HTMLEditor/.classpath
+
+Basic shit
+----------------------------------------------------------------------------
+r1 | s262-01p1f | 2015-02-16 10:53:14 EST
+Changed paths:
+	A /HTMLEditor
+
+Creating HTMLEditor folder
+----------------------------------------------------------------------------

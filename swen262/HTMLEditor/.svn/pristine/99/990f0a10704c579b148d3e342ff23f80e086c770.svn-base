@@ -1,0 +1,35 @@
+package main;
+
+public class Tab {
+
+	private TabHeader header;
+	private TabContent content;
+	private int index;
+	
+	public Tab(int index, String title){
+		init(index, title);
+	}
+	
+	public Tab(int index){
+		init(index, "untitled");
+	}
+	
+	private void init(int index, String title){
+		header = new TabHeader(index, title);
+		content = new TabContent();
+	}
+	
+	public TabHeader getHeader(){
+		return this.header;
+	}
+	
+	public TabContent getContent(){
+		return this.content;
+	}
+	
+	public void updateIndex(int newIndex){
+		this.index = newIndex;
+		this.header.updateIndex(newIndex);
+	}
+	
+}

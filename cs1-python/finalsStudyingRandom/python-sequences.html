@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content="text/html; charset=ISO-8859-1"
+      http-equiv="Content-Type">
+    <title>Python Collection Chart</title>
+  </head>
+  <body>
+    <h1>Comparison of Python Sequence Capabilities</h1>
+    <table cellpadding="2" cellspacing="2" width="100%" border="1">
+      <tbody>
+        <tr>
+          <td valign="top">Operation/Property<br>
+          </td>
+          <td valign="top">Syntax<br>
+          </td>
+          <td valign="top" align="center">str<br>
+            <tt>s = "abc"</tt><br>
+          </td>
+          <td valign="top" align="center">list<br>
+            <tt>s = [ 1, 5.2, 'foo' ]</tt><br>
+          </td>
+          <td valign="top" align="center">range<br>
+            <tt>s = range( 5, 10 )</tt><br>
+          </td>
+          <td valign="top" align="center">tuple<br>
+            <tt>s = ( 1, 5.2, 'foo' )</tt></td>
+        </tr>
+        <tr>
+          <td valign="top">heterogeneous<br>
+          </td>
+          <td valign="top"><i>N/A</i><br>
+          </td>
+          <td valign="top" align="center">NO; characters only<br>
+          </td>
+          <td valign="top" align="center">yes<br>
+          </td>
+          <td valign="top" align="center">NO; integer-like types only<br>
+          </td>
+          <td valign="top" align="center">yes<br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">contains (membership)<br>
+          </td>
+          <td valign="top"><tt>v in </tt><tt>s</tt><br>
+          </td>
+          <td valign="top" align="center">yes<br>
+          </td>
+          <td valign="top" align="center">yes</td>
+          <td valign="top" align="center">yes</td>
+          <td valign="top" align="center">yes</td>
+        </tr>
+        <tr>
+          <td valign="top">for loop iteration<br>
+          </td>
+          <td valign="top"><tt>for v in s:</tt> ...<br>
+          </td>
+          <td valign="top" align="center">yes</td>
+          <td valign="top" align="center">yes</td>
+          <td valign="top" align="center">yes</td>
+          <td valign="top" align="center">yes</td>
+        </tr>
+        <tr>
+          <td valign="top">sequence length (size, cardinality)<br>
+          </td>
+          <td valign="top"><tt>len( s )</tt><br>
+          </td>
+          <td valign="top" align="center">yes</td>
+          <td valign="top" align="center">yes</td>
+          <td valign="top" align="center">yes</td>
+          <td valign="top" align="center">yes</td>
+        </tr>
+        <tr>
+          <td valign="top">indexing<br>
+          </td>
+          <td valign="top"><tt>s[ i ]</tt><br>
+          </td>
+          <td valign="top" align="center">yes</td>
+          <td valign="top" align="center">yes</td>
+          <td valign="top" align="center">yes</td>
+          <td valign="top" align="center">yes</td>
+        </tr>
+        <tr>
+          <td valign="top">assign to indexed position<br>
+          </td>
+          <td valign="top"><tt>s[ i ] = v</tt><br>
+          </td>
+          <td valign="top" align="center">NO<br>
+          </td>
+          <td valign="top" align="center">yes</td>
+          <td valign="top" align="center">NO<br>
+          </td>
+          <td valign="top" align="center">NO<br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">slicing:<br>
+          </td>
+          <td valign="top"><tt>s[ i:j ]</tt><br>
+          </td>
+          <td valign="top" align="center">yes</td>
+          <td valign="top" align="center">yes</td>
+          <td valign="top" align="center">yes</td>
+          <td valign="top" align="center">yes</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br>
+    </p>
+  </body>
+</html>

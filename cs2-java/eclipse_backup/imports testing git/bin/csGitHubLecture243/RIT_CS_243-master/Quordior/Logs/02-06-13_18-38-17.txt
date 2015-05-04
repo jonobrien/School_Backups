@@ -1,0 +1,51 @@
+2013-02-06 18:38:17.308845: ENGINE starting
+2013-02-06 18:38:17.309709: ENGINE loading STUDENT ENGINE part 4
+2013-02-06 18:38:17.328766: ENGINE loaded player module: OKComputer as player 1
+2013-02-06 18:38:17.329046: ENGINE loaded player module: OKComputer as player 2
+2013-02-06 18:38:17.329247: ENGINE loaded player module: OKComputer as player 3
+2013-02-06 18:38:17.329444: ENGINE loaded player module: OKComputer as player 4
+2013-02-06 18:38:17.329611: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-06 18:38:18.804592: ENGINE calling STUDENT ENGINE init
+2013-02-06 18:38:18.804954: STUDENT ENGINE init call successfully returned
+2013-02-06 18:38:18.805218: ENGINE calling init() for player 1
+2013-02-06 18:38:18.805420: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:38:18.806259: OKComputer initialized as player 1
+2013-02-06 18:38:18.806472: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:38:18.806670: ENGINE calling init() for player 2
+2013-02-06 18:38:18.806867: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:38:18.807587: OKComputer initialized as player 2
+2013-02-06 18:38:18.807793: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:38:18.807992: ENGINE calling init() for player 3
+2013-02-06 18:38:18.808186: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:38:18.808983: OKComputer initialized as player 3
+2013-02-06 18:38:18.809191: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:38:18.809389: ENGINE calling init() for player 4
+2013-02-06 18:38:18.809583: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:38:18.810378: OKComputer initialized as player 4
+2013-02-06 18:38:18.810586: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:38:18.912276: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/animations.500/gameid.90831/apikey.820d60943005a0935c8/public.0a88bb530433eaef804b789a08e9ffac837324205112e96ac2473/partone.0/
+2013-02-06 18:38:18.912784: ENGINE calling STUDENT ENGINE generate_board
+2013-02-06 18:38:21.370496: Wall 3, 0, 5, 0 is along the edge
+2013-02-06 18:38:22.115610: STUDENT ENGINE generate_board call successfully returned
+2013-02-06 18:38:22.115968: ENGINE calling symmetry check
+2013-02-06 18:38:22.116558: SYMMETRY VALIDATION:
+2013-02-06 18:38:22.116757: **INCORRECT** NUMBER OF WALLS.
+2013-02-06 18:38:22.116935: BOARD IS SYMMETRIC!
+2013-02-06 18:39:11.388997: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 18:39:11.763606: ENGINE uploading move to web engine
+2013-02-06 18:39:12.727043: STUDENT ENGINE next_move call successfully returned
+2013-02-06 18:39:12.728288: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 18:39:12.728839: Player 1 has moved out of turn.
+2013-02-06 18:39:12.729265: ERROR: 2013-02-06 18:39:12.729207: Player 1 Wall: [3,2] -> [5,2]
+
+2013-02-06 18:39:12.730708: TRACE: 
+Traceback (most recent call last):
+  File ".\Model\__init__.py", line 561, in studentEngineCall
+  File "/Users/nicmanoogian/Documents/CS/Eclipse/Quordior/StudentEngines/teamwhat/__init__.py", line 570, in next_move
+    exit_due_to_error(playerMove.getCopy())
+  File "/Users/nicmanoogian/Documents/CS/Eclipse/Quordior/StudentEngines/teamwhat/__init__.py", line 624, in exit_due_to_error
+    raise GameException(message)
+Engine.security.GameException: 2013-02-06 18:39:12.729207: Player 1 Wall: [3,2] -> [5,2]
+
+

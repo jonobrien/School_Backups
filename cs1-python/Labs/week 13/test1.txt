@@ -1,0 +1,10 @@
+4
+0 2 0 1
+1 1 1 0
+2 0 0 0
+0 0 2 0
+0 0 0 0
+0 2 0 0
+
+This is the board from problem solving.  It is 4x4 with
+three trees.

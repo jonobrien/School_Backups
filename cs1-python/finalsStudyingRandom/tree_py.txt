@@ -1,0 +1,233 @@
+""" 
+tree.py draws a recursive tree.
+
+assignment: lecture
+language: python3
+author: mtf@cs.rit.edu, Matthew Fluet
+"""
+
+import turtle
+
+# function definitions
+
+def initWorld( size ):
+    """
+    initWorld initializes the drawing by establishing its pre-conditions.
+
+    size -- PosNumber;
+            length of tree trunk to draw should be positive.
+
+    pre-conditions: 
+    post-conditions: coordinate system
+                       is (-2*|size|,-2*|size|) at lower-left
+                       to (2*|size|, 2*|size|) at upper-right.
+                     turtle is at origin,
+                     turtle is facing North,
+                     turtle is pen-down.
+    """
+    margin = 2   # provides canvas boundary
+    turtle.setup( 600, 600 )
+    turtle.setworldcoordinates( -2*abs(size) - margin, -2*abs(size) - margin,
+                                2*abs(size) + margin, 2*abs(size) + margin )
+    turtle.home()  # turtle is at origin, facing east, pen-down
+    turtle.left( 90 )  # turtle is facing North
+    turtle.down()  # turtle is pen-down
+    turtle.pensize( 2 )
+
+
+def drawTree0( size ):
+    """
+    drawTree0 draws a 0-level tree (i.e., nothing).
+
+    size -- PosNumber;
+            length of tree "trunk" to draw should be (strictly) positive.
+
+    pre-conditions: size > 0.
+                    turtle is at base of tree,
+                    turtle is facing along trunk of tree,
+                    turtle is pen-down.
+    post-conditions: a 0-level tree was drawn on the canvas,
+                     turtle is at base of tree,
+                     turtle is facing along trunk of tree,
+                     turtle is pen-down.
+    """
+    # draw nothing
+    pass
+
+
+def drawTree1( size ):
+    """
+    drawTree1 draws a 1-level tree (i.e., a tree trunk)
+
+    size -- PosNumber;
+            length of tree "trunk" to draw should be (strictly) positive.
+
+    pre-conditions: size > 0.
+                    turtle is at base of tree,
+                    turtle is facing along trunk of tree,
+                    turtle is pen-down.
+    post-conditions: a 1-level tree was drawn on the canvas,
+                     turtle is at base of tree,
+                     turtle is facing along trunk of tree,
+                     turtle is pen-down.
+    """
+    # draw trunk and two sub-trees
+    turtle.forward( size )
+    turtle.forward( -size )
+
+
+def drawTree2( size ):
+    """
+    drawTree2 draws a 2-level tree (i.e., a Y-tree)
+
+    size -- PosNumber;
+            length of tree "trunk" to draw should be (strictly) positive.
+
+    pre-conditions: size > 0.
+                    turtle is at base of tree,
+                    turtle is facing along trunk of tree,
+                    turtle is pen-down.
+    post-conditions: a 2-level tree was drawn on the canvas,
+                     turtle is at base of tree,
+                     turtle is facing along trunk of tree,
+                     turtle is pen-down.
+    """
+    # draw trunk and two sub-trees
+    turtle.forward( size )
+    turtle.left( 45 )
+    drawTree1( size / 2 )
+    turtle.right( 90 )
+    drawTree1( size / 2 )
+    turtle.left( 45 )
+    turtle.forward( -size )
+
+
+def drawTree3( size ):
+    """
+    drawTree3 draws a 3-level tree (i.e., a Y-trees on a Y-tree)
+
+    size -- PosNumber;
+            length of tree "trunk" to draw should be (strictly) positive.
+
+    pre-conditions: size > 0.
+                    turtle is at base of tree,
+                    turtle is facing along trunk of tree,
+                    turtle is pen-down.
+    post-conditions: a 1-level tree was drawn on the canvas,
+                     turtle is at base of tree,
+                     turtle is facing along trunk of tree,
+                     turtle is pen-down.
+    """
+    # draw trunk and two sub-trees
+    turtle.forward( size )
+    turtle.left( 45 )
+    drawTree2( size / 2 )
+    turtle.right( 90 )
+    drawTree2( size / 2 )
+    turtle.left( 45 )
+    turtle.forward( -size )
+
+
+def drawTree( segments, size ):
+    """
+    drawTree recursively draws the tree.
+
+    segments -- NonNegInteger;
+                number of line segments from the base of the tree to
+                the end of any branch should be integral and non-negative.
+    size -- PosNumber;
+            length of tree "trunk" to draw should be (strictly) positive.
+
+    pre-conditions: segments >= 0, size > 0.
+                    turtle is at base of tree,
+                    turtle is facing along trunk of tree,
+                    turtle is pen-down.
+    post-conditions: a segments-level tree was drawn on the canvas,
+                     turtle is at base of tree,
+                     turtle is facing along trunk of tree,
+                     turtle is pen-down.
+    """
+    if segments == 0:
+        # base case: draw nothing
+        pass
+    elif segments > 0:
+        # recursive case: draw trunk and two sub-trees
+        turtle.forward( size )
+        turtle.left( 45 )
+        drawTree( segments - 1, size / 2 )
+        turtle.right( 90 )
+        drawTree( segments - 1, size / 2 )
+        turtle.left( 45 )
+        turtle.forward( -size )
+
+
+def initWorldAndDrawTree( segments, size, message="" ):
+    """
+    initWorldAndDrawTree prints a message, initializes the world,
+    draws an instance of the recursive tree, and waits for ENTER.
+
+    segments -- NonNegInteger;
+                number of line segments from the base of the tree to
+                the end of any branch should be integral and non-negative.
+    size -- PosNumber;
+            length of tree "trunk" to draw should be (strictly) positive.
+    message -- String;
+               message to display
+    """
+    print( "Drawing recursive tree with", (segments, size), ";", message )
+    initWorld( size )
+    #turtle.speed('fastest')
+    drawTree( segments, size )
+    #turtle.hideturtle()
+    turtle.update()
+    input( "Hit ENTER to quit." )
+    turtle.bye()
+
+
+def runTestCases():
+    """
+    Run test cases from the writeup.
+    """
+
+    # test case 1: segments=0, size=100
+    initWorldAndDrawTree( 0, 100,
+                          "(No image output)" )
+
+    # test case 2: segments=1, size=50
+    initWorldAndDrawTree( 1, 50,
+                          "(single line; initial line length == 50)" )
+
+    # test case 3: segments=2, size=100
+    initWorldAndDrawTree( 2, 100,
+                          "(Y-tree. initial line length == 100)" )
+
+    # test case 4: segments=3, size=100
+    initWorldAndDrawTree( 3, 100,
+                          "(Y-trees on a Y-tree. initial line length == 100)" )
+
+
+def promptAndDrawTree():
+    """
+    promptAndDrawTree prompts for number of line segments from the
+    base of the tree to the end of any branch and length of tree "trunk"
+    and draws an instance of the recursive tree.
+    """
+    segments = int( input( "Enter 'segments' (a non-negative integer): " ) )
+
+    if segments < 0:
+        print( 'Sorry. That integer was not non-negative.' )
+        exit()
+
+    size = int( input( "Enter 'size' (a positive integer): " ) )
+
+    # if size <= 0:
+    #     print( 'Sorry. That integer was not positive.' )
+    #     exit()
+
+    initWorldAndDrawTree( segments, size )
+
+
+# script execution/run
+
+if __name__ == "__main__":
+    promptAndDrawTree()

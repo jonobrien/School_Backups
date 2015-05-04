@@ -1,0 +1,46 @@
+"""
+docstring are special strings that are wrapped in 3 double quotes.
+We'll use them at the beginning of files to say name/date/assignment,
+and also just inside of each function to explain the purpose etc of
+the function.
+
+File:  lecture1.py
+Author:  Aaron Deever
+Date:  8/26/13
+"""
+
+#import turtle    # this gives us access to turtle functions
+
+# comments begin with pound symbol
+
+# default position of turtle is center of canvas, facing east, pen down
+# turn the turtle north and go...
+#turtle.left(90)
+#turtle.forward(50)
+#turtle.right(90)
+#turtle.circle(30)
+
+from turtle import *
+
+
+def lollypop():
+    """ draw lollypop.  Assume facing east with pen down at start and completion """
+    
+    lt(90)
+    fd(50)
+    rt(90)
+    circle(30)
+    lt(90)
+    bk(50)
+    rt(90)
+
+lollypop()
+up()
+fd(50)
+down()
+lollypop()
+
+input("Please press enter to end program")
+turtle.bye()
+
+

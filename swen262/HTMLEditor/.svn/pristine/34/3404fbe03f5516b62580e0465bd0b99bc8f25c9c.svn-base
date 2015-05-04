@@ -1,0 +1,18 @@
+package main;
+
+public class Line {
+
+	private String contents;
+	
+	public Line(String contents){
+		this.contents = contents + "\n";
+	}
+	
+	public boolean hasTags(){
+		return false;
+	}
+	
+	public String getContents(){
+		return this.contents;
+	}
+}

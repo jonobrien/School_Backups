@@ -1,0 +1,74 @@
+"""
+file: bookIndex.py
+language: python3
+author: Ivona Bezakova
+author: Arthur Nunes-Harwitt
+purpose: Builds and displays an index of all the words in a text file
+note: our index includes all strings that are preceded and followed
+      by a space or the beginning/end of line.
+"""
+
+from mergeSort import mergeSort
+
+# An index is represented as a tuple ( L, D ), where L is 
+# the list of words in order, and D is the dictionary
+# mapping words to locations.
+
+def withoutNonAlphabetic( word ):
+   result = ''
+   for c in word:
+      if c.isalpha():
+         result = result + c
+   return result
+
+def indexFromFile( file ):
+   """
+   indexFromFile: File -> Tuple( List( String ), Dict( String, List( NatNum )))
+   """
+   lineNumber = 1
+   wordList = []
+   wordLocations = dict()
+   for line in file:
+      words = line.split()
+      for word in words:
+         # Convert to lower-case, no punc
+         word = withoutNonAlphabetic( word.lower() )
+         if word != '':
+            if word not in wordLocations:  # New word
+               wordList.append( word )
+               wordLocations[word] = [lineNumber]
+            else:                          # Existing word
+               wordLocations[word].append( lineNumber )
+      lineNumber = lineNumber+1
+   sortedWordList = mergeSort( wordList ) # sorting occurs here
+   return ( sortedWordList, wordLocations )
+   
+
+def indexFromFileName( filename ):
+   """
+   indexFromFileName: String -> Tuple(List(String), Dict(String, List(NatNum)))
+   """
+   return indexFromFile( open( filename ) )
+
+def printIndex( index ):
+   """
+   printIndex: Tuple( List( String ), Dict( String, List( NatNum ) ) ) -> NoneType
+   """
+   ( words, locations ) = index
+   for word in words:
+      print( word,"appears at lines:", locations[word] )
+
+
+def main():
+   """
+   main : Void -> None
+   main prompts for a file name to index.
+   """
+   filename = input( "Enter file name: " )
+   if filename == "":
+      filename = "AliceInWonderlandChapter1.txt"
+
+   printIndex( indexFromFileName( filename ) )
+                
+
+main()

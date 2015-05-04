@@ -1,0 +1,36 @@
+2013-02-06 18:32:32.306500: ENGINE starting
+2013-02-06 18:32:32.307289: ENGINE loading STUDENT ENGINE part 4
+2013-02-06 18:32:32.325347: ENGINE loaded player module: OKComputer as player 1
+2013-02-06 18:32:32.325618: ENGINE loaded player module: OKComputer as player 2
+2013-02-06 18:32:32.325828: ENGINE loaded player module: OKComputer as player 3
+2013-02-06 18:32:32.326032: ENGINE loaded player module: OKComputer as player 4
+2013-02-06 18:32:32.326205: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-06 18:32:33.866331: ENGINE calling STUDENT ENGINE init
+2013-02-06 18:32:33.866687: STUDENT ENGINE init call successfully returned
+2013-02-06 18:32:33.867011: ENGINE calling init() for player 1
+2013-02-06 18:32:33.867213: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:32:33.868074: OKComputer initialized as player 1
+2013-02-06 18:32:33.868302: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:32:33.868502: ENGINE calling init() for player 2
+2013-02-06 18:32:33.868700: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:32:33.869406: OKComputer initialized as player 2
+2013-02-06 18:32:33.869612: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:32:33.869810: ENGINE calling init() for player 3
+2013-02-06 18:32:33.870005: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:32:33.870803: OKComputer initialized as player 3
+2013-02-06 18:32:33.871012: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:32:33.871214: ENGINE calling init() for player 4
+2013-02-06 18:32:33.871409: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:32:33.872213: OKComputer initialized as player 4
+2013-02-06 18:32:33.872422: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:32:34.023775: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/public.626d91f73e5f97253233a26f60690bd95423f9e05112e811c9d44/animations.500/partone.0/gameid.90824/apikey.820d60943005a0935c8/
+2013-02-06 18:32:34.024248: ENGINE calling STUDENT ENGINE generate_board
+2013-02-06 18:32:34.724699: ERROR: list index out of range
+2013-02-06 18:32:34.726148: TRACE: 
+Traceback (most recent call last):
+  File ".\Model\__init__.py", line 561, in studentEngineCall
+  File "/Users/nicmanoogian/Documents/CS/Eclipse/Quordior/StudentEngines/teamwhat/__init__.py", line 670, in generate_board
+    if validate_move(engineData, wallmoves[0]) and validate_move(engineData, wallmoves[1]) and validate_move(engineData, wallmoves[3]) and validate_move(engineData, wallmoves[4]):
+IndexError: list index out of range
+

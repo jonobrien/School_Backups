@@ -1,0 +1,21 @@
+package main;
+
+public class CloseCommand extends AbstractCommand {
+
+	private int index;
+	
+	public CloseCommand(int index){
+		this.index = index;
+	}
+	
+	@Override
+	public void execute() {
+		System.out.println("DEBUG: CloseButton.index = " + Integer.toString(index));
+		Display.getDisplay().getTabPane().remove(this.index);
+	}
+	
+	public void updateIndex(int newIndex){
+		this.index = newIndex;
+	}
+
+}

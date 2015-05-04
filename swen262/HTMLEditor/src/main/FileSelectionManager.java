@@ -1,0 +1,25 @@
+package main;
+
+import javax.swing.JFileChooser;
+import javax.swing.filechooser.FileNameExtensionFilter;
+
+/**
+ * FileSelectionManager is responsible for creating
+ * a JFileChooser with some customizations.
+ */
+@SuppressWarnings("serial")
+public class FileSelectionManager extends JFileChooser {
+
+	/**
+	 * Constructor to initialize the chooser with the following
+	 * traits.
+	 * @param approveText
+	 */
+    public FileSelectionManager(String approveText){
+        super();
+        super.setFileFilter(new FileNameExtensionFilter("HTML Files", "html"));
+        super.setMultiSelectionEnabled( false );
+        super.setApproveButtonText(approveText);
+    }
+    
+}

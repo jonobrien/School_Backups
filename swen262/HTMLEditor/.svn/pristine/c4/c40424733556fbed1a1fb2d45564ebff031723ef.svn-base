@@ -1,0 +1,32 @@
+package tab;
+
+import java.util.ArrayList;
+
+public class Link {
+
+	private String url;
+	private ArrayList<Integer> occurances;
+	private int totalOccurances;
+	
+	public Link(String url, int firstOccurance){
+		this.url = url;
+		this.occurances = new ArrayList<Integer>();
+		this.occurances.add(firstOccurance);
+		this.totalOccurances = 1;
+	}
+	
+	public void addOccurance(int occurance){
+		this.occurances.add(occurance);
+		this.totalOccurances++;
+	}
+	
+	public boolean equals(Object o){
+		String otherUrl = ((Link) o).getURL();
+		return otherUrl.equals(this.url);
+	}
+	
+	public String getURL(){
+		return this.url;
+	}
+	
+}

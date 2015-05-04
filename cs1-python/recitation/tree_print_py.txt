@@ -1,0 +1,40 @@
+"""
+Recitation week 8 problem 4
+"""
+from bst import *
+
+
+def inorder( tree ):
+    """ inorder: BinaryTree -> None
+    Prints the values in the given list in order
+    Precondition:  tree is a properly formatted binary tree
+    Postcondition: Elements are printed to the shell
+    """
+    if isinstance( tree, NonEmpty ):
+        inorder( tree.left )
+        print( tree.value, end=' ' )
+        inorder( tree.right )
+
+
+def preorder( tree ):
+    """ inorder: BinaryTree -> None
+    Prints the values in the given list in pre-order
+    Precondition:  tree is a properly formatted binary tree
+    Postcondition: Elements are printed to the shell
+    """
+    if isinstance( tree, NonEmpty ):
+        print( tree.value, end=' ' )
+        preorder( tree.left )
+        preorder( tree.right )
+
+
+def postorder( tree ):
+    """ inorder: BinaryTree -> None
+    Prints the values in the given list in post-order
+    Precondition:  tree is a properly formatted binary tree
+    Postcondition: Elements are printed to the shell
+    """
+    if isinstance( tree, NonEmpty ):
+        postorder( tree.left )
+        postorder( tree.right )
+        print( tree.value, end=' ' )

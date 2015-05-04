@@ -1,0 +1,13 @@
+package validator;
+
+/**
+ * This interface is responsible for declaring the needed
+ * methods that a concrete iterator must implement;
+ * 		hasNext() - boolean, does it have another object after
+ * 		next() - Object, what is the next object
+ *
+ */
+public interface Iterator {
+	public boolean hasNext();
+	public Object next();
+}

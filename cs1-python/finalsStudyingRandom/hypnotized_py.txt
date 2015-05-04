@@ -1,0 +1,105 @@
+""" 
+file: hypnotized.py
+Problem: Hypnotized 
+Solution: using 'turtle.' reference syntax
+Author: Sean Strout (sps@cs.rit.edu)
+Author: ben k steele (bks@cs.rit.edu)
+Author: Arthur Nunes-Harwitt (anh@cs.rit.edu)
+Description: Draw a spiral inward from the left, bottom corner.
+"""
+
+from turtle import *
+
+def init(max):
+    """init: Number -> NoneType
+       Initialize the turtle graphics
+    """
+    setworldcoordinates(0, 0, max, max)
+    pensize(3) # thick pen
+    left(90)
+    
+
+def draw_spiral(segments):
+    """ draw_spiral: NatNum -> NoneType
+        Draws a line segment of 'segments' units and then turns right 90 degrees
+        segments - The number of segments in the spiral
+    """
+    if segments == 0:
+        pass
+    else:
+        forward(segments)
+        right(90)
+        draw_spiral(segments - 1)
+
+
+def draw_spiral_iter1(segments):
+    """ draw_spiral_iter1: NatNum -> NoneType
+        Draws a line segment of 'segments' units and then turns right 90 degrees
+        segments - The number of segments in the spiral
+    """
+    while True:
+        if segments == 0:
+            break
+        else:
+            forward(segments)
+            right(90)
+            segments = segments - 1
+
+
+def draw_spiral_iter2(segments):
+    """ draw_spiral_iter2: NatNum -> NoneType
+        Draws a line segment of 'segments' units and then turns right 90 degrees
+        segments - The number of segments in the spiral
+    """
+    while not(segments == 0):
+        forward(segments)
+        right(90)
+        segments = segments - 1
+
+
+def MAX_SEGMENT():
+    """ The MAX_SEGMENT() constant is the maximum length of line segment.
+    """
+    return 20     # should be strictly greater than 0
+
+#  start of sequential combining function demonstration.
+
+reset()
+# speed( 0 ) # to speed things up if desired...
+        
+# initialize graphics
+init( MAX_SEGMENT() )
+
+# initial invocation for a line segment
+# specified by MAX_SEGMENT()
+draw_spiral( MAX_SEGMENT() )
+
+# when invocation terminates, pause the display until the user hits enter
+input("Hit enter to continue.")
+
+reset()
+
+# initialize graphics
+init( MAX_SEGMENT() )
+
+# initial invocation for a line segment
+# specified by MAX_SEGMENT()
+draw_spiral_iter1( MAX_SEGMENT() )
+
+# when invocation terminates, pause the display until the user hits enter
+input("Hit enter to continue.")
+
+
+reset()
+
+# initialize graphics
+init( MAX_SEGMENT() )
+
+# initial invocation for a line segment
+# specified by MAX_SEGMENT()
+draw_spiral_iter2( MAX_SEGMENT() )
+
+# when invocation terminates, pause the display until the user hits enter
+input("Hit enter to continue.")
+bye()
+

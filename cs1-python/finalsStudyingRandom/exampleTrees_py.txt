@@ -1,0 +1,34 @@
+"""
+Defines variables bound to different binary search trees.
+Depends on bsttools.py classes and functions.
+
+file: exampleTrees.py
+author: Arthur Nunes-Harwitt
+author: ben k steele
+"""
+
+from bsttools import *
+
+############################################################
+# Sample trees
+############################################################
+
+exampleTree0 = mkEmpty()
+
+exampleTree1 = mkNonEmpty(mkEmpty(), 1, mkEmpty())
+
+exampleTree2 = mkNonEmpty(mkNonEmpty(mkEmpty(), 1, mkEmpty()), 3, mkEmpty())
+
+exampleTree3 = mkNonEmpty(mkEmpty(), 3, mkNonEmpty(mkEmpty(), 4, mkEmpty()))
+
+# t2 in notes
+exampleTree4 = mkNonEmpty(mkNonEmpty(mkEmpty(), 1, mkEmpty()), \
+                          3,                                   \
+                          mkNonEmpty(mkEmpty(), 4, mkEmpty()))
+
+exampleTree5 = mkNonEmpty(mkNonEmpty(mkEmpty(), 6, mkEmpty()), \
+                          7,                                   \
+                          mkNonEmpty(mkEmpty(), 9, mkEmpty()))
+
+exampleTree6 = mkNonEmpty(exampleTree4, 5, exampleTree5)
+

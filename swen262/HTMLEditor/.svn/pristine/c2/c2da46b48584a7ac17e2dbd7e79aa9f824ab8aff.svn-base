@@ -1,0 +1,19 @@
+package tab;
+
+import java.awt.GridLayout;
+
+import javax.swing.BoxLayout;
+import javax.swing.JPanel;
+
+import main.StaticUtilities;
+
+public class OutlinePanel extends JPanel{
+	
+	private BoxLayout bLayout;
+
+	public OutlinePanel(){
+		super();
+		bLayout = new BoxLayout(this, BoxLayout.Y_AXIS);
+		this.setLayout(bLayout);
+	}
+}

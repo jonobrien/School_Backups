@@ -1,0 +1,74 @@
+package Tab;
+
+import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+
+import main.StaticUtilities;
+import Command.CloseCommand;
+
+/**
+ * This class is responsible for managing the closing button on each
+ * tab. 
+ * Note: TabCloseButton is composed of and acts as the invoker to a CloseCommand (concrete command).
+ */
+@SuppressWarnings("serial")
+public class TabCloseButton extends JButton {
+
+	//view fields
+    private Dimension size;
+    private ImageIcon icon;
+    
+    //index of respected tab
+    private int index;
+    
+    //concrete command
+    private CloseCommand closer;
+    
+    /** 
+     * @param index - index of respected tab
+     */
+    public TabCloseButton(int index){
+        super();
+        init(index);
+    }
+    
+    /**
+     * init initializes all fields of the button, configures the view
+     * options of the button, and adds an action listener to invoke the
+     * execute() method within the concrete CloseCommand.
+     * @param index - index of respected tab
+     */
+    private void init(int index){
+        size = new Dimension(12, 12);
+        icon = StaticUtilities.offImage;
+        this.index = index;
+        this.closer = new CloseCommand(this.index);
+        
+        super.setIcon( icon );
+        super.setPreferredSize( size );
+        super.setBorderPainted( false );
+        super.setContentAreaFilled( false );
+        
+        super.addActionListener(new ActionListener(){
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				TabCloseButton.this.closer.execute();
+			}
+        });
+    }
+    
+    /**
+     * When a tab change is made in the view (closing of tabs), updateIndex is called to change
+     * the button's and closer's index respectively.
+     * @param newIndex - new index of tab
+     */
+    public void updateIndex(int newIndex){
+    	this.index = newIndex;
+    	this.closer.updateIndex(newIndex);
+    }
+    
+}

@@ -1,0 +1,37 @@
+"""
+file: hiding.py
+language: python3
+author: R. Zanibbi
+author: A. Nunes-Harwitt
+description: Hide information in a file
+"""
+################################
+# hide
+################################
+
+def hide(textFile, hiddenWord):
+    """hide: File * String -> NoneType
+       Effect: Display the file with modifications.
+    """
+    for currentWord in textFile:
+       if currentWord.strip() == hiddenWord:
+           print('---') 
+       else:
+           print(currentWord, end='')
+
+def hideUsingFileName(textFileName, hiddenWord):
+    """hideUsingFileName: String * String -> NoneType
+       Effect: Display the file with modifications.
+    """
+    hide(open(textFileName), hiddenWord)
+
+# Tests
+
+print('Testing hideUsingFileName and hide: not there')
+hideUsingFileName('text2.txt', 'word0')
+
+print('Testing hideUsingFileName and hide: there once')
+hideUsingFileName('text2.txt', 'word1')
+
+print('Testing hideUsingFileName and hide: there twice')
+hideUsingFileName('text2.txt', 'word2')

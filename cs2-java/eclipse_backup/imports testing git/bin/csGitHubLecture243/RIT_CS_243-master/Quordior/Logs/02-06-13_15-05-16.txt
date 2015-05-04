@@ -1,0 +1,38 @@
+2013-02-06 15:05:16.809488: ENGINE starting
+2013-02-06 15:05:16.810341: ENGINE loading STUDENT ENGINE part 3
+2013-02-06 15:05:16.871971: ENGINE loaded player module: OKComputer as player 1
+2013-02-06 15:05:16.872343: ENGINE loaded player module: OKComputer as player 2
+2013-02-06 15:05:16.872549: ENGINE loaded player module: OKComputer as player 3
+2013-02-06 15:05:16.872755: ENGINE loaded player module: OKComputer as player 4
+2013-02-06 15:05:16.872930: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-06 15:05:19.087155: ENGINE calling STUDENT ENGINE init
+2013-02-06 15:05:19.087544: STUDENT ENGINE init call successfully returned
+2013-02-06 15:05:19.087822: ENGINE calling init() for player 1
+2013-02-06 15:05:19.088037: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 15:05:19.088923: OKComputer initialized as player 1
+2013-02-06 15:05:19.089191: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 15:05:19.089395: ENGINE calling init() for player 2
+2013-02-06 15:05:19.089602: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 15:05:19.090338: OKComputer initialized as player 2
+2013-02-06 15:05:19.090550: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 15:05:19.090765: ENGINE calling init() for player 3
+2013-02-06 15:05:19.090970: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 15:05:19.091799: OKComputer initialized as player 3
+2013-02-06 15:05:19.091985: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 15:05:19.092172: ENGINE calling init() for player 4
+2013-02-06 15:05:19.092476: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 15:05:19.093403: OKComputer initialized as player 4
+2013-02-06 15:05:19.093668: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 15:05:19.357826: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/partone.0/public.beb1a078994ed4aa0802e0ae94b707e7a2f4fd6b5112b77f0b8ee/apikey.820d60943005a0935c8/gameid.89264/animations.500/
+2013-02-06 15:05:19.358476: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:05:19.358985: ERROR: get_shortest_path() missing 1 required positional argument: 'playerCheck'
+2013-02-06 15:05:19.360743: TRACE: 
+Traceback (most recent call last):
+  File ".\Model\__init__.py", line 561, in studentEngineCall
+  File "/Users/nicmanoogian/Documents/CS/Eclipse/Quordior/StudentEngines/teamwhat/__init__.py", line 568, in next_move
+    if not validate_move(engineData, playerMove.getCopy()):
+  File "/Users/nicmanoogian/Documents/CS/Eclipse/Quordior/StudentEngines/teamwhat/__init__.py", line 440, in validate_move
+    if len(get_shortest_path(engineData, p.r, p.c, coord[0], coord[1]), False) != 0:
+TypeError: get_shortest_path() missing 1 required positional argument: 'playerCheck'
+

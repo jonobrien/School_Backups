@@ -1,0 +1,63 @@
+2013-02-06 18:48:12.746429: ENGINE starting
+2013-02-06 18:48:12.747248: ENGINE loading STUDENT ENGINE part 4
+2013-02-06 18:48:12.766296: ENGINE loaded player module: OKComputer as player 1
+2013-02-06 18:48:12.766590: ENGINE loaded player module: OKComputer as player 2
+2013-02-06 18:48:12.766799: ENGINE loaded player module: OKComputer as player 3
+2013-02-06 18:48:12.767002: ENGINE loaded player module: OKComputer as player 4
+2013-02-06 18:48:12.767173: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-06 18:48:14.475592: ENGINE calling STUDENT ENGINE init
+2013-02-06 18:48:14.475946: STUDENT ENGINE init call successfully returned
+2013-02-06 18:48:14.476211: ENGINE calling init() for player 1
+2013-02-06 18:48:14.476410: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:48:14.477246: OKComputer initialized as player 1
+2013-02-06 18:48:14.477457: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:48:14.477657: ENGINE calling init() for player 2
+2013-02-06 18:48:14.477852: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:48:14.478571: OKComputer initialized as player 2
+2013-02-06 18:48:14.478775: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:48:14.478971: ENGINE calling init() for player 3
+2013-02-06 18:48:14.479164: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:48:14.479958: OKComputer initialized as player 3
+2013-02-06 18:48:14.480164: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:48:14.480361: ENGINE calling init() for player 4
+2013-02-06 18:48:14.480555: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:48:14.481349: OKComputer initialized as player 4
+2013-02-06 18:48:14.481554: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:48:14.631469: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/animations.500/gameid.90840/apikey.820d60943005a0935c8/public.3a900867521f01bef5a4550435a943edcbe648625112ebbe49d4f/partone.0/
+2013-02-06 18:48:14.632241: ENGINE calling STUDENT ENGINE generate_board
+2013-02-06 18:48:14.632754: Wall 1, 0, 3, 0 is along the edge
+2013-02-06 18:48:14.873967: Player 2 has moved out of turn.
+2013-02-06 18:48:15.074623: Player 2 has moved out of turn.
+2013-02-06 18:48:15.259998: Player 2 has moved out of turn.
+2013-02-06 18:48:15.497535: Player 2 has moved out of turn.
+2013-02-06 18:48:15.746707: Player 2 has moved out of turn.
+2013-02-06 18:48:15.950493: Player 2 has moved out of turn.
+2013-02-06 18:48:16.142036: Player 2 has moved out of turn.
+2013-02-06 18:48:16.325712: Player 2 has moved out of turn.
+2013-02-06 18:48:16.567639: Player 2 has moved out of turn.
+2013-02-06 18:48:16.751560: Player 2 has moved out of turn.
+2013-02-06 18:48:16.936119: Player 2 has moved out of turn.
+2013-02-06 18:48:17.121139: Player 2 has moved out of turn.
+2013-02-06 18:48:17.308342: Player 2 has moved out of turn.
+2013-02-06 18:48:17.498853: Player 2 has moved out of turn.
+2013-02-06 18:48:17.546876: Wall 2, 0, 4, 0 is along the edge
+2013-02-06 18:48:17.734825: Player 2 has moved out of turn.
+2013-02-06 18:48:17.928689: Player 2 has moved out of turn.
+2013-02-06 18:48:18.127521: Player 2 has moved out of turn.
+2013-02-06 18:48:18.313589: Player 2 has moved out of turn.
+2013-02-06 18:48:18.517113: Player 2 has moved out of turn.
+2013-02-06 18:48:18.517488: Wall 4, 0, 6, 0 is along the edge
+2013-02-06 18:48:18.517708: Wall 2, 0, 4, 0 is along the edge
+2013-02-06 18:48:18.518104: Wall 1, 0, 3, 0 is along the edge
+2013-02-06 18:48:18.705870: Player 2 has moved out of turn.
+2013-02-06 18:48:18.890882: Player 2 has moved out of turn.
+2013-02-06 18:48:19.074019: Player 2 has moved out of turn.
+2013-02-06 18:48:19.074373: Wall 4, 0, 6, 0 is along the edge
+2013-02-06 18:48:19.260142: Player 2 has moved out of turn.
+2013-02-06 18:48:19.444284: Player 2 has moved out of turn.
+2013-02-06 18:48:19.630225: Player 2 has moved out of turn.
+2013-02-06 18:48:19.630599: Wall 0, 0, 2, 0 is along the edge
+2013-02-06 18:48:19.630815: Wall 2, 0, 4, 0 is along the edge
+2013-02-06 18:48:19.818401: Player 2 has moved out of turn.
+2013-02-06 18:48:20.002628: Player 2 has moved out of turn.

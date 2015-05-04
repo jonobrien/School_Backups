@@ -1,0 +1,132 @@
+"""
+    change.py is a program that makes change from a series of denominations
+    and an initial amount of money.
+Problem: Greedy Change Lecture problem
+Author: Sean Strout (sps@cs.rit.edu)
+Author: Arthur Nunes-Harwitt (anh@cs.rit.edu)
+Author: ben k steele (bks@cs.rit.edu)
+"""
+
+class DenomQuant():
+   """A denomination-quantity structure
+      is represented as an instance of DenomQuant
+   """
+   __slots__ = ('denom','quant')
+
+
+def mkDenomQuant(denom, quant):
+   """Constructor: 
+      mkDenomQuant: Number * Number -> DenomQuant
+   """
+   struct = DenomQuant()
+   struct.denom = denom
+   struct.quant = quant
+   return struct
+
+def insertion_sort( data ):
+    """
+    insertion_sort : ListOfOrderables -> None
+    Perform an in-place insertion sort on a list of sortable data.
+    Parameters:
+        data - the list of data to sort
+    post-conditions:
+        The data list has been sorted.
+    """
+    for marker in range( 1, len( data ) ):
+        marker_val = data[marker]
+        i = marker
+        while i > 0 and data[i-1] > marker_val:
+            data[i] = data[i-1]
+            i -= 1
+        data[i] = marker_val
+
+def make_change(amount, denominations):
+   """make_change: NatNum * ListOf(NatNum) -> ListOf(DenomQuant) or NoneType
+      Makes change for an amount of money using a list of denominations.
+      Parameters:
+           amount - the amount of money to make change for
+           denominations - the monetary denominations
+      Returns:
+           If correct change can be made, it returns a list containing 
+           the denominations and change amounts.  Otherwise, it
+           returns None.
+   """
+   # make a local copy of the denominations because this function
+   # will otherwise destroy the caller's list
+   denom_list = denominations[:]
+   insertion_sort(denom_list)			# modifies list
+
+   # no change to start with
+   change_list = []
+   
+   # the greedy algorithm loops through each denomination from
+   # largest to smallest and makes as much change as possible
+   # for each denomination
+   while amount > 0 and len(denom_list) > 0:
+      # get the next largest denomination from the list and remove it
+      denom = denom_list.pop()     # modifies list
+
+      # use integer division to get the maximum number of coins to
+      # make change for this denomination
+      coins = amount // denom      # integer division (truncates)
+      amount = amount - coins * denom
+      
+      # store a tuple for the denomination and # of coins in
+      # the change list
+      if coins > 0:
+         change_list.append(mkDenomQuant(denom, coins))
+   
+   # if the final amount is not 0 we weren't able to make exact change
+   if amount > 0:
+      return None
+   else:
+      return change_list
+
+
+def readDenominations(prompt, sentinel):
+   """readDenominations: String * Integer -> ListOf(Integer)
+      Purpose: Read denomination values into a list
+   """
+   denominations = []
+   # a sentinel loop that reads denomination amounts into a list 
+   # until a the sentinel value is read
+   while True:
+      val = int(input(prompt))
+      if val == sentinel:
+         return denominations
+      else:
+         denominations.append(val)
+
+
+def displayChange(change):
+   """displayChange: ListOf(DenomQuant) or NoneType -> NoneType
+      Purpose: Display the list of structures on standard output
+   """
+   if change == None:
+      print("Can't make correct change!")
+   else:
+      print("Your change:")
+      for entry in change:
+         print(entry.quant, "coin/s of value", entry.denom, "each.")
+
+
+def main():
+   """
+   The main program prompts for denominations and the amount to change,
+   then prints its results to standard output.
+   """
+
+   denominations = readDenominations("Enter denomination (-1 to end): ", -1)
+   
+   print("Change denominations are:", denominations)
+   
+   # get the amount of money to change
+   amount = int(input("Make change for: "))
+
+   # get the change amounts and display results
+   displayChange(make_change(amount, denominations))
+      
+
+      
+# invoke main function to run the program
+main()

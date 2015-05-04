@@ -1,0 +1,10 @@
+line = "80               30 \
+        40 50 60 \n     20 70 10 50"
+
+lst = line.split()
+min = int(lst[0])
+print("min = ", min)
+for i in range(1, len(lst)):
+    if (int(lst[i]) < min):
+        min = int(lst[i])
+        print("new min = ", min)

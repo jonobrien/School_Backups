@@ -1,0 +1,47 @@
+The predator spawns somewhere in the jungle with 1096 hit points...
+How many hostages? 5
+Hostage Red Shirt #1 with 180 hit points and 286 weight, enters the cavern...
+Hostage Red Shirt #2 with 197 hit points and 171 weight, enters the cavern...
+Hostage Red Shirt #3 with 198 hit points and 265 weight, enters the cavern...
+Hostage Red Shirt #4 with 143 hit points and 127 weight, enters the cavern...
+Hostage Red Shirt #5 with 191 hit points and 74 weight, enters the cavern...
+STAGE 1: BOSS BATTLE...
+The predator blocks the cavern exit!
+The hostages must fight their way out in order to survive...
+Red Shirt #5 prepares to do battle with the predator...
+	Predator hit points: 1096 , Red Shirt #5 hit points: 191
+	Red Shirt #5 does 17 to predator
+	Predator does 146 to hostage
+	Predator hit points: 1079 , Red Shirt #5 hit points: 45
+	Red Shirt #5 does 65 to predator
+	Predator does 121 to hostage
+Red Shirt #5 has fallen!
+Red Shirt #4 prepares to do battle with the predator...
+	Predator hit points: 1014 , Red Shirt #4 hit points: 143
+	Red Shirt #4 does 82 to predator
+	Predator does 195 to hostage
+Red Shirt #4 has fallen!
+Red Shirt #3 prepares to do battle with the predator...
+	Predator hit points: 932 , Red Shirt #3 hit points: 198
+	Red Shirt #3 does 27 to predator
+	Predator does 155 to hostage
+	Predator hit points: 905 , Red Shirt #3 hit points: 43
+	Red Shirt #3 does 81 to predator
+	Predator does 136 to hostage
+Red Shirt #3 has fallen!
+Red Shirt #2 prepares to do battle with the predator...
+	Predator hit points: 824 , Red Shirt #2 hit points: 197
+	Red Shirt #2 does 54 to predator
+	Predator does 169 to hostage
+	Predator hit points: 770 , Red Shirt #2 hit points: 28
+	Red Shirt #2 does 54 to predator
+	Predator does 192 to hostage
+Red Shirt #2 has fallen!
+Red Shirt #1 prepares to do battle with the predator...
+	Predator hit points: 716 , Red Shirt #1 hit points: 180
+	Red Shirt #1 does 26 to predator
+	Predator does 180 to hostage
+Red Shirt #1 has fallen!
+0 hostage/s survived the dark cavern...
+The predator, with 690 hit points remaining, claims victory!
+THE END.

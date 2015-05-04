@@ -1,0 +1,37 @@
+package tab;
+
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+
+import main.StaticUtilities;
+
+/**
+ * An observer that looks at a tabs document to check for text changes
+ * When a text change is observed it updates the state of its tab to not
+ * saved
+ */
+public class TabSavedMonitor implements DocumentListener {
+
+    @Override
+    public void removeUpdate(DocumentEvent e) {
+        update();
+    }
+    
+    @Override
+    public void insertUpdate(DocumentEvent e) {
+        update();
+    }
+    
+    @Override
+    public void changedUpdate(DocumentEvent e) {
+        update();
+    }
+    
+    /**
+     * Updates the current tab to not saved
+     */
+    private void update(){
+        StaticUtilities.getCurrentTab().updateToNotSaved();
+    }
+
+}

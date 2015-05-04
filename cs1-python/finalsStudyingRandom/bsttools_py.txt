@@ -1,0 +1,62 @@
+"""
+file: bsttools.py
+language: python3
+author: A. Nunes-Harwitt
+description: tools extracted from bst.py
+"""
+
+############################################################
+# Class definitons
+############################################################
+
+class Empty():
+   """ An empty tree is represented as an instance of Empty """
+   __slots__ = ()   
+
+class NonEmpty():
+   """ A non-empty tree is represented as an instance of NonEmpty """
+   __slots__ = ('left','value','right')
+
+
+############################################################
+# Constructors
+############################################################
+
+def mkEmpty():
+   """ Constructor: mkEmpty: () -> Empty """
+   return Empty()
+
+def mkNonEmpty(b1, v, b2):
+   """ Constructor: 
+      mkNonEmpty: BinaryTree * Number * BinaryTree -> NonEmpty
+   """
+   node = NonEmpty()
+   node.left = b1
+   node.value = v
+   node.right = b2
+   return node
+
+
+############################################################
+# Sample trees
+############################################################
+
+exampleTree0 = mkEmpty()
+
+exampleTree1 = mkNonEmpty(mkEmpty(), 1, mkEmpty())
+
+exampleTree2 = mkNonEmpty(mkNonEmpty(mkEmpty(), 1, mkEmpty()), 3, mkEmpty())
+
+exampleTree3 = mkNonEmpty(mkEmpty(), 3, mkNonEmpty(mkEmpty(), 4, mkEmpty()))
+
+# t2 in notes
+exampleTree4 = mkNonEmpty(mkNonEmpty(mkEmpty(), 1, mkEmpty()), \
+                          3,                                   \
+                          mkNonEmpty(mkEmpty(), 4, mkEmpty()))
+
+exampleTree5 = mkNonEmpty(mkNonEmpty(mkEmpty(), 6, mkEmpty()), \
+                          7,                                   \
+                          mkNonEmpty(mkEmpty(), 9, mkEmpty()))
+
+exampleTree6 = mkNonEmpty(exampleTree4, 5, exampleTree5)
+

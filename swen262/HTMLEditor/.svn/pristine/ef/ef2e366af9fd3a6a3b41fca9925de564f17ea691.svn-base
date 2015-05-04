@@ -1,0 +1,29 @@
+package Tab;
+
+import java.awt.TextArea;
+import java.util.LinkedList;
+
+import main.Line;
+
+
+public class TabContentBuffer extends TextArea {
+    
+	//add tree data structure of linezZzZz
+	LinkedList lines = new LinkedList<Line>();
+	
+    public TabContentBuffer(){
+        super(null, 0, 0, TextArea.SCROLLBARS_BOTH);
+    }
+    
+    public void add(Line line){
+    	lines.add(line);
+    }
+    
+    public void updateTextArea(){
+    	
+    	for(int i = 0; i < lines.size(); i++){
+    		this.append(((Line) lines.get(i)).getContents());
+    	}
+    }
+    
+}

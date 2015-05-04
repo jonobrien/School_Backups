@@ -1,0 +1,12 @@
+package main;
+
+import java.awt.TextArea;
+
+
+public class TabContentBuffer extends TextArea {
+    
+    public TabContentBuffer(){
+        super(null, 0, 0, TextArea.SCROLLBARS_BOTH);
+    }
+    
+}

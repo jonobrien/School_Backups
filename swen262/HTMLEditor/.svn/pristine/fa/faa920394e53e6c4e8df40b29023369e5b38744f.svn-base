@@ -1,0 +1,20 @@
+package Tab;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JPanel;
+
+public class TabContent extends JPanel{
+    
+	private TabContentBuffer buffer = new TabContentBuffer();
+	
+    public TabContent(){
+        super(new BorderLayout());
+        this.add(buffer,BorderLayout.CENTER);
+    }
+    
+    public TabContentBuffer getBuffer(){
+    	return this.buffer;
+    }
+    
+}

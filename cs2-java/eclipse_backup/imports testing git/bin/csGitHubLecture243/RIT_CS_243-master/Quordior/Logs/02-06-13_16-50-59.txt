@@ -1,0 +1,7 @@
+2013-02-06 16:50:59.021141: ENGINE starting
+2013-02-06 16:50:59.022245: ENGINE loading STUDENT ENGINE part 4
+2013-02-06 16:50:59.042558: ENGINE loaded player module: OKComputer as player 1
+2013-02-06 16:50:59.042849: ENGINE loaded player module: OKComputer as player 2
+2013-02-06 16:50:59.043061: ENGINE loaded player module: OKComputer as player 3
+2013-02-06 16:50:59.043271: ENGINE loaded player module: OKComputer as player 4
+2013-02-06 16:50:59.043446: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing

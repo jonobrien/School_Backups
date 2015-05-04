@@ -1,0 +1,299 @@
+package command;
+
+import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JOptionPane;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.Utilities;
+
+import tab.OutlinePanel;
+import tab.TabContentTextBuffer;
+import main.Display;
+import main.HTMLTag;
+import main.StaticUtilities;
+import main.TableOptionsSelector;
+import command.ActionObject;
+import command.ActionBuffer;
+
+/**
+ * Concrete command responsible for inserting HTML tags of the users discretion
+ * Observers MenuItems and or Buttons
+ *
+ */
+public class InsertHTMLConstructCommand implements CommandInterface, ActionListener {
+
+    /**
+     * Tag associated with a particular command
+     */
+    private HTMLTag tag;
+    /**
+     * Buffe that the tag will be inserted to
+     */
+    private TabContentTextBuffer buffer;
+    /**
+     * A window for selecting Table options
+     */
+    @SuppressWarnings("unused")
+    private TableOptionsSelector optionsSelector;
+    
+    //Only for adding table
+    /**
+     * Whether or not a particular listener is responsible for actually adding the table 
+     * or starting the properties gathering
+     */
+    private boolean addingTable;
+    /**
+     * The window that has all the properties of the table gathered from the user
+     */
+    private TableOptionsSelector selectorWithData;
+    
+    /**
+     * This constructor is used when it is not responsible for adding the table text
+     * @param tag - the tag to be associated with a Specific command
+     */
+    public InsertHTMLConstructCommand(HTMLTag tag) {
+        this.tag = tag;
+        addingTable = false;
+    }
+    
+    /**
+     * This constructor is used when it is responsible for adding the table text
+     * @param tag - the tag to be associated with a Specific command
+     * @param addingTable - boolean to say whether or not this is to insert table text
+     */
+    public InsertHTMLConstructCommand(HTMLTag tag, boolean addingTable){
+        this.tag = tag;
+        this.addingTable = addingTable;
+    }
+    
+    @Override
+    public void actionPerformed(ActionEvent arg0) {
+        execute();
+    }
+    
+    @Override
+    public void execute() {
+    	//Get curretn buffer
+        buffer = StaticUtilities.getCurrentTab().getContent().getBuffer();
+        OutlinePanel panel = StaticUtilities.getCurrentTab().getContent().getPanel();
+    	int caretPos = StaticUtilities.getCurrentTab().getContent().getBuffer().getCaretPosition();
+    	
+    	
+    	
+    	
+    	//make and add respective attributes to undo objects for undoing HTML constructs
+    	ActionObject UndoObject = new ActionObject();
+    	UndoObject.setPosition(caretPos);
+    	UndoObject.setType(StaticUtilities.getHtml());
+    	
+    	
+    	int rowNum = (caretPos == 0) ? 1:0;
+    	for (int offset = caretPos; offset > 0;){
+    		try {
+				offset = Utilities.getRowStart(buffer, offset) - 1;
+			} catch (BadLocationException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+    		rowNum++;
+    	}
+    	
+    	//System.out.println(rowNum);
+    	JButton btn = new JButton();
+    	int x = StaticUtilities.getCurrentTab().getContent().getBuffer().getFont().getSize();
+    	btn.setPreferredSize(new Dimension(x,x));
+    	panel.add(btn);
+    	
+        switch(tag){
+            //For table 
+            case TABLE:
+                //If inserting table, insert it, close the data gathering windows, and re-enable the main display
+                if(addingTable){
+                    insertTable();
+                    selectorWithData.close();
+                    Display.display.setEnabled( true );
+                //If not then start up a new properties gathering window with a new command that will
+                //will be used for actually inserting table tag text and disable the main display
+                }else{
+                    Display.getDisplay().setEnabled( false );
+                    optionsSelector = new TableOptionsSelector(new InsertHTMLConstructCommand( tag, true ));
+                }
+                break;
+            //For order, unordered, or description lists add their respective tag and then the list elements
+            case ORDEREDLIST:
+            case UNORDEREDLIST:
+                insertTag(true, tag);
+                insertListItems( false );
+                break;
+            case DESCRIPTIONLIST:
+                insertTag(true, tag);
+                insertListItems( true );
+                break;
+            case ANCHOR:
+            	insertTag(true, tag);
+            	insertURL(true);
+            	break;
+            case IMAGE:
+            	insertTag(true, tag);
+            	insertURL(false);
+            	break;
+            //For every other tag just insert the tag
+            default:
+                insertTag(true, tag);
+                break;
+        }
+    }
+    
+    /**
+     * Insert the tag given at the current caret position
+     * @param moveCaretBack - Whether to move the caret back to the original position or not
+     * @param tag - the tag to be inserted
+     */
+    private void insertTag(boolean moveCaretBack, HTMLTag tag){
+        //Get the indentation of the current line
+        int oldIndent = 0;
+        try {
+            int lastLineIndex = buffer.getLineOfOffset( buffer.getCaretPosition() );
+            int lastLineStart = buffer.getLineStartOffset( lastLineIndex );
+            int lastLineLength = buffer.getLineEndOffset( lastLineIndex ) - lastLineStart;
+            String lastLine = buffer.getText( lastLineStart , lastLineLength );
+            for(oldIndent = 0;oldIndent < lastLine.toCharArray().length;oldIndent++){
+                if(lastLine.toCharArray()[oldIndent] != ' '){
+                    break;
+                }
+            }
+        } catch (BadLocationException e) {}
+        //Insert the tag opening
+        buffer.insert( tag.getOpenTag() , buffer.getCaretPosition() );
+        //If it's not inline start adding newlines with correct indentation
+        if(!tag.getInLine()){
+            buffer.insert( "\n" + StaticUtilities.spaces(oldIndent + StaticUtilities.getTabSpaces()), buffer.getCaretPosition() );
+        }
+        //Mark the spot to return to if necessary
+        int oldCaretPos = buffer.getCaretPosition();
+        //If it's not inline start adding newlines with correct indentation
+        if(!tag.getInLine()){
+            buffer.insert( "\n" + StaticUtilities.spaces(oldIndent), buffer.getCaretPosition() );
+        }
+        //Insert closing tag
+        buffer.insert( tag.getCloseTag() , buffer.getCaretPosition() );
+        //Move back to the middle of the tag if required
+        if(moveCaretBack){buffer.setCaretPosition( oldCaretPos );}
+    }
+    
+    /**
+     * Inserts a new line charcter and the correct indentation for that new line
+     */
+    private void insertNewLine(){
+        //Get the current line indentation
+        int oldIndent = 0;
+        try {
+            int lastLineIndex = buffer.getLineOfOffset( buffer.getCaretPosition() );
+            int lastLineStart = buffer.getLineStartOffset( lastLineIndex );
+            int lastLineLength = buffer.getLineEndOffset( lastLineIndex ) - lastLineStart;
+            String lastLine = buffer.getText( lastLineStart , lastLineLength );
+            for(oldIndent = 0;oldIndent < lastLine.toCharArray().length;oldIndent++){
+                if(lastLine.toCharArray()[oldIndent] != ' '){
+                    break;
+                }
+            }
+        } catch (BadLocationException e) {}
+        //Add the new line and the found indentation
+        buffer.insert( "\n" + StaticUtilities.spaces(oldIndent), buffer.getCaretPosition() );
+    }
+    
+    /**
+     * Inserts a URL or file path entered by the user for an anchor or image tag
+     */
+    private void insertURL(boolean anchor){
+        //Get the current line indentation
+        String URL = (String) JOptionPane.showInputDialog(null,"URL or Filepath","Inserting URL or Filepath",JOptionPane.QUESTION_MESSAGE,null,null,"URL/Filepath");
+        //Add the new line and the found indentation
+        buffer.insert( URL , buffer.getCaretPosition() - (anchor ? 2:0));
+        UpdateLinkViewCommand ulvc = new UpdateLinkViewCommand();
+        ulvc.actionPerformed(null);
+    }
+    
+    /**
+     * Asks the user how many list items to include in the newly inserted list and inserts them
+     * @param descriptiveList - Whether or not to insert the description list items instead of regualar ones
+     */
+    private void insertListItems(boolean descriptiveList){
+        //Get the position to return to after inserting all the list items
+        int oldPos = buffer.getCaretPosition();
+        //Get how many it insert from user
+        String numberOfItems = (String) JOptionPane.showInputDialog(null,"Number of List Items","Inserting List Items",JOptionPane.QUESTION_MESSAGE,null,null,0);
+        //If it's valid input
+        if(numberOfItems != null && numberOfItems != ""){
+            //Add that many items of either description list items or regular ones
+            if(Integer.parseInt(numberOfItems) != 0){
+                for(int i = 0; i < Integer.parseInt(numberOfItems);i++){
+                    if(descriptiveList){
+                        insertTag(false, HTMLTag.LISTTERM);
+                        insertNewLine();
+                        insertTag(false, HTMLTag.LISTDATA);
+                    }else{
+                        insertTag(false, HTMLTag.LISTITEM);
+                    }
+                    if(i < Integer.parseInt(numberOfItems) - 1){insertNewLine();}
+                }
+                //Move the caret back to the original position
+                try {
+                    buffer.setCaretPosition( buffer.getLineEndOffset( buffer.getLineOfOffset( oldPos ) + 1 ) - 1);
+                } catch (BadLocationException e) {}
+            }
+        }
+    }
+
+    /**
+     * Set the selector window that will have the data for adding a table
+     * @param selector - the window that will have the data for adding a table
+     */
+    public void addSelectorWithData(TableOptionsSelector selector){
+        this.selectorWithData = selector;
+    }
+    
+    /**
+     * Insert a table based on the options selected in the selectorWithOptions window
+     */
+    private void insertTable(){
+        insertTag(true, tag);
+        int oldCaretPos = buffer.getCaretPosition();
+        if(selectorWithData.getCaption()){
+            insertTag(false, HTMLTag.TABLECAPTION);
+            insertNewLine();
+        }
+        if(selectorWithData.getRowOfHeaders()){
+            insertTag(true, HTMLTag.TABLEROW);
+            for(int i = 0; i < selectorWithData.getHeaders();i++){
+                insertTag(false, HTMLTag.TABLEHEADER);
+                if(i != selectorWithData.getHeaders() - 1){
+                    insertNewLine();
+                }
+            }
+            try {
+                buffer.setCaretPosition(buffer.getLineEndOffset( buffer.getLineOfOffset( buffer.getCaretPosition() ) + 1 ) - 1 );
+            } catch (BadLocationException e) {}
+            insertNewLine();
+        }
+        for(int i = 0; i < selectorWithData.getRows();i++){
+            insertTag(true, HTMLTag.TABLEROW);
+            for(int j = 0; j < selectorWithData.getColumns();j++){
+                insertTag(false, HTMLTag.TABLEDATA);
+                if(j != selectorWithData.getColumns() - 1){
+                    insertNewLine();
+                }
+            }
+            if(i != selectorWithData.getRows() - 1){
+                try {
+                    buffer.setCaretPosition(buffer.getLineEndOffset( buffer.getLineOfOffset( buffer.getCaretPosition() ) + 1 ) - 1);
+                } catch (BadLocationException e) {}
+                insertNewLine();
+            }
+        }
+        buffer.setCaretPosition( oldCaretPos );
+    }
+}

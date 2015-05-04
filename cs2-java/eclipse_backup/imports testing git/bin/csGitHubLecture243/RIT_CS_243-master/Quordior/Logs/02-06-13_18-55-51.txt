@@ -1,0 +1,34 @@
+2013-02-06 18:55:51.538969: ENGINE starting
+2013-02-06 18:55:51.539841: ENGINE loading STUDENT ENGINE part 4
+2013-02-06 18:55:51.544532: ENGINE loaded player module: OKComputer as player 1
+2013-02-06 18:55:51.544776: ENGINE loaded player module: OKComputer as player 2
+2013-02-06 18:55:51.544984: ENGINE loaded player module: OKComputer as player 3
+2013-02-06 18:55:51.545192: ENGINE loaded player module: OKComputer as player 4
+2013-02-06 18:55:51.545364: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-06 18:55:53.171652: ENGINE calling STUDENT ENGINE init
+2013-02-06 18:55:53.171990: STUDENT ENGINE init call successfully returned
+2013-02-06 18:55:53.172516: ENGINE calling init() for player 1
+2013-02-06 18:55:53.172723: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:55:53.173599: OKComputer initialized as player 1
+2013-02-06 18:55:53.173812: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:55:53.173985: ENGINE calling init() for player 2
+2013-02-06 18:55:53.174153: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:55:53.174789: OKComputer initialized as player 2
+2013-02-06 18:55:53.175220: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:55:53.175403: ENGINE calling init() for player 3
+2013-02-06 18:55:53.175661: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:55:53.176402: OKComputer initialized as player 3
+2013-02-06 18:55:53.176592: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:55:53.176770: ENGINE calling init() for player 4
+2013-02-06 18:55:53.176938: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:55:53.177621: OKComputer initialized as player 4
+2013-02-06 18:55:53.177919: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:55:53.306639: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.90850/apikey.820d60943005a0935c8/animations.500/public.49f2ecef5c83cc4821e6a039c5dc759d8970f0aa5112ed8921320/partone.0/
+2013-02-06 18:55:53.319895: ENGINE calling STUDENT ENGINE generate_board
+2013-02-06 18:55:54.270684: Player 1 has moved out of turn.
+2013-02-06 18:55:54.271127: ENGINE uploading move to web engine
+2013-02-06 18:55:54.460803: Player 2 has moved out of turn.
+2013-02-06 18:55:54.461199: ENGINE uploading move to web engine
+2013-02-06 18:55:54.962411: Player 3 has moved out of turn.
+2013-02-06 18:55:54.962844: ENGINE uploading move to web engine

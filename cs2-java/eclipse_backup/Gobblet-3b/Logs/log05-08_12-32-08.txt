@@ -1,0 +1,1528 @@
+05-08 12:32:08 Engine Gobblet Java Client v1.3b by RIT CS Department starting up
+05-08 12:32:08 Engine Loading player LastPlace
+05-08 12:32:08 Engine Loading player THX1138
+05-08 12:32:08 Engine Loaded 2 players
+05-08 12:32:08 Engine Calling init() for player 1
+05-08 12:32:08 Engine Calling init() for player 2
+05-08 12:32:08 Engine Processing move #1
+05-08 12:32:08 Engine Getting move from player 1
+05-08 12:32:08 Engine Validating move: PlayerMove [playerId=1, stack=1, size=4, start=[-1, -1], end=[1, 1]]
+05-08 12:32:08 Engine Move validated. Notifying other players
+05-08 12:32:08 Engine Notifying player 1 of last move
+05-08 12:32:08 Engine Notifying player 2 of last move
+05-08 12:32:08 Engine Finished processing player 1's move
+05-08 12:32:08 Engine Processing move #2
+05-08 12:32:08 Engine Getting move from player 2
+05-08 12:32:08 -+-+-+-THX1138  0 win; 0 kill; 45 other.
+05-08 12:32:08 Engine Validating move: PlayerMove [playerId=2, stack=2, size=4, start=[-1, -1], end=[2, 2]]
+05-08 12:32:08 Engine Move validated. Notifying other players
+05-08 12:32:08 Engine Notifying player 1 of last move
+05-08 12:32:08 Engine Notifying player 2 of last move
+05-08 12:32:08 Engine Finished processing player 2's move
+05-08 12:32:08 Engine Processing move #3
+05-08 12:32:08 Engine Getting move from player 1
+05-08 12:32:08 Engine Validating move: PlayerMove [playerId=1, stack=2, size=4, start=[-1, -1], end=[1, 2]]
+05-08 12:32:08 Engine Move validated. Notifying other players
+05-08 12:32:08 Engine Notifying player 1 of last move
+05-08 12:32:08 Engine Notifying player 2 of last move
+05-08 12:32:08 Engine Finished processing player 1's move
+05-08 12:32:08 Engine Processing move #4
+05-08 12:32:08 Engine Getting move from player 2
+05-08 12:32:08 -+-+-+-THX1138  0 win; 0 kill; 52 other.
+05-08 12:32:08 Engine Validating move: PlayerMove [playerId=2, stack=1, size=4, start=[-1, -1], end=[0, 3]]
+05-08 12:32:08 Engine Move validated. Notifying other players
+05-08 12:32:08 Engine Notifying player 1 of last move
+05-08 12:32:08 Engine Notifying player 2 of last move
+05-08 12:32:08 Engine Finished processing player 2's move
+05-08 12:32:08 Engine Processing move #5
+05-08 12:32:08 Engine Getting move from player 1
+05-08 12:32:08 Engine Validating move: PlayerMove [playerId=1, stack=3, size=4, start=[-1, -1], end=[2, 1]]
+05-08 12:32:08 Engine Move validated. Notifying other players
+05-08 12:32:08 Engine Notifying player 1 of last move
+05-08 12:32:08 Engine Notifying player 2 of last move
+05-08 12:32:08 Engine Finished processing player 1's move
+05-08 12:32:08 Engine Processing move #6
+05-08 12:32:08 Engine Getting move from player 2
+05-08 12:32:08 -+-+-+-THX1138  0 win; 0 kill; 55 other.
+05-08 12:32:08 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 3], end=[0, 2]]
+05-08 12:32:08 Engine Move validated. Notifying other players
+05-08 12:32:08 Engine Notifying player 1 of last move
+05-08 12:32:08 Engine Notifying player 2 of last move
+05-08 12:32:08 Engine Finished processing player 2's move
+05-08 12:32:08 Engine Processing move #7
+05-08 12:32:08 Engine Getting move from player 1
+05-08 12:32:08 Engine Validating move: PlayerMove [playerId=1, stack=1, size=3, start=[-1, -1], end=[0, 0]]
+05-08 12:32:08 Engine Move validated. Notifying other players
+05-08 12:32:08 Engine Notifying player 1 of last move
+05-08 12:32:08 Engine Notifying player 2 of last move
+05-08 12:32:08 Engine Finished processing player 1's move
+05-08 12:32:08 Engine Processing move #8
+05-08 12:32:08 Engine Getting move from player 2
+05-08 12:32:08 -+-+-+-THX1138  0 win; 0 kill; 52 other.
+05-08 12:32:08 Engine Validating move: PlayerMove [playerId=2, stack=2, size=3, start=[-1, -1], end=[2, 3]]
+05-08 12:32:08 Engine Move validated. Notifying other players
+05-08 12:32:08 Engine Notifying player 1 of last move
+05-08 12:32:08 Engine Notifying player 2 of last move
+05-08 12:32:08 Engine Finished processing player 2's move
+05-08 12:32:08 Engine Processing move #9
+05-08 12:32:08 Engine Getting move from player 1
+05-08 12:32:08 Engine Validating move: PlayerMove [playerId=1, stack=2, size=3, start=[-1, -1], end=[0, 1]]
+05-08 12:32:08 Engine Move validated. Notifying other players
+05-08 12:32:08 Engine Notifying player 1 of last move
+05-08 12:32:08 Engine Notifying player 2 of last move
+05-08 12:32:08 Engine Finished processing player 1's move
+05-08 12:32:08 Engine Processing move #10
+05-08 12:32:08 Engine Getting move from player 2
+05-08 12:32:08 -+-+-+-THX1138  0 win; 9 kill; 46 other.
+05-08 12:32:08 Engine Validating move: PlayerMove [playerId=2, stack=3, size=4, start=[-1, -1], end=[0, 1]]
+05-08 12:32:08 Engine Move validated. Notifying other players
+05-08 12:32:08 Engine Notifying player 1 of last move
+05-08 12:32:08 Engine Notifying player 2 of last move
+05-08 12:32:08 Engine Finished processing player 2's move
+05-08 12:32:08 Engine Processing move #11
+05-08 12:32:08 Engine Getting move from player 1
+05-08 12:32:08 Engine Validating move: PlayerMove [playerId=1, stack=3, size=3, start=[-1, -1], end=[0, 3]]
+05-08 12:32:08 Engine Move validated. Notifying other players
+05-08 12:32:08 Engine Notifying player 1 of last move
+05-08 12:32:08 Engine Notifying player 2 of last move
+05-08 12:32:08 Engine Finished processing player 1's move
+05-08 12:32:08 Engine Processing move #12
+05-08 12:32:08 Engine Getting move from player 2
+05-08 12:32:08 -+-+-+-THX1138  0 win; 10 kill; 48 other.
+05-08 12:32:08 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 3]]
+05-08 12:32:08 Engine Move validated. Notifying other players
+05-08 12:32:08 Engine Notifying player 1 of last move
+05-08 12:32:08 Engine Notifying player 2 of last move
+05-08 12:32:08 Engine Finished processing player 2's move
+05-08 12:32:08 Engine Processing move #13
+05-08 12:32:08 Engine Getting move from player 1
+05-08 12:32:08 Engine Validating move: PlayerMove [playerId=1, stack=1, size=2, start=[-1, -1], end=[1, 0]]
+05-08 12:32:08 Engine Move validated. Notifying other players
+05-08 12:32:08 Engine Notifying player 1 of last move
+05-08 12:32:08 Engine Notifying player 2 of last move
+05-08 12:32:08 Engine Finished processing player 1's move
+05-08 12:32:08 Engine Processing move #14
+05-08 12:32:08 Engine Getting move from player 2
+05-08 12:32:08 -+-+-+-THX1138  0 win; 23 kill; 34 other.
+05-08 12:32:08 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 2], end=[0, 1]]
+05-08 12:32:08 Engine Move validated. Notifying other players
+05-08 12:32:08 Engine Notifying player 1 of last move
+05-08 12:32:08 Engine Notifying player 2 of last move
+05-08 12:32:08 Engine Finished processing player 2's move
+05-08 12:32:08 Engine Processing move #15
+05-08 12:32:08 Engine Getting move from player 1
+05-08 12:32:08 Engine Validating move: PlayerMove [playerId=1, stack=2, size=2, start=[-1, -1], end=[0, 2]]
+05-08 12:32:08 Engine Move validated. Notifying other players
+05-08 12:32:08 Engine Notifying player 1 of last move
+05-08 12:32:08 Engine Notifying player 2 of last move
+05-08 12:32:08 Engine Finished processing player 1's move
+05-08 12:32:08 Engine Processing move #16
+05-08 12:32:08 Engine Getting move from player 2
+05-08 12:32:08 -+-+-+-THX1138  0 win; 13 kill; 45 other.
+05-08 12:32:08 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[1, 0]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 2's move
+05-08 12:32:09 Engine Processing move #17
+05-08 12:32:09 Engine Getting move from player 1
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=1, stack=3, size=2, start=[-1, -1], end=[1, 3]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 1's move
+05-08 12:32:09 Engine Processing move #18
+05-08 12:32:09 Engine Getting move from player 2
+05-08 12:32:09 -+-+-+-THX1138  0 win; 15 kill; 41 other.
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[2, 2], end=[0, 0]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 2's move
+05-08 12:32:09 Engine Processing move #19
+05-08 12:32:09 Engine Getting move from player 1
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=1, stack=1, size=1, start=[-1, -1], end=[2, 2]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 1's move
+05-08 12:32:09 Engine Processing move #20
+05-08 12:32:09 Engine Getting move from player 2
+05-08 12:32:09 -+-+-+-THX1138  0 win; 30 kill; 30 other.
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 2's move
+05-08 12:32:09 Engine Processing move #21
+05-08 12:32:09 Engine Getting move from player 1
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=1, stack=2, size=1, start=[-1, -1], end=[2, 0]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 1's move
+05-08 12:32:09 Engine Processing move #22
+05-08 12:32:09 Engine Getting move from player 2
+05-08 12:32:09 -+-+-+-THX1138  0 win; 38 kill; 22 other.
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 2's move
+05-08 12:32:09 Engine Processing move #23
+05-08 12:32:09 Engine Getting move from player 1
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=1, stack=3, size=1, start=[-1, -1], end=[3, 0]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 1's move
+05-08 12:32:09 Engine Processing move #24
+05-08 12:32:09 Engine Getting move from player 2
+05-08 12:32:09 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 2's move
+05-08 12:32:09 Engine Processing move #25
+05-08 12:32:09 Engine Getting move from player 1
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 1's move
+05-08 12:32:09 Engine Processing move #26
+05-08 12:32:09 Engine Getting move from player 2
+05-08 12:32:09 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 2's move
+05-08 12:32:09 Engine Processing move #27
+05-08 12:32:09 Engine Getting move from player 1
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 1's move
+05-08 12:32:09 Engine Processing move #28
+05-08 12:32:09 Engine Getting move from player 2
+05-08 12:32:09 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 2's move
+05-08 12:32:09 Engine Processing move #29
+05-08 12:32:09 Engine Getting move from player 1
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 1's move
+05-08 12:32:09 Engine Processing move #30
+05-08 12:32:09 Engine Getting move from player 2
+05-08 12:32:09 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 2's move
+05-08 12:32:09 Engine Processing move #31
+05-08 12:32:09 Engine Getting move from player 1
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 1's move
+05-08 12:32:09 Engine Processing move #32
+05-08 12:32:09 Engine Getting move from player 2
+05-08 12:32:09 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 2's move
+05-08 12:32:09 Engine Processing move #33
+05-08 12:32:09 Engine Getting move from player 1
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 1's move
+05-08 12:32:09 Engine Processing move #34
+05-08 12:32:09 Engine Getting move from player 2
+05-08 12:32:09 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 2's move
+05-08 12:32:09 Engine Processing move #35
+05-08 12:32:09 Engine Getting move from player 1
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 1's move
+05-08 12:32:09 Engine Processing move #36
+05-08 12:32:09 Engine Getting move from player 2
+05-08 12:32:09 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 2's move
+05-08 12:32:09 Engine Processing move #37
+05-08 12:32:09 Engine Getting move from player 1
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 1's move
+05-08 12:32:09 Engine Processing move #38
+05-08 12:32:09 Engine Getting move from player 2
+05-08 12:32:09 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 2's move
+05-08 12:32:09 Engine Processing move #39
+05-08 12:32:09 Engine Getting move from player 1
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:09 Engine Move validated. Notifying other players
+05-08 12:32:09 Engine Notifying player 1 of last move
+05-08 12:32:09 Engine Notifying player 2 of last move
+05-08 12:32:09 Engine Finished processing player 1's move
+05-08 12:32:09 Engine Processing move #40
+05-08 12:32:09 Engine Getting move from player 2
+05-08 12:32:09 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:09 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 2's move
+05-08 12:32:10 Engine Processing move #41
+05-08 12:32:10 Engine Getting move from player 1
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 1's move
+05-08 12:32:10 Engine Processing move #42
+05-08 12:32:10 Engine Getting move from player 2
+05-08 12:32:10 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 2's move
+05-08 12:32:10 Engine Processing move #43
+05-08 12:32:10 Engine Getting move from player 1
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 1's move
+05-08 12:32:10 Engine Processing move #44
+05-08 12:32:10 Engine Getting move from player 2
+05-08 12:32:10 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 2's move
+05-08 12:32:10 Engine Processing move #45
+05-08 12:32:10 Engine Getting move from player 1
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 1's move
+05-08 12:32:10 Engine Processing move #46
+05-08 12:32:10 Engine Getting move from player 2
+05-08 12:32:10 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 2's move
+05-08 12:32:10 Engine Processing move #47
+05-08 12:32:10 Engine Getting move from player 1
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 1's move
+05-08 12:32:10 Engine Processing move #48
+05-08 12:32:10 Engine Getting move from player 2
+05-08 12:32:10 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 2's move
+05-08 12:32:10 Engine Processing move #49
+05-08 12:32:10 Engine Getting move from player 1
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 1's move
+05-08 12:32:10 Engine Processing move #50
+05-08 12:32:10 Engine Getting move from player 2
+05-08 12:32:10 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 2's move
+05-08 12:32:10 Engine Processing move #51
+05-08 12:32:10 Engine Getting move from player 1
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 1's move
+05-08 12:32:10 Engine Processing move #52
+05-08 12:32:10 Engine Getting move from player 2
+05-08 12:32:10 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 2's move
+05-08 12:32:10 Engine Processing move #53
+05-08 12:32:10 Engine Getting move from player 1
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 1's move
+05-08 12:32:10 Engine Processing move #54
+05-08 12:32:10 Engine Getting move from player 2
+05-08 12:32:10 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 2's move
+05-08 12:32:10 Engine Processing move #55
+05-08 12:32:10 Engine Getting move from player 1
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 1's move
+05-08 12:32:10 Engine Processing move #56
+05-08 12:32:10 Engine Getting move from player 2
+05-08 12:32:10 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 2's move
+05-08 12:32:10 Engine Processing move #57
+05-08 12:32:10 Engine Getting move from player 1
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 1's move
+05-08 12:32:10 Engine Processing move #58
+05-08 12:32:10 Engine Getting move from player 2
+05-08 12:32:10 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 2's move
+05-08 12:32:10 Engine Processing move #59
+05-08 12:32:10 Engine Getting move from player 1
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 1's move
+05-08 12:32:10 Engine Processing move #60
+05-08 12:32:10 Engine Getting move from player 2
+05-08 12:32:10 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 2's move
+05-08 12:32:10 Engine Processing move #61
+05-08 12:32:10 Engine Getting move from player 1
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:10 Engine Move validated. Notifying other players
+05-08 12:32:10 Engine Notifying player 1 of last move
+05-08 12:32:10 Engine Notifying player 2 of last move
+05-08 12:32:10 Engine Finished processing player 1's move
+05-08 12:32:10 Engine Processing move #62
+05-08 12:32:10 Engine Getting move from player 2
+05-08 12:32:10 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:10 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 2's move
+05-08 12:32:11 Engine Processing move #63
+05-08 12:32:11 Engine Getting move from player 1
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 1's move
+05-08 12:32:11 Engine Processing move #64
+05-08 12:32:11 Engine Getting move from player 2
+05-08 12:32:11 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 2's move
+05-08 12:32:11 Engine Processing move #65
+05-08 12:32:11 Engine Getting move from player 1
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 1's move
+05-08 12:32:11 Engine Processing move #66
+05-08 12:32:11 Engine Getting move from player 2
+05-08 12:32:11 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 2's move
+05-08 12:32:11 Engine Processing move #67
+05-08 12:32:11 Engine Getting move from player 1
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 1's move
+05-08 12:32:11 Engine Processing move #68
+05-08 12:32:11 Engine Getting move from player 2
+05-08 12:32:11 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 2's move
+05-08 12:32:11 Engine Processing move #69
+05-08 12:32:11 Engine Getting move from player 1
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 1's move
+05-08 12:32:11 Engine Processing move #70
+05-08 12:32:11 Engine Getting move from player 2
+05-08 12:32:11 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 2's move
+05-08 12:32:11 Engine Processing move #71
+05-08 12:32:11 Engine Getting move from player 1
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 1's move
+05-08 12:32:11 Engine Processing move #72
+05-08 12:32:11 Engine Getting move from player 2
+05-08 12:32:11 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 2's move
+05-08 12:32:11 Engine Processing move #73
+05-08 12:32:11 Engine Getting move from player 1
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 1's move
+05-08 12:32:11 Engine Processing move #74
+05-08 12:32:11 Engine Getting move from player 2
+05-08 12:32:11 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 2's move
+05-08 12:32:11 Engine Processing move #75
+05-08 12:32:11 Engine Getting move from player 1
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 1's move
+05-08 12:32:11 Engine Processing move #76
+05-08 12:32:11 Engine Getting move from player 2
+05-08 12:32:11 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 2's move
+05-08 12:32:11 Engine Processing move #77
+05-08 12:32:11 Engine Getting move from player 1
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 1's move
+05-08 12:32:11 Engine Processing move #78
+05-08 12:32:11 Engine Getting move from player 2
+05-08 12:32:11 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 2's move
+05-08 12:32:11 Engine Processing move #79
+05-08 12:32:11 Engine Getting move from player 1
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 1's move
+05-08 12:32:11 Engine Processing move #80
+05-08 12:32:11 Engine Getting move from player 2
+05-08 12:32:11 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 2's move
+05-08 12:32:11 Engine Processing move #81
+05-08 12:32:11 Engine Getting move from player 1
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 1's move
+05-08 12:32:11 Engine Processing move #82
+05-08 12:32:11 Engine Getting move from player 2
+05-08 12:32:11 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 2's move
+05-08 12:32:11 Engine Processing move #83
+05-08 12:32:11 Engine Getting move from player 1
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:11 Engine Move validated. Notifying other players
+05-08 12:32:11 Engine Notifying player 1 of last move
+05-08 12:32:11 Engine Notifying player 2 of last move
+05-08 12:32:11 Engine Finished processing player 1's move
+05-08 12:32:11 Engine Processing move #84
+05-08 12:32:11 Engine Getting move from player 2
+05-08 12:32:11 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:11 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 2's move
+05-08 12:32:12 Engine Processing move #85
+05-08 12:32:12 Engine Getting move from player 1
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 1's move
+05-08 12:32:12 Engine Processing move #86
+05-08 12:32:12 Engine Getting move from player 2
+05-08 12:32:12 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 2's move
+05-08 12:32:12 Engine Processing move #87
+05-08 12:32:12 Engine Getting move from player 1
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 1's move
+05-08 12:32:12 Engine Processing move #88
+05-08 12:32:12 Engine Getting move from player 2
+05-08 12:32:12 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 2's move
+05-08 12:32:12 Engine Processing move #89
+05-08 12:32:12 Engine Getting move from player 1
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 1's move
+05-08 12:32:12 Engine Processing move #90
+05-08 12:32:12 Engine Getting move from player 2
+05-08 12:32:12 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 2's move
+05-08 12:32:12 Engine Processing move #91
+05-08 12:32:12 Engine Getting move from player 1
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 1's move
+05-08 12:32:12 Engine Processing move #92
+05-08 12:32:12 Engine Getting move from player 2
+05-08 12:32:12 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 2's move
+05-08 12:32:12 Engine Processing move #93
+05-08 12:32:12 Engine Getting move from player 1
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 1's move
+05-08 12:32:12 Engine Processing move #94
+05-08 12:32:12 Engine Getting move from player 2
+05-08 12:32:12 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 2's move
+05-08 12:32:12 Engine Processing move #95
+05-08 12:32:12 Engine Getting move from player 1
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 1's move
+05-08 12:32:12 Engine Processing move #96
+05-08 12:32:12 Engine Getting move from player 2
+05-08 12:32:12 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 2's move
+05-08 12:32:12 Engine Processing move #97
+05-08 12:32:12 Engine Getting move from player 1
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 1's move
+05-08 12:32:12 Engine Processing move #98
+05-08 12:32:12 Engine Getting move from player 2
+05-08 12:32:12 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 2's move
+05-08 12:32:12 Engine Processing move #99
+05-08 12:32:12 Engine Getting move from player 1
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 1's move
+05-08 12:32:12 Engine Processing move #100
+05-08 12:32:12 Engine Getting move from player 2
+05-08 12:32:12 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 2's move
+05-08 12:32:12 Engine Processing move #101
+05-08 12:32:12 Engine Getting move from player 1
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 1's move
+05-08 12:32:12 Engine Processing move #102
+05-08 12:32:12 Engine Getting move from player 2
+05-08 12:32:12 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 2's move
+05-08 12:32:12 Engine Processing move #103
+05-08 12:32:12 Engine Getting move from player 1
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:12 Engine Move validated. Notifying other players
+05-08 12:32:12 Engine Notifying player 1 of last move
+05-08 12:32:12 Engine Notifying player 2 of last move
+05-08 12:32:12 Engine Finished processing player 1's move
+05-08 12:32:12 Engine Processing move #104
+05-08 12:32:12 Engine Getting move from player 2
+05-08 12:32:12 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:12 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 2's move
+05-08 12:32:13 Engine Processing move #105
+05-08 12:32:13 Engine Getting move from player 1
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 1's move
+05-08 12:32:13 Engine Processing move #106
+05-08 12:32:13 Engine Getting move from player 2
+05-08 12:32:13 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 2's move
+05-08 12:32:13 Engine Processing move #107
+05-08 12:32:13 Engine Getting move from player 1
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 1's move
+05-08 12:32:13 Engine Processing move #108
+05-08 12:32:13 Engine Getting move from player 2
+05-08 12:32:13 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 2's move
+05-08 12:32:13 Engine Processing move #109
+05-08 12:32:13 Engine Getting move from player 1
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 1's move
+05-08 12:32:13 Engine Processing move #110
+05-08 12:32:13 Engine Getting move from player 2
+05-08 12:32:13 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 2's move
+05-08 12:32:13 Engine Processing move #111
+05-08 12:32:13 Engine Getting move from player 1
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 1's move
+05-08 12:32:13 Engine Processing move #112
+05-08 12:32:13 Engine Getting move from player 2
+05-08 12:32:13 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 2's move
+05-08 12:32:13 Engine Processing move #113
+05-08 12:32:13 Engine Getting move from player 1
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 1's move
+05-08 12:32:13 Engine Processing move #114
+05-08 12:32:13 Engine Getting move from player 2
+05-08 12:32:13 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 2's move
+05-08 12:32:13 Engine Processing move #115
+05-08 12:32:13 Engine Getting move from player 1
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 1's move
+05-08 12:32:13 Engine Processing move #116
+05-08 12:32:13 Engine Getting move from player 2
+05-08 12:32:13 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 2's move
+05-08 12:32:13 Engine Processing move #117
+05-08 12:32:13 Engine Getting move from player 1
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 1's move
+05-08 12:32:13 Engine Processing move #118
+05-08 12:32:13 Engine Getting move from player 2
+05-08 12:32:13 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 2's move
+05-08 12:32:13 Engine Processing move #119
+05-08 12:32:13 Engine Getting move from player 1
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 1's move
+05-08 12:32:13 Engine Processing move #120
+05-08 12:32:13 Engine Getting move from player 2
+05-08 12:32:13 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 2's move
+05-08 12:32:13 Engine Processing move #121
+05-08 12:32:13 Engine Getting move from player 1
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 1's move
+05-08 12:32:13 Engine Processing move #122
+05-08 12:32:13 Engine Getting move from player 2
+05-08 12:32:13 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:13 Engine Move validated. Notifying other players
+05-08 12:32:13 Engine Notifying player 1 of last move
+05-08 12:32:13 Engine Notifying player 2 of last move
+05-08 12:32:13 Engine Finished processing player 2's move
+05-08 12:32:13 Engine Processing move #123
+05-08 12:32:13 Engine Getting move from player 1
+05-08 12:32:13 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 1's move
+05-08 12:32:14 Engine Processing move #124
+05-08 12:32:14 Engine Getting move from player 2
+05-08 12:32:14 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 2's move
+05-08 12:32:14 Engine Processing move #125
+05-08 12:32:14 Engine Getting move from player 1
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 1's move
+05-08 12:32:14 Engine Processing move #126
+05-08 12:32:14 Engine Getting move from player 2
+05-08 12:32:14 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 2's move
+05-08 12:32:14 Engine Processing move #127
+05-08 12:32:14 Engine Getting move from player 1
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 1's move
+05-08 12:32:14 Engine Processing move #128
+05-08 12:32:14 Engine Getting move from player 2
+05-08 12:32:14 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 2's move
+05-08 12:32:14 Engine Processing move #129
+05-08 12:32:14 Engine Getting move from player 1
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 1's move
+05-08 12:32:14 Engine Processing move #130
+05-08 12:32:14 Engine Getting move from player 2
+05-08 12:32:14 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 2's move
+05-08 12:32:14 Engine Processing move #131
+05-08 12:32:14 Engine Getting move from player 1
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 1's move
+05-08 12:32:14 Engine Processing move #132
+05-08 12:32:14 Engine Getting move from player 2
+05-08 12:32:14 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 2's move
+05-08 12:32:14 Engine Processing move #133
+05-08 12:32:14 Engine Getting move from player 1
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 1's move
+05-08 12:32:14 Engine Processing move #134
+05-08 12:32:14 Engine Getting move from player 2
+05-08 12:32:14 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 2's move
+05-08 12:32:14 Engine Processing move #135
+05-08 12:32:14 Engine Getting move from player 1
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 1's move
+05-08 12:32:14 Engine Processing move #136
+05-08 12:32:14 Engine Getting move from player 2
+05-08 12:32:14 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 2's move
+05-08 12:32:14 Engine Processing move #137
+05-08 12:32:14 Engine Getting move from player 1
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 1's move
+05-08 12:32:14 Engine Processing move #138
+05-08 12:32:14 Engine Getting move from player 2
+05-08 12:32:14 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 2's move
+05-08 12:32:14 Engine Processing move #139
+05-08 12:32:14 Engine Getting move from player 1
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 1's move
+05-08 12:32:14 Engine Processing move #140
+05-08 12:32:14 Engine Getting move from player 2
+05-08 12:32:14 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:14 Engine Move validated. Notifying other players
+05-08 12:32:14 Engine Notifying player 1 of last move
+05-08 12:32:14 Engine Notifying player 2 of last move
+05-08 12:32:14 Engine Finished processing player 2's move
+05-08 12:32:14 Engine Processing move #141
+05-08 12:32:14 Engine Getting move from player 1
+05-08 12:32:14 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 1's move
+05-08 12:32:15 Engine Processing move #142
+05-08 12:32:15 Engine Getting move from player 2
+05-08 12:32:15 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 2's move
+05-08 12:32:15 Engine Processing move #143
+05-08 12:32:15 Engine Getting move from player 1
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 1's move
+05-08 12:32:15 Engine Processing move #144
+05-08 12:32:15 Engine Getting move from player 2
+05-08 12:32:15 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 2's move
+05-08 12:32:15 Engine Processing move #145
+05-08 12:32:15 Engine Getting move from player 1
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 1's move
+05-08 12:32:15 Engine Processing move #146
+05-08 12:32:15 Engine Getting move from player 2
+05-08 12:32:15 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 2's move
+05-08 12:32:15 Engine Processing move #147
+05-08 12:32:15 Engine Getting move from player 1
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 1's move
+05-08 12:32:15 Engine Processing move #148
+05-08 12:32:15 Engine Getting move from player 2
+05-08 12:32:15 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 2's move
+05-08 12:32:15 Engine Processing move #149
+05-08 12:32:15 Engine Getting move from player 1
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 1's move
+05-08 12:32:15 Engine Processing move #150
+05-08 12:32:15 Engine Getting move from player 2
+05-08 12:32:15 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 2's move
+05-08 12:32:15 Engine Processing move #151
+05-08 12:32:15 Engine Getting move from player 1
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 1's move
+05-08 12:32:15 Engine Processing move #152
+05-08 12:32:15 Engine Getting move from player 2
+05-08 12:32:15 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 2's move
+05-08 12:32:15 Engine Processing move #153
+05-08 12:32:15 Engine Getting move from player 1
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 1's move
+05-08 12:32:15 Engine Processing move #154
+05-08 12:32:15 Engine Getting move from player 2
+05-08 12:32:15 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 2's move
+05-08 12:32:15 Engine Processing move #155
+05-08 12:32:15 Engine Getting move from player 1
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 1's move
+05-08 12:32:15 Engine Processing move #156
+05-08 12:32:15 Engine Getting move from player 2
+05-08 12:32:15 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 2's move
+05-08 12:32:15 Engine Processing move #157
+05-08 12:32:15 Engine Getting move from player 1
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:15 Engine Move validated. Notifying other players
+05-08 12:32:15 Engine Notifying player 1 of last move
+05-08 12:32:15 Engine Notifying player 2 of last move
+05-08 12:32:15 Engine Finished processing player 1's move
+05-08 12:32:15 Engine Processing move #158
+05-08 12:32:15 Engine Getting move from player 2
+05-08 12:32:15 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:15 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 2's move
+05-08 12:32:16 Engine Processing move #159
+05-08 12:32:16 Engine Getting move from player 1
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 1's move
+05-08 12:32:16 Engine Processing move #160
+05-08 12:32:16 Engine Getting move from player 2
+05-08 12:32:16 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 2's move
+05-08 12:32:16 Engine Processing move #161
+05-08 12:32:16 Engine Getting move from player 1
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 1's move
+05-08 12:32:16 Engine Processing move #162
+05-08 12:32:16 Engine Getting move from player 2
+05-08 12:32:16 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 2's move
+05-08 12:32:16 Engine Processing move #163
+05-08 12:32:16 Engine Getting move from player 1
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 1's move
+05-08 12:32:16 Engine Processing move #164
+05-08 12:32:16 Engine Getting move from player 2
+05-08 12:32:16 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 2's move
+05-08 12:32:16 Engine Processing move #165
+05-08 12:32:16 Engine Getting move from player 1
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 1's move
+05-08 12:32:16 Engine Processing move #166
+05-08 12:32:16 Engine Getting move from player 2
+05-08 12:32:16 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 2's move
+05-08 12:32:16 Engine Processing move #167
+05-08 12:32:16 Engine Getting move from player 1
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 1's move
+05-08 12:32:16 Engine Processing move #168
+05-08 12:32:16 Engine Getting move from player 2
+05-08 12:32:16 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 2's move
+05-08 12:32:16 Engine Processing move #169
+05-08 12:32:16 Engine Getting move from player 1
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 1's move
+05-08 12:32:16 Engine Processing move #170
+05-08 12:32:16 Engine Getting move from player 2
+05-08 12:32:16 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 2's move
+05-08 12:32:16 Engine Processing move #171
+05-08 12:32:16 Engine Getting move from player 1
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 1's move
+05-08 12:32:16 Engine Processing move #172
+05-08 12:32:16 Engine Getting move from player 2
+05-08 12:32:16 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 2's move
+05-08 12:32:16 Engine Processing move #173
+05-08 12:32:16 Engine Getting move from player 1
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 1's move
+05-08 12:32:16 Engine Processing move #174
+05-08 12:32:16 Engine Getting move from player 2
+05-08 12:32:16 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:16 Engine Move validated. Notifying other players
+05-08 12:32:16 Engine Notifying player 1 of last move
+05-08 12:32:16 Engine Notifying player 2 of last move
+05-08 12:32:16 Engine Finished processing player 2's move
+05-08 12:32:16 Engine Processing move #175
+05-08 12:32:16 Engine Getting move from player 1
+05-08 12:32:16 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:17 Engine Move validated. Notifying other players
+05-08 12:32:17 Engine Notifying player 1 of last move
+05-08 12:32:17 Engine Notifying player 2 of last move
+05-08 12:32:17 Engine Finished processing player 1's move
+05-08 12:32:17 Engine Processing move #176
+05-08 12:32:17 Engine Getting move from player 2
+05-08 12:32:17 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:17 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:17 Engine Move validated. Notifying other players
+05-08 12:32:17 Engine Notifying player 1 of last move
+05-08 12:32:17 Engine Notifying player 2 of last move
+05-08 12:32:17 Engine Finished processing player 2's move
+05-08 12:32:17 Engine Processing move #177
+05-08 12:32:17 Engine Getting move from player 1
+05-08 12:32:17 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:17 Engine Move validated. Notifying other players
+05-08 12:32:17 Engine Notifying player 1 of last move
+05-08 12:32:17 Engine Notifying player 2 of last move
+05-08 12:32:17 Engine Finished processing player 1's move
+05-08 12:32:17 Engine Processing move #178
+05-08 12:32:17 Engine Getting move from player 2
+05-08 12:32:17 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:17 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:17 Engine Move validated. Notifying other players
+05-08 12:32:17 Engine Notifying player 1 of last move
+05-08 12:32:17 Engine Notifying player 2 of last move
+05-08 12:32:17 Engine Finished processing player 2's move
+05-08 12:32:17 Engine Processing move #179
+05-08 12:32:17 Engine Getting move from player 1
+05-08 12:32:17 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:17 Engine Move validated. Notifying other players
+05-08 12:32:17 Engine Notifying player 1 of last move
+05-08 12:32:17 Engine Notifying player 2 of last move
+05-08 12:32:17 Engine Finished processing player 1's move
+05-08 12:32:17 Engine Processing move #180
+05-08 12:32:17 Engine Getting move from player 2
+05-08 12:32:17 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:17 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:17 Engine Move validated. Notifying other players
+05-08 12:32:17 Engine Notifying player 1 of last move
+05-08 12:32:17 Engine Notifying player 2 of last move
+05-08 12:32:17 Engine Finished processing player 2's move
+05-08 12:32:17 Engine Processing move #181
+05-08 12:32:17 Engine Getting move from player 1
+05-08 12:32:17 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:17 Engine Move validated. Notifying other players
+05-08 12:32:17 Engine Notifying player 1 of last move
+05-08 12:32:17 Engine Notifying player 2 of last move
+05-08 12:32:17 Engine Finished processing player 1's move
+05-08 12:32:17 Engine Processing move #182
+05-08 12:32:17 Engine Getting move from player 2
+05-08 12:32:17 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:17 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:17 Engine Move validated. Notifying other players
+05-08 12:32:17 Engine Notifying player 1 of last move
+05-08 12:32:17 Engine Notifying player 2 of last move
+05-08 12:32:17 Engine Finished processing player 2's move
+05-08 12:32:17 Engine Processing move #183
+05-08 12:32:17 Engine Getting move from player 1
+05-08 12:32:17 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:17 Engine Move validated. Notifying other players
+05-08 12:32:17 Engine Notifying player 1 of last move
+05-08 12:32:17 Engine Notifying player 2 of last move
+05-08 12:32:17 Engine Finished processing player 1's move
+05-08 12:32:17 Engine Processing move #184
+05-08 12:32:17 Engine Getting move from player 2
+05-08 12:32:17 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:17 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:17 Engine Move validated. Notifying other players
+05-08 12:32:17 Engine Notifying player 1 of last move
+05-08 12:32:17 Engine Notifying player 2 of last move
+05-08 12:32:17 Engine Finished processing player 2's move
+05-08 12:32:17 Engine Processing move #185
+05-08 12:32:17 Engine Getting move from player 1
+05-08 12:32:17 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:17 Engine Move validated. Notifying other players
+05-08 12:32:17 Engine Notifying player 1 of last move
+05-08 12:32:17 Engine Notifying player 2 of last move
+05-08 12:32:17 Engine Finished processing player 1's move
+05-08 12:32:17 Engine Processing move #186
+05-08 12:32:17 Engine Getting move from player 2
+05-08 12:32:17 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:17 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:17 Engine Move validated. Notifying other players
+05-08 12:32:17 Engine Notifying player 1 of last move
+05-08 12:32:17 Engine Notifying player 2 of last move
+05-08 12:32:17 Engine Finished processing player 2's move
+05-08 12:32:17 Engine Processing move #187
+05-08 12:32:17 Engine Getting move from player 1
+05-08 12:32:17 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:17 Engine Move validated. Notifying other players
+05-08 12:32:17 Engine Notifying player 1 of last move
+05-08 12:32:17 Engine Notifying player 2 of last move
+05-08 12:32:17 Engine Finished processing player 1's move
+05-08 12:32:17 Engine Processing move #188
+05-08 12:32:17 Engine Getting move from player 2
+05-08 12:32:17 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:17 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:17 Engine Move validated. Notifying other players
+05-08 12:32:17 Engine Notifying player 1 of last move
+05-08 12:32:17 Engine Notifying player 2 of last move
+05-08 12:32:17 Engine Finished processing player 2's move
+05-08 12:32:17 Engine Processing move #189
+05-08 12:32:17 Engine Getting move from player 1
+05-08 12:32:17 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:17 Engine Move validated. Notifying other players
+05-08 12:32:17 Engine Notifying player 1 of last move
+05-08 12:32:17 Engine Notifying player 2 of last move
+05-08 12:32:17 Engine Finished processing player 1's move
+05-08 12:32:17 Engine Processing move #190
+05-08 12:32:17 Engine Getting move from player 2
+05-08 12:32:17 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:17 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:17 Engine Move validated. Notifying other players
+05-08 12:32:17 Engine Notifying player 1 of last move
+05-08 12:32:17 Engine Notifying player 2 of last move
+05-08 12:32:17 Engine Finished processing player 2's move
+05-08 12:32:17 Engine Processing move #191
+05-08 12:32:17 Engine Getting move from player 1
+05-08 12:32:17 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:18 Engine Move validated. Notifying other players
+05-08 12:32:18 Engine Notifying player 1 of last move
+05-08 12:32:18 Engine Notifying player 2 of last move
+05-08 12:32:18 Engine Finished processing player 1's move
+05-08 12:32:18 Engine Processing move #192
+05-08 12:32:18 Engine Getting move from player 2
+05-08 12:32:18 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:18 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:18 Engine Move validated. Notifying other players
+05-08 12:32:18 Engine Notifying player 1 of last move
+05-08 12:32:18 Engine Notifying player 2 of last move
+05-08 12:32:18 Engine Finished processing player 2's move
+05-08 12:32:18 Engine Processing move #193
+05-08 12:32:18 Engine Getting move from player 1
+05-08 12:32:18 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:18 Engine Move validated. Notifying other players
+05-08 12:32:18 Engine Notifying player 1 of last move
+05-08 12:32:18 Engine Notifying player 2 of last move
+05-08 12:32:18 Engine Finished processing player 1's move
+05-08 12:32:18 Engine Processing move #194
+05-08 12:32:18 Engine Getting move from player 2
+05-08 12:32:18 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:18 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:18 Engine Move validated. Notifying other players
+05-08 12:32:18 Engine Notifying player 1 of last move
+05-08 12:32:18 Engine Notifying player 2 of last move
+05-08 12:32:18 Engine Finished processing player 2's move
+05-08 12:32:18 Engine Processing move #195
+05-08 12:32:18 Engine Getting move from player 1
+05-08 12:32:18 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:18 Engine Move validated. Notifying other players
+05-08 12:32:18 Engine Notifying player 1 of last move
+05-08 12:32:18 Engine Notifying player 2 of last move
+05-08 12:32:18 Engine Finished processing player 1's move
+05-08 12:32:18 Engine Processing move #196
+05-08 12:32:18 Engine Getting move from player 2
+05-08 12:32:18 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:18 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:18 Engine Move validated. Notifying other players
+05-08 12:32:18 Engine Notifying player 1 of last move
+05-08 12:32:18 Engine Notifying player 2 of last move
+05-08 12:32:18 Engine Finished processing player 2's move
+05-08 12:32:18 Engine Processing move #197
+05-08 12:32:18 Engine Getting move from player 1
+05-08 12:32:18 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:18 Engine Move validated. Notifying other players
+05-08 12:32:18 Engine Notifying player 1 of last move
+05-08 12:32:18 Engine Notifying player 2 of last move
+05-08 12:32:18 Engine Finished processing player 1's move
+05-08 12:32:18 Engine Processing move #198
+05-08 12:32:18 Engine Getting move from player 2
+05-08 12:32:18 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:18 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:18 Engine Move validated. Notifying other players
+05-08 12:32:18 Engine Notifying player 1 of last move
+05-08 12:32:18 Engine Notifying player 2 of last move
+05-08 12:32:18 Engine Finished processing player 2's move
+05-08 12:32:18 Engine Processing move #199
+05-08 12:32:18 Engine Getting move from player 1
+05-08 12:32:18 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:18 Engine Move validated. Notifying other players
+05-08 12:32:18 Engine Notifying player 1 of last move
+05-08 12:32:18 Engine Notifying player 2 of last move
+05-08 12:32:18 Engine Finished processing player 1's move
+05-08 12:32:18 Engine Processing move #200
+05-08 12:32:18 Engine Getting move from player 2
+05-08 12:32:18 -+-+-+-THX1138  0 win; 35 kill; 25 other.
+05-08 12:32:18 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 0], end=[0, 1]]
+05-08 12:32:18 Engine Move validated. Notifying other players
+05-08 12:32:18 Engine Notifying player 1 of last move
+05-08 12:32:18 Engine Notifying player 2 of last move
+05-08 12:32:18 Engine Finished processing player 2's move
+05-08 12:32:18 Engine Processing move #201
+05-08 12:32:18 Engine Getting move from player 1
+05-08 12:32:18 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[2, 1], end=[3, 1]]
+05-08 12:32:18 Engine Move validated. Notifying other players
+05-08 12:32:18 Engine Notifying player 1 of last move
+05-08 12:32:18 Engine Notifying player 2 of last move
+05-08 12:32:18 Engine Finished processing player 1's move
+05-08 12:32:18 Engine Processing move #202
+05-08 12:32:18 Engine Getting move from player 2
+05-08 12:32:18 -+-+-+-THX1138  0 win; 42 kill; 18 other.
+05-08 12:32:18 Engine Validating move: PlayerMove [playerId=2, stack=0, size=4, start=[0, 1], end=[0, 0]]
+05-08 12:32:18 Model  Error: Maximum number of moves made
+05-08 12:32:18 Engine Invalidating player 2
+05-08 12:32:18 Engine Notifying player 1 that player 2 was invalidated
+05-08 12:32:18 Engine Finished processing player 2's move
+05-08 12:32:18 Engine Processing move #203
+05-08 12:32:18 Engine Getting move from player 1
+05-08 12:32:18 Engine Validating move: PlayerMove [playerId=1, stack=0, size=4, start=[3, 1], end=[2, 1]]
+05-08 12:32:18 Model  Error: Maximum number of moves made
+05-08 12:32:18 Engine Invalidating player 1
+05-08 12:32:18 Engine Finished processing player 1's move
+05-08 12:32:18 Engine Game has ended

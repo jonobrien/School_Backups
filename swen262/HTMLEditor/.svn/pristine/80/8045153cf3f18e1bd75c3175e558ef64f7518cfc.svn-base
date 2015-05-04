@@ -1,0 +1,16 @@
+package main;
+
+/**
+ * @author dnd7249
+ * 
+ * Jon was here
+ */
+
+import javax.swing.*;
+
+public class CommandCenter {
+	public void addTab(JTabbedPane tabs){
+		tabs.addTab("Another tab", null, null);
+	}
+}
+

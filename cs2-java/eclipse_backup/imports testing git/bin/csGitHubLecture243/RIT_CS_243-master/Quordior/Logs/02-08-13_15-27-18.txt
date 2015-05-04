@@ -1,0 +1,107 @@
+2013-02-08 15:27:18.727209: ENGINE starting
+2013-02-08 15:27:18.727981: ENGINE loading STUDENT ENGINE part 4
+2013-02-08 15:27:18.732808: ENGINE loaded player module: OKComputer as player 1
+2013-02-08 15:27:18.733158: ENGINE loaded player module: OKComputer as player 2
+2013-02-08 15:27:18.733413: ENGINE loaded player module: OKComputer as player 3
+2013-02-08 15:27:18.733717: ENGINE loaded player module: OKComputer as player 4
+2013-02-08 15:27:18.734006: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-08 15:27:21.056273: ENGINE calling STUDENT ENGINE init
+2013-02-08 15:27:21.056633: STUDENT ENGINE init call successfully returned
+2013-02-08 15:27:21.056921: ENGINE calling init() for player 1
+2013-02-08 15:27:21.057122: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-08 15:27:21.058032: OKComputer initialized as player 1
+2013-02-08 15:27:21.058246: STUDENT ENGINE initialize_player call successfully returned
+2013-02-08 15:27:21.058455: ENGINE calling init() for player 2
+2013-02-08 15:27:21.058660: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-08 15:27:21.059417: OKComputer initialized as player 2
+2013-02-08 15:27:21.059626: STUDENT ENGINE initialize_player call successfully returned
+2013-02-08 15:27:21.059834: ENGINE calling init() for player 3
+2013-02-08 15:27:21.060047: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-08 15:27:21.060869: OKComputer initialized as player 3
+2013-02-08 15:27:21.061056: STUDENT ENGINE initialize_player call successfully returned
+2013-02-08 15:27:21.061238: ENGINE calling init() for player 4
+2013-02-08 15:27:21.061416: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-08 15:27:21.062130: OKComputer initialized as player 4
+2013-02-08 15:27:21.062313: STUDENT ENGINE initialize_player call successfully returned
+2013-02-08 15:27:21.225015: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/animations.500/partone.0/public.383f0e030f6d4ccd13e4c984fbed82ff4ecc995b51155fa908158/gameid.110944/apikey.820d60943005a0935c8/
+2013-02-08 15:27:21.226018: ENGINE calling STUDENT ENGINE generate_board
+2013-02-08 15:27:22.254134: ENGINE uploading move to web engine
+2013-02-08 15:27:23.230571: ENGINE uploading move to web engine
+2013-02-08 15:27:23.850987: ENGINE uploading move to web engine
+2013-02-08 15:27:24.195523: ENGINE uploading move to web engine
+2013-02-08 15:27:24.498547: This wall causes and intersection at 7.0, 2.0
+2013-02-08 15:27:24.499304: This wall causes and intersection at 2.0, 7.0
+2013-02-08 15:27:24.499599: This wall causes and intersection at 2.0, 2.0
+2013-02-08 15:27:24.500157: This wall causes and intersection at 7.0, 7.0
+2013-02-08 15:27:25.823027: ENGINE uploading move to web engine
+2013-02-08 15:27:26.266306: ENGINE uploading move to web engine
+2013-02-08 15:27:26.864286: ENGINE uploading move to web engine
+2013-02-08 15:27:27.292491: ENGINE uploading move to web engine
+2013-02-08 15:27:27.635976: Wall 6, 0, 8, 0 is along the edge
+2013-02-08 15:27:27.636352: Wall 1, 9, 3, 9 is along the edge
+2013-02-08 15:27:27.636589: Wall 0, 3, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-08 15:27:27.637001: Wall 9, 6, 9, 8 is along the edge
+2013-02-08 15:27:27.637313: This wall causes and intersection at 7.0, 2.0
+2013-02-08 15:27:27.637560: This wall causes and intersection at 2.0, 7.0
+2013-02-08 15:27:27.637794: Wall 2, 3, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-08 15:27:27.638025: This wall causes and intersection at 7.0, 7.0
+2013-02-08 15:27:27.638577: Wall 6, 0, 8, 0 is along the edge
+2013-02-08 15:27:27.638812: Wall 1, 9, 3, 9 is along the edge
+2013-02-08 15:27:27.639027: Wall 0, 3, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-08 15:27:27.639251: Wall 9, 6, 9, 8 is along the edge
+2013-02-08 15:27:28.281935: Wall 2, 5, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-08 15:27:28.613206: Wall 5, 2, 7, 2 causes an row intersection with 6, 2, 8, 2
+2013-02-08 15:27:28.613551: Wall 2, 7, 4, 7 causes an row intersection with 1, 7, 3, 7
+2013-02-08 15:27:28.613737: Wall 2, 4, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-08 15:27:28.614233: Wall 7, 5, 7, 7 causes an column intersection with 7, 6, 7, 8
+2013-02-08 15:27:30.218192: ENGINE uploading move to web engine
+2013-02-08 15:27:30.685898: ENGINE uploading move to web engine
+2013-02-08 15:27:31.520446: ENGINE uploading move to web engine
+2013-02-08 15:27:32.162642: ENGINE uploading move to web engine
+2013-02-08 15:27:32.678807: Wall 6, 0, 8, 0 is along the edge
+2013-02-08 15:27:32.735438: Wall 1, 9, 3, 9 is along the edge
+2013-02-08 15:27:32.735905: Wall 0, 3, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-08 15:27:32.736763: Wall 9, 6, 9, 8 is along the edge
+2013-02-08 15:27:33.510872: Wall 2, 7, 2, 5 is not 2 units, is diagonal, or misordered
+2013-02-08 15:27:33.987426: This wall causes and intersection at 5.0, 2.0
+2013-02-08 15:27:34.002079: This wall causes and intersection at 4.0, 7.0
+2013-02-08 15:27:34.002793: Wall 2, 5, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-08 15:27:34.003290: This wall causes and intersection at 7.0, 5.0
+2013-02-08 15:27:34.003713: Wall 2, 0, 4, 0 is along the edge
+2013-02-08 15:27:34.003994: Wall 5, 9, 7, 9 is along the edge
+2013-02-08 15:27:34.004366: Wall 0, 7, 0, 5 is not 2 units, is diagonal, or misordered
+2013-02-08 15:27:34.004631: Wall 9, 2, 9, 4 is along the edge
+2013-02-08 15:27:34.004930: Wall 7, 2, 9, 2 causes an row intersection with 6, 2, 8, 2
+2013-02-08 15:27:34.005169: Wall 0, 7, 2, 7 causes an row intersection with 1, 7, 3, 7
+2013-02-08 15:27:34.005397: Wall 2, 2, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-08 15:27:34.005635: Wall 7, 7, 7, 9 causes an column intersection with 7, 6, 7, 8
+2013-02-08 15:27:34.005936: Wall 7, 2, 9, 2 causes an row intersection with 6, 2, 8, 2
+2013-02-08 15:27:34.006169: Wall 0, 7, 2, 7 causes an row intersection with 1, 7, 3, 7
+2013-02-08 15:27:34.006393: Wall 2, 2, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-08 15:27:34.006630: Wall 7, 7, 7, 9 causes an column intersection with 7, 6, 7, 8
+2013-02-08 15:27:34.006925: This wall causes and intersection at 6.0, 1.0
+2013-02-08 15:27:34.007160: This wall causes and intersection at 3.0, 8.0
+2013-02-08 15:27:34.007402: This wall causes and intersection at 1.0, 3.0
+2013-02-08 15:27:34.007657: This wall causes and intersection at 8.0, 6.0
+2013-02-08 15:27:34.007936: This wall causes and intersection at 2.0, 2.0
+2013-02-08 15:27:34.008281: This wall causes and intersection at 7.0, 7.0
+2013-02-08 15:27:34.008525: This wall causes and intersection at 2.0, 7.0
+2013-02-08 15:27:34.008889: This wall causes and intersection at 7.0, 2.0
+2013-02-08 15:27:34.009362: Wall 5, 2, 7, 2 causes an row intersection with 6, 2, 8, 2
+2013-02-08 15:27:34.009608: Wall 2, 7, 4, 7 causes an row intersection with 1, 7, 3, 7
+2013-02-08 15:27:34.146655: Wall 2, 4, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-08 15:27:34.278951: Wall 7, 5, 7, 7 causes an column intersection with 7, 6, 7, 8
+2013-02-08 15:27:34.279413: Wall 5, 2, 7, 2 causes an row intersection with 6, 2, 8, 2
+2013-02-08 15:27:34.279711: Wall 2, 7, 4, 7 causes an row intersection with 1, 7, 3, 7
+2013-02-08 15:27:34.279969: Wall 2, 4, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-08 15:27:34.280333: Wall 7, 5, 7, 7 causes an column intersection with 7, 6, 7, 8
+2013-02-08 15:27:36.234823: ENGINE uploading move to web engine
+2013-02-08 15:27:37.015143: ENGINE uploading move to web engine
+2013-02-08 15:27:38.100606: ENGINE uploading move to web engine
+2013-02-08 15:27:39.481217: ENGINE uploading move to web engine
+2013-02-08 15:27:39.875947: STUDENT ENGINE generate_board call successfully returned
+2013-02-08 15:27:39.876319: ENGINE calling symmetry check
+2013-02-08 15:27:39.876675: SYMMETRY VALIDATION:
+2013-02-08 15:27:39.876954: CORRECT NUMBER OF WALLS.
+2013-02-08 15:27:39.877170: BOARD IS SYMMETRIC!

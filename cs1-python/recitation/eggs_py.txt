@@ -1,0 +1,15 @@
+def eggMachine(eggs):
+    goodEggs = []
+    badEggs = []
+    for i in eggs:
+        if i % 2 == 0:
+            goodEggs.append(i)
+        else:
+            badEggs.append(i)
+            
+    return goodEggs, badEggs
+
+eggs = [57, 12, 35, 1, 32, 5, 102, 99]
+good, bad = eggMachine(eggs)
+print('Good: ', good)
+print('Bad: ', bad)

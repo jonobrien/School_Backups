@@ -1,0 +1,9 @@
+03-10 23:44:24 Engine Gobblet Java Client v1.0 by RIT CS Department starting up
+03-10 23:44:24 Engine Loading player JVO7822
+03-10 23:44:24 Engine Loading reference player
+03-10 23:44:24 Engine Loaded 2 players
+03-10 23:44:24 Engine Calling init() for player 1
+03-10 23:44:24 Engine Calling init() for player 2
+03-10 23:44:24 Engine Getting preMove from list
+03-10 23:44:24 Engine Move is PlayerMove [playerId=1, stack=1, size=4, start=[-1, -1], end=[0, 3]]
+03-10 23:44:24 Engine Notifying player of last move

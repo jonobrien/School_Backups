@@ -1,0 +1,63 @@
+# Example of how you should build up your program when covering it in
+# recitation.  Start with draw_crosses_1, run, draw_crosses_2, run,
+# draw_crosses_3, then generalize to draw_crosses.  If there is time
+# do the main.
+
+from turtle import *
+
+def draw_crosses_1(S):
+    forward(S)
+    back(S)
+    
+def draw_crosses_2(S):
+    forward(S)
+    left(90)
+    draw_crosses_1(S/2)
+    right(90)
+    draw_crosses_1(S/2)
+    right(90)
+    draw_crosses_1(S/2)
+    left(90)
+    back(S)
+    
+def draw_crosses_3(S):
+    forward(S)
+    left(90)
+    draw_crosses_2(S/2)
+    right(90)
+    draw_crosses_2(S/2)
+    right(90)
+    draw_crosses_2(S/2)
+    left(90)
+    back(S)
+    
+def draw_crosses(S, N):
+    if N <= 0:
+        return
+    else:   
+        forward(S)
+        left(90)
+        draw_crosses(S/2, N-1)
+        right(90)
+        draw_crosses(S/2, N-1)
+        right(90)
+        draw_crosses(S/2, N-1)
+        left(90)
+        back(S)
+
+def main():
+    draw_crosses(100, 3)
+"""
+You can do this to show how they can make more crosses!
+    right(90)
+    draw_crosses(100, 3)
+    right(90)
+    draw_crosses(100, 3)
+    right(90)
+    draw_crosses(100, 3)
+    right(90)
+"""
+     
+main()
+input("Hit enter to close...")
+    

@@ -1,0 +1,11 @@
+package Tab;
+
+import java.awt.TextArea;
+import java.util.LinkedList;
+
+public class TabContentBuffer extends TextArea {
+	
+    public TabContentBuffer(){
+        super(null, 0, 0, TextArea.SCROLLBARS_BOTH);
+    }    
+}

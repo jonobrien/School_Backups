@@ -1,0 +1,88 @@
+package command;
+
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+
+import javax.swing.text.BadLocationException;
+
+import tab.TabContentTextBuffer;
+import main.StaticUtilities;
+
+public class KeyPressedCommand implements CommandInterface, KeyListener {
+
+    /**
+     * Tab Buffer that will be observed for key inputs
+     */
+    private TabContentTextBuffer tabContentBuffer;
+    
+    /**
+     * Observes a tab buffer to look for specific key inputs
+     * @param tabContentBuffer = tab buffer to observe
+     * */
+    public KeyPressedCommand(TabContentTextBuffer tabContentBuffer){
+        this.tabContentBuffer = tabContentBuffer;
+    }
+    
+    @Override
+    public void keyPressed(KeyEvent e) {}
+
+    @Override
+    public void keyReleased(KeyEvent e) {}
+
+    @Override
+    public void keyTyped(KeyEvent e) {
+        if(e.getKeyChar() == '\t'){
+            //If tab key is hit
+            try{
+                //Removed inserted tab character
+                tabContentBuffer.getDocument().remove( tabContentBuffer.getCaretPosition() - 1 , 1 );
+                //Insert tab spaces
+                //TODO Add custom number of spaces for tab
+                tabContentBuffer.insert( StaticUtilities.getTab() ,tabContentBuffer.getCaretPosition());
+            }catch (BadLocationException e2){}
+        }else if (e.getKeyChar() == '\n' && StaticUtilities.getAutoIndent()){
+            //If enter key is hit
+            //Auto Indent
+            tabContentBuffer.insert(StaticUtilities.spaces( getLastLineIndentation() ),tabContentBuffer.getCaretPosition());
+            
+        }
+    }
+
+    @Override
+    public void execute() {
+    }
+    
+    /**
+     * Get the indentation of the line previous to the one the caret is currently on in tabContentBuffer
+     * @return number of spaces to indent on the new line
+     */
+    private int getLastLineIndentation(){
+        int count = 0;
+        try {
+            int lastLineIndex = tabContentBuffer.getLineOfOffset( tabContentBuffer.getCaretPosition() )-1;
+            int lastLineStart = tabContentBuffer.getLineStartOffset( lastLineIndex );
+            int lastLineLength = tabContentBuffer.getLineEndOffset( lastLineIndex ) - lastLineStart;
+            String lastLine = tabContentBuffer.getText( lastLineStart , lastLineLength );
+            for(count = 0;count < lastLine.toCharArray().length;count++){
+                if(lastLine.toCharArray()[count] != ' '){
+                    break;
+                }
+            }
+            int openTags = 0;
+            System.out.println(lastLine);
+            for(String s : lastLine.split( "<" )){
+                if(s.contains( ">" ) && !s.contains( "br>" )){
+                    if(!s.startsWith( "/" )){
+                        openTags++;
+                    }else{openTags--;}
+                    openTags = StaticUtilities.antiNegativeOne( openTags );
+                }
+            }
+            System.out.println(openTags);
+            if(openTags > 0){count += StaticUtilities.getTabSpaces();}
+            System.out.println( count );
+        } catch (BadLocationException e1) {}
+        return count;
+    }
+
+}

@@ -1,0 +1,28 @@
+package main;
+
+import java.awt.Dimension;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+
+public class TabCloseButton extends JButton {
+
+    private Dimension size;
+    private ImageIcon icon;
+    
+    public TabCloseButton(){
+        super();
+        init();
+    }
+    
+    private void init(){
+        size = new Dimension(12, 12);
+        icon = new ImageIcon("res/icons/close.png");
+        
+        super.setIcon( icon );
+        super.setPreferredSize( size );
+        super.setBorderPainted( false );
+        super.setContentAreaFilled( false );
+    }
+    
+}

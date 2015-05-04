@@ -1,0 +1,101 @@
+2013-02-06 14:27:58.805015: ENGINE starting
+2013-02-06 14:27:58.805846: ENGINE loading STUDENT ENGINE part 3
+2013-02-06 14:27:58.810960: ENGINE loaded player module: OKComputer as player 1
+2013-02-06 14:27:58.811278: ENGINE loaded player module: OKComputer as player 2
+2013-02-06 14:27:58.811493: ENGINE loaded player module: OKComputer as player 3
+2013-02-06 14:27:58.811699: ENGINE loaded player module: OKComputer as player 4
+2013-02-06 14:27:58.811865: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-06 14:28:01.792678: ENGINE calling STUDENT ENGINE init
+2013-02-06 14:28:01.792997: STUDENT ENGINE init call successfully returned
+2013-02-06 14:28:01.793317: ENGINE calling init() for player 1
+2013-02-06 14:28:01.793493: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 14:28:01.794264: OKComputer initialized as player 1
+2013-02-06 14:28:01.794447: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 14:28:01.794621: ENGINE calling init() for player 2
+2013-02-06 14:28:01.794791: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 14:28:01.795467: OKComputer initialized as player 2
+2013-02-06 14:28:01.795640: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 14:28:01.795874: ENGINE calling init() for player 3
+2013-02-06 14:28:01.796388: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 14:28:01.797059: OKComputer initialized as player 3
+2013-02-06 14:28:01.797275: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 14:28:01.797467: ENGINE calling init() for player 4
+2013-02-06 14:28:01.797652: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 14:28:01.798382: OKComputer initialized as player 4
+2013-02-06 14:28:01.798573: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 14:28:02.664560: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.88874/animations.500/public.3c42c29e2c69162e17057b55bd9a24d8ff9fc73a5112aec1be5a1/apikey.820d60943005a0935c8/partone.0/
+2013-02-06 14:28:02.665054: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:02.903113: ENGINE uploading move to web engine
+2013-02-06 14:28:03.750499: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:03.750861: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:03.751413: ENGINE uploading move to web engine
+2013-02-06 14:28:04.098280: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:04.098730: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:04.099487: ENGINE uploading move to web engine
+2013-02-06 14:28:04.867938: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:04.868410: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:04.869670: ENGINE uploading move to web engine
+2013-02-06 14:28:05.270522: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:05.270888: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:05.573380: ENGINE uploading move to web engine
+2013-02-06 14:28:06.322018: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:06.322496: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:06.323187: ENGINE uploading move to web engine
+2013-02-06 14:28:06.695297: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:06.695754: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:06.696852: ENGINE uploading move to web engine
+2013-02-06 14:28:07.334840: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:07.335226: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:07.336691: ENGINE uploading move to web engine
+2013-02-06 14:28:08.221256: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:08.221703: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:08.568625: ENGINE uploading move to web engine
+2013-02-06 14:28:09.649566: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:09.650014: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:09.650729: ENGINE uploading move to web engine
+2013-02-06 14:28:10.137206: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:10.137686: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:10.139303: ENGINE uploading move to web engine
+2013-02-06 14:28:10.860944: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:10.861301: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:10.862797: ENGINE uploading move to web engine
+2013-02-06 14:28:11.230003: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:11.230477: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:11.231508: ENGINE uploading move to web engine
+2013-02-06 14:28:11.992387: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:11.992739: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:11.993468: ENGINE uploading move to web engine
+2013-02-06 14:28:12.755543: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:12.755887: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:12.756819: ENGINE uploading move to web engine
+2013-02-06 14:28:13.400799: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:13.401111: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:13.866146: ENGINE uploading move to web engine
+2013-02-06 14:28:15.335393: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:15.479233: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:15.921119: ENGINE uploading move to web engine
+2013-02-06 14:28:17.050206: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:17.050552: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:17.051315: ENGINE uploading move to web engine
+2013-02-06 14:28:17.431780: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:17.432238: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:17.433428: ENGINE uploading move to web engine
+2013-02-06 14:28:18.157569: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:18.157914: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:18.159763: ENGINE uploading move to web engine
+2013-02-06 14:28:18.394632: STUDENT ENGINE next_move call successfully returned
+2013-02-06 14:28:18.395083: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 14:28:18.592311: Wall will block player 4 path
+2013-02-06 14:28:18.592703: ERROR: 2013-02-06 14:28:18.592649: Player 1 Wall: [4,5] -> [6,5]
+
+2013-02-06 14:28:18.593913: TRACE: 
+Traceback (most recent call last):
+  File ".\Model\__init__.py", line 561, in studentEngineCall
+  File "/Users/nicmanoogian/Documents/CS/Eclipse/Quordior/StudentEngines/teamwhat/__init__.py", line 567, in next_move
+    exit_due_to_error(playerMove.getCopy())
+  File "/Users/nicmanoogian/Documents/CS/Eclipse/Quordior/StudentEngines/teamwhat/__init__.py", line 621, in exit_due_to_error
+    raise GameException(message)
+Engine.security.GameException: 2013-02-06 14:28:18.592649: Player 1 Wall: [4,5] -> [6,5]
+
+

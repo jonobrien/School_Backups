@@ -1,0 +1,54 @@
+"""
+Aaron Deever
+September 16, 2013
+
+CSCI Week 4 lecture extra examples
+"""
+
+x = 10        # global variable - typically defined at the beginning
+              # of the file and defined outside of any function.
+              # Any function in this file can access this global variable.
+              # We try to avoid using global variables if possible
+              # because they often make it difficult to understand how
+              # the code works, because when we look at a function we
+              # have to track down where the global variables come from,
+              # and what value they are expected to have.  Also, if
+              # the global information ever gets changed, it can be more
+              # difficult to maintain the code, and find all places where
+              # that global information was being used, and might need
+              # to be modified.
+
+
+def foo1():
+    y = x + 3
+    print("The value of y is " + str(y))
+
+def foo2():
+    x = 50
+    print("Inside foo2, x is " + str(x))
+
+def foo3():
+    z = x + 5
+    x = 20
+
+def foo4():
+    global x
+    z = x + 5
+    x = 20
+    print("x is now " + str(x))
+
+def foo5():
+    localvar = 625
+    foo6(localvar)
+    print("After calling foo6, localvar has value " + str(localvar))
+
+def foo6(localvar):
+    localvar = 987
+    print("inside foo6, localvar has value " + str(localvar))
+foo1()
+foo2()
+print("After foo2, x is " + str(x))
+#foo3()
+foo4()
+print("After foo4, x is " + str(x))
+foo5()

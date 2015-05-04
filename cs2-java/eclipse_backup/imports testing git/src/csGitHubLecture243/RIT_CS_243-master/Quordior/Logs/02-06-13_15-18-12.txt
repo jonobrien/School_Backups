@@ -1,0 +1,61 @@
+2013-02-06 15:18:12.686409: ENGINE starting
+2013-02-06 15:18:12.687189: ENGINE loading STUDENT ENGINE part 3
+2013-02-06 15:18:12.692035: ENGINE loaded player module: OKComputer as player 1
+2013-02-06 15:18:12.692333: ENGINE loaded player module: OKComputer as player 2
+2013-02-06 15:18:12.692505: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-06 15:18:15.228648: ENGINE calling STUDENT ENGINE init
+2013-02-06 15:18:15.229010: STUDENT ENGINE init call successfully returned
+2013-02-06 15:18:15.229274: ENGINE calling init() for player 1
+2013-02-06 15:18:15.229498: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 15:18:15.230414: OKComputer initialized as player 1
+2013-02-06 15:18:15.230630: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 15:18:15.230839: ENGINE calling init() for player 2
+2013-02-06 15:18:15.231044: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 15:18:15.231781: OKComputer initialized as player 2
+2013-02-06 15:18:15.231989: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 15:18:15.406038: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.89447/public.ec99907bfebc2a9f1051d10fc7b2409cdefd01d05112ba8733cc2/animations.500/partone.0/apikey.820d60943005a0935c8/
+2013-02-06 15:18:15.406558: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:18:15.638111: ENGINE uploading move to web engine
+2013-02-06 15:18:16.651674: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:18:16.652122: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:18:16.856007: ENGINE uploading move to web engine
+2013-02-06 15:18:18.209741: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:18:18.210182: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:18:18.211132: ENGINE uploading move to web engine
+2013-02-06 15:18:18.974292: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:18:18.974643: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:18:18.975175: ENGINE uploading move to web engine
+2013-02-06 15:18:20.060814: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:18:20.061247: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:18:20.062547: ENGINE uploading move to web engine
+2013-02-06 15:18:22.028642: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:18:22.029268: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:18:22.029993: ENGINE uploading move to web engine
+2013-02-06 15:18:23.816650: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:18:23.817015: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:18:23.818107: ENGINE uploading move to web engine
+2013-02-06 15:18:25.243964: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:18:25.244398: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:18:25.245188: ENGINE uploading move to web engine
+2013-02-06 15:18:26.192103: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:18:26.192461: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:18:26.193605: ENGINE uploading move to web engine
+2013-02-06 15:18:27.127398: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:18:27.127840: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:18:27.300437: ENGINE uploading move to web engine
+2013-02-06 15:18:28.421560: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:18:28.422001: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:18:28.422699: Illegal multi-square move [[4, 4], [2, 4], [2, 5]] player locations: [(3, 4)]
+2013-02-06 15:18:28.423013: ERROR: 2013-02-06 15:18:28.422956: Player 1 Move: [4,4] -> [2,5]
+
+2013-02-06 15:18:28.424390: TRACE: 
+Traceback (most recent call last):
+  File ".\Model\__init__.py", line 561, in studentEngineCall
+  File "/Users/nicmanoogian/Documents/CS/Eclipse/Quordior/StudentEngines/teamwhat/__init__.py", line 569, in next_move
+    exit_due_to_error(playerMove.getCopy())
+  File "/Users/nicmanoogian/Documents/CS/Eclipse/Quordior/StudentEngines/teamwhat/__init__.py", line 623, in exit_due_to_error
+    raise GameException(message)
+Engine.security.GameException: 2013-02-06 15:18:28.422956: Player 1 Move: [4,4] -> [2,5]
+
+

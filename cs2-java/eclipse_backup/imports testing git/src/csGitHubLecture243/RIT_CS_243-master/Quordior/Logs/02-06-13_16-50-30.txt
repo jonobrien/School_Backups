@@ -1,0 +1,36 @@
+2013-02-06 16:50:30.689009: ENGINE starting
+2013-02-06 16:50:30.689832: ENGINE loading STUDENT ENGINE part 4
+2013-02-06 16:50:30.708090: ENGINE loaded player module: OKComputer as player 1
+2013-02-06 16:50:30.708364: ENGINE loaded player module: OKComputer as player 2
+2013-02-06 16:50:30.708567: ENGINE loaded player module: OKComputer as player 3
+2013-02-06 16:50:30.708763: ENGINE loaded player module: OKComputer as player 4
+2013-02-06 16:50:30.708929: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-06 16:50:32.367673: ENGINE calling STUDENT ENGINE init
+2013-02-06 16:50:32.368034: STUDENT ENGINE init call successfully returned
+2013-02-06 16:50:32.368338: ENGINE calling init() for player 1
+2013-02-06 16:50:32.368543: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 16:50:32.369395: OKComputer initialized as player 1
+2013-02-06 16:50:32.369625: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 16:50:32.369825: ENGINE calling init() for player 2
+2013-02-06 16:50:32.370021: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 16:50:32.370736: OKComputer initialized as player 2
+2013-02-06 16:50:32.370943: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 16:50:32.371140: ENGINE calling init() for player 3
+2013-02-06 16:50:32.371335: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 16:50:32.372147: OKComputer initialized as player 3
+2013-02-06 16:50:32.372357: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 16:50:32.372555: ENGINE calling init() for player 4
+2013-02-06 16:50:32.372751: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 16:50:32.373568: OKComputer initialized as player 4
+2013-02-06 16:50:32.373779: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 16:50:32.477054: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.90191/public.00abca70f22727f7b2e5bdc3b0d9bca5cb2e84a15112d02841150/animations.500/partone.0/apikey.820d60943005a0935c8/
+2013-02-06 16:50:32.479309: ENGINE calling STUDENT ENGINE generate_board
+2013-02-06 16:50:32.480454: ERROR: 'StudentEngineModel' object has no attribute 'interface'
+2013-02-06 16:50:32.481781: TRACE: 
+Traceback (most recent call last):
+  File ".\Model\__init__.py", line 561, in studentEngineCall
+  File "/Users/nicmanoogian/Documents/CS/Eclipse/Quordior/StudentEngines/teamwhat/__init__.py", line 666, in generate_board
+    wallmoves.append(engineData.model.interface.PlayerMove(engineData.playerturn, False, num1, num2, num3, num4))
+AttributeError: 'StudentEngineModel' object has no attribute 'interface'
+

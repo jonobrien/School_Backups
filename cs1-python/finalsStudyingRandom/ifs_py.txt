@@ -1,0 +1,27 @@
+import turtle
+
+def getThickness():
+    answer = input( "Do you want a thick line? " )
+    if answer == "yes":
+        turtle.pensize( 4 )
+    else:
+        turtle.pensize( 1 )
+
+def evaluateRun():
+    result = input( "Please enter the time for your mile run: " )
+    time = float( result )
+    if time < 223.13:
+        print( "New world record. Congratulations!" )
+    elif time < 270:
+        print( "Pretty good. You're one of the best." )
+    else:
+        print( "Thanks for the data. Keep training!" )
+
+evaluateRun()
+evaluateRun()
+evaluateRun()
+getThickness()
+turtle.forward( 150 )
+input( "Hit ENTER when ready to end." )
+turtle.bye()
+

@@ -1,0 +1,76 @@
+package Command;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
+
+import Validator.Validator;
+import main.Display;
+import main.FileSelectionManager;
+import main.StaticUtilities;
+
+/**
+ * SaveAsCommand is a concrete command object responsible for writing a
+ * tab buffer to a new file name/file location 
+ */
+public class SaveAsCommand implements CommandInterface, ActionListener {
+
+	//file io fields
+    JFileChooser fileChooser = new FileSelectionManager("Save As...");
+    private BufferedWriter saver;
+    
+    @Override
+    /**
+     * When the save as command is selected in the view, execute will
+     * be called.
+     */
+    public void actionPerformed(ActionEvent e) {
+        execute();
+    }
+
+    @Override
+    /**
+     * If the buffer is well formed and the file location is legitimate, the buffer is
+     * written to the file. If the buffer isn't well formed, a dialog box appears in the
+     * view warning the user that they're saving poor formed html code. They then decide
+     * whether they want to continue saving or edit the file.
+     */
+    public void execute() {
+    	if(Validator.getValidator().validate(StaticUtilities.getCurrentTab().getContent().getBuffer())){
+    		if(fileChooser.showOpenDialog(Display.getDisplay()) == JFileChooser.APPROVE_OPTION)
+    	           saveAs();
+    	} else {
+    		int dialogButton = JOptionPane.YES_NO_OPTION;
+    		dialogButton = JOptionPane.showConfirmDialog(null, "Buffer isn't well formed! Continue saving?","WARNING", dialogButton);
+    		
+    		if(dialogButton == JOptionPane.NO_OPTION){
+    			return;
+    		} else {
+    			if(fileChooser.showOpenDialog(Display.getDisplay()) == JFileChooser.APPROVE_OPTION)
+     	           saveAs();
+    		}
+    	}
+    }
+    
+    /**
+     * saveAs() actually writes to the file lcoation
+     */
+    private void saveAs(){
+        try {
+            saver = new BufferedWriter(new FileWriter(fileChooser.getSelectedFile()));
+            saver.write( StaticUtilities.getCurrentTab().getContent().getBuffer().getText() );
+            saver.close();
+            StaticUtilities.getCurrentTab().updateToSaved();
+            StaticUtilities.getCurrentTab().updateFilePath( fileChooser.getSelectedFile().getAbsolutePath() );
+            StaticUtilities.getCurrentTab().updateTitle( fileChooser.getSelectedFile().getName() );
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+}

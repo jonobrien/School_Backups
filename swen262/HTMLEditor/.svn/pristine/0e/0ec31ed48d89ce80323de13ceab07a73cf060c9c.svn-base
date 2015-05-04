@@ -1,0 +1,104 @@
+package Command;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
+
+import main.Display;
+import main.FileSelectionManager;
+import main.StaticUtilities;
+import Tab.Tab;
+import Validator.Validator;
+
+/**
+ * OpenCommand is a concrete command object responsible for opening a html file
+ * in a given tab buffer. It also is responsible for warning the user if the
+ * opened file isn't well formed.
+ *
+ */
+public class OpenCommand implements CommandInterface, ActionListener {
+    
+	//file io fields
+    private final JFileChooser fileChooser = new FileSelectionManager("Open");
+    private File currentFile = null;
+    private String currentFilePath = null;
+    private String currentLine = null;
+    private FileReader fileReader = null;
+    private BufferedReader buffReader = null;
+    
+    //current tab that the file will be opened in.
+    private Tab currentTab = null; 
+    
+    @Override
+    /**
+     * When the open command is selected in the view, execute will
+     * be called.
+     */
+    public void actionPerformed(ActionEvent e) {
+        execute();
+    }
+    
+    @Override
+    /**
+     * if the chosen file is legitamite, import the data into the buffer through
+     * importFileData()
+     */
+    public void execute() {
+        if(fileChooser.showOpenDialog(Display.getDisplay()) == JFileChooser.APPROVE_OPTION){
+            importFileData();
+        }
+    }
+    
+    /**
+     * Overridden execute() function for command line arguments
+     * @param filePath
+     */
+    public void execute(String filePath){
+        currentFile = new File(filePath);
+        fileChooser.setSelectedFile(currentFile);
+        importFileData();
+    }
+    
+    /**
+     * importFileData reads the file into the tab buffer.
+     * If the file isn't well formed, a message is displayed in the view.
+     */
+    private void importFileData(){
+        currentFile = fileChooser.getSelectedFile();
+        currentFilePath = currentFile.getAbsolutePath();
+        try{
+            fileReader = new FileReader(currentFile);
+            buffReader = new BufferedReader(fileReader);
+        } catch (FileNotFoundException e){
+            e.printStackTrace();
+        }
+        
+        Display.getDisplay().getTabPanel().setSelectedIndex( Display.getDisplay().getTabPanel().getTabCount() - 1 );
+        currentTab = StaticUtilities.getCurrentTab();
+        currentTab.updateFilePath(currentFilePath);
+        currentTab.getHeader().updateTitle(currentFile.getName());
+        try{
+        	
+        	currentLine = buffReader.readLine();
+        	while(currentLine != null){
+        		currentTab.getContent().getBuffer().append( currentLine + '\n' );
+        		currentLine = buffReader.readLine();
+        	}
+            
+        	if(!Validator.getValidator().validate(currentTab.getContent().getBuffer()))
+        		JOptionPane.showMessageDialog(null, "Your file isn't well formed! Be sure to fix before saving!");
+        		
+        	buffReader.close();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+        currentTab.updateToSaved();
+    }
+}

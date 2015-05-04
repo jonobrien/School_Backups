@@ -1,0 +1,74 @@
+2013-02-06 19:03:54.358777: ENGINE starting
+2013-02-06 19:03:54.374797: ENGINE loading STUDENT ENGINE part 4
+2013-02-06 19:03:54.395011: ENGINE loaded player module: OKComputer as player 1
+2013-02-06 19:03:54.395326: ENGINE loaded player module: OKComputer as player 2
+2013-02-06 19:03:54.395542: ENGINE loaded player module: OKComputer as player 3
+2013-02-06 19:03:54.395748: ENGINE loaded player module: OKComputer as player 4
+2013-02-06 19:03:54.395916: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-06 19:03:55.854679: ENGINE calling STUDENT ENGINE init
+2013-02-06 19:03:55.855314: STUDENT ENGINE init call successfully returned
+2013-02-06 19:03:55.855607: ENGINE calling init() for player 1
+2013-02-06 19:03:55.856031: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 19:03:55.856948: OKComputer initialized as player 1
+2013-02-06 19:03:55.857187: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 19:03:55.857402: ENGINE calling init() for player 2
+2013-02-06 19:03:55.857636: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 19:03:55.858540: OKComputer initialized as player 2
+2013-02-06 19:03:55.858833: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 19:03:55.859065: ENGINE calling init() for player 3
+2013-02-06 19:03:55.859288: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 19:03:55.860274: OKComputer initialized as player 3
+2013-02-06 19:03:55.860507: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 19:03:55.860733: ENGINE calling init() for player 4
+2013-02-06 19:03:55.860957: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 19:03:55.861818: OKComputer initialized as player 4
+2013-02-06 19:03:55.862008: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 19:03:56.016872: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/partone.0/gameid.90865/public.aed788e0ceb0fc96dadd5c50bfe5314a69fb198a5112ef6bcbc99/animations.500/apikey.820d60943005a0935c8/
+2013-02-06 19:03:56.017769: ENGINE calling STUDENT ENGINE generate_board
+2013-02-06 19:03:56.019912: Wall 3, 0, 5, 0 is along the edge
+2013-02-06 19:03:57.075235: ENGINE uploading move to web engine
+2013-02-06 19:03:57.241670: Player 1 has moved out of turn.
+2013-02-06 19:03:57.242118: ENGINE uploading move to web engine
+2013-02-06 19:03:59.275736: Player 1 has moved out of turn.
+2013-02-06 19:03:59.276111: ENGINE uploading move to web engine
+2013-02-06 19:03:59.785376: Player 1 has moved out of turn.
+2013-02-06 19:03:59.785813: ENGINE uploading move to web engine
+2013-02-06 19:04:01.297327: ENGINE uploading move to web engine
+2013-02-06 19:04:01.702661: Player 1 has moved out of turn.
+2013-02-06 19:04:01.703009: ENGINE uploading move to web engine
+2013-02-06 19:04:01.851371: Player 1 has moved out of turn.
+2013-02-06 19:04:01.851946: ENGINE uploading move to web engine
+2013-02-06 19:04:02.413111: Player 1 has moved out of turn.
+2013-02-06 19:04:02.413451: ENGINE uploading move to web engine
+2013-02-06 19:04:03.658074: Wall 3, 3, 5, 3 causes an row intersection with 2, 3, 4, 3
+2013-02-06 19:04:04.806733: ENGINE uploading move to web engine
+2013-02-06 19:04:05.339551: Player 1 has moved out of turn.
+2013-02-06 19:04:05.339936: ENGINE uploading move to web engine
+2013-02-06 19:04:05.634487: Player 1 has moved out of turn.
+2013-02-06 19:04:05.634936: ENGINE uploading move to web engine
+2013-02-06 19:04:05.754754: Player 1 has moved out of turn.
+2013-02-06 19:04:05.755088: ENGINE uploading move to web engine
+2013-02-06 19:04:06.191260: Wall 3, 1, 5, 1 causes an row intersection with 2, 1, 4, 1
+2013-02-06 19:04:06.191641: Wall 4, 0, 6, 0 is along the edge
+2013-02-06 19:04:06.191869: Wall 1, 2, 3, 2 causes an row intersection with 0, 2, 2, 2
+2013-02-06 19:04:06.192506: This wall causes and intersection at 3.0, 3.0
+2013-02-06 19:04:06.192726: Wall 1, 1, 3, 1 causes an row intersection with 2, 1, 4, 1
+2013-02-06 19:04:06.192952: This wall causes and intersection at 3.0, 3.0
+2013-02-06 19:04:06.193174: This wall causes and intersection at 3.0, 1.0
+2013-02-06 19:04:06.193447: Wall 3, 3, 5, 3 causes an row intersection with 2, 3, 4, 3
+2013-02-06 19:04:06.194016: This wall causes and intersection at 3.0, 3.0
+2013-02-06 19:04:06.481321: Wall 3, 3, 5, 3 causes an row intersection with 2, 3, 4, 3
+2013-02-06 19:04:06.481695: Wall 1, 1, 3, 1 causes an row intersection with 2, 1, 4, 1
+2013-02-06 19:04:07.768514: ENGINE uploading move to web engine
+2013-02-06 19:04:08.231726: Player 1 has moved out of turn.
+2013-02-06 19:04:08.232106: ENGINE uploading move to web engine
+2013-02-06 19:04:09.338476: Player 1 has moved out of turn.
+2013-02-06 19:04:09.338859: ENGINE uploading move to web engine
+2013-02-06 19:04:10.134814: Player 1 has moved out of turn.
+2013-02-06 19:04:10.135168: ENGINE uploading move to web engine
+2013-02-06 19:04:10.412737: STUDENT ENGINE generate_board call successfully returned
+2013-02-06 19:04:10.413166: ENGINE calling symmetry check
+2013-02-06 19:04:10.413412: SYMMETRY VALIDATION:
+2013-02-06 19:04:10.413908: CORRECT NUMBER OF WALLS.
+2013-02-06 19:04:10.414191: BOARD IS **NOT** SYMMETRIC!

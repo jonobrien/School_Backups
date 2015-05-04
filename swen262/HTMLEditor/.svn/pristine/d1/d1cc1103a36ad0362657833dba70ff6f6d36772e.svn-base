@@ -1,0 +1,104 @@
+package main;
+
+import java.awt.TextArea;
+import java.util.ArrayList;
+import java.util.Stack;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Validator implements Container{
+	
+	public static Validator validator = null;
+	
+	private Pattern pattern;
+	private Matcher matcher;
+	
+	private ArrayList<Tag> tags = new ArrayList<Tag>();
+	private Stack<Tag> tagsStack = new Stack<Tag>();
+	
+	private static final String HTML_PATTERN_TAG = "<(\"[^\"]*\"|'[^']*'|[^'\">])*>";
+	
+	public Validator(){
+		pattern = Pattern.compile(HTML_PATTERN_TAG);
+	}
+
+	public static Validator getValidator(){
+		if(validator == null){
+			validator = new Validator();
+		}
+		return validator;
+	}
+	
+	public boolean validate(TextArea buffer){
+		
+		String[] text = buffer.getText().split(" ");
+		
+		for(int i = 0; i < text.length; i++){
+			matcher = pattern.matcher((CharSequence) text[i]);
+			if(matcher.matches())
+				tags.add(new Tag(text[i]));
+		}
+		
+		//validation algorithm using iterator:
+		for(Iterator iter = this.getIterator(); iter.hasNext();){
+			//System.out.println(((Tag) iter.next()).getContents());
+			Tag curr = (Tag) iter.next();
+			if(curr.isEndTag()){
+				if(tagsStack.isEmpty()){
+					this.tags.clear();
+					this.tagsStack.clear();
+					return false;
+				}
+				Tag check = tagsStack.pop();
+				if(!check.getContents().equals(curr.getContents())){
+					//clear fields for next validation
+					this.tags.clear();
+					this.tagsStack.clear();
+					return false;
+				}
+			} else {
+				tagsStack.push(curr);
+			}
+		}
+		
+		if(tagsStack.isEmpty()){
+			this.tags.clear();
+			this.tagsStack.clear();
+			return true;
+		}
+		
+		this.tags.clear();
+		this.tagsStack.clear();
+		return false;
+	}
+
+	@Override
+	public Iterator getIterator() {
+		// TODO Auto-generated method stub
+		return new TagIterator();
+	}
+	
+	private class TagIterator implements Iterator{
+
+		int index;
+		
+		@Override
+		public boolean hasNext() {
+			// TODO Auto-generated method stub
+			if(index < tags.size())
+				return true;
+			return false;
+		}
+
+		@Override
+		public Object next() {
+			// TODO Auto-generated method stub
+			if(this.hasNext())
+				return tags.get(index++);
+			return null;
+		}
+		
+	}
+	
+}
+

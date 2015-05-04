@@ -1,0 +1,28 @@
+""" 
+file: fruitful.py
+Problem: Fruitful Functions 
+Author: Arthur Nunes-Harwitt (anh@cs.rit.edu)
+Description: Python code for factorial and Fibonacci.
+"""
+
+def addOne(x):
+    """addOne: Number -> Number"""
+    return x+1
+
+
+def fact(n):
+    """fact: NatNum -> NatNum"""
+    if n == 0:
+        return 1
+    else:
+        return n * fact(n-1)
+
+def fib(n):
+    """fib: NatNum -> NatNum"""
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fib(n-1) + fib(n-2)
+

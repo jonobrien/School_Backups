@@ -1,0 +1,32 @@
+package Command;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import main.Display;
+import main.MenuItemOption;
+import main.StaticUtilities;
+import Tab.Tab;
+
+public class UpdateAutoIndentCommand implements ActionListener,CommandInterface {
+private MenuItemOption menuItemOption;
+    
+    public UpdateAutoIndentCommand(MenuItemOption menuItemOption) {
+        this.menuItemOption = menuItemOption;
+    }
+    
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        execute();
+    }
+
+    @Override
+    public void execute() {
+        StaticUtilities.toggleAutoIndent();
+        if(StaticUtilities.getAutoIndent()){
+            menuItemOption.setIcon( StaticUtilities.onImage );
+        }else{
+            menuItemOption.setIcon( StaticUtilities.offImage );
+        }
+    }
+}

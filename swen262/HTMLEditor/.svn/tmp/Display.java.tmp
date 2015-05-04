@@ -1,0 +1,315 @@
+package main;
+
+import static java.awt.event.InputEvent.CTRL_DOWN_MASK;
+import static java.awt.event.InputEvent.SHIFT_DOWN_MASK;
+
+import java.awt.Font;
+import java.awt.GraphicsEnvironment;
+import java.awt.event.ComponentEvent;
+import java.awt.event.ComponentListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.io.File;
+
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.KeyStroke;
+
+import tab.Tab;
+import tab.TabPanel;
+
+import command.ExitCommand;
+import command.InsertHTMLConstructCommand;
+import command.OpenCommand;
+import command.SaveAsCommand;
+import command.SaveCommand;
+import command.ToggleLinkViewCommand;
+import command.UpdateAutoIndentCommand;
+import command.UpdateLineWrapCommand;
+import command.UpdateTabSizeCommand;
+import command.UpdateWrapOnWordCommand;
+
+import command.UndoCommand;
+
+/**
+ * Display is the view of the Editor. It is responsible
+ * for the skeleton swing components the compose the entire
+ * editor. It also houses the TabPanel (controller of tabs) and
+ * the concrete command (OpenCommand). 
+ *
+ * Display also creates the menu bar with menu options that act as
+ * the invokers to a series of concrete commands.
+ * 
+ * Note: Display is a Singleton
+ */
+@SuppressWarnings("serial")
+public class Display extends JFrame{
+	
+	//initialize the singleton to null
+	public static Display display = null;
+	
+	
+ 
+	//houses the tab controller and OpenCommand
+	private TabPanel tabs;
+	private OpenCommand fileOpener;
+	
+	//implements the singleton pattern
+	protected Display(){}
+	//singleton
+	public static Display getDisplay(){
+		if(display == null){
+			display = new Display();
+			display.init();
+		}
+		return display;
+	}
+	
+	/**
+	 * intiailizes the Display (JFrame)
+	 */
+	public void init(){
+	    setTitle("HTML Editor");
+        setSize(400, 400);
+		tabs = new TabPanel();
+		this.add( tabs );
+		createMenuBar();
+		try {
+			GraphicsEnvironment ge = 
+		    GraphicsEnvironment.getLocalGraphicsEnvironment();
+		    ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, new File("res/fonts/Consolas.ttf")));
+		} catch (Exception e) {
+		    System.out.println("Failed to load font, check resources");
+		    e.printStackTrace();
+		}
+		this.addComponentListener(new ComponentListener() {
+
+			@Override
+			public void componentHidden(ComponentEvent e) {
+				//pass
+			}
+
+			@Override
+			public void componentMoved(ComponentEvent e) {
+				//pass
+			}
+
+			@Override
+			public void componentResized(ComponentEvent e) {
+				for(Tab t : Display.getDisplay().getTabPanel().getList()){
+					t.getContent().updateSizing();
+				}
+			}
+
+			@Override
+			public void componentShown(ComponentEvent e) {
+				//pass
+			}
+			
+		});
+	}
+	
+	/**
+	 * getTabPanel is a getter method for the Display's
+	 * TabPanel object
+	 * @return TabPanel
+	 */
+	public TabPanel getTabPanel(){
+        return this.tabs;
+    }
+	
+	/**
+	 * getFileOpener is a getter method for the Display's
+	 * concrete OpenCommand
+	 * @return fileOpener
+	 */
+	public OpenCommand getFileOpener(){
+	    return fileOpener;
+	}
+
+	/**
+	 * createMenuBar creates the Display's menu bar with menu options
+	 * that house accelerator keys and action listeners. These action listeners
+	 * act as the invoker to concrete commands like the SaveCommand, OpenCommand,
+	 * SaveAsCommand, and ExitCommand.
+	 */
+	private void createMenuBar(){
+	    //Add menu bar and 4 main drop downs
+		JMenuBar menu = new JMenuBar();
+		JMenu file = new JMenu("File");
+		JMenu edit = new JMenu("Edit");
+		JMenu insert = new JMenu("Insert");
+		JMenu preferences = new JMenu("Preferences");
+		//Add edit dropdown options
+		JMenuItem undo = new JMenuItem("Undo");
+		//////////undo.addActionListener(new UndoCommand(Object));
+		//Add file dropdown options
+		JMenuItem open = new JMenuItem("Open");
+		JMenuItem save = new JMenuItem("Save");
+		JMenuItem saveAs = new JMenuItem("Save As...");
+		JMenuItem exit = new JMenuItem("Exit");
+		//Add preferences dropdown options
+		MenuItemOption lineWrap = new MenuItemOption("Line Wrap", StaticUtilities.offImage);
+		MenuItemOption wrapOnWord = new MenuItemOption("Wrap On Word",StaticUtilities.offImage);
+		MenuItemOption autoIndent = new MenuItemOption("Auto Indent",StaticUtilities.onImage);
+		JMenuItem tabSize = new JMenuItem("Tab Size...");
+		//Add structure tag inserts to Insert
+		JMenu htmlStuctureTag = new JMenu("Structure Tags");
+		JMenuItem head = new JMenuItem("Head");
+		JMenuItem body = new JMenuItem("Body");
+		JMenuItem html = new JMenuItem("html");
+		head.addActionListener( new InsertHTMLConstructCommand( HTMLTag.HEAD ) );
+        body.addActionListener( new InsertHTMLConstructCommand( HTMLTag.BODY ) );
+        html.addActionListener( new InsertHTMLConstructCommand( HTMLTag.HTML ) );
+        htmlStuctureTag.add( head );
+        htmlStuctureTag.add( body );
+        htmlStuctureTag.add( html );
+        insert.add(htmlStuctureTag);
+        //Add test tag inserts to insert
+        JMenu text = new JMenu("Text Tags");
+        JMenu headers = new JMenu("Header Tags");
+        JMenuItem h1 = new JMenuItem("Level 1");
+        JMenuItem h2 = new JMenuItem("Level 2");
+        JMenuItem h3 = new JMenuItem("Level 3");
+        JMenuItem h4 = new JMenuItem("Level 4");
+        JMenuItem h5 = new JMenuItem("Level 5");
+        JMenuItem h6 = new JMenuItem("Level 6");
+        h1.addActionListener( new InsertHTMLConstructCommand( HTMLTag.HEADER1 ) );
+        h2.addActionListener( new InsertHTMLConstructCommand( HTMLTag.HEADER2 ) );
+        h3.addActionListener( new InsertHTMLConstructCommand( HTMLTag.HEADER3 ) );
+        h4.addActionListener( new InsertHTMLConstructCommand( HTMLTag.HEADER4 ) );
+        h5.addActionListener( new InsertHTMLConstructCommand( HTMLTag.HEADER5 ) );
+        h6.addActionListener( new InsertHTMLConstructCommand( HTMLTag.HEADER6 ) );
+        headers.add( h1 );
+        headers.add( h2 );
+        headers.add( h3 );
+        headers.add( h4 );
+        headers.add( h5 );
+        headers.add( h6 );
+        JMenuItem bold = new JMenuItem("Bold");
+        JMenuItem italic = new JMenuItem("Italic");
+        JMenuItem paragraph = new JMenuItem("Paragraph");
+		bold.addActionListener( new InsertHTMLConstructCommand(HTMLTag.BOLD) );
+		italic.addActionListener( new InsertHTMLConstructCommand( HTMLTag.ITALIC ) );
+		paragraph.addActionListener( new InsertHTMLConstructCommand( HTMLTag.PARAGRAPH ) );
+		text.add( headers );
+		text.add( bold );
+		text.add( italic );
+		text.add( paragraph );
+		insert.add(text);
+		//Add List tag inserts to insert
+		JMenu listTags = new JMenu("List Tags");
+		JMenu descriptionListTags = new JMenu("Description List Tags");
+		JMenuItem descriptionList = new JMenuItem("Description List");
+		JMenuItem listTerm = new JMenuItem("List Term");
+		JMenuItem listData = new JMenuItem("List Data");
+		descriptionList.addActionListener( new InsertHTMLConstructCommand( HTMLTag.DESCRIPTIONLIST ) );
+		listTerm.addActionListener( new InsertHTMLConstructCommand( HTMLTag.LISTTERM ) );
+		listData.addActionListener( new InsertHTMLConstructCommand( HTMLTag.LISTDATA ) );
+		descriptionListTags.add(descriptionList);
+		descriptionListTags.add(listTerm);
+		descriptionListTags.add(listData);
+		JMenuItem oList = new JMenuItem("Ordered List");
+		JMenuItem uList = new JMenuItem("Unordered List");
+		JMenuItem listI = new JMenuItem("List Item");
+		oList.addActionListener( new InsertHTMLConstructCommand(HTMLTag.ORDEREDLIST) );
+		uList.addActionListener( new InsertHTMLConstructCommand(HTMLTag.UNORDEREDLIST) );
+		listI.addActionListener( new InsertHTMLConstructCommand(HTMLTag.LISTITEM) );
+		listTags.add(oList);
+		listTags.add(uList);
+		listTags.add(listI);
+		listTags.add( descriptionListTags );
+		insert.add(listTags);
+		//Add table tag inserts to insert
+		JMenu tableTags = new JMenu("Table Tags");
+		JMenuItem table = new JMenuItem("Table");
+		JMenuItem tableCap = new JMenuItem("Table Caption");
+		JMenuItem tableHead = new JMenuItem("Table Header");
+		JMenuItem tableRow = new JMenuItem("Table Row");
+		JMenuItem tableData = new JMenuItem("Table Data");
+		table.addActionListener( new InsertHTMLConstructCommand(HTMLTag.TABLE) );
+		tableCap.addActionListener( new InsertHTMLConstructCommand(HTMLTag.TABLECAPTION) );
+		tableHead.addActionListener( new InsertHTMLConstructCommand(HTMLTag.TABLEHEADER) );
+		tableRow.addActionListener( new InsertHTMLConstructCommand(HTMLTag.TABLEROW) );
+		tableData.addActionListener( new InsertHTMLConstructCommand(HTMLTag.TABLEDATA) );
+		tableTags.add( table );
+		tableTags.add( tableCap );
+		tableTags.add( tableHead );
+		tableTags.add( tableRow );
+		tableTags.add( tableData );
+		insert.add(tableTags);
+		
+		//Add link tag inserts to insert
+		JMenu linkTags = new JMenu("Link Tags");
+		JMenuItem anchor = new JMenuItem("Anchor");
+		JMenuItem image = new JMenuItem("Image");
+		anchor.addActionListener(new InsertHTMLConstructCommand(HTMLTag.ANCHOR));
+		image.addActionListener(new InsertHTMLConstructCommand(HTMLTag.IMAGE));
+		linkTags.add(anchor);
+		linkTags.add(image);
+		insert.add(linkTags);
+		//Set accelerators for some menu items
+		exit.setAccelerator(KeyStroke.getKeyStroke('E', CTRL_DOWN_MASK));
+		open.setAccelerator(KeyStroke.getKeyStroke('O', CTRL_DOWN_MASK));
+		save.setAccelerator(KeyStroke.getKeyStroke('S', CTRL_DOWN_MASK));
+		saveAs.setAccelerator( KeyStroke.getKeyStroke('S', SHIFT_DOWN_MASK + CTRL_DOWN_MASK) );
+		lineWrap.setAccelerator( KeyStroke.getKeyStroke('W', CTRL_DOWN_MASK) );
+		wrapOnWord.setAccelerator( KeyStroke.getKeyStroke('W', SHIFT_DOWN_MASK + CTRL_DOWN_MASK) );
+		autoIndent.setAccelerator( KeyStroke.getKeyStroke('A', CTRL_DOWN_MASK) );
+		tabSize.setAccelerator( KeyStroke.getKeyStroke('T', CTRL_DOWN_MASK) );
+		
+		//Add listeners to file and preferences items
+		fileOpener = new OpenCommand();
+		open.addActionListener(fileOpener);
+		
+		save.addActionListener(new SaveCommand());
+		
+		saveAs.addActionListener( new SaveAsCommand() );
+		
+		exit.addActionListener(new ExitCommand());
+		
+		lineWrap.addActionListener( new UpdateLineWrapCommand(lineWrap) );
+		
+		wrapOnWord.addActionListener( new UpdateWrapOnWordCommand(wrapOnWord) );
+		
+		autoIndent.addActionListener( new UpdateAutoIndentCommand( autoIndent ) );
+		
+		tabSize.addActionListener( new UpdateTabSizeCommand() );
+		
+		//Change what to do on window close button click
+		this.setDefaultCloseOperation( DO_NOTHING_ON_CLOSE );
+		this.addWindowListener(new WindowAdapter(){
+			public void windowClosing(WindowEvent e){
+				new ExitCommand().execute();
+			}
+		});
+		//Add preferences and file items to their respective drop downs
+		preferences.add( lineWrap);
+		preferences.add( wrapOnWord);
+		preferences.add( autoIndent );
+		preferences.add( tabSize );
+		file.add(open);
+		file.add(save);
+		file.add(saveAs);
+		file.add(exit);
+		edit.add(undo);
+		//
+		JMenu view = new JMenu("View");
+		MenuItemOption linkView = new MenuItemOption("Link View",StaticUtilities.offImage);
+		linkView.addActionListener(new ToggleLinkViewCommand());
+		linkView.setAccelerator( KeyStroke.getKeyStroke('L', CTRL_DOWN_MASK) );
+		StaticUtilities.setLinkViewMenuItem(linkView);
+		view.add(linkView);
+		//Add the 4 main drop downs to the menu bar
+		menu.add(file);
+		menu.add(edit);
+		menu.add(view);
+		menu.add(insert);
+		menu.add(preferences);
+		//Add the menu bar
+		setJMenuBar(menu);
+	}
+
+}

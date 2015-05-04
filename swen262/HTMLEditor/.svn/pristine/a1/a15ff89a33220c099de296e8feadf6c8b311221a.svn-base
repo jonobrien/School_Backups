@@ -1,0 +1,38 @@
+package tab;
+
+import javax.swing.JTextArea;
+
+import command.KeyPressedCommand;
+
+import main.StaticUtilities;
+
+/**
+ * This class is responsible for holding the tab's buffer, which
+ * is only a TextArea with scroll bars. When initialized, a text listener
+ * is added to the TextArea to recieve text events to recognize if a file
+ * has been modified and may need to be saved.
+ * 
+ */
+@SuppressWarnings("serial")
+public class TabContentBuffer extends JTextArea {
+	
+	/**
+	 * Constructor:
+	 * 		initializes TextArea with scroll bars
+	 */
+    public TabContentBuffer(){
+        super();
+        init();
+    }    
+    
+    /**
+     * This method is responsible for adding a text linstener to notify the tab
+     * that changes have been made (for saving purposes).
+     */
+    private void init(){
+        this.setLineWrap( StaticUtilities.getLineWrap() );
+        this.setWrapStyleWord( StaticUtilities.getWrapOnWord() );
+        this.getDocument().addDocumentListener( new TabSavedMonitor());
+        this.addKeyListener( new KeyPressedCommand( this ) );
+    }
+}

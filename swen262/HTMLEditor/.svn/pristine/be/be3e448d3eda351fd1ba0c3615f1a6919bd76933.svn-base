@@ -1,0 +1,12 @@
+package main;
+
+import javax.swing.ImageIcon;
+import javax.swing.JMenuItem;
+
+public class MenuItemOption extends JMenuItem {
+
+    public MenuItemOption(String text, ImageIcon icon){
+        super(text, icon);
+    }
+    
+}

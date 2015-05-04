@@ -1,0 +1,34 @@
+"""
+Wk 3 Recitation - Draw Polygon
+"""
+
+from turtle import *
+
+def draw_polygon_rec(current, N, L):
+	"""draw_polygon_rec: NatNum * NatNum * NatNum -> None"""
+	if current == 0:
+ 		return
+	else:
+		forward(L)
+		right(360/N)
+		draw_polygon_rec(current-1, N, L)
+
+def draw_polygon_iter(current, N, L):
+	"""draw_polygon_iter: NatNum * NatNum * NatNum -> None"""
+	while not(current == 0):
+		forward(L)
+		right(360/N)
+		current = current - 1
+
+def main():
+	"""main: None -> None"""
+	N = int(input("N: "))
+	L = int(input("L: "))
+
+	draw_polygon_rec(N, N, L)
+	input("Hit enter to continue...")
+	reset()
+	draw_polygon_iter(N, N, L)
+	input("Hit enter to continue...")
+	
+main()

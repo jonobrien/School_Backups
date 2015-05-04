@@ -1,0 +1,65 @@
+# Wk 7 recitation problem - Polygon
+# Author: Sean Strout
+# Note: My recommendation for developing this in class is:
+#		1. Develop Point class
+#		2. Read points from file into list
+#		3. Draw polygon in default window
+#		4. Make polygon fill entire window (if time)
+
+from turtle import *
+from math import *
+
+class Point():
+	"""Represents a 2-D point"""
+	__slots__ = ('x', 'y')
+	
+def mkPoint(x, y):
+	"""Create a point (x,y)"""
+	p = Point()
+	p.x = x
+	p.y = y
+	return p
+	
+def readPointsFromFile(filename):
+	"""Read points from filename and return a list of Point's"""
+	points = []
+	for line in open(filename):
+		values = line.split()
+		x = int(values[0])
+		y = int(values[1])
+		p = mkPoint(x, y)
+		points.append(p)
+	return points
+	
+def getBoundingBox(points):
+	"""Find the smallest and largest points in the polygon"""
+	minX = maxX = points[0].x
+	minY = maxY = points[0].y
+	for i in range(1, len(points)):
+		if points[i].x < minX:
+			minX = points[i].x
+		if points[i].x > maxX:
+			maxX = points[i].x
+		if points[i].y < minY:
+			minY = points[i].y
+		if points[i].y > maxY:
+			maxY = points[i].y		
+	
+	return minX, minY, maxX, maxY
+	
+def initializeTurtle(points):
+	"""Set up turtle window."""
+	minX, minY, maxX, maxY = getBoundingBox(points)
+	setworldcoordinates(minX, minY, maxX, maxY)
+	
+def drawPolygon(points):
+	"""Draw a polygon from a list of points"""
+	for i in range(len(points)):
+		setpos(points[i].x, points[i].y)
+	setpos(points[0].x, points[0].y)
+			
+filename = input("Enter filename: ")
+points = readPointsFromFile(filename)
+initializeTurtle(points)
+drawPolygon(points)
+input("Hit enter to close...")

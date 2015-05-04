@@ -1,0 +1,43 @@
+from myStack import *
+from random import *
+
+def getPredatorDamage():
+    return randint(100, 200)
+    
+def getHostageDamage():
+    return randint(0, 100)
+
+def surviveTheCavern(predator, cavern):
+    """Returns the surviving hostages in the cavern (stack), if any"""
+    
+    print("STAGE 1: BOSS BATTLE...")
+        
+    # push the hostages into the cavern
+    print("The predator blocks the cavern exit!")
+    print("The hostages must fight their way out in order to survive...")
+    while not emptyStack(cavern) and predator.hitPoints > 0:
+        hostage = top(cavern)
+        cavern = pop(cavern)
+        print(hostage.name, "prepares to do battle with the predator...")
+        while predator.hitPoints > 0 and hostage.hitPoints > 0:
+            # hostage strikes damage first
+            print("\tPredator hit points:", predator.hitPoints, 
+                ",", hostage.name, "hit points:", hostage.hitPoints)
+            dmgToPredator = getHostageDamage()
+            predator.hitPoints -= dmgToPredator
+            print("\t" + hostage.name, "does", dmgToPredator, "to predator")
+            if (predator.hitPoints > 0):
+                dmgToHostage = getPredatorDamage()
+                hostage.hitPoints -= dmgToHostage 
+                print("\tPredator does", dmgToHostage, "to hostage")
+                
+        if predator.hitPoints <= 0:
+            print(hostage.name, "has defeated the Predator!")
+            # put them back on the stack
+            cavern = push(cavern, hostage)
+        else:
+            print(hostage.name, "has fallen!")
+                
+    # did anyone survive?
+    print(str(size(cavern)), "hostage/s survived the dark cavern...")
+    return cavern

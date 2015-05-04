@@ -1,0 +1,1793 @@
+2013-02-06 18:29:40.179692: ENGINE starting
+2013-02-06 18:29:40.180473: ENGINE loading STUDENT ENGINE part 4
+2013-02-06 18:29:40.199383: ENGINE loaded player module: OKComputer as player 1
+2013-02-06 18:29:40.199660: ENGINE loaded player module: OKComputer as player 2
+2013-02-06 18:29:40.199874: ENGINE loaded player module: OKComputer as player 3
+2013-02-06 18:29:40.200070: ENGINE loaded player module: OKComputer as player 4
+2013-02-06 18:29:40.200252: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-06 18:29:42.486165: ENGINE calling STUDENT ENGINE init
+2013-02-06 18:29:42.486491: STUDENT ENGINE init call successfully returned
+2013-02-06 18:29:42.537237: ENGINE calling init() for player 1
+2013-02-06 18:29:42.537806: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:29:42.538988: OKComputer initialized as player 1
+2013-02-06 18:29:42.539259: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:29:42.539468: ENGINE calling init() for player 2
+2013-02-06 18:29:42.539673: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:29:42.540398: OKComputer initialized as player 2
+2013-02-06 18:29:42.540606: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:29:42.540810: ENGINE calling init() for player 3
+2013-02-06 18:29:42.541012: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:29:42.541826: OKComputer initialized as player 3
+2013-02-06 18:29:42.542033: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:29:42.542238: ENGINE calling init() for player 4
+2013-02-06 18:29:42.542440: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:29:42.543254: OKComputer initialized as player 4
+2013-02-06 18:29:42.543461: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:29:42.656998: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/apikey.820d60943005a0935c8/public.8083773d3aaec4493933503ece0f4eb11746bf165112e76675008/animations.500/gameid.90819/partone.0/
+2013-02-06 18:29:42.657467: ENGINE calling STUDENT ENGINE generate_board
+2013-02-06 18:29:42.658026: Wall 3, 3, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:42.658300: Wall 2, 2, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:42.658567: Wall 0, 2, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:42.658836: Wall 4, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:42.659098: Wall 3, 4, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:42.659358: Wall 2, 0, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:42.659616: Wall 3, 0, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:42.659874: Wall 1, 2, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.145034: Wall 7, 8, 7, 6 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.145478: Wall 1, 2, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.145747: Wall 3, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:43.146351: Wall 2, 1, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:43.146614: Wall 3, 0, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:43.146884: Wall 4, 2, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.147151: Wall 1, 4, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:43.147422: Wall 1, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:43.147688: Wall 1, 1, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:43.147950: Wall 3, 3, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:43.148210: Wall 4, 4, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.148472: Wall 1, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:43.148738: Wall 3, 0, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:43.149013: Wall 0, 3, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.149275: Wall 1, 0, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:43.149540: Wall 2, 1, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:43.149801: Wall 4, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:43.150066: Wall 2, 2, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:43.150332: Wall 0, 3, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:43.367595: Wall 8, 1, 6, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.368306: Wall 3, 2, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.368607: Wall 0, 2, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:43.368873: Wall 3, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.369136: Wall 4, 1, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:43.369399: Wall 2, 4, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.369664: Wall 1, 2, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.369925: Wall 1, 1, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.370185: Wall 0, 0, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:43.370449: Wall 4, 0, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.370710: Wall 0, 2, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:43.370972: Wall 2, 1, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.371343: Wall 3, 4, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:43.371745: Wall 0, 4, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:43.372145: Wall 3, 1, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.930140: Wall 5, 7, 5, 5 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.930562: Wall 3, 4, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:43.930826: Wall 2, 0, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.931505: Wall 1, 1, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:43.931789: Wall 4, 2, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.932043: Wall 3, 3, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:43.932320: Wall 1, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:43.932579: Wall 3, 1, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.932838: Wall 1, 4, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.933095: Wall 0, 1, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.933369: Wall 4, 1, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.933631: Wall 1, 2, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:43.933883: Wall 0, 3, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:43.934147: Wall 2, 4, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:44.116813: Wall 9, 3, 7, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:44.117239: Wall 3, 2, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:44.117505: Wall 3, 4, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:44.117861: Wall 0, 4, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:44.118181: Wall 4, 1, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:44.118461: Wall 3, 2, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:44.118772: Wall 3, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:44.119091: Wall 1, 0, 3, 0 is along the edge
+2013-02-06 18:29:44.119381: Wall 1, 4, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:44.119666: Wall 0, 3, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:44.119949: Wall 0, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:44.120233: Wall 4, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:44.120512: Wall 3, 1, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:44.120817: Wall 0, 3, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:44.121076: Wall 3, 4, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:44.121629: Wall 1, 3, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:44.122014: Wall 0, 3, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:44.122366: Wall 3, 4, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:44.122754: Wall 3, 1, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:44.123122: Wall 2, 2, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:44.123493: Wall 2, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:44.123842: Wall 2, 0, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:44.124187: Wall 1, 0, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:44.311600: Wall 9, 1, 7, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:44.312007: Wall 2, 4, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:44.312271: Wall 0, 1, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:44.312909: Wall 2, 3, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:44.313174: Wall 1, 1, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:44.313435: Wall 4, 2, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:44.313693: Wall 4, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:44.313947: Wall 1, 2, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:44.314203: Wall 4, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:44.314461: Wall 2, 4, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:44.314990: Wall 2, 4, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:44.315424: Wall 4, 0, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:44.315782: Wall 2, 0, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:44.316137: Wall 2, 1, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:44.316489: Wall 1, 2, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:44.316843: Wall 3, 4, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:44.317178: Wall 0, 1, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:44.317524: Wall 3, 3, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:44.317875: Wall 4, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:44.318213: Wall 1, 4, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:44.318560: Wall 3, 4, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:44.318901: Wall 2, 1, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:44.319277: Wall 1, 4, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:44.319621: Wall 3, 3, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:44.319959: Wall 2, 3, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:44.320298: Wall 0, 2, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:44.320630: Wall 1, 4, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:44.692176: Wall 5, 9, 5, 7 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:44.692670: Wall 0, 1, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:44.692947: Wall 0, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:45.067713: Wall 8, 9, 8, 7 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.068160: Wall 0, 0, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:45.068436: Wall 3, 4, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:45.068715: Wall 3, 0, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.068971: Wall 2, 1, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:45.069227: Wall 2, 3, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.069493: Wall 4, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.435856: Wall 8, 8, 8, 6 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.436293: Wall 2, 3, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.436560: Wall 0, 2, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.437064: Wall 1, 4, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:45.437329: Wall 1, 2, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:45.437604: Wall 1, 1, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:45.437956: Wall 1, 3, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:45.438239: Wall 2, 0, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.438513: Wall 2, 2, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:45.438794: Wall 4, 2, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:45.439071: Wall 1, 4, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.439354: Wall 0, 1, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.439643: Wall 4, 1, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:45.439924: Wall 1, 3, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:45.440203: Wall 3, 4, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:45.440479: Wall 1, 2, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:45.440753: Wall 0, 1, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.441034: Wall 0, 0, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:45.441332: Wall 2, 2, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:45.441607: Wall 4, 2, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:45.441883: Wall 3, 0, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.442199: Wall 0, 3, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:45.442474: Wall 0, 2, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:45.444016: Wall 3, 2, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:45.625395: Wall 9, 3, 7, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.625806: Wall 3, 4, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.626071: Wall 0, 4, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.626494: Wall 3, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:45.626907: Wall 0, 3, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:45.627205: Wall 3, 4, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:45.627494: Wall 0, 2, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:45.627789: Wall 3, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:45.628078: Wall 4, 3, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.628360: Wall 3, 1, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:45.628646: Wall 4, 1, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.628947: Wall 0, 1, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:45.629256: Wall 3, 0, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:45.629539: Wall 3, 1, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.629820: Wall 4, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:45.630115: Wall 2, 1, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:45.630402: Wall 2, 1, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.630684: Wall 4, 1, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.631048: Wall 1, 4, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:45.999027: Wall 6, 7, 6, 5 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.999466: Wall 4, 0, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:45.999737: Wall 4, 3, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:46.000249: Wall 2, 0, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:46.000540: Wall 0, 1, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:46.000813: Wall 1, 1, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:46.001085: Wall 3, 1, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:46.001362: Wall 0, 1, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:46.001634: Wall 2, 1, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:46.001904: Wall 3, 2, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:46.002178: Wall 3, 0, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:46.002450: Wall 0, 2, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:46.002723: Wall 1, 0, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:46.002998: Wall 4, 2, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:46.003280: Wall 1, 3, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:46.003630: Wall 2, 3, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:46.003908: Wall 1, 4, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:46.004188: Wall 0, 2, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:46.004441: Wall 2, 0, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:46.004692: Wall 3, 4, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:46.004944: Wall 1, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:46.005199: Wall 4, 2, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:46.188704: Wall 9, 4, 7, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:46.189138: Wall 4, 4, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:46.189402: Wall 3, 1, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:46.190040: Wall 1, 2, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:46.592676: Wall 6, 7, 6, 5 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:46.593206: Wall 2, 3, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:46.593480: Wall 1, 3, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:46.593775: Wall 2, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:46.594042: Wall 0, 0, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:46.594310: Wall 0, 1, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:46.594570: Wall 1, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:46.594832: Wall 0, 3, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:46.595091: Wall 3, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:46.595350: Wall 3, 1, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:46.595609: Wall 3, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:46.595868: Wall 0, 1, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:46.596127: Wall 0, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:46.596390: Wall 1, 1, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:46.596655: Wall 2, 4, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:46.596919: Wall 0, 0, 2, 0 is along the edge
+2013-02-06 18:29:46.597178: Wall 1, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:46.597439: Wall 3, 2, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:46.597699: Wall 0, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:46.597960: Wall 4, 2, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:46.598218: Wall 1, 3, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:46.967974: Wall 7, 9, 7, 7 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.335187: Wall 8, 9, 8, 7 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.335619: Wall 4, 2, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:47.335882: Wall 2, 3, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:47.336164: Wall 2, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:47.336420: Wall 1, 0, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.336680: Wall 0, 1, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:47.336949: Wall 0, 4, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:47.337222: Wall 0, 2, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:47.337497: Wall 2, 4, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.337761: Wall 4, 1, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.338025: Wall 0, 1, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:47.338286: Wall 3, 0, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:47.338545: Wall 3, 4, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:47.338808: Wall 2, 2, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:47.339068: Wall 3, 4, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:47.339329: Wall 2, 2, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.339588: Wall 0, 4, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:47.339848: Wall 4, 3, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:47.340104: Wall 3, 2, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:47.340365: Wall 2, 3, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.340626: Wall 0, 0, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.340885: Wall 4, 2, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.341146: Wall 2, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.341405: Wall 2, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:47.532662: Wall 9, 4, 7, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.533130: Wall 4, 1, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:47.533392: Wall 4, 4, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:47.533960: Wall 4, 0, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:47.534232: Wall 3, 2, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:47.534498: Wall 0, 0, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:47.534780: Wall 1, 2, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:47.535052: Wall 4, 4, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.536007: Wall 4, 4, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:47.919415: Wall 8, 9, 8, 7 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.919833: Wall 4, 4, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:47.920097: Wall 4, 4, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.920954: Wall 1, 1, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:47.921363: Wall 2, 1, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:47.921655: Wall 3, 2, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:47.922048: Wall 1, 4, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:47.922308: Wall 3, 3, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:47.922569: Wall 3, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:47.922828: Wall 2, 4, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:47.923090: Wall 0, 2, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:47.923352: Wall 4, 2, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:47.923612: Wall 0, 1, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:47.923870: Wall 4, 4, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.924130: Wall 2, 0, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:47.924389: Wall 0, 3, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.924650: Wall 1, 1, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.924908: Wall 1, 1, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:47.925166: Wall 0, 2, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:47.925425: Wall 2, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:47.925686: Wall 3, 4, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:47.925946: Wall 4, 1, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:47.926204: Wall 2, 1, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.926464: Wall 3, 3, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:47.926724: Wall 4, 2, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:47.926981: Wall 1, 3, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:47.927242: Wall 3, 0, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:47.927500: Wall 1, 4, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:47.927758: Wall 4, 4, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:47.928017: Wall 0, 0, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.928278: Wall 1, 0, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.928540: Wall 2, 3, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.928855: Wall 2, 3, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:47.929126: Wall 3, 4, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:47.929387: Wall 3, 4, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:47.929798: Wall 3, 0, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:47.930107: Wall 0, 4, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:47.930374: Wall 1, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:47.930629: Wall 2, 3, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:47.930882: Wall 4, 0, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.931135: Wall 4, 0, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:47.931392: Wall 4, 3, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:47.931642: Wall 4, 4, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:47.931890: Wall 1, 0, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:47.932146: Wall 2, 0, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.932397: Wall 2, 0, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.932657: Wall 3, 2, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:47.933326: Wall 0, 4, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:47.933594: Wall 1, 4, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.933856: Wall 1, 1, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:47.934116: Wall 2, 2, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:47.934378: Wall 4, 1, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.934636: Wall 4, 3, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:47.934897: Wall 3, 1, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:47.935181: Wall 1, 3, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:47.935444: Wall 3, 1, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.935708: Wall 4, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.935967: Wall 2, 4, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:47.936228: Wall 0, 2, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:47.936489: Wall 1, 1, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:47.936785: Wall 3, 4, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:47.937203: Wall 3, 3, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.937475: Wall 3, 1, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:47.937733: Wall 1, 0, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.120884: Wall 9, 2, 7, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.121312: Wall 0, 3, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:48.121579: Wall 0, 0, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:48.121937: Wall 3, 0, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:48.122219: Wall 2, 2, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:48.122498: Wall 1, 2, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:48.122781: Wall 0, 3, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.123071: Wall 4, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:48.123352: Wall 2, 3, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:48.123651: Wall 2, 2, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:48.123930: Wall 3, 0, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:48.124207: Wall 1, 3, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.124486: Wall 1, 2, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:48.124762: Wall 2, 2, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:48.492302: Wall 7, 8, 7, 6 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.492721: Wall 0, 4, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:48.492988: Wall 0, 3, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.493631: Wall 1, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:48.493892: Wall 2, 3, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:48.494156: Wall 2, 3, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:48.494414: Wall 3, 4, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:48.494676: Wall 0, 2, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.494935: Wall 2, 3, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:48.495195: Wall 3, 2, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:48.495454: Wall 1, 4, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:48.495711: Wall 0, 3, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:48.495967: Wall 2, 0, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.496226: Wall 1, 4, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.496483: Wall 2, 2, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:48.496745: Wall 4, 3, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:48.497004: Wall 4, 2, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:48.497261: Wall 2, 2, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.497530: Wall 2, 0, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.497791: Wall 4, 4, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:48.498062: Wall 0, 4, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.498321: Wall 0, 3, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.498584: Wall 4, 1, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.498840: Wall 2, 2, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:48.499100: Wall 4, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.499352: Wall 1, 2, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:48.499986: Wall 0, 1, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.500246: Wall 0, 3, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.500504: Wall 2, 4, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:48.500787: Wall 2, 1, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:48.501043: Wall 1, 2, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.501301: Wall 4, 2, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.501563: Wall 1, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:48.501823: Wall 3, 2, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.502091: Wall 1, 4, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:48.502358: Wall 2, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:48.502717: Wall 1, 4, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.502989: Wall 1, 0, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:48.503246: Wall 1, 4, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.503502: Wall 0, 1, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:48.503754: Wall 2, 1, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:48.504010: Wall 2, 3, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:48.504264: Wall 4, 3, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:48.504519: Wall 3, 0, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.504770: Wall 3, 3, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:48.505027: Wall 4, 3, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.505281: Wall 3, 0, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.505532: Wall 3, 3, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:48.505783: Wall 0, 4, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.506037: Wall 1, 4, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:48.506291: Wall 4, 4, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.506544: Wall 0, 3, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.506799: Wall 0, 0, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.872985: Wall 6, 7, 6, 5 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.873393: Wall 1, 2, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.873657: Wall 0, 3, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:48.874293: Wall 1, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:48.874559: Wall 1, 2, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:48.874824: Wall 2, 2, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:48.875086: Wall 4, 1, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.875342: Wall 3, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:48.875600: Wall 0, 1, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:48.875862: Wall 4, 4, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:48.876124: Wall 3, 1, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:48.876387: Wall 2, 4, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.876650: Wall 2, 0, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:48.876910: Wall 0, 2, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:48.877160: Wall 3, 0, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:48.877806: Wall 1, 1, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:48.878067: Wall 2, 2, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:48.878330: Wall 1, 3, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.878595: Wall 2, 1, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:48.878855: Wall 1, 4, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:48.879120: Wall 3, 3, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:48.879381: Wall 2, 4, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:48.879642: Wall 4, 3, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.879914: Wall 0, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:48.880176: Wall 1, 1, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:48.880432: Wall 1, 3, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:48.880694: Wall 4, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:48.880953: Wall 0, 2, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:48.881212: Wall 3, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.881497: Wall 4, 3, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:48.881763: Wall 1, 2, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:48.882025: Wall 2, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.882284: Wall 4, 3, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:48.882545: Wall 0, 4, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:48.882804: Wall 2, 3, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:49.253064: Wall 7, 8, 7, 6 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.253498: Wall 3, 0, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.253762: Wall 1, 4, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.254381: Wall 1, 0, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.620221: Wall 7, 9, 7, 7 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.620642: Wall 4, 1, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.620905: Wall 4, 1, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:49.621550: Wall 0, 1, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.621816: Wall 3, 4, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:49.622430: Wall 2, 2, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:49.622695: Wall 4, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.622956: Wall 3, 1, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.623217: Wall 3, 4, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:49.623481: Wall 1, 0, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:49.623742: Wall 0, 1, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.624002: Wall 4, 2, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.624263: Wall 4, 4, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:49.624526: Wall 0, 1, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:49.624784: Wall 4, 0, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:49.625044: Wall 1, 0, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.625304: Wall 4, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:49.625562: Wall 0, 4, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.625822: Wall 2, 1, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:49.626084: Wall 4, 0, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:49.626352: Wall 0, 4, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.626614: Wall 3, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.626877: Wall 3, 3, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.627147: Wall 0, 1, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:49.627407: Wall 2, 1, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:49.627673: Wall 2, 0, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.627931: Wall 3, 1, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.628195: Wall 3, 2, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:49.628454: Wall 2, 0, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:49.628724: Wall 2, 0, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:49.628983: Wall 2, 3, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:49.629244: Wall 4, 1, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:49.629508: Wall 3, 3, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.629772: Wall 3, 4, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.630034: Wall 4, 0, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:49.630293: Wall 0, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:49.630654: Wall 3, 0, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.630924: Wall 1, 0, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:49.631181: Wall 3, 4, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.631436: Wall 4, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.631694: Wall 0, 0, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.631949: Wall 0, 1, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:49.632233: Wall 3, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:49.632489: Wall 0, 2, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:49.632738: Wall 1, 4, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:49.632998: Wall 2, 3, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.633672: Wall 3, 4, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:49.633942: Wall 1, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:49.634205: Wall 4, 3, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:50.003431: Wall 7, 9, 7, 7 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.003851: Wall 3, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.186555: Wall 8, 4, 6, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.186967: Wall 1, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:50.187232: Wall 4, 1, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:50.188107: Wall 3, 1, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:50.188452: Wall 1, 4, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.189023: Wall 3, 4, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.189352: Wall 1, 4, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:50.189644: Wall 3, 1, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:50.189923: Wall 3, 4, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.190197: Wall 2, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:50.190483: Wall 4, 1, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.190771: Wall 0, 2, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:50.191051: Wall 1, 3, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:50.191329: Wall 0, 2, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:50.191640: Wall 2, 4, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:50.191911: Wall 3, 0, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:50.192188: Wall 4, 4, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:50.192463: Wall 1, 1, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:50.192751: Wall 4, 3, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.374704: Wall 9, 2, 7, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.375117: Wall 0, 4, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:50.559717: Wall 9, 4, 7, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.560163: Wall 1, 0, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:50.560430: Wall 1, 4, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:50.561038: Wall 4, 3, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:50.561301: Wall 2, 2, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:50.561560: Wall 3, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:50.561819: Wall 0, 3, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.562079: Wall 4, 4, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:50.562340: Wall 1, 0, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:50.562600: Wall 3, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.562859: Wall 2, 1, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.929222: Wall 8, 7, 8, 5 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.929628: Wall 3, 4, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:50.929888: Wall 1, 3, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:50.930504: Wall 4, 3, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.930784: Wall 3, 3, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.931050: Wall 3, 0, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.931311: Wall 1, 2, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:50.931571: Wall 1, 0, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.931838: Wall 1, 0, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.932104: Wall 1, 0, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:50.932368: Wall 2, 1, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:50.932633: Wall 0, 3, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.932914: Wall 4, 0, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:50.933173: Wall 0, 3, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:50.933831: Wall 1, 4, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:50.934091: Wall 2, 2, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:50.934351: Wall 1, 3, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.934617: Wall 4, 0, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:50.934879: Wall 2, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:50.935141: Wall 1, 0, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:50.935400: Wall 3, 2, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.935661: Wall 3, 0, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:50.935921: Wall 4, 2, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.936183: Wall 4, 1, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:50.936459: Wall 3, 3, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:50.936720: Wall 3, 1, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:51.300021: Wall 8, 8, 8, 6 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.300453: Wall 0, 1, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:51.300720: Wall 1, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.301325: Wall 3, 0, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:51.301588: Wall 3, 4, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:51.301846: Wall 3, 4, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:51.302105: Wall 2, 0, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:51.302367: Wall 4, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:51.302629: Wall 4, 4, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.302895: Wall 3, 0, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.303157: Wall 0, 4, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:51.303419: Wall 2, 4, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.303679: Wall 2, 3, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:51.303938: Wall 4, 0, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:51.304212: Wall 1, 2, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:51.304469: Wall 1, 2, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:51.304727: Wall 3, 1, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.304986: Wall 1, 1, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:51.305249: Wall 1, 4, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.305511: Wall 1, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:51.305774: Wall 3, 2, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.306035: Wall 1, 3, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.306296: Wall 2, 0, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:51.306556: Wall 2, 1, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.306815: Wall 4, 4, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:51.307075: Wall 3, 0, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:51.307335: Wall 0, 2, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:51.307603: Wall 2, 1, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.307864: Wall 1, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:51.308124: Wall 4, 0, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:51.308385: Wall 3, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:51.308645: Wall 2, 3, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.308913: Wall 3, 3, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.309175: Wall 1, 1, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:51.309433: Wall 1, 2, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:51.309698: Wall 3, 2, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.309956: Wall 2, 2, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:51.310224: Wall 2, 0, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.310598: Wall 0, 0, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.310876: Wall 1, 3, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:51.311564: Wall 3, 0, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.311826: Wall 4, 2, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:51.312086: Wall 1, 2, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.312348: Wall 0, 0, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.312608: Wall 0, 1, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:51.312866: Wall 0, 4, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:51.313144: Wall 0, 2, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:51.313403: Wall 2, 0, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:51.313663: Wall 0, 2, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:51.313923: Wall 2, 0, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:51.314183: Wall 4, 2, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:51.314443: Wall 4, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:51.314707: Wall 1, 0, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:51.314968: Wall 4, 2, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.315227: Wall 1, 3, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:51.315490: Wall 4, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:51.315753: Wall 3, 2, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:51.316014: Wall 2, 3, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.316273: Wall 1, 4, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:51.316533: Wall 4, 0, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:51.316798: Wall 3, 3, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:51.317058: Wall 0, 1, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.317320: Wall 1, 1, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:51.317579: Wall 1, 1, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.317840: Wall 1, 1, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:51.318100: Wall 0, 3, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:51.318364: Wall 4, 0, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:51.318622: Wall 1, 0, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:51.318893: Wall 1, 2, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:51.319153: Wall 3, 3, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:51.319413: Wall 0, 2, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.319673: Wall 3, 1, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.319932: Wall 0, 2, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:51.320191: Wall 1, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:51.320471: Wall 0, 4, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:51.320753: Wall 0, 4, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:51.321014: Wall 0, 4, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:51.321279: Wall 4, 2, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:51.321542: Wall 3, 4, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:51.321803: Wall 0, 0, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:51.322060: Wall 2, 3, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:51.322714: Wall 0, 0, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:51.322980: Wall 0, 1, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:51.323242: Wall 2, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.323505: Wall 0, 2, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:51.323769: Wall 0, 1, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:51.324028: Wall 3, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:51.324289: Wall 3, 1, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:51.324547: Wall 3, 4, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.509937: Wall 9, 1, 7, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.510363: Wall 3, 3, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.510630: Wall 1, 0, 3, 0 is along the edge
+2013-02-06 18:29:51.511228: Wall 1, 1, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:51.511486: Wall 3, 1, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:51.511773: Wall 4, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.512037: Wall 2, 3, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.512305: Wall 4, 0, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:51.512567: Wall 3, 2, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:51.512828: Wall 1, 2, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.513099: Wall 4, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:51.513359: Wall 1, 3, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.513618: Wall 3, 2, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:51.513879: Wall 3, 1, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.514139: Wall 4, 1, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:51.514398: Wall 2, 0, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:51.514654: Wall 0, 1, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:51.514918: Wall 4, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:51.515178: Wall 2, 1, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:51.515438: Wall 4, 1, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:51.515700: Wall 4, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:51.882226: Wall 5, 9, 5, 7 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.882655: Wall 2, 4, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:51.882933: Wall 1, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:51.883220: Wall 1, 0, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.883483: Wall 1, 1, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:51.883743: Wall 4, 0, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:51.884007: Wall 2, 3, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:51.884268: Wall 0, 2, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:51.884528: Wall 4, 3, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:51.884790: Wall 3, 3, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.885051: Wall 0, 4, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:51.885319: Wall 0, 3, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:51.885576: Wall 1, 4, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:51.885843: Wall 0, 0, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:51.886099: Wall 2, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.886356: Wall 0, 0, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:51.886617: Wall 1, 3, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:51.886877: Wall 2, 0, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:51.887137: Wall 3, 1, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:52.073486: Wall 7, 3, 5, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.073921: Wall 4, 4, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.074186: Wall 3, 1, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:52.074625: Wall 0, 0, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:52.074920: Wall 3, 3, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.257909: Wall 8, 4, 6, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.445117: Wall 9, 1, 7, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.445586: Wall 3, 0, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:52.445857: Wall 2, 1, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.446132: Wall 3, 4, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:52.446399: Wall 4, 4, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.446666: Wall 3, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.446926: Wall 2, 2, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:52.447189: Wall 2, 3, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.447452: Wall 2, 3, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:52.447716: Wall 2, 4, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:52.447980: Wall 1, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.448245: Wall 1, 2, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:52.448536: Wall 0, 1, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:52.448797: Wall 3, 0, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:52.449058: Wall 2, 3, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.449327: Wall 4, 4, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:52.449590: Wall 3, 1, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.449864: Wall 4, 1, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:52.450126: Wall 4, 4, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:52.450394: Wall 4, 0, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.450657: Wall 2, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:52.450920: Wall 0, 1, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.451186: Wall 0, 2, 0, 4 is along the edge
+2013-02-06 18:29:52.451450: Wall 2, 3, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:52.451714: Wall 1, 0, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:52.451976: Wall 4, 0, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.452240: Wall 2, 0, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.452502: Wall 3, 0, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:52.452769: Wall 4, 2, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:52.453103: Wall 4, 1, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.453452: Wall 2, 3, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:52.453871: Wall 0, 4, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.454146: Wall 1, 1, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.454407: Wall 4, 1, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:52.454668: Wall 2, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:52.637789: Wall 8, 3, 6, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.019094: Wall 7, 9, 7, 7 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.019508: Wall 3, 2, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:53.019773: Wall 0, 1, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:53.020383: Wall 4, 0, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.020645: Wall 3, 1, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.020907: Wall 1, 4, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:53.021166: Wall 0, 4, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:53.021429: Wall 3, 0, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.021688: Wall 2, 0, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:53.021954: Wall 1, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.022215: Wall 2, 4, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.022466: Wall 2, 4, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:53.023126: Wall 3, 0, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.023391: Wall 1, 0, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.023654: Wall 4, 2, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:53.023911: Wall 0, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:53.024171: Wall 3, 1, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:53.024427: Wall 4, 1, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:53.024687: Wall 4, 3, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:53.024946: Wall 2, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:53.025205: Wall 4, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:53.025464: Wall 4, 3, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:53.025726: Wall 3, 3, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.025985: Wall 1, 4, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.026244: Wall 1, 2, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:53.026505: Wall 1, 3, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.026767: Wall 0, 2, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:53.027027: Wall 0, 2, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:53.027292: Wall 1, 2, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:53.027577: Wall 2, 4, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:53.027837: Wall 0, 3, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:53.028097: Wall 3, 3, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:53.028359: Wall 1, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.028619: Wall 2, 4, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:53.028879: Wall 2, 4, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.029139: Wall 3, 2, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:53.029545: Wall 3, 3, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:53.029833: Wall 0, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.030099: Wall 4, 2, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.030371: Wall 0, 4, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.030650: Wall 4, 0, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:53.030916: Wall 0, 1, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:53.031175: Wall 3, 2, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:53.031442: Wall 4, 0, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:53.031709: Wall 1, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.031975: Wall 1, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:53.032247: Wall 2, 1, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:53.215456: Wall 7, 1, 5, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.215879: Wall 2, 4, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.216147: Wall 3, 4, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.216496: Wall 4, 4, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.216788: Wall 3, 1, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.217070: Wall 4, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:53.217378: Wall 2, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.217666: Wall 4, 0, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.217955: Wall 1, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:53.218233: Wall 1, 0, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:53.218542: Wall 1, 1, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.218825: Wall 3, 1, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:53.219105: Wall 2, 3, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.219384: Wall 3, 4, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.219662: Wall 3, 0, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:53.219939: Wall 4, 0, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.220227: Wall 2, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.220515: Wall 3, 2, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:53.220790: Wall 1, 4, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:53.221064: Wall 2, 1, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:53.221405: Wall 3, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:53.221722: Wall 1, 4, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.222005: Wall 1, 2, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.222273: Wall 0, 3, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:53.222554: Wall 1, 4, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.223110: Wall 0, 1, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.223389: Wall 1, 2, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:53.223661: Wall 4, 1, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:53.224124: Wall 0, 4, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.224482: Wall 0, 3, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:53.224848: Wall 0, 2, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:53.225224: Wall 0, 2, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:53.225565: Wall 2, 0, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:53.226070: Wall 1, 0, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:53.226443: Wall 1, 1, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:53.226779: Wall 3, 3, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:53.227113: Wall 2, 1, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.227457: Wall 3, 2, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:53.227870: Wall 1, 1, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.228224: Wall 4, 2, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:53.228540: Wall 4, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:53.228804: Wall 4, 1, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:53.229066: Wall 3, 0, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.229321: Wall 0, 3, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:53.229582: Wall 1, 0, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:53.229842: Wall 3, 1, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:53.230115: Wall 3, 3, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.230381: Wall 0, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:53.230645: Wall 1, 4, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:53.230907: Wall 3, 0, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.414190: Wall 8, 3, 6, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.414609: Wall 2, 0, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:53.414878: Wall 2, 0, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:53.415532: Wall 1, 2, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.415800: Wall 4, 3, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:53.416055: Wall 3, 2, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:53.416314: Wall 0, 3, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:53.416582: Wall 1, 1, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:53.416840: Wall 2, 2, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.417102: Wall 3, 2, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:53.417361: Wall 0, 1, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.417619: Wall 2, 1, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:53.417879: Wall 0, 2, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:53.418142: Wall 0, 2, 0, 4 is along the edge
+2013-02-06 18:29:53.418410: Wall 4, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.418669: Wall 4, 2, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:53.418927: Wall 2, 1, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:53.419189: Wall 3, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.419449: Wall 2, 4, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:53.419708: Wall 0, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:53.419969: Wall 1, 3, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.786375: Wall 5, 9, 5, 7 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.786795: Wall 2, 0, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:53.787057: Wall 0, 3, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:53.787685: Wall 1, 0, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:53.787954: Wall 4, 2, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.788216: Wall 1, 0, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:53.788473: Wall 3, 1, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:53.788740: Wall 4, 0, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.789047: Wall 1, 2, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:53.789310: Wall 2, 1, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.789571: Wall 4, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:53.789825: Wall 2, 0, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:53.790078: Wall 2, 1, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:53.790330: Wall 4, 3, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.790581: Wall 1, 0, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:53.790831: Wall 4, 3, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:53.791083: Wall 3, 2, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:53.791362: Wall 3, 4, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.791616: Wall 0, 1, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:53.791868: Wall 4, 2, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.792119: Wall 3, 4, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.792374: Wall 2, 4, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:53.792627: Wall 2, 2, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.792879: Wall 1, 1, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:53.793130: Wall 0, 4, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:53.975822: Wall 8, 3, 6, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.976511: Wall 0, 2, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:53.976907: Wall 3, 1, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:53.977273: Wall 0, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.977673: Wall 3, 3, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:53.978033: Wall 2, 0, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:53.978367: Wall 2, 4, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:53.978876: Wall 2, 3, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.979231: Wall 2, 3, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:53.979590: Wall 2, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:53.979942: Wall 2, 4, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.980325: Wall 1, 2, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:53.980690: Wall 2, 4, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:53.981042: Wall 0, 4, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:53.981387: Wall 2, 4, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:53.981729: Wall 4, 4, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:53.982039: Wall 1, 4, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.982324: Wall 2, 2, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:53.982626: Wall 0, 4, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:53.982935: Wall 3, 4, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:53.983213: Wall 2, 0, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:53.983517: Wall 3, 1, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.168665: Wall 9, 3, 7, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.169083: Wall 4, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:54.169349: Wall 1, 1, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:54.169742: Wall 0, 3, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.170030: Wall 3, 1, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:54.170329: Wall 2, 4, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:54.170606: Wall 4, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:54.170897: Wall 0, 1, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.171182: Wall 3, 0, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.171461: Wall 0, 1, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:54.171739: Wall 3, 0, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:54.172014: Wall 3, 4, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:54.172293: Wall 3, 4, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.172571: Wall 1, 1, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:54.172851: Wall 2, 3, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:54.173127: Wall 3, 4, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:54.173412: Wall 3, 1, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:54.173696: Wall 2, 1, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.173971: Wall 3, 0, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.174249: Wall 4, 4, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:54.174620: Wall 4, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:54.174906: Wall 0, 2, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:54.175186: Wall 0, 4, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:54.175485: Wall 0, 3, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:54.175812: Wall 2, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.176090: Wall 1, 4, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:54.176363: Wall 0, 2, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:54.176672: Wall 0, 4, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:54.176954: Wall 1, 2, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:54.177238: Wall 4, 0, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:54.177613: Wall 3, 4, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:54.177904: Wall 4, 3, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:54.178201: Wall 4, 3, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:54.178790: Wall 1, 0, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:54.179302: Wall 0, 1, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:54.179654: Wall 0, 4, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:54.179996: Wall 1, 1, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.180363: Wall 1, 4, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.180713: Wall 4, 4, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:54.181135: Wall 1, 4, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.181499: Wall 4, 0, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:54.181784: Wall 1, 3, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:54.182047: Wall 0, 4, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:54.182331: Wall 4, 4, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:54.182591: Wall 2, 1, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:54.182850: Wall 3, 4, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:54.183111: Wall 0, 3, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:54.183372: Wall 3, 2, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:54.183633: Wall 1, 2, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.183893: Wall 4, 3, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:54.184159: Wall 1, 4, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.184429: Wall 0, 4, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:54.184689: Wall 1, 2, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:54.184957: Wall 1, 0, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.185224: Wall 1, 0, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.185495: Wall 0, 2, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.185798: Wall 3, 2, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:54.186062: Wall 1, 0, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:54.186330: Wall 4, 4, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:54.186594: Wall 3, 1, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.186859: Wall 0, 4, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.187120: Wall 3, 2, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:54.187379: Wall 0, 0, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:54.187638: Wall 1, 0, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:54.554560: Wall 6, 8, 6, 6 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.554990: Wall 3, 2, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:54.555255: Wall 4, 2, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.555849: Wall 1, 0, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:54.556104: Wall 3, 4, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.556763: Wall 3, 3, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:54.557025: Wall 2, 4, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:54.557286: Wall 2, 0, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:54.557547: Wall 1, 4, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:54.557808: Wall 4, 2, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.558070: Wall 4, 4, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:54.558331: Wall 3, 3, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:54.558597: Wall 4, 2, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:54.558857: Wall 0, 2, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:54.559144: Wall 3, 2, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:54.559404: Wall 1, 3, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.559663: Wall 3, 4, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:54.559938: Wall 0, 2, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:54.560200: Wall 3, 4, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.560464: Wall 1, 4, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.560727: Wall 1, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:54.560988: Wall 4, 0, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:54.561249: Wall 4, 3, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.561510: Wall 4, 1, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.561771: Wall 0, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:54.562035: Wall 4, 0, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:54.562293: Wall 4, 2, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:54.562554: Wall 2, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:54.562813: Wall 0, 0, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:54.563074: Wall 3, 4, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:54.563332: Wall 1, 0, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:54.563586: Wall 0, 4, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:54.748306: Wall 8, 1, 6, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.748708: Wall 0, 4, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:54.748973: Wall 1, 4, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:54.749428: Wall 2, 3, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:54.749730: Wall 1, 0, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.750012: Wall 2, 1, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:54.750298: Wall 2, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.750595: Wall 3, 3, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:54.750906: Wall 3, 2, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:54.751192: Wall 4, 0, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:54.751472: Wall 4, 2, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:54.751758: Wall 4, 3, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:54.752059: Wall 3, 2, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:54.752341: Wall 1, 2, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:54.752623: Wall 0, 1, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:54.752910: Wall 4, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.753198: Wall 4, 1, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.753480: Wall 0, 2, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:54.753755: Wall 0, 3, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:54.754084: Wall 0, 1, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:54.754376: Wall 2, 1, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:54.754634: Wall 4, 1, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:54.754897: Wall 1, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:54.755163: Wall 3, 3, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:54.937319: Wall 8, 3, 6, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.937736: Wall 1, 2, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:54.938005: Wall 0, 4, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:54.938355: Wall 3, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:54.938646: Wall 2, 3, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:54.938924: Wall 0, 4, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.939201: Wall 1, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:54.939486: Wall 0, 1, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:54.939770: Wall 0, 0, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.940045: Wall 2, 2, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:54.940320: Wall 1, 3, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.940639: Wall 1, 4, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:54.940918: Wall 3, 1, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.941222: Wall 0, 3, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.941503: Wall 3, 0, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:54.941780: Wall 1, 2, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:54.942070: Wall 4, 1, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:54.942354: Wall 3, 0, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.942658: Wall 4, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:54.942956: Wall 0, 0, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:54.943327: Wall 2, 2, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:55.308787: Wall 6, 9, 6, 7 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.674840: Wall 5, 7, 5, 5 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.675265: Wall 3, 3, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.675526: Wall 1, 0, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:55.676134: Wall 0, 2, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:55.676406: Wall 4, 0, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:55.676671: Wall 1, 1, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.676933: Wall 0, 2, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.677193: Wall 4, 4, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:55.677451: Wall 2, 2, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:55.677711: Wall 4, 2, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:55.677970: Wall 3, 3, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:55.678233: Wall 0, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:55.678484: Wall 2, 3, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:55.679151: Wall 4, 3, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.679413: Wall 2, 2, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:55.679675: Wall 4, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:55.679937: Wall 1, 1, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:55.680202: Wall 4, 3, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:55.680476: Wall 3, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.680746: Wall 0, 1, 0, 3 is along the edge
+2013-02-06 18:29:55.681010: Wall 0, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.681275: Wall 4, 1, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.681546: Wall 0, 0, 2, 0 is along the edge
+2013-02-06 18:29:55.681809: Wall 2, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:55.682071: Wall 3, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.682331: Wall 3, 3, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.682590: Wall 1, 2, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:55.682852: Wall 4, 4, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.683110: Wall 0, 4, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.683377: Wall 0, 2, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:55.683637: Wall 1, 4, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.683912: Wall 1, 1, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:55.684177: Wall 3, 3, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.684444: Wall 0, 0, 0, 2 is along the edge
+2013-02-06 18:29:55.684706: Wall 1, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:55.684966: Wall 4, 4, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:55.685310: Wall 1, 4, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:55.685579: Wall 4, 4, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:55.685839: Wall 1, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:55.686100: Wall 0, 2, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.686361: Wall 3, 0, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.686623: Wall 3, 3, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.686887: Wall 1, 3, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.687147: Wall 4, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.687429: Wall 2, 3, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:55.687697: Wall 2, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.687958: Wall 3, 3, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.688224: Wall 3, 0, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.688487: Wall 3, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:55.688749: Wall 2, 2, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:55.689017: Wall 0, 3, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:55.689278: Wall 3, 0, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:55.689529: Wall 0, 1, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.689788: Wall 3, 4, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.690449: Wall 2, 0, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.690719: Wall 2, 3, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:55.690985: Wall 1, 2, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:55.691247: Wall 1, 4, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:55.691507: Wall 4, 1, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:55.691766: Wall 3, 2, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:55.692024: Wall 3, 0, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:55.692282: Wall 4, 3, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:55.692544: Wall 3, 2, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:55.692812: Wall 2, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:55.693075: Wall 0, 1, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.693337: Wall 1, 4, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:55.693598: Wall 4, 3, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:55.693856: Wall 1, 2, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:55.694120: Wall 3, 0, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:55.694382: Wall 3, 1, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:55.694642: Wall 3, 3, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.694902: Wall 0, 2, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:55.695160: Wall 1, 2, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:55.695418: Wall 1, 1, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.695757: Wall 0, 4, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:55.696020: Wall 2, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:55.696290: Wall 3, 0, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:55.696551: Wall 2, 1, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:55.696811: Wall 3, 4, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:56.066456: Wall 6, 7, 6, 5 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.066876: Wall 3, 0, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:56.067140: Wall 4, 4, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:56.067726: Wall 3, 3, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:56.068318: Wall 2, 0, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:56.068584: Wall 4, 3, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:56.068847: Wall 4, 0, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.069106: Wall 2, 1, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:56.069368: Wall 4, 1, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.069637: Wall 0, 4, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.069899: Wall 3, 2, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:56.070161: Wall 4, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:56.070423: Wall 2, 3, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.070684: Wall 0, 4, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:56.070943: Wall 4, 4, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:56.071208: Wall 0, 0, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:56.071468: Wall 2, 2, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.071728: Wall 3, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.072014: Wall 1, 1, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:56.441034: Wall 6, 9, 6, 7 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.441461: Wall 0, 3, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.441733: Wall 2, 2, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:56.442037: Wall 1, 4, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:56.442277: Wall 3, 0, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.442577: Wall 3, 4, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.442844: Wall 4, 0, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.443102: Wall 1, 1, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:56.443358: Wall 0, 0, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:56.443616: Wall 2, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:56.443871: Wall 3, 4, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:56.444126: Wall 4, 1, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.444377: Wall 1, 1, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:56.444629: Wall 2, 0, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:56.444879: Wall 1, 2, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:56.445130: Wall 4, 1, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:56.445381: Wall 1, 3, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:56.445631: Wall 2, 1, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.446112: Wall 2, 1, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.446381: Wall 0, 4, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:56.446635: Wall 4, 1, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.446890: Wall 0, 3, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:56.447141: Wall 0, 2, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:56.447390: Wall 4, 4, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:56.447640: Wall 3, 3, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:56.447888: Wall 3, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:56.656612: Wall 8, 3, 6, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.657048: Wall 2, 4, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:56.657312: Wall 1, 1, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:56.657728: Wall 0, 3, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.846007: Wall 8, 1, 6, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.846430: Wall 4, 4, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:56.846695: Wall 3, 4, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:56.847235: Wall 1, 2, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:57.212481: Wall 5, 9, 5, 7 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:57.212898: Wall 2, 4, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:57.213167: Wall 2, 4, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:57.213799: Wall 0, 0, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:57.214065: Wall 4, 1, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:57.214327: Wall 2, 2, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:57.214589: Wall 4, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:57.214859: Wall 1, 3, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:57.215123: Wall 2, 0, 4, 0 is along the edge
+2013-02-06 18:29:57.215391: Wall 1, 2, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:57.215653: Wall 2, 3, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:57.215918: Wall 4, 2, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:57.216185: Wall 0, 0, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:57.216448: Wall 2, 4, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:57.216709: Wall 1, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:57.216970: Wall 1, 2, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:57.217231: Wall 3, 0, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:57.217488: Wall 3, 4, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:57.217778: Wall 3, 2, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:57.218039: Wall 1, 4, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:57.218301: Wall 1, 3, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:57.218560: Wall 1, 1, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:57.218858: Wall 3, 4, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:57.219122: Wall 3, 1, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:57.404268: Wall 9, 1, 7, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:57.404703: Wall 2, 4, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:57.588195: Wall 7, 1, 5, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:57.588631: Wall 4, 4, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:57.588894: Wall 4, 2, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:57.589491: Wall 0, 1, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:57.589758: Wall 1, 4, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:57.590012: Wall 4, 0, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:57.590675: Wall 1, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:57.590937: Wall 4, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:57.591204: Wall 3, 0, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:57.805930: Wall 8, 1, 6, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.175130: Wall 8, 8, 8, 6 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.175544: Wall 0, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:58.358579: Wall 7, 1, 5, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.359008: Wall 3, 0, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:58.359274: Wall 2, 2, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:58.359962: Wall 4, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.360332: Wall 1, 1, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.725241: Wall 8, 9, 8, 7 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.725663: Wall 1, 0, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:58.725926: Wall 4, 0, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:58.726543: Wall 0, 1, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.726811: Wall 2, 3, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:58.727074: Wall 3, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.727391: Wall 4, 3, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:58.727674: Wall 0, 0, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:58.727947: Wall 3, 0, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.728936: Wall 1, 4, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:58.729308: Wall 2, 1, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:58.729642: Wall 3, 0, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.729920: Wall 4, 0, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:58.730177: Wall 0, 2, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:58.730427: Wall 1, 3, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:58.730679: Wall 1, 4, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:58.730931: Wall 2, 1, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:58.731182: Wall 0, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:58.731433: Wall 4, 4, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:58.731709: Wall 1, 0, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:58.732238: Wall 2, 3, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:58.732840: Wall 0, 1, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.733127: Wall 1, 1, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:58.734863: Wall 1, 2, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.735166: Wall 0, 3, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:58.735703: Wall 4, 1, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:58.736004: Wall 2, 4, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:58.736285: Wall 0, 1, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:58.736684: Wall 1, 2, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:58.736997: Wall 4, 2, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:58.737272: Wall 4, 1, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.737539: Wall 2, 1, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:58.737805: Wall 0, 2, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:58.738067: Wall 4, 1, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:58.738331: Wall 4, 2, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.738600: Wall 2, 3, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.738867: Wall 4, 0, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:58.739134: Wall 2, 2, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:58.739408: Wall 4, 4, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.739678: Wall 2, 3, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.740018: Wall 4, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:58.740281: Wall 0, 3, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.740543: Wall 3, 1, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:58.740800: Wall 3, 0, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:58.741060: Wall 1, 4, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:58.741377: Wall 2, 4, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.741656: Wall 0, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.741938: Wall 3, 1, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.742224: Wall 2, 2, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:58.742741: Wall 0, 0, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:58.743023: Wall 3, 2, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:58.743302: Wall 1, 4, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:58.743559: Wall 3, 3, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:58.743822: Wall 4, 3, 0, 2 is diagonal, or misordered
+2013-02-06 18:29:58.744235: Wall 4, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:58.745155: Wall 3, 3, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.745451: Wall 3, 4, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.929301: Wall 9, 4, 7, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.929798: Wall 4, 3, 1, 0 is diagonal, or misordered
+2013-02-06 18:29:58.930073: Wall 0, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:58.930379: Wall 2, 2, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:58.930662: Wall 2, 2, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:58.930940: Wall 2, 1, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:59.113124: Wall 9, 4, 7, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.113542: Wall 3, 4, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:59.113808: Wall 4, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:59.114713: Wall 0, 4, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:59.114981: Wall 4, 4, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:59.115294: Wall 1, 0, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:59.115555: Wall 4, 1, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.115832: Wall 4, 0, 1, 4 is diagonal, or misordered
+2013-02-06 18:29:59.116126: Wall 2, 2, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:59.116431: Wall 4, 4, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.116710: Wall 0, 2, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:59.117047: Wall 1, 0, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.117334: Wall 2, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:59.117615: Wall 3, 4, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.117902: Wall 0, 0, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:59.118183: Wall 1, 3, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:59.118458: Wall 0, 0, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:59.118788: Wall 1, 4, 3, 0 is diagonal, or misordered
+2013-02-06 18:29:59.119091: Wall 1, 1, 3, 3 is diagonal, or misordered
+2013-02-06 18:29:59.119383: Wall 3, 0, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.119667: Wall 3, 4, 1, 1 is diagonal, or misordered
+2013-02-06 18:29:59.119943: Wall 4, 0, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.120201: Wall 0, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:59.120460: Wall 1, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.120721: Wall 0, 0, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.120978: Wall 2, 1, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.121239: Wall 4, 0, 1, 3 is diagonal, or misordered
+2013-02-06 18:29:59.121509: Wall 3, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:29:59.121772: Wall 1, 4, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:59.122028: Wall 0, 0, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:59.122297: Wall 0, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:59.492257: Wall 5, 9, 5, 7 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.492677: Wall 3, 1, 2, 2 is diagonal, or misordered
+2013-02-06 18:29:59.492936: Wall 3, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:59.493544: Wall 3, 0, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.493819: Wall 4, 0, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.494086: Wall 2, 0, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:59.494346: Wall 2, 2, 0, 0 is diagonal, or misordered
+2013-02-06 18:29:59.494606: Wall 0, 3, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:59.494870: Wall 2, 4, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.495131: Wall 3, 1, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.495393: Wall 1, 3, 4, 1 is diagonal, or misordered
+2013-02-06 18:29:59.495653: Wall 4, 3, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.495913: Wall 2, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.496226: Wall 1, 0, 3, 4 is diagonal, or misordered
+2013-02-06 18:29:59.496560: Wall 4, 4, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.496818: Wall 0, 3, 1, 2 is diagonal, or misordered
+2013-02-06 18:29:59.497071: Wall 2, 3, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.497326: Wall 1, 2, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.497584: Wall 3, 2, 0, 1 is diagonal, or misordered
+2013-02-06 18:29:59.497838: Wall 1, 1, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:59.498097: Wall 0, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.498355: Wall 3, 1, 4, 2 is diagonal, or misordered
+2013-02-06 18:29:59.498607: Wall 4, 3, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.498863: Wall 2, 3, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:59.499116: Wall 1, 3, 4, 0 is diagonal, or misordered
+2013-02-06 18:29:59.499368: Wall 2, 0, 3, 1 is diagonal, or misordered
+2013-02-06 18:29:59.499618: Wall 1, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.499872: Wall 1, 3, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.500128: Wall 0, 4, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:59.500379: Wall 3, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:29:59.500628: Wall 2, 0, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:59.500879: Wall 0, 1, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.501135: Wall 0, 0, 0, 2 is along the edge
+2013-02-06 18:29:59.501386: Wall 1, 1, 2, 0 is diagonal, or misordered
+2013-02-06 18:29:59.502084: Wall 2, 4, 3, 2 is diagonal, or misordered
+2013-02-06 18:29:59.502348: Wall 3, 1, 4, 4 is diagonal, or misordered
+2013-02-06 18:29:59.502762: Wall 2, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.503033: Wall 4, 2, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.503294: Wall 4, 2, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.684267: Wall 8, 3, 6, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.684679: Wall 0, 0, 2, 3 is diagonal, or misordered
+2013-02-06 18:29:59.684972: Wall 1, 2, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:59.685325: Wall 2, 2, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.685656: Wall 0, 0, 2, 1 is diagonal, or misordered
+2013-02-06 18:29:59.685936: Wall 2, 2, 4, 3 is diagonal, or misordered
+2013-02-06 18:29:59.686216: Wall 3, 0, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:59.686502: Wall 3, 4, 0, 3 is diagonal, or misordered
+2013-02-06 18:29:59.686781: Wall 3, 3, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.687063: Wall 0, 0, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.687351: Wall 0, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.687659: Wall 4, 3, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.687943: Wall 0, 4, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.688220: Wall 4, 0, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.688499: Wall 3, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:29:59.688781: Wall 4, 3, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.057286: Wall 8, 8, 8, 6 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.057724: Wall 1, 4, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.057987: Wall 4, 4, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.058298: Wall 1, 2, 3, 0 is diagonal, or misordered
+2013-02-06 18:30:00.058558: Wall 2, 1, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.058821: Wall 4, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:30:00.059084: Wall 3, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.059344: Wall 4, 4, 1, 0 is diagonal, or misordered
+2013-02-06 18:30:00.059602: Wall 1, 0, 4, 1 is diagonal, or misordered
+2013-02-06 18:30:00.059864: Wall 4, 1, 0, 2 is diagonal, or misordered
+2013-02-06 18:30:00.060126: Wall 0, 0, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.060404: Wall 2, 4, 1, 2 is diagonal, or misordered
+2013-02-06 18:30:00.060672: Wall 3, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.060937: Wall 3, 4, 1, 0 is diagonal, or misordered
+2013-02-06 18:30:00.061197: Wall 2, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:30:00.061456: Wall 1, 3, 3, 0 is diagonal, or misordered
+2013-02-06 18:30:00.061717: Wall 3, 0, 1, 3 is diagonal, or misordered
+2013-02-06 18:30:00.061979: Wall 3, 1, 0, 4 is diagonal, or misordered
+2013-02-06 18:30:00.062242: Wall 4, 0, 1, 3 is diagonal, or misordered
+2013-02-06 18:30:00.062500: Wall 3, 0, 0, 2 is diagonal, or misordered
+2013-02-06 18:30:00.062759: Wall 2, 4, 0, 2 is diagonal, or misordered
+2013-02-06 18:30:00.063021: Wall 4, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:00.063282: Wall 3, 3, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.063543: Wall 1, 4, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.063813: Wall 1, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.064073: Wall 1, 1, 2, 0 is diagonal, or misordered
+2013-02-06 18:30:00.064332: Wall 2, 2, 4, 3 is diagonal, or misordered
+2013-02-06 18:30:00.064590: Wall 1, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:00.064863: Wall 0, 4, 4, 2 is diagonal, or misordered
+2013-02-06 18:30:00.065124: Wall 3, 0, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.065386: Wall 3, 2, 4, 4 is diagonal, or misordered
+2013-02-06 18:30:00.065644: Wall 4, 1, 2, 0 is diagonal, or misordered
+2013-02-06 18:30:00.065909: Wall 3, 1, 0, 0 is diagonal, or misordered
+2013-02-06 18:30:00.066169: Wall 3, 4, 1, 0 is diagonal, or misordered
+2013-02-06 18:30:00.066432: Wall 1, 2, 4, 1 is diagonal, or misordered
+2013-02-06 18:30:00.066691: Wall 4, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:30:00.066952: Wall 0, 2, 1, 1 is diagonal, or misordered
+2013-02-06 18:30:00.067210: Wall 4, 4, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.067474: Wall 1, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:30:00.067871: Wall 1, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:30:00.068125: Wall 0, 4, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.068448: Wall 1, 2, 2, 4 is diagonal, or misordered
+2013-02-06 18:30:00.069064: Wall 4, 0, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.069325: Wall 0, 4, 1, 1 is diagonal, or misordered
+2013-02-06 18:30:00.069584: Wall 1, 3, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.069867: Wall 1, 3, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.070129: Wall 0, 2, 2, 4 is diagonal, or misordered
+2013-02-06 18:30:00.070389: Wall 4, 0, 2, 3 is diagonal, or misordered
+2013-02-06 18:30:00.070651: Wall 4, 4, 2, 1 is diagonal, or misordered
+2013-02-06 18:30:00.070911: Wall 0, 4, 1, 3 is diagonal, or misordered
+2013-02-06 18:30:00.071180: Wall 1, 1, 2, 0 is diagonal, or misordered
+2013-02-06 18:30:00.071442: Wall 4, 2, 2, 0 is diagonal, or misordered
+2013-02-06 18:30:00.071701: Wall 1, 1, 2, 0 is diagonal, or misordered
+2013-02-06 18:30:00.071963: Wall 0, 0, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.072233: Wall 3, 3, 1, 1 is diagonal, or misordered
+2013-02-06 18:30:00.072529: Wall 0, 1, 3, 0 is diagonal, or misordered
+2013-02-06 18:30:00.072800: Wall 2, 3, 4, 4 is diagonal, or misordered
+2013-02-06 18:30:00.073065: Wall 1, 2, 0, 4 is diagonal, or misordered
+2013-02-06 18:30:00.073335: Wall 1, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.073601: Wall 1, 4, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.073863: Wall 4, 1, 0, 4 is diagonal, or misordered
+2013-02-06 18:30:00.074129: Wall 3, 2, 4, 3 is diagonal, or misordered
+2013-02-06 18:30:00.074388: Wall 3, 2, 1, 4 is diagonal, or misordered
+2013-02-06 18:30:00.074647: Wall 3, 0, 2, 4 is diagonal, or misordered
+2013-02-06 18:30:00.074907: Wall 4, 4, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.075164: Wall 1, 2, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.075431: Wall 0, 2, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.075690: Wall 0, 1, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:00.075951: Wall 0, 3, 2, 0 is diagonal, or misordered
+2013-02-06 18:30:00.076221: Wall 1, 2, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.076533: Wall 1, 2, 3, 1 is diagonal, or misordered
+2013-02-06 18:30:00.444215: Wall 8, 9, 8, 7 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.444981: Wall 0, 3, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.445364: Wall 4, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:30:00.445721: Wall 1, 1, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.446072: Wall 3, 1, 1, 3 is diagonal, or misordered
+2013-02-06 18:30:00.446394: Wall 1, 4, 4, 1 is diagonal, or misordered
+2013-02-06 18:30:00.446769: Wall 2, 3, 0, 4 is diagonal, or misordered
+2013-02-06 18:30:00.447120: Wall 0, 3, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:00.447462: Wall 2, 3, 3, 1 is diagonal, or misordered
+2013-02-06 18:30:00.447803: Wall 0, 3, 1, 2 is diagonal, or misordered
+2013-02-06 18:30:00.448143: Wall 0, 2, 2, 0 is diagonal, or misordered
+2013-02-06 18:30:00.448479: Wall 2, 3, 1, 4 is diagonal, or misordered
+2013-02-06 18:30:00.635899: Wall 9, 3, 7, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.636321: Wall 1, 3, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:00.636588: Wall 0, 0, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.636940: Wall 2, 3, 0, 4 is diagonal, or misordered
+2013-02-06 18:30:00.637238: Wall 0, 1, 0, 3 is along the edge
+2013-02-06 18:30:00.637523: Wall 0, 0, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.637807: Wall 0, 3, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.638087: Wall 4, 0, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.638362: Wall 1, 0, 4, 1 is diagonal, or misordered
+2013-02-06 18:30:00.638647: Wall 2, 1, 3, 2 is diagonal, or misordered
+2013-02-06 18:30:00.638950: Wall 0, 0, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.639228: Wall 4, 2, 0, 1 is diagonal, or misordered
+2013-02-06 18:30:00.639516: Wall 0, 4, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.639823: Wall 4, 0, 2, 1 is diagonal, or misordered
+2013-02-06 18:30:00.640107: Wall 3, 4, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.640377: Wall 1, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:30:00.640746: Wall 3, 3, 4, 4 is diagonal, or misordered
+2013-02-06 18:30:00.641057: Wall 2, 0, 0, 3 is diagonal, or misordered
+2013-02-06 18:30:00.641340: Wall 1, 1, 4, 3 is diagonal, or misordered
+2013-02-06 18:30:00.641635: Wall 1, 3, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:00.641911: Wall 3, 4, 0, 2 is diagonal, or misordered
+2013-02-06 18:30:00.642184: Wall 4, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:30:00.642459: Wall 2, 2, 3, 1 is diagonal, or misordered
+2013-02-06 18:30:00.642747: Wall 0, 1, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.643022: Wall 0, 1, 1, 4 is diagonal, or misordered
+2013-02-06 18:30:00.643308: Wall 1, 1, 4, 4 is diagonal, or misordered
+2013-02-06 18:30:00.643590: Wall 3, 3, 1, 0 is diagonal, or misordered
+2013-02-06 18:30:00.643871: Wall 3, 3, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.644171: Wall 3, 2, 4, 1 is diagonal, or misordered
+2013-02-06 18:30:00.644441: Wall 3, 4, 0, 1 is diagonal, or misordered
+2013-02-06 18:30:00.644713: Wall 3, 2, 0, 4 is diagonal, or misordered
+2013-02-06 18:30:00.644984: Wall 0, 0, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.645257: Wall 4, 2, 2, 0 is diagonal, or misordered
+2013-02-06 18:30:00.645530: Wall 1, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:30:00.645801: Wall 3, 3, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.837253: Wall 7, 2, 5, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.837671: Wall 0, 4, 0, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.837936: Wall 3, 1, 0, 2 is diagonal, or misordered
+2013-02-06 18:30:00.838278: Wall 1, 2, 2, 3 is diagonal, or misordered
+2013-02-06 18:30:00.838574: Wall 2, 3, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.838853: Wall 3, 3, 1, 1 is diagonal, or misordered
+2013-02-06 18:30:00.839157: Wall 0, 2, 3, 1 is diagonal, or misordered
+2013-02-06 18:30:00.839442: Wall 1, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.839730: Wall 0, 4, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.840012: Wall 3, 4, 1, 3 is diagonal, or misordered
+2013-02-06 18:30:00.840293: Wall 4, 1, 3, 3 is diagonal, or misordered
+2013-02-06 18:30:00.840570: Wall 0, 2, 2, 4 is diagonal, or misordered
+2013-02-06 18:30:00.840843: Wall 2, 4, 0, 3 is diagonal, or misordered
+2013-02-06 18:30:00.841116: Wall 1, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:30:00.841392: Wall 3, 2, 0, 4 is diagonal, or misordered
+2013-02-06 18:30:00.841669: Wall 3, 2, 0, 4 is diagonal, or misordered
+2013-02-06 18:30:00.841952: Wall 4, 2, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.842240: Wall 2, 1, 0, 4 is diagonal, or misordered
+2013-02-06 18:30:00.842522: Wall 3, 3, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.842797: Wall 1, 3, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.843121: Wall 2, 0, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.843430: Wall 3, 0, 4, 1 is diagonal, or misordered
+2013-02-06 18:30:00.843715: Wall 4, 3, 1, 4 is diagonal, or misordered
+2013-02-06 18:30:00.844007: Wall 1, 4, 2, 3 is diagonal, or misordered
+2013-02-06 18:30:00.844288: Wall 1, 1, 4, 4 is diagonal, or misordered
+2013-02-06 18:30:00.844563: Wall 0, 1, 3, 2 is diagonal, or misordered
+2013-02-06 18:30:00.844838: Wall 0, 3, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.845107: Wall 4, 2, 2, 1 is diagonal, or misordered
+2013-02-06 18:30:00.845417: Wall 3, 1, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.845703: Wall 3, 0, 2, 4 is diagonal, or misordered
+2013-02-06 18:30:00.845981: Wall 2, 1, 0, 3 is diagonal, or misordered
+2013-02-06 18:30:00.846237: Wall 3, 0, 4, 4 is diagonal, or misordered
+2013-02-06 18:30:00.846825: Wall 4, 4, 3, 3 is diagonal, or misordered
+2013-02-06 18:30:00.847175: Wall 2, 1, 4, 2 is diagonal, or misordered
+2013-02-06 18:30:00.847718: Wall 0, 2, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:00.848034: Wall 4, 1, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.848315: Wall 0, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:30:00.848594: Wall 3, 3, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.848867: Wall 3, 4, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:00.849145: Wall 3, 0, 0, 3 is diagonal, or misordered
+2013-02-06 18:30:00.849505: Wall 2, 1, 1, 4 is diagonal, or misordered
+2013-02-06 18:30:00.849788: Wall 0, 0, 4, 2 is diagonal, or misordered
+2013-02-06 18:30:00.850073: Wall 1, 3, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.850340: Wall 0, 4, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.850601: Wall 2, 3, 1, 4 is diagonal, or misordered
+2013-02-06 18:30:00.850861: Wall 4, 3, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.851123: Wall 0, 1, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.851385: Wall 2, 3, 0, 0 is diagonal, or misordered
+2013-02-06 18:30:00.851662: Wall 4, 2, 3, 3 is diagonal, or misordered
+2013-02-06 18:30:00.851923: Wall 2, 3, 0, 4 is diagonal, or misordered
+2013-02-06 18:30:00.852184: Wall 0, 3, 4, 2 is diagonal, or misordered
+2013-02-06 18:30:00.852448: Wall 4, 3, 3, 1 is diagonal, or misordered
+2013-02-06 18:30:00.852710: Wall 2, 0, 3, 3 is diagonal, or misordered
+2013-02-06 18:30:00.852970: Wall 3, 4, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:00.853227: Wall 2, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.853486: Wall 3, 3, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:00.853748: Wall 0, 2, 0, 4 is along the edge
+2013-02-06 18:30:00.854011: Wall 2, 0, 2, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.854271: Wall 0, 0, 4, 1 is diagonal, or misordered
+2013-02-06 18:30:00.854528: Wall 2, 0, 0, 3 is diagonal, or misordered
+2013-02-06 18:30:00.854788: Wall 1, 1, 4, 3 is diagonal, or misordered
+2013-02-06 18:30:00.855044: Wall 4, 1, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.855303: Wall 1, 1, 3, 0 is diagonal, or misordered
+2013-02-06 18:30:00.855563: Wall 3, 0, 4, 4 is diagonal, or misordered
+2013-02-06 18:30:00.855823: Wall 0, 4, 4, 0 is diagonal, or misordered
+2013-02-06 18:30:00.856085: Wall 0, 2, 2, 4 is diagonal, or misordered
+2013-02-06 18:30:00.856344: Wall 0, 0, 0, 2 is along the edge
+2013-02-06 18:30:00.856602: Wall 3, 0, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:00.856857: Wall 2, 4, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.857125: Wall 0, 3, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:00.857376: Wall 1, 3, 4, 2 is diagonal, or misordered
+2013-02-06 18:30:00.858111: Wall 0, 3, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:00.858380: Wall 2, 1, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.858665: Wall 3, 4, 0, 0 is diagonal, or misordered
+2013-02-06 18:30:00.858928: Wall 4, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:30:00.859182: Wall 1, 0, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.859439: Wall 3, 1, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.859704: Wall 3, 0, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.859956: Wall 0, 4, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:00.860211: Wall 1, 0, 3, 2 is diagonal, or misordered
+2013-02-06 18:30:01.231182: Wall 5, 7, 5, 5 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.231600: Wall 4, 4, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.231890: Wall 1, 4, 0, 2 is diagonal, or misordered
+2013-02-06 18:30:01.232488: Wall 3, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:30:01.232750: Wall 3, 4, 4, 1 is diagonal, or misordered
+2013-02-06 18:30:01.233012: Wall 1, 1, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.233277: Wall 1, 0, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.233551: Wall 1, 0, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.233819: Wall 0, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.234080: Wall 0, 2, 0, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.234342: Wall 2, 1, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.234743: Wall 3, 3, 4, 0 is diagonal, or misordered
+2013-02-06 18:30:01.235095: Wall 1, 1, 2, 3 is diagonal, or misordered
+2013-02-06 18:30:01.235361: Wall 3, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:30:01.235994: Wall 4, 2, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.236387: Wall 2, 1, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.236654: Wall 0, 4, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:01.236911: Wall 2, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.237164: Wall 4, 0, 1, 4 is diagonal, or misordered
+2013-02-06 18:30:01.237417: Wall 1, 3, 3, 0 is diagonal, or misordered
+2013-02-06 18:30:01.237673: Wall 1, 4, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.426916: Wall 9, 2, 7, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.427334: Wall 2, 3, 4, 2 is diagonal, or misordered
+2013-02-06 18:30:01.427600: Wall 2, 4, 4, 3 is diagonal, or misordered
+2013-02-06 18:30:01.428128: Wall 0, 4, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.428489: Wall 0, 0, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:01.428862: Wall 1, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:30:01.429231: Wall 3, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.429586: Wall 1, 1, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.429936: Wall 1, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.430286: Wall 0, 3, 3, 1 is diagonal, or misordered
+2013-02-06 18:30:01.430632: Wall 4, 4, 3, 3 is diagonal, or misordered
+2013-02-06 18:30:01.430981: Wall 3, 3, 0, 1 is diagonal, or misordered
+2013-02-06 18:30:01.431327: Wall 4, 3, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:01.431705: Wall 1, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.432061: Wall 4, 0, 1, 3 is diagonal, or misordered
+2013-02-06 18:30:01.432402: Wall 3, 3, 0, 1 is diagonal, or misordered
+2013-02-06 18:30:01.432786: Wall 2, 0, 0, 3 is diagonal, or misordered
+2013-02-06 18:30:01.433082: Wall 4, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:01.616498: Wall 7, 1, 5, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.616916: Wall 2, 0, 4, 3 is diagonal, or misordered
+2013-02-06 18:30:01.617185: Wall 4, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:30:01.617529: Wall 3, 1, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:01.617816: Wall 3, 3, 4, 2 is diagonal, or misordered
+2013-02-06 18:30:01.618097: Wall 0, 1, 1, 4 is diagonal, or misordered
+2013-02-06 18:30:01.618433: Wall 4, 0, 1, 3 is diagonal, or misordered
+2013-02-06 18:30:01.618722: Wall 0, 4, 1, 3 is diagonal, or misordered
+2013-02-06 18:30:01.619010: Wall 3, 4, 0, 0 is diagonal, or misordered
+2013-02-06 18:30:01.619285: Wall 2, 4, 1, 1 is diagonal, or misordered
+2013-02-06 18:30:01.619565: Wall 3, 0, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.619845: Wall 0, 2, 3, 1 is diagonal, or misordered
+2013-02-06 18:30:01.620122: Wall 1, 0, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:01.620395: Wall 0, 3, 4, 1 is diagonal, or misordered
+2013-02-06 18:30:01.620669: Wall 2, 2, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.805085: Wall 8, 3, 6, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.805537: Wall 3, 1, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.805810: Wall 0, 3, 3, 0 is diagonal, or misordered
+2013-02-06 18:30:01.806441: Wall 1, 4, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.806707: Wall 3, 4, 0, 2 is diagonal, or misordered
+2013-02-06 18:30:01.806971: Wall 0, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.807231: Wall 1, 3, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:01.807493: Wall 0, 2, 4, 1 is diagonal, or misordered
+2013-02-06 18:30:01.807753: Wall 0, 2, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:01.808013: Wall 1, 1, 2, 3 is diagonal, or misordered
+2013-02-06 18:30:01.808271: Wall 3, 3, 0, 1 is diagonal, or misordered
+2013-02-06 18:30:01.808531: Wall 0, 3, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.808797: Wall 2, 0, 3, 1 is diagonal, or misordered
+2013-02-06 18:30:01.809060: Wall 1, 3, 4, 1 is diagonal, or misordered
+2013-02-06 18:30:01.809322: Wall 0, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.809583: Wall 1, 0, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.809852: Wall 1, 3, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.810112: Wall 3, 2, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.810374: Wall 3, 2, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.810639: Wall 1, 0, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.810901: Wall 3, 0, 0, 3 is diagonal, or misordered
+2013-02-06 18:30:01.811161: Wall 0, 1, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.811421: Wall 0, 1, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.811684: Wall 4, 0, 0, 2 is diagonal, or misordered
+2013-02-06 18:30:01.811946: Wall 3, 3, 2, 0 is diagonal, or misordered
+2013-02-06 18:30:01.812214: Wall 1, 1, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.812476: Wall 2, 4, 1, 0 is diagonal, or misordered
+2013-02-06 18:30:01.812756: Wall 2, 4, 1, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.813013: Wall 2, 3, 1, 4 is diagonal, or misordered
+2013-02-06 18:30:01.813267: Wall 3, 1, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.813899: Wall 2, 0, 4, 3 is diagonal, or misordered
+2013-02-06 18:30:01.814169: Wall 3, 1, 4, 4 is diagonal, or misordered
+2013-02-06 18:30:01.814434: Wall 0, 4, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.814708: Wall 1, 3, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.814967: Wall 1, 3, 0, 0 is diagonal, or misordered
+2013-02-06 18:30:01.815229: Wall 0, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:30:01.999329: Wall 8, 2, 6, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:01.999745: Wall 0, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:30:02.000008: Wall 2, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:30:02.000372: Wall 0, 4, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.000668: Wall 1, 4, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:02.000949: Wall 3, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:30:02.001235: Wall 4, 2, 3, 0 is diagonal, or misordered
+2013-02-06 18:30:02.001527: Wall 3, 0, 1, 2 is diagonal, or misordered
+2013-02-06 18:30:02.001817: Wall 0, 2, 0, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.002081: Wall 1, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:30:02.002593: Wall 2, 1, 0, 2 is diagonal, or misordered
+2013-02-06 18:30:02.186219: Wall 8, 2, 6, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.186648: Wall 2, 0, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:02.186917: Wall 4, 1, 2, 0 is diagonal, or misordered
+2013-02-06 18:30:02.187281: Wall 2, 3, 0, 1 is diagonal, or misordered
+2013-02-06 18:30:02.187570: Wall 3, 4, 0, 0 is diagonal, or misordered
+2013-02-06 18:30:02.187851: Wall 2, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:02.188254: Wall 4, 4, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.188597: Wall 2, 3, 1, 2 is diagonal, or misordered
+2013-02-06 18:30:02.188889: Wall 4, 2, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.189171: Wall 4, 2, 0, 0 is diagonal, or misordered
+2013-02-06 18:30:02.189459: Wall 4, 2, 0, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.189742: Wall 0, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:30:02.190023: Wall 3, 1, 4, 3 is diagonal, or misordered
+2013-02-06 18:30:02.190303: Wall 3, 1, 1, 2 is diagonal, or misordered
+2013-02-06 18:30:02.190588: Wall 3, 1, 4, 3 is diagonal, or misordered
+2013-02-06 18:30:02.190890: Wall 3, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:30:02.191460: Wall 4, 4, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.191811: Wall 3, 1, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.192143: Wall 2, 0, 4, 2 is diagonal, or misordered
+2013-02-06 18:30:02.192432: Wall 4, 3, 4, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.192722: Wall 0, 3, 1, 4 is diagonal, or misordered
+2013-02-06 18:30:02.193063: Wall 3, 4, 3, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.193339: Wall 3, 0, 1, 2 is diagonal, or misordered
+2013-02-06 18:30:02.560552: Wall 7, 8, 7, 6 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.560972: Wall 3, 3, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.561238: Wall 2, 0, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.561869: Wall 2, 4, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.562140: Wall 3, 0, 4, 3 is diagonal, or misordered
+2013-02-06 18:30:02.562401: Wall 2, 1, 1, 3 is diagonal, or misordered
+2013-02-06 18:30:02.562688: Wall 4, 0, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.563018: Wall 2, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:30:02.563364: Wall 4, 2, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.563634: Wall 1, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:02.563902: Wall 4, 0, 0, 3 is diagonal, or misordered
+2013-02-06 18:30:02.564164: Wall 2, 2, 1, 0 is diagonal, or misordered
+2013-02-06 18:30:02.747536: Wall 9, 2, 7, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.747960: Wall 3, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:30:02.748226: Wall 2, 2, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:02.748581: Wall 2, 3, 0, 0 is diagonal, or misordered
+2013-02-06 18:30:02.748869: Wall 3, 4, 0, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.749146: Wall 2, 0, 1, 3 is diagonal, or misordered
+2013-02-06 18:30:02.749422: Wall 0, 2, 1, 0 is diagonal, or misordered
+2013-02-06 18:30:02.749711: Wall 0, 1, 4, 2 is diagonal, or misordered
+2013-02-06 18:30:02.749994: Wall 3, 0, 1, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.750273: Wall 1, 4, 0, 3 is diagonal, or misordered
+2013-02-06 18:30:02.750553: Wall 1, 3, 2, 4 is diagonal, or misordered
+2013-02-06 18:30:02.750831: Wall 2, 0, 0, 3 is diagonal, or misordered
+2013-02-06 18:30:02.751110: Wall 0, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:30:02.751387: Wall 4, 0, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:02.751661: Wall 3, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.751967: Wall 3, 2, 4, 1 is diagonal, or misordered
+2013-02-06 18:30:02.761259: Wall 2, 0, 2, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.761828: Wall 2, 0, 3, 2 is diagonal, or misordered
+2013-02-06 18:30:02.762721: Wall 4, 3, 3, 2 is diagonal, or misordered
+2013-02-06 18:30:02.763131: Wall 1, 1, 0, 2 is diagonal, or misordered
+2013-02-06 18:30:02.763474: Wall 1, 4, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.764695: Wall 0, 1, 3, 2 is diagonal, or misordered
+2013-02-06 18:30:02.765107: Wall 2, 2, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:02.765365: Wall 4, 2, 1, 0 is diagonal, or misordered
+2013-02-06 18:30:03.133769: Wall 6, 8, 6, 6 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.134225: Wall 3, 3, 1, 1 is diagonal, or misordered
+2013-02-06 18:30:03.134490: Wall 3, 0, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.135137: Wall 3, 4, 1, 2 is diagonal, or misordered
+2013-02-06 18:30:03.135404: Wall 3, 3, 4, 0 is diagonal, or misordered
+2013-02-06 18:30:03.135656: Wall 1, 3, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:03.135933: Wall 0, 3, 3, 0 is diagonal, or misordered
+2013-02-06 18:30:03.136189: Wall 0, 2, 4, 4 is diagonal, or misordered
+2013-02-06 18:30:03.136448: Wall 4, 2, 0, 1 is diagonal, or misordered
+2013-02-06 18:30:03.136706: Wall 4, 4, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:03.136966: Wall 2, 1, 2, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.137223: Wall 3, 1, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.137480: Wall 3, 2, 2, 0 is diagonal, or misordered
+2013-02-06 18:30:03.137736: Wall 1, 4, 0, 0 is diagonal, or misordered
+2013-02-06 18:30:03.137997: Wall 0, 0, 4, 3 is diagonal, or misordered
+2013-02-06 18:30:03.138254: Wall 4, 1, 1, 0 is diagonal, or misordered
+2013-02-06 18:30:03.138513: Wall 4, 0, 3, 3 is diagonal, or misordered
+2013-02-06 18:30:03.138769: Wall 3, 0, 1, 1 is diagonal, or misordered
+2013-02-06 18:30:03.139024: Wall 3, 4, 1, 0 is diagonal, or misordered
+2013-02-06 18:30:03.139282: Wall 3, 3, 4, 4 is diagonal, or misordered
+2013-02-06 18:30:03.139545: Wall 4, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:03.139771: Wall 4, 2, 0, 1 is diagonal, or misordered
+2013-02-06 18:30:03.140045: Wall 1, 1, 4, 4 is diagonal, or misordered
+2013-02-06 18:30:03.140313: Wall 4, 4, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.140576: Wall 3, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:30:03.140839: Wall 1, 3, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:03.141101: Wall 2, 2, 1, 4 is diagonal, or misordered
+2013-02-06 18:30:03.141360: Wall 1, 2, 3, 0 is diagonal, or misordered
+2013-02-06 18:30:03.141623: Wall 4, 0, 0, 1 is diagonal, or misordered
+2013-02-06 18:30:03.141886: Wall 4, 2, 3, 0 is diagonal, or misordered
+2013-02-06 18:30:03.142143: Wall 3, 2, 0, 0 is diagonal, or misordered
+2013-02-06 18:30:03.142415: Wall 4, 2, 3, 3 is diagonal, or misordered
+2013-02-06 18:30:03.530509: Wall 7, 8, 7, 6 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.531090: Wall 3, 3, 1, 0 is diagonal, or misordered
+2013-02-06 18:30:03.531361: Wall 3, 3, 1, 0 is diagonal, or misordered
+2013-02-06 18:30:03.531663: Wall 4, 1, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.531941: Wall 4, 2, 3, 1 is diagonal, or misordered
+2013-02-06 18:30:03.532756: Wall 4, 2, 3, 0 is diagonal, or misordered
+2013-02-06 18:30:03.533109: Wall 3, 2, 0, 0 is diagonal, or misordered
+2013-02-06 18:30:03.533452: Wall 4, 4, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.533867: Wall 1, 1, 3, 3 is diagonal, or misordered
+2013-02-06 18:30:03.534176: Wall 1, 4, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:03.534437: Wall 3, 0, 4, 1 is diagonal, or misordered
+2013-02-06 18:30:03.534690: Wall 2, 0, 4, 1 is diagonal, or misordered
+2013-02-06 18:30:03.534943: Wall 0, 2, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:03.535194: Wall 2, 1, 1, 0 is diagonal, or misordered
+2013-02-06 18:30:03.535447: Wall 4, 1, 1, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.535699: Wall 2, 2, 0, 3 is diagonal, or misordered
+2013-02-06 18:30:03.536358: Wall 4, 4, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.536623: Wall 4, 1, 2, 4 is diagonal, or misordered
+2013-02-06 18:30:03.536886: Wall 1, 2, 1, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.537148: Wall 4, 4, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:03.537409: Wall 2, 3, 3, 0 is diagonal, or misordered
+2013-02-06 18:30:03.537671: Wall 3, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:30:03.537932: Wall 4, 0, 0, 4 is diagonal, or misordered
+2013-02-06 18:30:03.538191: Wall 4, 1, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.538478: Wall 4, 4, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.538739: Wall 4, 0, 1, 3 is diagonal, or misordered
+2013-02-06 18:30:03.920942: Wall 5, 8, 5, 6 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.921355: Wall 0, 2, 4, 0 is diagonal, or misordered
+2013-02-06 18:30:03.921621: Wall 3, 4, 2, 0 is diagonal, or misordered
+2013-02-06 18:30:03.922318: Wall 2, 0, 4, 4 is diagonal, or misordered
+2013-02-06 18:30:03.922578: Wall 4, 4, 2, 1 is diagonal, or misordered
+2013-02-06 18:30:03.922833: Wall 0, 4, 3, 3 is diagonal, or misordered
+2013-02-06 18:30:03.923085: Wall 0, 1, 2, 4 is diagonal, or misordered
+2013-02-06 18:30:03.923341: Wall 3, 3, 4, 4 is diagonal, or misordered
+2013-02-06 18:30:03.923600: Wall 2, 4, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.923857: Wall 3, 0, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.924111: Wall 0, 1, 4, 0 is diagonal, or misordered
+2013-02-06 18:30:03.924364: Wall 4, 1, 3, 4 is diagonal, or misordered
+2013-02-06 18:30:03.924617: Wall 3, 0, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.925277: Wall 0, 1, 2, 0 is diagonal, or misordered
+2013-02-06 18:30:03.925544: Wall 3, 2, 2, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.925811: Wall 4, 1, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.926071: Wall 0, 1, 2, 0 is diagonal, or misordered
+2013-02-06 18:30:03.926332: Wall 1, 3, 2, 0 is diagonal, or misordered
+2013-02-06 18:30:03.926592: Wall 2, 3, 1, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:03.926856: Wall 3, 2, 4, 3 is diagonal, or misordered
+2013-02-06 18:30:03.927117: Wall 3, 4, 1, 3 is diagonal, or misordered
+2013-02-06 18:30:03.927380: Wall 0, 0, 1, 2 is diagonal, or misordered
+2013-02-06 18:30:03.927644: Wall 1, 3, 2, 1 is diagonal, or misordered
+2013-02-06 18:30:03.927909: Wall 1, 3, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:03.928170: Wall 4, 1, 2, 2 is diagonal, or misordered
+2013-02-06 18:30:03.928429: Wall 4, 0, 3, 2 is diagonal, or misordered
+2013-02-06 18:30:03.928689: Wall 3, 0, 2, 3 is diagonal, or misordered
+2013-02-06 18:30:03.928950: Wall 0, 0, 2, 2 is diagonal, or misordered

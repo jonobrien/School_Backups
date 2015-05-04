@@ -1,0 +1,5 @@
+03-11 15:53:53 Engine Gobblet Java Client v1.0 by RIT CS Department starting up
+03-11 15:53:53 Engine Loading player JVO7822
+03-11 15:53:53 Engine Loading reference player
+03-11 15:53:53 Engine Loaded 2 players
+03-11 15:53:53 Engine Calling init() for player 1

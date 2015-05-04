@@ -1,0 +1,77 @@
+1.  The pivot is the point where you split the list in half, creating the smaller 
+and larger lists.  No we don't need to choose the middle item as the pivot.  This is because
+you are just creating lists with more or less elements, depending on the value at that element, not
+based on the index, in the unsorted list.  If the pivot is the element [0] of an unsorted list,
+then there will still be lists accordingly, depending on the value, elements that 
+are of a smaller value than [0] are still sorted into the smaller list, and the
+same for the larger list, with elements larger than the value at [0].
+
+2. K returns the items at the kth index as if the list were sorted.  Setting K as the first element [0] 
+ would return the first element.
+
+
+lst = [70,120,170,200]
+k = 0 returns 70
+k = len(lst) returns none, no value in 4th index.
+k = len(lst)-1 returns 200
+
+lst = [70,50,120,170,200]
+k = 0 returns 50, smallest value
+k = len(lst) returns none, no value of 5th index.
+k = len(lst)-1 returns 200
+
+
+The beginning of the list, end of the list, and somewhere in between.
+
+
+3.  
+
+for the 10k list:
+
+storeLocation.py (median program)
+input: testDataSet10K.txt
+1.  
+
+Optimal Distance: 50153.5
+Total Distance: 248999503.0
+Time: 8.608263549091134
+
+2.
+
+Optimal Distance: 50153.5
+Total Distance: 248999503.0
+Time: 8.831402307605458
+
+3.  
+
+Optimal Distance: 50153.5
+Total Distance: 248999503.0
+Time: 8.698057130239249
+
+for the 10k list:
+
+selectMedian.py (quickselect program)
+input: testDataSet10K.txt
+
+1.
+
+Optimal Distance: 50153.5
+Total Distance: 248999503.0
+Time: 0.011639240179647459
+
+
+2.
+
+Optimal Distance: 50153.5
+Total Distance: 248999503.0
+Time: 0.011614466800892842
+
+3.
+
+Optimal Distance: 50153.5
+Total Distance: 248999503.0
+Time: 0.011945368334636441
+
+
+
+

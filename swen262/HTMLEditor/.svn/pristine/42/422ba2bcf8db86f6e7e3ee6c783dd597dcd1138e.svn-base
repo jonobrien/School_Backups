@@ -1,0 +1,35 @@
+package Tab;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JPanel;
+
+/**
+ * This class is responsible for holding the current tab's contents.
+ * All that includes is the TabConentBuffer that is the TextArea.
+ * Note : Content is centered within a BorderLayouted JPanel.
+ */
+@SuppressWarnings("serial")
+public class TabContent extends JPanel{
+    
+	//Content's Buffer (TextArea)
+	private TabContentBuffer buffer = new TabContentBuffer();
+	
+	/**
+	 * Constructor:
+	 *     initializes TabContent to be centered within a BorderLayout (JPanel)
+	 */
+    public TabContent(){
+        super(new BorderLayout());
+        this.add(buffer,BorderLayout.CENTER);
+    }
+    
+    /**
+     * getBuffer() is a getter method for the Tab's buffer (TextArea)
+     * @return
+     */
+    public TabContentBuffer getBuffer(){
+    	return this.buffer;
+    }
+    
+}

@@ -1,0 +1,20 @@
+question 1:
+
+The imbalance measurement is 0.13061298022789702
+
+question 2:
+
+The imbalance measurement is 18.6117187
+
+question 3:
+
+
+different hashing functions use different values to compute the hashcodes with, so different modular divison
+would create a different range of indices for the hash table and could cause more or less collisions depending
+on the way the function is written.  If you use a wider range of values, it could be worse, or a shorter set,
+more or less indices collisions respectively.  The actual resizing is done by the rehash functions and 
+the key-value pairs are put into the new tables by the get and put functions.   
+
+more perfect hash functions will cause less collisions and create a more perfect hash table, lower quality
+functions will cause calculated collisions to occur more often, it all depends on the method of finding 
+and assigning the indices and hashcodes for the key-value pairs for the table.

@@ -1,0 +1,9 @@
+def removeEvens(values):
+    values2 = values[:]
+    for val in values2:
+        if (val % 2 == 0):
+            values.remove(val)
+
+values = [1,2,3,4,6,8,9,10,11,13,14,16,20,22]
+removeEvens(values)
+print(values)

@@ -1,0 +1,37 @@
+package Command;
+
+import java.util.LinkedList;
+
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+
+import main.Display;
+import Tab.Tab;
+import Tab.TabPanel;
+
+public class AddNewTabCommand implements CommandInterface, ChangeListener {
+
+    
+    @Override
+    public void execute() {
+        TabPanel tabs = Display.getDisplay().getTabPanel();
+        LinkedList<Tab> tabList = tabs.getList();
+        int tabIndex = tabs.getSelectedIndex();
+        int tabCount = tabs.getTabCount();
+        
+        if(tabIndex == tabCount - 1){
+            tabs.setSelectedIndex(0);
+            Tab newTab = new Tab(tabCount - 1);
+            tabList.add(newTab);
+            tabs.insertTab(null, null, newTab.getContent(), null, tabCount - 1);
+            tabs.setTabComponentAt(tabCount - 1, newTab.getHeader());
+            tabs.setSelectedIndex( tabCount - 1  );
+        }
+    }
+
+    @Override
+    public void stateChanged(ChangeEvent e) {
+        execute();
+    }
+
+}

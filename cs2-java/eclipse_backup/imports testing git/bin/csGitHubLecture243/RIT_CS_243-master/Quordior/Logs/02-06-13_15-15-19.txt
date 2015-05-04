@@ -1,0 +1,328 @@
+2013-02-06 15:15:19.541080: ENGINE starting
+2013-02-06 15:15:19.541905: ENGINE loading STUDENT ENGINE part 3
+2013-02-06 15:15:19.643718: ENGINE loaded player module: OKComputer as player 1
+2013-02-06 15:15:19.644310: ENGINE loaded player module: OKComputer as player 2
+2013-02-06 15:15:19.644729: ENGINE loaded player module: OKComputer as player 3
+2013-02-06 15:15:19.645061: ENGINE loaded player module: OKComputer as player 4
+2013-02-06 15:15:19.645356: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-06 15:15:22.276153: ENGINE calling STUDENT ENGINE init
+2013-02-06 15:15:22.276519: STUDENT ENGINE init call successfully returned
+2013-02-06 15:15:22.276800: ENGINE calling init() for player 1
+2013-02-06 15:15:22.277011: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 15:15:22.277906: OKComputer initialized as player 1
+2013-02-06 15:15:22.278121: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 15:15:22.278330: ENGINE calling init() for player 2
+2013-02-06 15:15:22.278536: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 15:15:22.279270: OKComputer initialized as player 2
+2013-02-06 15:15:22.279481: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 15:15:22.279688: ENGINE calling init() for player 3
+2013-02-06 15:15:22.279891: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 15:15:22.280662: OKComputer initialized as player 3
+2013-02-06 15:15:22.280845: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 15:15:22.281030: ENGINE calling init() for player 4
+2013-02-06 15:15:22.281208: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 15:15:22.281999: OKComputer initialized as player 4
+2013-02-06 15:15:22.282234: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 15:15:23.005012: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/public.20041bbf2b0fb8815608c9d87fe919dce8ce9f205112b9da3fdab/partone.0/apikey.820d60943005a0935c8/gameid.89405/animations.500/
+2013-02-06 15:15:23.005556: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:23.397429: ENGINE uploading move to web engine
+2013-02-06 15:15:25.278851: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:25.292307: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:25.293209: ENGINE uploading move to web engine
+2013-02-06 15:15:26.118702: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:26.119173: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:26.120133: ENGINE uploading move to web engine
+2013-02-06 15:15:27.137710: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:27.138103: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:27.139326: ENGINE uploading move to web engine
+2013-02-06 15:15:28.787214: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:28.787599: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:29.193299: ENGINE uploading move to web engine
+2013-02-06 15:15:30.852158: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:30.852620: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:30.853369: ENGINE uploading move to web engine
+2013-02-06 15:15:32.335694: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:32.336144: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:32.337280: ENGINE uploading move to web engine
+2013-02-06 15:15:33.800727: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:33.801415: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:33.802911: ENGINE uploading move to web engine
+2013-02-06 15:15:35.335827: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:35.336267: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:35.786874: ENGINE uploading move to web engine
+2013-02-06 15:15:36.941211: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:36.941558: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:36.942288: ENGINE uploading move to web engine
+2013-02-06 15:15:38.019250: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:38.019735: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:38.024540: ENGINE uploading move to web engine
+2013-02-06 15:15:39.766489: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:39.766879: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:39.768512: ENGINE uploading move to web engine
+2013-02-06 15:15:40.586321: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:40.586704: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:40.587866: ENGINE uploading move to web engine
+2013-02-06 15:15:41.406902: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:41.407353: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:41.408276: ENGINE uploading move to web engine
+2013-02-06 15:15:42.029181: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:42.029625: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:42.030990: ENGINE uploading move to web engine
+2013-02-06 15:15:43.496063: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:43.496506: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:43.957515: ENGINE uploading move to web engine
+2013-02-06 15:15:44.621574: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:44.621963: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:45.130636: ENGINE uploading move to web engine
+2013-02-06 15:15:46.305085: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:46.305522: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:46.306400: ENGINE uploading move to web engine
+2013-02-06 15:15:47.937409: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:47.937764: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:47.938672: ENGINE uploading move to web engine
+2013-02-06 15:15:49.686292: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:49.686735: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:49.688713: ENGINE uploading move to web engine
+2013-02-06 15:15:50.843172: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:50.843620: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:51.330021: ENGINE uploading move to web engine
+2013-02-06 15:15:52.503914: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:52.504314: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:52.505293: ENGINE uploading move to web engine
+2013-02-06 15:15:53.636313: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:53.636754: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:54.156905: ENGINE uploading move to web engine
+2013-02-06 15:15:55.604222: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:55.604683: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:55.605607: ENGINE uploading move to web engine
+2013-02-06 15:15:56.866235: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:56.866668: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:56.867123: ENGINE uploading move to web engine
+2013-02-06 15:15:57.835618: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:15:57.835986: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:15:59.106301: ENGINE uploading move to web engine
+2013-02-06 15:16:01.843559: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:01.843998: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:01.849636: ENGINE uploading move to web engine
+2013-02-06 15:16:02.897867: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:02.898315: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:03.963593: ENGINE uploading move to web engine
+2013-02-06 15:16:05.691952: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:05.692390: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:05.696100: ENGINE uploading move to web engine
+2013-02-06 15:16:06.663250: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:06.663625: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:07.676618: ENGINE uploading move to web engine
+2013-02-06 15:16:08.843375: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:08.843815: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:08.849085: ENGINE uploading move to web engine
+2013-02-06 15:16:09.510416: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:09.510853: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:09.515908: ENGINE uploading move to web engine
+2013-02-06 15:16:10.576346: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:10.576803: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:10.585164: ENGINE uploading move to web engine
+2013-02-06 15:16:11.104844: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:11.105253: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:12.131925: ENGINE uploading move to web engine
+2013-02-06 15:16:13.220833: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:13.221209: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:13.226521: ENGINE uploading move to web engine
+2013-02-06 15:16:14.289020: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:14.289464: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:14.294312: ENGINE uploading move to web engine
+2013-02-06 15:16:15.116302: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:15.116661: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:15.120793: ENGINE uploading move to web engine
+2013-02-06 15:16:15.978370: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:15.978761: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:16.981956: ENGINE uploading move to web engine
+2013-02-06 15:16:18.026406: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:18.026848: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:18.031430: ENGINE uploading move to web engine
+2013-02-06 15:16:18.860791: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:18.861234: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:18.865800: ENGINE uploading move to web engine
+2013-02-06 15:16:19.858186: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:19.858642: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:19.863503: ENGINE uploading move to web engine
+2013-02-06 15:16:20.794598: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:20.795040: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:20.799325: ENGINE uploading move to web engine
+2013-02-06 15:16:21.679401: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:21.679866: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:21.684535: ENGINE uploading move to web engine
+2013-02-06 15:16:22.550538: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:22.550986: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:22.555214: ENGINE uploading move to web engine
+2013-02-06 15:16:23.465010: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:23.465457: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:23.470588: ENGINE uploading move to web engine
+2013-02-06 15:16:24.481196: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:24.481648: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:24.486157: ENGINE uploading move to web engine
+2013-02-06 15:16:25.541933: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:25.542306: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:26.565020: ENGINE uploading move to web engine
+2013-02-06 15:16:27.424893: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:27.425275: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:27.429690: ENGINE uploading move to web engine
+2013-02-06 15:16:28.250541: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:28.250952: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:28.255599: ENGINE uploading move to web engine
+2013-02-06 15:16:29.619418: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:29.619787: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:29.623731: ENGINE uploading move to web engine
+2013-02-06 15:16:30.948211: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:30.948553: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:30.953503: ENGINE uploading move to web engine
+2013-02-06 15:16:31.633969: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:31.634403: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:31.638726: ENGINE uploading move to web engine
+2013-02-06 15:16:32.409677: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:32.410120: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:32.414632: ENGINE uploading move to web engine
+2013-02-06 15:16:33.284099: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:33.284555: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:34.313370: ENGINE uploading move to web engine
+2013-02-06 15:16:35.301540: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:35.302003: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:35.306757: ENGINE uploading move to web engine
+2013-02-06 15:16:36.319894: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:36.320264: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:36.323734: ENGINE uploading move to web engine
+2013-02-06 15:16:37.518629: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:37.519081: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:37.523424: ENGINE uploading move to web engine
+2013-02-06 15:16:38.815889: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:38.816347: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:38.821444: ENGINE uploading move to web engine
+2013-02-06 15:16:39.545495: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:39.545950: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:39.550690: ENGINE uploading move to web engine
+2013-02-06 15:16:40.485744: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:40.486088: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:40.489943: ENGINE uploading move to web engine
+2013-02-06 15:16:41.470716: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:41.471154: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:41.475460: ENGINE uploading move to web engine
+2013-02-06 15:16:42.279528: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:42.279874: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:42.283584: ENGINE uploading move to web engine
+2013-02-06 15:16:43.798950: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:43.799339: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:44.775553: ENGINE uploading move to web engine
+2013-02-06 15:16:45.957948: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:45.958442: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:45.963115: ENGINE uploading move to web engine
+2013-02-06 15:16:46.887699: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:46.888146: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:46.892575: ENGINE uploading move to web engine
+2013-02-06 15:16:48.027073: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:48.027530: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:48.031744: ENGINE uploading move to web engine
+2013-02-06 15:16:49.568043: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:49.568507: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:50.491899: ENGINE uploading move to web engine
+2013-02-06 15:16:51.369422: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:51.369775: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:51.373815: ENGINE uploading move to web engine
+2013-02-06 15:16:52.192609: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:52.193078: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:52.197875: ENGINE uploading move to web engine
+2013-02-06 15:16:53.221511: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:53.221967: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:53.225973: ENGINE uploading move to web engine
+2013-02-06 15:16:54.375504: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:54.375848: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:55.309921: ENGINE uploading move to web engine
+2013-02-06 15:16:56.076701: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:56.077116: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:56.081327: ENGINE uploading move to web engine
+2013-02-06 15:16:57.109949: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:57.110388: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:57.115019: ENGINE uploading move to web engine
+2013-02-06 15:16:58.775285: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:16:58.775624: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:16:58.778517: ENGINE uploading move to web engine
+2013-02-06 15:17:00.267884: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:00.268323: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:00.272481: ENGINE uploading move to web engine
+2013-02-06 15:17:01.955491: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:01.955925: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:01.960117: ENGINE uploading move to web engine
+2013-02-06 15:17:02.429074: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:02.429509: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:02.433041: ENGINE uploading move to web engine
+2013-02-06 15:17:04.183256: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:04.183814: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:04.187047: ENGINE uploading move to web engine
+2013-02-06 15:17:05.053497: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:05.054039: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:05.057775: ENGINE uploading move to web engine
+2013-02-06 15:17:05.861817: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:05.862243: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:05.866472: ENGINE uploading move to web engine
+2013-02-06 15:17:06.839854: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:06.840193: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:06.843696: ENGINE uploading move to web engine
+2013-02-06 15:17:07.667826: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:07.668266: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:07.672536: ENGINE uploading move to web engine
+2013-02-06 15:17:09.153276: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:09.153714: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:09.157137: ENGINE uploading move to web engine
+2013-02-06 15:17:10.127984: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:10.128443: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:10.131879: ENGINE uploading move to web engine
+2013-02-06 15:17:10.882897: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:10.883377: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:10.888328: ENGINE uploading move to web engine
+2013-02-06 15:17:12.075263: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:12.075713: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:12.079423: ENGINE uploading move to web engine
+2013-02-06 15:17:13.520280: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:13.520624: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:13.523053: ENGINE uploading move to web engine
+2013-02-06 15:17:14.485923: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:14.486345: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:14.489193: ENGINE uploading move to web engine
+2013-02-06 15:17:15.426905: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:15.427344: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:15.430785: ENGINE uploading move to web engine
+2013-02-06 15:17:16.154011: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:16.154402: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:16.157788: ENGINE uploading move to web engine
+2013-02-06 15:17:17.015126: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:17.015537: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:17.018221: ENGINE uploading move to web engine
+2013-02-06 15:17:18.093047: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:18.093500: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:18.103152: ENGINE uploading move to web engine
+2013-02-06 15:17:19.173904: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:19.174335: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:19.177485: ENGINE uploading move to web engine
+2013-02-06 15:17:20.374094: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:20.374547: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:20.377883: ENGINE uploading move to web engine
+2013-02-06 15:17:21.685469: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:21.685862: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:21.688263: ENGINE uploading move to web engine
+2013-02-06 15:17:23.222291: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:23.222683: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:23.225217: ENGINE uploading move to web engine
+2013-02-06 15:17:24.907930: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:24.908362: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:24.911357: ENGINE uploading move to web engine
+2013-02-06 15:17:27.096861: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:27.097276: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:27.100164: ENGINE uploading move to web engine
+2013-02-06 15:17:28.026348: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:28.026785: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:28.029160: ENGINE uploading move to web engine
+2013-02-06 15:17:29.043275: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:29.043647: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 15:17:29.046482: ENGINE uploading move to web engine
+2013-02-06 15:17:30.329834: STUDENT ENGINE next_move call successfully returned
+2013-02-06 15:17:30.330215: ENGINE shutting down

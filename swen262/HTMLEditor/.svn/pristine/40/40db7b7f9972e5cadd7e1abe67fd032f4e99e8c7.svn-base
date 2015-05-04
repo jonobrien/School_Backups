@@ -1,0 +1,127 @@
+package Tab;
+
+/**
+ * Tab is the container of all of the modularized tab contents. This
+ * includes the tab header, the tab contents, and the file path of
+ * the tab. Tab also holds the tab index and whether the buffer
+ * has been edited.
+ */
+public class Tab {
+
+	//modularized tab data
+	private TabHeader header;
+	private TabContent content;
+	
+	//index of tab
+	private int index;
+	
+	//filepath of current tab
+	private String filePath = null;
+	
+	//boolean has been edited
+	private boolean saved = false;
+	
+	/**
+	 * Constructs Tab
+	 * @param index - index of tab
+	 */
+	public Tab(int index){
+		init(index, "untitled*");
+	}
+	
+	/**
+	 * Initializes modularized tab components
+	 * @param index - index of tab
+	 * @param title - filename
+	 */
+	private void init(int index, String title){
+		header = new TabHeader(index, title);
+		content = new TabContent();
+	}
+	
+	/**
+	 * getSaveStatus returns the edited status of the current tab.
+	 * @return
+	 */
+	public boolean getSaveStatus(){
+		return this.saved;
+	}
+	
+	/**
+	 * getHeader is a getter method for the tab's TabHeader
+	 * @return tab's TabHeader
+	 */
+	public TabHeader getHeader(){
+		return this.header;
+	}
+	
+	/**
+	 * getContents is a getter method for the tab's TabContent
+	 * @return tab's TabContent
+	 */
+	public TabContent getContent(){
+		return this.content;
+	}
+	
+	/**
+	 * updateIndex updates the modularized tab components
+	 * respective indecies.
+	 * @param newIndex - new index
+	 */
+	public void updateIndex(int newIndex){
+		this.index = newIndex;
+		this.header.updateIndex(newIndex);
+	}
+	
+	/**
+	 * updateTitle updates the tab's TabHeader's
+	 * title with a new one (apon save-as)
+	 * @param newTitle
+	 */
+	public void updateTitle(String newTitle){
+	    this.header.updateTitle( newTitle );
+	}
+
+	/**
+	 * updateFilePath updates the tab's filepath
+	 * with a new one (apon save-as)
+	 * @param newFilePath
+	 */
+	public void updateFilePath(String newFilePath){
+	    this.filePath = newFilePath;
+	}
+	
+	/**
+	 * getFilePath is a getter method for the tab's
+	 * filepath field.
+	 * @return
+	 */
+	public String getFilePath(){
+	    return filePath;
+	}
+	
+	/**
+	 * updateToSaved updates the view to display no "*" which
+	 * represents that a file has been edited and needs to be saved.
+	 * It also resets the saved boolean to true.
+	 */
+	public void updateToSaved(){
+	    if(!saved){
+	        saved = true;
+	        this.header.updateTitle(this.header.getTitle().substring( 0 , this.header.getTitle().length() - 1 ));
+	    }
+	}
+	
+	/**
+	 * updateToNotSaved updates the view to display an "*" in the header
+	 * title to denote that changes have been made and the file needs to be
+	 * save to keep the changes. It also resets the saved boolean to false.
+	 */
+	public void updateToNotSaved(){
+	    if(saved){
+	        saved = false;
+	        this.header.updateTitle( this.header.getTitle() + "*" );
+	    }
+	}
+	
+}

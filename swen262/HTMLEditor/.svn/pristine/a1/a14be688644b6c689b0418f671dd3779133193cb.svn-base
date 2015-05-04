@@ -1,0 +1,111 @@
+package main;
+/**
+ * @author dnd7249
+ */
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+import static java.awt.event.InputEvent.CTRL_DOWN_MASK;
+
+import java.awt.BorderLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JTabbedPane;
+import javax.swing.KeyStroke;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import javax.swing.JFileChooser;
+
+@SuppressWarnings("serial")
+public class Display extends JFrame{
+ 
+	CommandCenter command;
+	JTabbedPane tabs;
+	
+	public Display(){
+		setTitle("HTML Editor");
+		setSize(750, 750);
+		command = new CommandCenter();
+		init();
+		//int CurrentTab = 0;
+	}
+	
+	public void init(){
+		createMenuBar();
+		createTabbedPanes();
+	}
+	
+	private void createTabbedPanes() {
+		tabs = new JTabbedPane();
+		tabs.addTab(null, new TabContent() );
+		tabs.setTabComponentAt( 0, new TabHeader() );
+		
+		tabs.addTab("+",null);
+		tabs.setSelectedIndex( 0 );
+		tabs.addChangeListener( new ChangeListener(){
+            @Override
+            public void stateChanged(ChangeEvent arg0) {
+                int currIndex = Display.this.tabs.getSelectedIndex();
+                int tabCount = Display.this.tabs.getTabCount();
+                if(currIndex == tabCount - 1){
+                    Display.this.tabs.setSelectedIndex(0);
+                    Display.this.tabs.insertTab(null, null, new TabContent(), null, tabCount - 1);
+                    Display.this.tabs.setTabComponentAt(tabCount - 1, new TabHeader());
+                    Display.this.tabs.setSelectedIndex( tabCount - 1 );
+                }
+            }
+        } );
+		this.add(tabs);
+	}
+
+	//basic menu bar
+	private void createMenuBar(){
+		JMenuBar menu = new JMenuBar();
+		JMenu file = new JMenu("File");
+		JMenu insert = new JMenu("Insert");
+		JMenuItem open = new JMenuItem("Open");
+		JMenuItem save = new JMenuItem("Save");
+		JMenuItem exit = new JMenuItem("Exit");
+		
+		//short-cut exit key
+		exit.setAccelerator(KeyStroke.getKeyStroke('E', CTRL_DOWN_MASK));
+		
+		open.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent event){
+				JFileChooser openFile = new JFileChooser();
+                openFile.showOpenDialog(null);
+			}
+		});
+		
+		save.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent event){
+	                JFileChooser saveFile = new JFileChooser();
+	                saveFile.showSaveDialog(null);
+	            }
+		});
+		
+		exit.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent event){
+				System.exit(0); //exit editor
+			}
+		});
+		
+		file.add(open);
+		file.add(save);
+		file.add(exit);
+		menu.add(file);
+		menu.add(insert);
+		setJMenuBar(menu);
+	}
+	
+	/*public static void main(String[] args){
+		JFrame f = new Display();
+		f.setVisible(true);
+	}*/
+	
+}

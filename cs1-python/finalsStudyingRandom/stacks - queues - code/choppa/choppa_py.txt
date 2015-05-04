@@ -1,0 +1,75 @@
+from random import *
+from cavern import *
+from bridge import *
+
+def GET_PREDATOR_HITPOINTS():
+    return randint(1000, 2000)
+       
+class Predator():
+    __slots__ = ('hitPoints')
+    
+def mkPredator():
+    p = Predator()
+    p.hitPoints = GET_PREDATOR_HITPOINTS()
+    return p
+    
+def getHostageHitPoints():
+    return randint(100, 200)
+    
+def getHostageWeight():
+    return randint(50, 300)
+        
+class Hostage():
+    __slots__ = ('name', 'hitPoints', 'weight')
+    
+def mkHostage(id):
+    h = Hostage()
+    h.name = "Red Shirt #" + str(id)
+    h.hitPoints = getHostageHitPoints()
+    h.weight = getHostageWeight()
+    return h
+    
+def welcome():
+    print("Predator v1.0")
+    print("-------------")
+    print("Welcome to the jungle.  Dutch, get the hostages to the choppa!")
+
+def endingCredits(predator, survivors):
+    if predator.hitPoints > 0:
+        print("The predator, with", predator.hitPoints,
+            "hit points remaining, claims victory!")
+    elif survivors.size > 0:
+        print(str(survivors.size), "hostages reach the choppa!")
+        while not emptyQueue(survivors):
+            hostage = front(survivors)
+            dequeue(survivors)
+            print(hostage.name, ", with", hostage.hitPoints,
+                "hit points remaining, boards the choppa!")
+        print("And the choppa flies away to safety!")
+    print("THE END.")
+    
+def main():
+    # spawn the predator!
+    predator = mkPredator()
+    print("The predator spawns somewhere in the jungle with", 
+        predator.hitPoints, "hit points...")
+        
+    # create the hostages and push them into the cavern
+    numHostages = int(input("How many hostages? "))
+    cavern = NONE_NODE
+    for id in range(1, numHostages+1):
+        hostage = mkHostage(id)
+        print("Hostage", hostage.name, "with", hostage.hitPoints,
+            "hit points and", hostage.weight, "weight, enters the cavern...")
+        cavern = push(cavern, hostage)
+        
+    # get to the choppa!
+    cavern = surviveTheCavern(predator, cavern)
+    survivors = mkQueue()
+    if (size(cavern) > 0):
+        input("Hit enter to continue...")
+        crossTheBridge(cavern, survivors)
+
+    endingCredits(predator, survivors)
+   
+main()

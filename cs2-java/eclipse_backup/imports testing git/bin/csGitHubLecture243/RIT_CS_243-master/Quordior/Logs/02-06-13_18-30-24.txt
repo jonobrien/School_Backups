@@ -1,0 +1,104 @@
+2013-02-06 18:30:24.723772: ENGINE starting
+2013-02-06 18:30:24.724549: ENGINE loading STUDENT ENGINE part 4
+2013-02-06 18:30:24.773094: ENGINE loaded player module: OKComputer as player 1
+2013-02-06 18:30:24.773396: ENGINE loaded player module: OKComputer as player 2
+2013-02-06 18:30:24.773628: ENGINE loaded player module: OKComputer as player 3
+2013-02-06 18:30:24.773831: ENGINE loaded player module: OKComputer as player 4
+2013-02-06 18:30:24.774000: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-06 18:30:26.479180: ENGINE calling STUDENT ENGINE init
+2013-02-06 18:30:26.479559: STUDENT ENGINE init call successfully returned
+2013-02-06 18:30:26.512893: ENGINE calling init() for player 1
+2013-02-06 18:30:26.513491: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:30:26.514566: OKComputer initialized as player 1
+2013-02-06 18:30:26.514793: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:30:26.515001: ENGINE calling init() for player 2
+2013-02-06 18:30:26.515212: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:30:26.515947: OKComputer initialized as player 2
+2013-02-06 18:30:26.516155: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:30:26.516361: ENGINE calling init() for player 3
+2013-02-06 18:30:26.516563: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:30:26.517377: OKComputer initialized as player 3
+2013-02-06 18:30:26.517585: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:30:26.517790: ENGINE calling init() for player 4
+2013-02-06 18:30:26.517993: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 18:30:26.518805: OKComputer initialized as player 4
+2013-02-06 18:30:26.519013: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 18:30:26.707519: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/public.69bc337dd0d3c30e075d9c5b5ded89dc16b8757b5112e79252ebf/partone.0/apikey.820d60943005a0935c8/gameid.90821/animations.500/
+2013-02-06 18:30:26.707977: ENGINE calling STUDENT ENGINE generate_board
+2013-02-06 18:30:26.907345: Wall 5, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:27.105706: Wall 5, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:27.296922: Wall 9, 4, 7, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:27.528126: Wall 8, 2, 6, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:27.791457: Wall 7, 4, 5, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:28.013351: Wall 8, 4, 6, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:28.195729: Wall 8, 2, 6, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:28.380505: Wall 9, 1, 7, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:28.567957: Wall 7, 1, 5, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:28.752540: Wall 7, 1, 5, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:28.752976: Wall 1, 0, 3, 0 is along the edge
+2013-02-06 18:30:28.938285: Wall 5, 4, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:29.121812: Wall 8, 4, 6, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:29.307365: Wall 6, 1, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:29.490845: Wall 8, 3, 6, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:29.676130: Wall 6, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:29.860807: Wall 7, 3, 5, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:30.043067: Wall 9, 1, 7, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:30.228839: Wall 6, 4, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:30.412946: Wall 9, 1, 7, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:30.413352: Wall 3, 0, 5, 0 is along the edge
+2013-02-06 18:30:30.608937: Wall 8, 1, 6, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:30.791778: Wall 9, 3, 7, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:30.792208: Wall 3, 0, 5, 0 is along the edge
+2013-02-06 18:30:30.975746: Wall 9, 4, 7, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:31.179162: Wall 9, 4, 7, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:31.364157: Wall 6, 1, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:31.553341: Wall 6, 1, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:31.737676: Wall 8, 4, 6, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:31.923669: Wall 8, 2, 6, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:32.105736: Wall 9, 4, 7, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:32.292090: Wall 5, 1, 3, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:32.475238: Wall 8, 4, 6, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:32.475762: Wall 1, 0, 3, 0 is along the edge
+2013-02-06 18:30:32.660822: Wall 7, 3, 5, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:32.845191: Wall 6, 2, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:33.030702: Wall 7, 3, 5, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:33.225833: Wall 6, 4, 4, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:33.408622: Wall 7, 4, 5, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:33.596682: Wall 7, 3, 5, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:33.781855: Wall 9, 1, 7, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:33.782267: Wall 4, 0, 6, 0 is along the edge
+2013-02-06 18:30:33.971635: Wall 6, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:34.154365: Wall 7, 4, 5, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:34.343444: Wall 6, 2, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:34.537623: Wall 8, 2, 6, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:34.721982: Wall 6, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:34.908237: Wall 5, 4, 3, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:34.908661: Wall 1, 0, 3, 0 is along the edge
+2013-02-06 18:30:34.908916: Wall 0, 0, 2, 0 is along the edge
+2013-02-06 18:30:35.095805: Wall 6, 3, 4, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:35.282119: Wall 8, 1, 6, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:35.282543: Wall 0, 0, 2, 0 is along the edge
+2013-02-06 18:30:35.464527: Wall 7, 4, 5, 4 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:35.656034: Wall 8, 1, 6, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:35.843464: Wall 7, 2, 5, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:36.028140: Wall 6, 2, 4, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:36.216029: Wall 5, 2, 3, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:36.403800: Wall 8, 2, 6, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:36.404212: Wall 1, 0, 3, 0 is along the edge
+2013-02-06 18:30:36.404464: Wall 3, 0, 5, 0 is along the edge
+2013-02-06 18:30:36.405107: Wall 4, 0, 6, 0 is along the edge
+2013-02-06 18:30:36.405373: Wall 0, 0, 2, 0 is along the edge
+2013-02-06 18:30:36.591136: Wall 9, 3, 7, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:36.776710: Wall 6, 1, 4, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:36.959425: Wall 8, 2, 6, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:37.143039: Wall 7, 3, 5, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:37.326079: Wall 9, 2, 7, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:37.519461: Wall 7, 1, 5, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:37.519879: Wall 0, 0, 2, 0 is along the edge
+2013-02-06 18:30:37.707284: Wall 7, 3, 5, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:37.892031: Wall 8, 1, 6, 1 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:38.078213: Wall 5, 3, 3, 3 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:38.264472: Wall 8, 2, 6, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:38.456282: Wall 9, 2, 7, 2 is not 2 units, is diagonal, or misordered
+2013-02-06 18:30:38.457057: Wall 3, 0, 5, 0 is along the edge

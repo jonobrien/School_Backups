@@ -1,0 +1,220 @@
+""" 
+fancy_face.py draws a fancy face.
+
+assignment: lecture
+language: python3
+author: mtf@cs.rit.edu, Matthew Fluet
+"""
+
+import turtle
+
+# function definitions
+
+def initWorld( ):
+    """
+    initWorld initializes the drawing by establishing its pre-conditions.
+
+    pre-conditions: 
+    post-conditions: coordinate system is (-600,-600) to (600,600)
+                     turtle is at origin,
+                     turtle is facing North,
+                     turtle is pen-up.
+    """
+    turtle.setup( 600, 600 )
+    turtle.home()  # turtle is at origin, facing east, pen-down
+    turtle.left( 90 )  # turtle is facing north
+    turtle.up()  # turtle is pen-up
+    turtle.pensize( 2 )
+
+def drawBorder():
+    """
+    Draw a circle for the outline of the face.
+    """
+    turtle.right( 90 )
+    turtle.down()
+    turtle.circle( 100 )
+    turtle.up()
+    turtle.left( 90 )
+
+def drawMouth( mouthType ):
+    """
+    Draw a mouth 60 points wide (30 units per side), 40 points above
+    the bottom of the face.
+
+    mouthType -- String ('smile' or 'frown');
+                 determines whether the mouth is a smile or a frown
+    """
+    turtle.forward( 40 )
+    if mouthType == "smile":
+        turtle.left( 65 )
+        turtle.forward( 30 )
+        turtle.left( 180 )
+        turtle.down()
+        turtle.forward( 30 )
+        turtle.left( 50 )
+        turtle.forward( 30 )
+        turtle.left( 180 )
+        turtle.up()
+        turtle.forward( 30 )
+        turtle.left( 65 )
+    elif mouthType == "frown":
+        turtle.left( 115 )
+        turtle.forward( 30 )
+        turtle.left( 180 )
+        turtle.down()
+        turtle.forward( 30 )
+        turtle.right( 50 )
+        turtle.forward( 30 )
+        turtle.left( 180 )
+        turtle.up()
+        turtle.forward( 30 )
+        turtle.left( 115 )
+    else:
+        turtle.left( 90 )
+        turtle.forward( 30 )
+        turtle.left( 180 )
+        turtle.down()
+        turtle.forward( 60 )
+        turtle.left( 180 )
+        turtle.up()
+        turtle.forward( 30 )
+        turtle.left( 90 )
+    turtle.forward( 40 )
+    turtle.left( 180 )
+
+def drawNose():
+    """
+    Draw a nose as an equilateral triangle with sides of 30, 70 points
+    above the bottom of the face.
+    """
+    turtle.forward( 70 )
+    turtle.left( 90 )
+    turtle.down()
+    turtle.forward( 15 )
+    turtle.right( 120 )
+    turtle.forward( 30 )
+    turtle.right( 120 )
+    turtle.forward( 30 )
+    turtle.right( 120 )
+    turtle.forward( 15 )
+    turtle.up()
+    turtle.left( 90 )
+    turtle.forward( 70 )
+    turtle.left( 180 )
+
+def drawEyes( eyeRadius ):
+    """
+    Draw both eyes as circles, 100 points above the bottom of the
+    face, and with centers 100 points apart.
+
+    eyeRadius -- NonNegInteger;
+                 determines the radius of the eyes
+    """
+    turtle.forward( 100 )
+    turtle.left( 90 )
+    turtle.forward( 50 )
+    turtle.right( 180 )
+    drawEye( eyeRadius )
+    turtle.forward( 100 )
+    drawEye( eyeRadius )
+    turtle.right( 180 )
+    turtle.forward( 50 )
+    turtle.left( 90 )
+    turtle.forward( 100 )
+    turtle.left( 180 )
+
+def drawEye( eyeRadius ):
+    """
+    Draw a single eye as an 'eyeRadius'-point-radius circle.  Assume
+    the turtle is facing right at the bottom of where the eye will
+    be. Leave the turtle in that same state.
+
+    eyeRadius -- NonNegInteger;
+                 determines the radius of the eyes
+    """
+    turtle.down()
+    turtle.circle( eyeRadius )
+    turtle.up()
+
+def drawFancyFace( mouthType, eyeRadius ):
+    """
+    Draw a fancy face.
+
+    mouthType -- String ('smile' or 'frown');
+                 determines whether the mouth is a smile or a frown
+    eyeRadius -- NonNegInteger;
+                 determines the radius of the eyes
+    """
+    drawBorder()
+    drawMouth( mouthType )
+    drawNose()
+    drawEyes( eyeRadius )
+
+def initWorldAndDrawFancyFace( mouthType, eyeRadius, message="" ):
+    """
+    initWorldAndDrawFancyFace prints a message, initializes the world,
+    draws an instance of the fancy face, and waits for ENTER.
+
+    mouthType -- String ('smile' or 'frown');
+                 determines whether the mouth is a smile or a frown
+    eyeRadius -- NonNegInteger;
+                 determines the radius of the eyes
+    message -- String; message to display
+    """
+    print( "Drawing fancyFace with", (mouthType, eyeRadius), ";", message )
+    initWorld()
+    drawFancyFace( mouthType, eyeRadius )
+    turtle.hideturtle()
+    turtle.update()
+    input( "Hit ENTER to quit." )
+    turtle.bye()
+
+
+def runTestCases():
+    """
+    Run test cases from the writeup.
+    """
+
+    # test case 1:
+    initWorldAndDrawFancyFace( "smile", 15, "(original face)" )
+
+    # test case 2:
+    initWorldAndDrawFancyFace( "smile", 25, "(smile with big eyes)" )
+
+    # test case 3:
+    initWorldAndDrawFancyFace( "frown", 5, "(frown with small eyes)" )
+
+    # test case 4:
+    initWorldAndDrawFancyFace( "frown", 25, "(frown with big eyes)" )
+
+    # test case 5:
+    initWorldAndDrawFancyFace( "smile", 35, "(smile with really big eyes)" )
+
+    # test case 6:
+    initWorldAndDrawFancyFace( "frown", 15, "(frown with medium eyes)" )
+
+
+def promptAndDrawFancyFace():
+    """
+    promptAndDrawFancyFace prompts for the mouth type and the eye
+    radius and draws an instance of the fancy face.
+    """
+    mouthType = input ( "Enter 'mouthType' (\"smile\" or \"frown\"): " )
+
+    # if mouthType != "smile" and mouthType != "frown":
+    #     print( 'Sorry. That string was not "smile" or "frown".'  )
+    #     exit()
+    
+    eyeRadius = int( input( "Enter 'eyeRadius' (a positive integer): " ) )
+
+    if eyeRadius <= 0:
+        print( 'Sorry. That integer was not positive.' )
+        exit()
+
+    initWorldAndDrawFancyFace( mouthType, eyeRadius )
+
+
+# script execution/run
+
+if __name__ == "__main__":
+    promptAndDrawFancyFace()

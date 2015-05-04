@@ -1,0 +1,49 @@
+package Tab;
+
+import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+
+import Command.CloseCommand;
+
+public class TabCloseButton extends JButton {
+
+    private Dimension size;
+    private ImageIcon icon;
+    private int index;
+    private CloseCommand closer;
+    
+    public TabCloseButton(int index){
+        super();
+        init(index);
+    }
+    
+    private void init(int index){
+        size = new Dimension(12, 12);
+        icon = new ImageIcon("res/icons/close.png");
+        this.index = index;
+        this.closer = new CloseCommand(this.index);
+        
+        super.setIcon( icon );
+        super.setPreferredSize( size );
+        super.setBorderPainted( false );
+        super.setContentAreaFilled( false );
+        
+        super.addActionListener(new ActionListener(){
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				TabCloseButton.this.closer.execute();
+				//System.out.println("close da tab");
+			}
+        });
+    }
+    
+    public void updateIndex(int newIndex){
+    	this.index = newIndex;
+    	this.closer.updateIndex(newIndex);
+    }
+    
+}

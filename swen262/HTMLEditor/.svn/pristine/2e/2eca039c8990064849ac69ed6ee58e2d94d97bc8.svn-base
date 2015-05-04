@@ -1,0 +1,45 @@
+package main;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class TabHeader extends JPanel {
+    
+    private TabCloseButton closeButton;
+    private JLabel title;
+    private int index;
+
+    public TabHeader(int index, String title){
+        super();
+        init(index, title);
+    }
+    
+    public TabHeader(int index){
+        super();
+        init(index, "untitled");
+    }
+    
+    private void init(int index, String title){
+        closeButton = new TabCloseButton(index);
+        this.title = new JLabel( title );
+        this.index = index;
+        
+        super.setLayout( new BorderLayout() );
+        super.setOpaque( false );
+        super.add( this.title, BorderLayout.WEST );
+        super.add( closeButton, BorderLayout.EAST );
+    }
+    
+    public TabCloseButton getButton(){
+		return this.closeButton;
+    	
+    }
+    
+    public void updateIndex(int newIndex){
+    	this.index = newIndex;
+    	this.closeButton.updateIndex(newIndex);
+    }
+    
+}

@@ -1,0 +1,5 @@
+04-29 17:15:19 Engine Gobblet Java Client v1.2.1 by RIT CS Department starting up
+04-29 17:15:19 Engine Loading player RandomPlayer
+04-29 17:15:19 Engine Loading player LastPlace
+04-29 17:15:19 Engine Loaded 2 players
+04-29 17:15:20 Engine Error: Error during game initialization

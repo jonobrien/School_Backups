@@ -1,0 +1,54 @@
+#UPDATE: Ian Wittenberg
+#This is the code they should have been shown in lecture for insertion sort
+def swap( lst, i, j ):
+    lst[i], lst[j] = lst[j], lst[i]
+
+def insert( lst, mark ):
+    index = mark
+    while index > -1 and lst[index] > lst[index+1]:
+        swap( lst, index, index+1 )
+        index = index - 1
+
+def insertion_sort( lst ):
+    for mark in range( len( lst ) - 1 ):
+        insert( lst, mark )
+
+
+#new binary search using iteratvie solution
+def binary_search_iter(data, target):
+    start = 0
+    end = len(data) - 1
+    found = None
+    while start <= end:
+        mid_index = (start + end ) // 2
+        mid_value = data[mid_index]
+        if mid_value == target:
+            found = mid_index
+            break
+        elif mid_value < target:
+            start = mid_index + 1
+        else:
+            end = mid_index - 1
+    return None
+
+#iterates through the file and creates the list, sorts it and
+#searches for the string
+def main():
+    filename = input("Enter file name: ")
+    file = open(filename)
+    lst = []
+    for line in file:
+        temp_list = line.split()
+        lst = lst + temp_list
+    
+    insertion_sort(lst)
+    print(lst)
+    search_word = input("Enter the word to search for: ")
+    index = binary_search_iter(lst, search_word)
+    if index != -1:
+        print("found " + lst[index] + " at index:", index)
+    else:
+        print(search_word + " not found")
+
+        
+main()

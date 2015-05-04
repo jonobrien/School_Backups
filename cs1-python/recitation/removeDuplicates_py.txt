@@ -1,0 +1,20 @@
+#!/usr/local/bin/python3
+
+def removeDuplicatesRec(lst, sol):
+    if len(lst) == 0:
+        return sol
+    else:
+        if lst[0] not in sol:
+            sol.append(lst[0])
+        return removeDuplicatesRec(lst[1:], sol)
+
+def removeDuplicatesItr( lst ):
+    sol = []
+    while len( lst ) > 0:
+        if lst[0] not in sol:
+            sol.append( lst[0] )
+        lst = lst[1:]
+    return sol
+        
+print(removeDuplicatesRec([1,2,3,2,1,6,5,3,7],[]))
+print(removeDuplicatesItr([1,2,3,2,1,6,5,3,7]))

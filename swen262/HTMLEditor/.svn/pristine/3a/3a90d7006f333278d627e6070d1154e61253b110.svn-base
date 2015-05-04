@@ -1,0 +1,27 @@
+package main;
+
+public class Tag {
+
+	private String contents;
+	private boolean isEndTag;
+	
+	public Tag(String tag){
+		initializeType(tag);
+		this.contents = tag.replaceAll("([<>/])", "");
+	}
+	
+	private void initializeType(String tag) {
+		if(tag.contains("</"))
+			this.isEndTag = true;
+		else
+			this.isEndTag = false;
+	}
+
+	public boolean isEndTag(){
+		return this.isEndTag;
+	}
+	
+	public String getContents(){
+		return this.contents;
+	}
+}

@@ -1,0 +1,31 @@
+2013-02-08 15:21:18.700871: ENGINE starting
+2013-02-08 15:21:18.701762: ENGINE loading STUDENT ENGINE part 4
+2013-02-08 15:21:18.706433: ENGINE loaded player module: OKComputer as player 1
+2013-02-08 15:21:18.706793: ENGINE loaded player module: OKComputer as player 2
+2013-02-08 15:21:18.706968: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-08 15:21:20.499873: ENGINE calling STUDENT ENGINE init
+2013-02-08 15:21:20.500269: STUDENT ENGINE init call successfully returned
+2013-02-08 15:21:20.500565: ENGINE calling init() for player 1
+2013-02-08 15:21:20.500771: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-08 15:21:20.501684: OKComputer initialized as player 1
+2013-02-08 15:21:20.501926: STUDENT ENGINE initialize_player call successfully returned
+2013-02-08 15:21:20.502126: ENGINE calling init() for player 2
+2013-02-08 15:21:20.502321: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-08 15:21:20.503067: OKComputer initialized as player 2
+2013-02-08 15:21:20.503284: STUDENT ENGINE initialize_player call successfully returned
+2013-02-08 15:21:20.612987: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/animations.500/gameid.110861/public.255c9a32e208ab9f00200bf70b2ab46bf5d8e8a851155e4069226/apikey.820d60943005a0935c8/partone.0/
+2013-02-08 15:21:20.613771: ENGINE calling STUDENT ENGINE generate_board
+2013-02-08 15:21:20.933453: ENGINE uploading move to web engine
+2013-02-08 15:21:21.349572: ENGINE uploading move to web engine
+2013-02-08 15:21:21.806974: ENGINE uploading move to web engine
+2013-02-08 15:21:22.227977: ENGINE uploading move to web engine
+2013-02-08 15:21:22.767971: ENGINE uploading move to web engine
+2013-02-08 15:21:23.195746: ENGINE uploading move to web engine
+2013-02-08 15:21:23.805807: ENGINE uploading move to web engine
+2013-02-08 15:21:24.065313: ENGINE uploading move to web engine
+2013-02-08 15:21:24.303684: STUDENT ENGINE generate_board call successfully returned
+2013-02-08 15:21:24.304034: ENGINE calling symmetry check
+2013-02-08 15:21:24.304338: SYMMETRY VALIDATION:
+2013-02-08 15:21:24.304615: CORRECT NUMBER OF WALLS.
+2013-02-08 15:21:24.304783: BOARD IS SYMMETRIC!

@@ -1,0 +1,56 @@
+Jon O'Brien
+Week 13 Homework - quicheSort
+
+1.  make and model of computer:
+	ACPI x64-based PC -> Lenovo T530
+
+2.  cpu and clock speed:
+	Intel i7 - 3520M @ 2.90GHz, can go up to 3.4 or 3.5 from what I've seen
+
+3. Amount of memory in your computer:
+	16gb RAM (15.8Gb usable), 16Gb SSD caching drive, 500Gb internal HDD
+
+4. Operating system name and version:
+	Windows 8 Pro 64-bit Operating System, x64-based processor
+
+5. Version of Python used:
+	3.3.2
+
+
+6. results of running quicheSort.py:
+
+Testing quicheSort with N:1
+	 Random data, N:1 -> Time: 7.396 , Sorted? True
+	 Ascending data, N:1 -> Time: 6.122 , Sorted? True
+	 Descending data, N:1 -> Time: 6.370 , Sorted? True
+	 EvenOdd data, N:1 -> Time: 6.051 , Sorted? True
+Testing quicheSort with N:10
+	 Random data, N:10 -> Time: 0.000 , Sorted? True
+	 Ascending data, N:10 -> Time: 0.000 , Sorted? True
+	 Descending data, N:10 -> Time: 0.000 , Sorted? True
+	 EvenOdd data, N:10 -> Time: 0.000 , Sorted? True
+Testing quicheSort with N:100
+	 Random data, N:100 -> Time: 0.001 , Sorted? True
+	 Ascending data, N:100 -> Time: 0.001 , Sorted? True
+	 Descending data, N:100 -> Time: 0.001 , Sorted? True
+	 EvenOdd data, N:100 -> Time: 0.002 , Sorted? True
+Testing quicheSort with N:1000
+	 Random data, N:1000 -> Time: 0.020 , Sorted? True
+	 Ascending data, N:1000 -> Time: 0.018 , Sorted? True
+	 Descending data, N:1000 -> Time: 0.018 , Sorted? True
+	 EvenOdd data, N:1000 -> Time: 0.046 , Sorted? True
+Testing quicheSort with N:10000
+	 Random data, N:10000 -> Time: 0.248 , Sorted? True
+	 Ascending data, N:10000 -> Time: 0.170 , Sorted? True
+	 Descending data, N:10000 -> Time: 0.176 , Sorted? True
+	 EvenOdd data, N:10000 -> Time: 0.659 , Sorted? True
+Testing quicheSort with N:100000
+	 Random data, N:100000 -> Time: 2.026 , Sorted? True
+	 Ascending data, N:100000 -> Time: 1.133 , Sorted? True
+	 Descending data, N:100000 -> Time: 1.101 , Sorted? True
+	 EvenOdd data, N:100000 -> Time: 8.804 , Sorted? True
+Testing quicheSort with N:1000000
+	 Random data, N:1000000 -> Time: 30.22 , Sorted? True
+	 Ascending data, N:1000000 -> Time: 25.49 , Sorted? True
+	 Descending data, N:1000000 -> Time: 22.95 , Sorted? True
+	 EvenOdd data, N:1000000 -> Time: 73.74 , Sorted? True

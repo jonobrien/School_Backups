@@ -1,0 +1,40 @@
+package Command;
+
+import java.util.LinkedList;
+
+import javax.swing.JTabbedPane;
+
+import main.Display;
+import main.StaticUtilities;
+import Tab.Tab;
+import Tab.TabPanel;
+
+public class CloseCommand implements CommandInterface {
+
+	private int index;
+	
+	public CloseCommand(int index){
+		this.index = index;
+	}
+	
+	@Override
+	public void execute() {
+		TabPanel tabPanel = Display.getDisplay().getTabPanel();
+		LinkedList<Tab> tabList = Display.getDisplay().getTabPanel().getList();
+		
+		if(tabPanel.getSelectedIndex() == this.index){
+		    tabPanel.setSelectedIndex(StaticUtilities.antiNegativeOne(this.index - 1));
+		}
+		if(tabPanel.getTabCount() == 2){
+		    tabPanel.setSelectedIndex( 1 );
+		}
+		tabPanel.remove(this.index);
+		tabList.remove(this.index);
+		tabPanel.updateIndecies();
+	}
+	
+	public void updateIndex(int newIndex){
+		this.index = newIndex;
+	}
+
+}

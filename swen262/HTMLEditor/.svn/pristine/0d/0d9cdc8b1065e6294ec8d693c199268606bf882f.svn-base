@@ -1,0 +1,35 @@
+package tab;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+
+public class TabContentText extends JScrollPane{
+	
+	private TabContentTextBuffer buffer;
+	private OutlinePanel outlinePanel;
+	
+	public TabContentText(TabContentTextBuffer buffer){
+		super(buffer, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		this.buffer = buffer;
+		this.outlinePanel = new OutlinePanel();
+		
+		JPanel panel = new JPanel();
+		panel.setLayout(new BorderLayout());
+		
+		panel.add(outlinePanel, BorderLayout.WEST);
+		panel.add(buffer, BorderLayout.CENTER);
+		
+		this.getViewport().add(panel);
+	}
+	
+	public TabContentTextBuffer getBuffer(){
+		return buffer;
+	}
+	
+	public OutlinePanel getPanel(){
+		return outlinePanel;
+	}
+	
+}

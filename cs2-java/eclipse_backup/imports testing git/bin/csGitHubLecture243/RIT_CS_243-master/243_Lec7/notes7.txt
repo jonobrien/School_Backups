@@ -1,0 +1,66 @@
+Object Oriented Programming: Lecture 7
+
+
+Event Listeners
+	- Event source (component,button) => Event Object => Event Listeners (a class)
+	- Listeners listen for different things
+		-- Action Listeners
+		
+To Enable Event Listening
+	1. Create a class and object that can be a listener
+	2. Register the listener with a component
+	3. Whenever the event occurs, a notification will be sent to all listeners
+
+ActionListener interface
+	actionPerformed(ActionEvent e)
+	// When the event occurs, this method is called
+
+Design
+	1. Separate public class for different kinds of listeners
+		- reusability
+		- increased classes reduced performance
+		- less readable
+	2. Can put event listeners into a non public class
+		- inner classes
+		- readability
+		- less flexible
+	3. Listening for events
+		- low-level events
+		- semantic events
+			-- That's what you want
+
+Implementation
+	1. Separate Classes
+	2. Inner Class
+		- Class defined inside of another
+		- Has access to outer class state
+	3. Anonymous Class
+		- Nameless class that is written in-place
+		- Can be good for readability
+		- One-time use
+
+Listeners in Swing:
+	- Component Listeners
+	- Focus Listeners
+	- Key Listeners
+
+Adapter Classes
+	- A class which implements all methods of an interface as empty methods
+	- Extend this class and overwrite the methods that you're interested in
+
+Dialogues:
+	- Comes from JOptionPane class
+		-- Static methods
+	- Prompts the user or messages
+
+Observer Design Pattern
+	- Used by swing
+	- One or more listeners (observers) register with a source (or component)
+	- Source maintains a list of observers and notifies them when a state changes
+
+MVC (Model / View / Controller) Design Pattern
+	- Related to the observer
+	- Separate
+		-- Model = data or state
+		-- View = UI (text based or GUI)
+		-- Controller = receiving user input

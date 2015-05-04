@@ -1,0 +1,85 @@
+from llist import *
+
+def count_rec(lst, element):
+    """count: Counts the number of elements in lst
+       Effect: Returns an integer
+    """
+    cur = lst.head
+    matches = 0
+    if isinstance(cur, Empty):
+    	pass
+    else:
+        matches = count_recur(cur,element)
+        
+    return matches
+
+def count_recur(current,element):
+    if isinstance(current,Empty):
+        return 0
+    if current.data == element:
+        return 1 + count_recur(current.next,element)
+    else:
+        return count_recur(current.next,element)
+
+def count_iter(lst, element):
+    cur = lst.head
+    count = 0
+    while not isinstance(cur, Empty):
+        if cur.data == element:
+            count = count + 1
+        cur = cur.next
+    return count
+
+
+def set_iter(lst,index,element):
+	cur = lst.head
+	if isinstance(cur,Empty):
+		return -1
+	elif index >= lst.size:
+		return -1
+	else:
+		for i in range(index):
+			cur = cur.next
+		cur.data = element
+	return index
+
+def set_rec(lst,index,element):
+	cur = lst.head
+	if isinstance(cur,Empty):
+		return -1
+	elif index >= lst.size:
+		return -1
+	else:
+		return set_recur(cur,0,index,element)
+	    
+def set_recur(current,cur_idx,index,element):
+	if cur_idx == index:
+		current.data = element
+		return index
+	else:
+		return set_recur(current.next,cur_idx+1,index,element)
+
+def test():
+    lst = mkList()
+    print( "Appending elements..." )
+
+    for i in range( 10, 100, 10 ):
+        append( lst, i )
+
+    print( "Printing the list ..." )
+    print( listToString(lst ) )
+    print( "The size of the list is " + str( lst.size ) )
+    insert(lst, 5, 0)
+    insert(lst, 15, 2)
+    insertOrdered(lst, 3)
+    insertOrdered(lst, 22)
+    insertOrdered(lst, 22)
+    insertOrdered(lst, 95)
+    print( "\nInserted 5, 15, 3, 22, 22, 95 ..." )
+    print( listToString( lst ) )
+    print( "The size of the list is " + str( lst.size ) )
+    print( "Count of 95: ", count_iter(lst, 95) )
+    set_rec( lst, 3, 13 )
+    print( listToString( lst ) )
+
+test()

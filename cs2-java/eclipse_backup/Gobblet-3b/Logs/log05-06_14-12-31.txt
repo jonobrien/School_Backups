@@ -1,0 +1,7 @@
+05-06 14:12:32 Engine Gobblet Java Client v1.3b by RIT CS Department starting up
+05-06 14:12:32 Engine Loading player DXM2444
+05-06 14:12:32 Engine Loading player Thx1138
+05-06 14:12:32 Engine Error: java.lang.ClassNotFoundException: Players.Thx1138.Thx1138
+05-06 14:12:32 Engine Error: Failed to load player Thx1138
+05-06 14:12:32 Engine Loaded 1 player
+05-06 14:12:32 Engine Awaiting challenge from other players...

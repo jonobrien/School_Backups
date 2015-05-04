@@ -1,0 +1,46 @@
+package command;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.LinkedList;
+
+import javax.swing.JOptionPane;
+
+import tab.Tab;
+import main.Display;
+
+/**
+ * ExitCommand is a concrete command object responsible for exiting the editor. If 
+ * the editor has unsaved files when the command is called, the command notifys 
+ * the user and gives them the option to abort exiting.
+ */
+public class ExitCommand implements CommandInterface, ActionListener{
+	
+	@Override
+	/**
+	 * If not files have been modified, it exits.
+	 * If files have been modifed, prompts user to abort
+	 * exit.
+	 */
+	public void execute() {
+		
+		LinkedList<Tab> tabList = Display.getDisplay().getTabPanel().getList();
+		
+		for(int i=0; i<tabList.size(); i++){
+			if(!tabList.get(i).getSaveStatus()){
+			    if(JOptionPane.showConfirmDialog(null, 
+	                    "You have unsaved files! Do you want to continue?", "WARNING - Unsaved files", 
+	                    JOptionPane.YES_NO_OPTION,
+	                    JOptionPane.QUESTION_MESSAGE) == JOptionPane.NO_OPTION){
+	                return;
+	            }else{System.exit(0);}
+			}
+		}
+		System.exit(0);
+	}
+	
+	public void actionPerformed(ActionEvent e) {
+        execute();
+    }
+
+}

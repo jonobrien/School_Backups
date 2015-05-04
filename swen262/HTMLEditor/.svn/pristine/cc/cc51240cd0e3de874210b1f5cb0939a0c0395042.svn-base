@@ -1,0 +1,56 @@
+package command;
+
+
+import main.Display;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import command.ActionBuffer;
+import command.ActionObject;
+
+
+/**
+ * @JavaDoc
+ * This class performs the undo/redo operations on the text area based on the given 
+ * input object and restores/removes the desired content
+ */
+public class UndoCommand implements CommandInterface, ActionListener {
+
+	public UndoCommand(Object command) {
+	}
+
+	
+	
+	@Override
+	/* 
+	 * 
+	 */
+	public void actionPerformed(ActionEvent event) {
+		
+		
+	}
+	
+	
+	
+	@Override
+	/*
+	 * This execute method populates the data into the text area from the stack
+	 * 
+	 * 
+	 */
+	public void execute() {
+		
+		
+		
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

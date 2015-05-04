@@ -1,0 +1,25 @@
+package command;
+
+import main.StaticUtilities;
+
+
+/**
+ * This class is the action objects stored in the ActionBuffers that handle undo and redo
+ * for the HTMLEditor
+ */
+public class ActionObject {
+	private int position;
+	
+	private String data;
+	private int type;
+
+	public void setPosition(int position) {
+		position = this.position;
+	}
+	
+	public int getPosition() {
+		return position;
+	}
+	
+}
+

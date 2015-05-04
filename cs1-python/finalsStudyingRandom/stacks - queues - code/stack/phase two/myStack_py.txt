@@ -1,0 +1,31 @@
+# Phase 2: Using NoneNode vs. None 
+
+from myNode import *
+    
+def push(node, element):
+    """Add an element to the top of the stack"""
+    newnode = mkNode(element, node)
+    return newnode
+    
+def top(node):
+    """Return top element on stack.  Does not change stack"""
+    if emptyStack(node):
+        raise IndexError("top on empty stack") 
+    return node.data
+
+def pop(node):
+    """Remove the top element in the stack.  Returns new top"""
+    if emptyStack(node):
+        raise IndexError("pop on empty stack") 
+    return node.next
+    
+def emptyStack(node):
+    """Is the stack empty?"""
+    return node == NONE_NODE             # CHANGED
+    
+def size(node):                                         # NEW
+    """Return the # of elements including this node"""  # NEW
+    if emptyStack(node):                                # NEW
+        return 0                                        # NEW
+    else:                                               # NEW
+        return 1 + size(node.next)                      # NEW

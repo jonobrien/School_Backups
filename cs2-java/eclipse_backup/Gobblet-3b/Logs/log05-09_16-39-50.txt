@@ -1,0 +1,75 @@
+05-09 16:39:50 Engine Gobblet Java Client v1.3b by RIT CS Department starting up
+05-09 16:39:50 Engine Loading player LastPlace
+05-09 16:39:50 Engine Loading player THX1138
+05-09 16:39:50 Engine Loaded 2 players
+05-09 16:39:51 Engine Calling init() for player 1
+05-09 16:39:51 Engine Calling init() for player 2
+05-09 16:39:51 Model  GUI accessible at:
+https://yendor.cs.rit.edu/~royale/gobblet/gameview/animations.500/public.5187088e25667ee806afa4cdb0804444f72d575e536d3d191c25f/gameid.308674/myplayer.0/
+05-09 16:39:51 Engine Processing move #1
+05-09 16:39:51 Engine Getting move from player 1
+05-09 16:39:51 Engine Validating move: PlayerMove [playerId=1, stack=1, size=4, start=[-1, -1], end=[1, 1]]
+05-09 16:39:51 Engine Move validated. Notifying other players
+05-09 16:39:51 Engine Notifying player 1 of last move
+05-09 16:39:51 Engine Notifying player 2 of last move
+05-09 16:39:51 Engine Finished processing player 1's move
+05-09 16:39:51 Engine Processing move #2
+05-09 16:39:51 Engine Getting move from player 2
+05-09 16:39:51 -+-+-+-THX1138  0 win; 0 kill; 45 other.
+05-09 16:39:51 Engine Validating move: PlayerMove [playerId=2, stack=3, size=4, start=[-1, -1], end=[2, 0]]
+05-09 16:39:51 Engine Move validated. Notifying other players
+05-09 16:39:51 Engine Notifying player 1 of last move
+05-09 16:39:51 Engine Notifying player 2 of last move
+05-09 16:39:51 Engine Finished processing player 2's move
+05-09 16:39:51 Engine Processing move #3
+05-09 16:39:51 Engine Getting move from player 1
+05-09 16:39:51 Engine Validating move: PlayerMove [playerId=1, stack=2, size=4, start=[-1, -1], end=[2, 2]]
+05-09 16:39:51 Engine Move validated. Notifying other players
+05-09 16:39:51 Engine Notifying player 1 of last move
+05-09 16:39:51 Engine Notifying player 2 of last move
+05-09 16:39:51 Engine Finished processing player 1's move
+05-09 16:39:51 Engine Processing move #4
+05-09 16:39:51 Engine Getting move from player 2
+05-09 16:39:51 -+-+-+-THX1138  0 win; 0 kill; 52 other.
+05-09 16:39:51 Engine Validating move: PlayerMove [playerId=2, stack=2, size=4, start=[-1, -1], end=[1, 2]]
+05-09 16:39:51 Engine Move validated. Notifying other players
+05-09 16:39:51 Engine Notifying player 1 of last move
+05-09 16:39:51 Engine Notifying player 2 of last move
+05-09 16:39:51 Engine Finished processing player 2's move
+05-09 16:39:51 Engine Processing move #5
+05-09 16:39:51 Engine Getting move from player 1
+05-09 16:39:51 Engine Error: Error in getMove
+05-09 16:40:01 Engine Error: Player 1 timed out or returned no move.
+05-09 16:40:01 Engine Invalidating player 1
+05-09 16:40:01 Engine Notifying player 2 that player 1 was invalidated
+05-09 16:40:01 -+-+-+-THX1138  PLAYER 1 IS OUT!
+05-09 16:40:01 Engine Finished processing player 1's move
+05-09 16:40:01 Engine Processing move #5
+05-09 16:40:01 Engine Getting move from player 2
+05-09 16:40:01 -+-+-+-THX1138  0 win; 0 kill; 60 other.
+05-09 16:40:01 Engine Validating move: PlayerMove [playerId=2, stack=3, size=3, start=[-1, -1], end=[0, 3]]
+05-09 16:40:01 Engine Move validated. Notifying other players
+05-09 16:40:01 Engine Notifying player 2 of last move
+05-09 16:40:01 Engine Finished processing player 2's move
+05-09 16:40:01 Engine Processing move #6
+05-09 16:40:01 Engine Getting move from player 2
+05-09 16:40:01 -+-+-+-THX1138  0 win; 0 kill; 68 other.
+05-09 16:40:01 Engine Validating move: PlayerMove [playerId=2, stack=1, size=4, start=[-1, -1], end=[0, 0]]
+05-09 16:40:02 Engine Move validated. Notifying other players
+05-09 16:40:02 Engine Notifying player 2 of last move
+05-09 16:40:02 Engine Finished processing player 2's move
+05-09 16:40:02 Engine Processing move #7
+05-09 16:40:02 Engine Getting move from player 2
+05-09 16:40:02 -+-+-+-THX1138  0 win; 0 kill; 73 other.
+05-09 16:40:02 Engine Validating move: PlayerMove [playerId=2, stack=1, size=3, start=[-1, -1], end=[3, 0]]
+05-09 16:40:02 Engine Move validated. Notifying other players
+05-09 16:40:02 Engine Notifying player 2 of last move
+05-09 16:40:02 Engine Finished processing player 2's move
+05-09 16:40:02 Engine Processing move #8
+05-09 16:40:02 Engine Getting move from player 2
+05-09 16:40:02 -+-+-+-THX1138  13 win; 0 kill; 65 other.
+05-09 16:40:02 Engine Validating move: PlayerMove [playerId=2, stack=0, size=3, start=[0, 3], end=[1, 0]]
+05-09 16:40:02 Engine Move validated. Notifying other players
+05-09 16:40:02 Engine Notifying player 2 of last move
+05-09 16:40:02 Engine Finished processing player 2's move
+05-09 16:40:02 Engine Game has ended

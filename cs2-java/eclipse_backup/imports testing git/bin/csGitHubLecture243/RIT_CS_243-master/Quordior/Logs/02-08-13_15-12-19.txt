@@ -1,0 +1,54 @@
+2013-02-08 15:12:19.482779: ENGINE starting
+2013-02-08 15:12:19.483652: ENGINE loading STUDENT ENGINE part 4
+2013-02-08 15:12:19.503386: ENGINE loaded player module: OKComputer as player 1
+2013-02-08 15:12:19.503736: ENGINE loaded player module: OKComputer as player 2
+2013-02-08 15:12:19.503969: ENGINE loaded player module: OKComputer as player 3
+2013-02-08 15:12:19.504435: ENGINE loaded player module: OKComputer as player 4
+2013-02-08 15:12:19.504631: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-08 15:12:23.418344: ENGINE calling STUDENT ENGINE init
+2013-02-08 15:12:23.418716: STUDENT ENGINE init call successfully returned
+2013-02-08 15:12:23.419185: ENGINE calling init() for player 1
+2013-02-08 15:12:23.419471: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-08 15:12:23.420281: OKComputer initialized as player 1
+2013-02-08 15:12:23.420472: STUDENT ENGINE initialize_player call successfully returned
+2013-02-08 15:12:23.420640: ENGINE calling init() for player 2
+2013-02-08 15:12:23.420805: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-08 15:12:23.421402: OKComputer initialized as player 2
+2013-02-08 15:12:23.421577: STUDENT ENGINE initialize_player call successfully returned
+2013-02-08 15:12:23.421743: ENGINE calling init() for player 3
+2013-02-08 15:12:23.421906: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-08 15:12:23.422683: OKComputer initialized as player 3
+2013-02-08 15:12:23.422869: STUDENT ENGINE initialize_player call successfully returned
+2013-02-08 15:12:23.423043: ENGINE calling init() for player 4
+2013-02-08 15:12:23.423214: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-08 15:12:23.423897: OKComputer initialized as player 4
+2013-02-08 15:12:23.424071: STUDENT ENGINE initialize_player call successfully returned
+2013-02-08 15:12:23.586495: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/animations.500/public.525c59f465de9a8f5fe9b404487b899090ac6c1151155c275acd8/partone.0/apikey.820d60943005a0935c8/gameid.110724/
+2013-02-08 15:12:23.587100: ENGINE calling STUDENT ENGINE generate_board
+2013-02-08 15:12:23.587742: Wall 4, 0, 6, 0 is along the edge
+2013-02-08 15:12:23.587965: Wall 3, 9, 5, 9 is along the edge
+2013-02-08 15:12:23.588170: Wall 0, 4, 0, 6 is along the edge
+2013-02-08 15:12:23.588418: Wall 9, 4, 9, 6 is along the edge
+2013-02-08 15:12:24.720328: ENGINE uploading move to web engine
+2013-02-08 15:12:25.204450: ENGINE uploading move to web engine
+2013-02-08 15:12:25.876741: ENGINE uploading move to web engine
+2013-02-08 15:12:26.841888: ENGINE uploading move to web engine
+2013-02-08 15:12:27.806038: Wall 6, 8, 6, 10 is along the edge
+2013-02-08 15:12:28.350263: Wall 3, 2, 5, 2 causes an row intersection with 4, 2, 6, 2
+2013-02-08 15:12:28.352230: Wall 4, 7, 6, 7 causes an row intersection with 3, 7, 5, 7
+2013-02-08 15:12:28.352518: Wall 2, 3, 2, 5 causes an column intersection with 2, 4, 2, 6
+2013-02-08 15:12:28.352970: Wall 7, 3, 7, 5 causes an column intersection with 7, 4, 7, 6
+2013-02-08 15:12:29.701401: ENGINE uploading move to web engine
+2013-02-08 15:12:30.195150: ENGINE uploading move to web engine
+2013-02-08 15:12:30.401778: ERROR: (3, 9)
+2013-02-08 15:12:30.403772: TRACE: 
+Traceback (most recent call last):
+  File ".\Model\__init__.py", line 561, in studentEngineCall
+  File "/Users/nicmanoogian/Documents/CS/Eclipse/Quordior/StudentEngines/teamwhat/__init__.py", line 706, in generate_board
+    player.last_move(engineData.model.getPlayerData(i), w.getCopy())
+  File ".\StudentPlayers\OKComputer\__init__.py", line 84, in last_move
+  File ".\StudentPlayers\OKComputer\model.py", line 305, in update_state
+  File ".\StudentPlayers\OKComputer\graph.py", line 62, in add_wall
+KeyError: (3, 9)
+

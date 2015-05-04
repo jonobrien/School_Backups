@@ -1,0 +1,26 @@
+# 241 Wk1 Recitation - Open Problem
+# Author: Sean Strout <sps@cs.rit.edu>
+
+import turtle
+
+def drawTriangle():
+    turtle.forward(100)
+    turtle.left(120)
+    turtle.forward(100)
+    turtle.left(120)
+    turtle.forward(100)
+    turtle.left(120)
+    
+def drawTrianglePair():
+    drawTriangle()
+    turtle.right(180)
+    drawTriangle()    
+    
+def main():
+    drawTrianglePair()
+    turtle.right(90)
+    drawTrianglePair()
+    turtle.left(90)
+    input("Hit enter to close...")
+    
+main()

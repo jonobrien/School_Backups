@@ -1,0 +1,38 @@
+2013-02-08 15:19:22.023208: ENGINE starting
+2013-02-08 15:19:22.024119: ENGINE loading STUDENT ENGINE part 4
+2013-02-08 15:19:22.029738: ENGINE loaded player module: OKComputer as player 1
+2013-02-08 15:19:22.030053: ENGINE loaded player module: OKComputer as player 2
+2013-02-08 15:19:22.030225: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-08 15:19:23.527325: ENGINE calling STUDENT ENGINE init
+2013-02-08 15:19:23.527737: STUDENT ENGINE init call successfully returned
+2013-02-08 15:19:23.528070: ENGINE calling init() for player 1
+2013-02-08 15:19:23.528358: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-08 15:19:23.529370: OKComputer initialized as player 1
+2013-02-08 15:19:23.529588: STUDENT ENGINE initialize_player call successfully returned
+2013-02-08 15:19:23.529801: ENGINE calling init() for player 2
+2013-02-08 15:19:23.530017: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-08 15:19:23.530789: OKComputer initialized as player 2
+2013-02-08 15:19:23.531024: STUDENT ENGINE initialize_player call successfully returned
+2013-02-08 15:19:23.695190: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/partone.0/public.5f9c4bd36f678f16ed0a7b4f09cfb0060704a2ee51155dcb7d7e9/apikey.820d60943005a0935c8/gameid.110831/animations.500/
+2013-02-08 15:19:23.695733: ENGINE calling STUDENT ENGINE generate_board
+2013-02-08 15:19:24.043306: ENGINE uploading move to web engine
+2013-02-08 15:19:25.049756: ENGINE uploading move to web engine
+2013-02-08 15:19:26.152404: ENGINE uploading move to web engine
+2013-02-08 15:19:26.419840: ENGINE uploading move to web engine
+2013-02-08 15:19:26.929216: ENGINE uploading move to web engine
+2013-02-08 15:19:27.240064: ENGINE uploading move to web engine
+2013-02-08 15:19:27.539173: This wall causes and intersection at 7.0, 2.0
+2013-02-08 15:19:27.713080: Wall 5, 2, 5, 4 causes an column intersection with 5, 1, 5, 3
+2013-02-08 15:19:27.713449: Wall 4, 3, 4, 5 causes an column intersection with 4, 4, 4, 6
+2013-02-08 15:19:27.713721: Wall 5, 2, 5, 4 causes an column intersection with 5, 1, 5, 3
+2013-02-08 15:19:27.714845: Wall 4, 3, 4, 5 causes an column intersection with 4, 4, 4, 6
+2013-02-08 15:19:27.715253: Wall 2, 1, 2, 3 causes an column intersection with 2, 2, 2, 4
+2013-02-08 15:19:27.715576: Wall 7, 4, 7, 6 causes an column intersection with 7, 3, 7, 5
+2013-02-08 15:19:28.192899: ENGINE uploading move to web engine
+2013-02-08 15:19:28.484951: ENGINE uploading move to web engine
+2013-02-08 15:19:28.584070: STUDENT ENGINE generate_board call successfully returned
+2013-02-08 15:19:28.584419: ENGINE calling symmetry check
+2013-02-08 15:19:28.584627: SYMMETRY VALIDATION:
+2013-02-08 15:19:28.585074: CORRECT NUMBER OF WALLS.
+2013-02-08 15:19:28.585271: BOARD IS **NOT** SYMMETRIC!

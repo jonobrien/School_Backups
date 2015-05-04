@@ -1,0 +1,9 @@
+package main;
+
+
+abstract class AbstractCommand {
+	
+	abstract public void execute();
+	
+}
+

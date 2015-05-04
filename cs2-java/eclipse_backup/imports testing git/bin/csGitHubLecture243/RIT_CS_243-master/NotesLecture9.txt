@@ -1,0 +1,96 @@
+Lecture 9 Notes:
+
+Iterator:
+	- The iterator provides a mechanism for moving about in an aggregate data structure without exposing details of implementation
+	- Iterator iterator()
+		- hasNext()
+		- iterator()
+		- next()
+		- remove()
+	- Advantages
+		- Allows for multiple simultaneous iterators over a collection
+		- Allows for the design of different kinds of iterators
+		- Java explicitly implements
+
+Singleton:
+	- Scenarios in which you want to ensure only one object of a class
+	- static instance()
+	- Private constructor
+
+Model View Controller:
+	- Observable / Observer
+	- Model
+		- Observable
+		- Has the data
+		- setChanged()
+		- notifyObserver() => View
+	- View
+		- Observer
+		- GUI or Text
+		- update()
+	- Controller
+		- User input
+		- This is a test
+	- Advantages
+		- Model and View are decoupled
+
+Decorator:
+	- Adding functionality through composition rather than inheritance
+	- Can dynamically apply decorators
+	- Composition
+	- Decorator holds an instance of the original object
+
+Factory Method:
+	- Place object creation inside of a method
+	- Example: 
+		public class BookFactory
+		{
+			public static Book createBook(String[] book)
+			{
+				int bookType = determineBookType(bd);
+				switch (bookType)
+				{
+					case BookFactory.PAPERBACK:
+						return new HardCover(bd);
+						break;
+					case BookFactory.AUDIO:
+						return new AudioBook(bd);
+						break;
+				}
+			}
+		}
+	- Advantages
+		- Allow the method to decide which subclass is appropriate
+		- Multiple constructors require different signature, Factory Method allows for this
+		- Recycle old objects
+
+Object Pool:
+	- Pool is a Singleton
+	- Populated with objects
+	- When to Use:
+		- Cost of initializing a class instance is high
+		- Rate of instantiation is high
+		- Average usage is low
+	- Has methods:
+		- acquire()
+		- release()
+	- Example:
+		- Webserver fielding users
+		- Each user interaction is a separate thread
+	- Another Example:
+		- Bowling alley
+		- Shoes are in the pool
+		- Cost of creation is high
+
+Command Design Pattern:
+	- Represent actions as objects
+	- Command Interface => Methods:
+		- execute()
+		- undo()
+	- Various desired actions will be classes that implement the command interface
+	- The command objects are created and passed to a receiver
+	- Receiver processes them
+	- Advantages:
+		- Natural logging (keep a stack)
+		- Makes undo easier
+		- Requests are separate from receiver

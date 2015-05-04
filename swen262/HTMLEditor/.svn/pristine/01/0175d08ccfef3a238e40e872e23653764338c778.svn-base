@@ -1,0 +1,9 @@
+package Command;
+
+
+interface CommandInterface {
+	
+	abstract public void execute();
+	
+}
+

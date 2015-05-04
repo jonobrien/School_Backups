@@ -1,0 +1,17 @@
+def strHead(s):
+    return s[0]
+    
+def strTail(s):
+    return s[1:]
+
+def strReplace(s, oldChar, newChar):
+    if s == '':
+        return ''
+    else:
+        if strHead(s) == oldChar:
+            return newChar + strReplace(strTail(s), oldChar, newChar)
+        else:
+            return strHead(s) + strReplace(strTail(s), oldChar, newChar)
+ 
+print(strReplace('a', 'z', 'x'))           
+print(strReplace('test', 't', 'x'))

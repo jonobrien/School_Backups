@@ -1,0 +1,44 @@
+package Tab;
+
+import java.util.LinkedList;
+
+import javax.swing.JTabbedPane;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+
+import Command.AddNewTabCommand;
+import main.Display;
+
+public class TabPanel extends JTabbedPane {
+
+    LinkedList<Tab> tabList;
+    
+    public TabPanel(){
+        super();
+        init();
+    }
+    
+    private void init(){
+        tabList = new LinkedList<Tab>();
+        
+        Tab newTab = new Tab(0);
+        tabList.add( newTab );
+      
+        super.addTab(null, newTab.getContent() );
+        super.setTabComponentAt( 0 , newTab.getHeader() );       
+        super.addTab("+",null);
+        super.setSelectedIndex( 0 );
+        super.addChangeListener( new AddNewTabCommand());
+    }
+    
+    public LinkedList<Tab> getList(){
+        return this.tabList;
+    }
+    
+    public void updateIndecies() {
+        for(int i = 0;i < tabList.size();i++){
+            tabList.get(i).updateIndex(i);
+        }
+    }
+    
+}

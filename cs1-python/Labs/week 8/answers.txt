@@ -1,0 +1,13 @@
+question 1:
+
+The imbalance measurement is 0.13061298022789702
+
+question 2:
+
+The imbalance measurement is 18.6117187
+
+question 3:
+
+Different hasing functions do not affect the number of times that the hash table must resize.  The resizing
+is done by the rehash functions and the key-value pairs are put into the new tables by the get and put 
+functions.   

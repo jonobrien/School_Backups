@@ -1,0 +1,74 @@
+from myQueue import *
+from myStack import *
+from random import *
+
+def GET_BRIDGE_MAX_WEIGHT():
+    return randint(700, 1100)
+    
+def GET_BRIDGE_MAX_PEOPLE():
+    return randint(3, 5)
+    
+def crossTheBridge(cavern, survivors):
+    """Hostages leave the cavern and enter the bridge"""
+    bridge = mkQueue()
+    
+    print("STAGE 2: SKILL CHALLENGE...")
+    print("The survivors make it to a perilous gorge...")
+    print("There is an old and rotting wooden bridge that spans the gorge...")
+    print("The choppa is on the other side of the bridge!")
+    print("The survivors decide to cross it together...")
+    
+    MAX_WEIGHT = GET_BRIDGE_MAX_WEIGHT()
+    print("The maximum weight supported by the bridge is", MAX_WEIGHT)
+    
+    MAX_PEOPLE = GET_BRIDGE_MAX_PEOPLE()
+    print("The bridge can hold a maximum of", MAX_PEOPLE, "hostages")
+    
+    # loop by adding hostages to the bridge until either it breaks or 
+    # they all make it on
+    totalWeight = 0
+    brokeBridge = False
+    while not brokeBridge and not emptyStack(cavern):
+        # if the bridge holds the max people, remove the front person from it
+        if bridge.size == MAX_PEOPLE:
+            survivor = front(bridge)
+            print("The bridge is full.", survivor.name, "finishes crossing it...")
+            enqueue(survivors, front(bridge))
+            dequeue(bridge)
+            totalWeight -= survivor.weight
+            
+        # process the next person in the cavern
+        hostage = top(cavern)
+        cavern = pop(cavern)
+        if not brokeBridge:
+            print(hostage.name, "of weight", hostage.weight, 
+                "steps carefully onto the bridge...")
+            enqueue(bridge, hostage)
+            totalWeight += hostage.weight
+            print("Total weight on bridge:", totalWeight)
+            print("Number of hostages on the bridge:", bridge.size)
+            if totalWeight > MAX_WEIGHT:
+                print("OH NO! The bridge collapses under the massive weight!")
+                brokeBridge = True
+                if survivors.size == 0:
+                    print("OH NO!!! The choppa randomly explodes!!!")
+    
+    # if the bridge breaks, separate those who fall from those 
+    # who are stranded
+    if brokeBridge:
+        while not emptyQueue(bridge):
+            # everyone on the bridge is toast
+            print(front(bridge).name, "falls into the gorge!")
+            dequeue(bridge)
+        while not emptyStack(cavern):
+            hostage = top(cavern)
+            cavern = pop(cavern)
+            print(hostage.name, "is left stranded in the jungle!")
+    else:
+        while not emptyQueue(bridge):
+            survivor = front(bridge)
+            print(survivor.name, "finishes crossing the bridge...")
+            enqueue(survivors, front(bridge))
+            dequeue(bridge)
+        
+    print(str(survivors.size), "hostage/s survived the bridge crossing...")  

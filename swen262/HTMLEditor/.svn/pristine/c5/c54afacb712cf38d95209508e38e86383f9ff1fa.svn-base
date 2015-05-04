@@ -1,0 +1,32 @@
+package command;
+
+import java.awt.Cursor;
+import main.StaticUtilities;
+
+
+
+/**
+ * This class is the action objects stored in the ActionBuffers that handle undo and redo
+ * for the HTMLEditor
+ */
+public class ActionObject {
+	private Cursor position = StaticUtilities.getCurrentTab().getContent().getBuffer().getCursor();
+	
+	
+	//TODO add the data
+	private String data;
+	private Integer type;
+	
+	
+	
+	public void getPosition(Cursor position) {
+		this.position = position;
+	}
+	
+	public void getData(Object NData) {
+		//this.data = NData;
+	}
+
+
+}
+

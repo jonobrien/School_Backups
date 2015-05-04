@@ -1,0 +1,42 @@
+2013-02-08 15:29:43.102252: ENGINE starting
+2013-02-08 15:29:43.103347: ENGINE loading STUDENT ENGINE part 4
+2013-02-08 15:29:43.108184: ENGINE loaded player module: OKComputer as player 1
+2013-02-08 15:29:43.108451: ENGINE loaded player module: OKComputer as player 2
+2013-02-08 15:29:43.108665: ENGINE loaded player module: OKComputer as player 3
+2013-02-08 15:29:43.108873: ENGINE loaded player module: OKComputer as player 4
+2013-02-08 15:29:43.109049: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-08 15:29:46.007062: ENGINE calling STUDENT ENGINE init
+2013-02-08 15:29:46.007461: STUDENT ENGINE init call successfully returned
+2013-02-08 15:29:46.007798: ENGINE calling init() for player 1
+2013-02-08 15:29:46.008058: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-08 15:29:46.009086: OKComputer initialized as player 1
+2013-02-08 15:29:46.009357: STUDENT ENGINE initialize_player call successfully returned
+2013-02-08 15:29:46.009715: ENGINE calling init() for player 2
+2013-02-08 15:29:46.009923: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-08 15:29:46.010773: OKComputer initialized as player 2
+2013-02-08 15:29:46.011050: STUDENT ENGINE initialize_player call successfully returned
+2013-02-08 15:29:46.011287: ENGINE calling init() for player 3
+2013-02-08 15:29:46.011510: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-08 15:29:46.012512: OKComputer initialized as player 3
+2013-02-08 15:29:46.012742: STUDENT ENGINE initialize_player call successfully returned
+2013-02-08 15:29:46.012970: ENGINE calling init() for player 4
+2013-02-08 15:29:46.013191: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-08 15:29:46.014049: OKComputer initialized as player 4
+2013-02-08 15:29:46.014268: STUDENT ENGINE initialize_player call successfully returned
+2013-02-08 15:29:46.183542: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/animations.500/gameid.110971/apikey.820d60943005a0935c8/partone.0/public.c540d8c77c165921e493ad2613a73a4cc6ccbfac51156039f2cf4/
+2013-02-08 15:29:46.184566: ENGINE calling STUDENT ENGINE generate_board
+2013-02-08 15:29:47.297087: ENGINE uploading move to web engine
+2013-02-08 15:29:47.634038: ENGINE uploading move to web engine
+2013-02-08 15:29:48.260026: ENGINE uploading move to web engine
+2013-02-08 15:29:48.613635: ENGINE uploading move to web engine
+2013-02-08 15:29:49.509023: Wall 2, 2, 2, 0 is not 2 units, is diagonal, or misordered
+2013-02-08 15:29:51.077386: ENGINE uploading move to web engine
+2013-02-08 15:29:52.060550: ENGINE uploading move to web engine
+2013-02-08 15:29:52.976346: ENGINE uploading move to web engine
+2013-02-08 15:29:53.477743: ENGINE uploading move to web engine
+2013-02-08 15:29:53.726657: STUDENT ENGINE generate_board call successfully returned
+2013-02-08 15:29:53.727043: ENGINE calling symmetry check
+2013-02-08 15:29:53.727299: SYMMETRY VALIDATION:
+2013-02-08 15:29:53.727697: **INCORRECT** NUMBER OF WALLS.
+2013-02-08 15:29:53.727899: BOARD IS SYMMETRIC!

@@ -1,0 +1,64 @@
+package Command;
+
+import java.util.LinkedList;
+
+import javax.swing.JOptionPane;
+
+import main.Display;
+import main.StaticUtilities;
+import Tab.Tab;
+import Tab.TabPanel;
+
+/**
+ * CloseCommand is a concrete command object responsible for closing
+ * the current selected tab when it's TabCloseButton is clicked.
+ *
+ */
+public class CloseCommand implements CommandInterface {
+
+	//current index of tab in tab panel linked list
+	private int index;
+	
+	/**
+	 * Constructor initializes index field
+	 * @param index
+	 */
+	public CloseCommand(int index){
+		this.index = index;
+	}
+	
+	
+	@Override
+	/**
+	 * execute() removes the selected tab from the tab panel linked list of tabs
+	 */
+	public void execute() {
+		TabPanel tabPanel = Display.getDisplay().getTabPanel();
+		LinkedList<Tab> tabList = Display.getDisplay().getTabPanel().getList();
+		if(JOptionPane.showConfirmDialog(null, 
+                "You have not saved this file! Do you want to continue?", "WARNING - Unsaved file", 
+                JOptionPane.YES_NO_OPTION,
+                JOptionPane.QUESTION_MESSAGE) == JOptionPane.NO_OPTION){return;}
+		else{
+    		if(tabPanel.getSelectedIndex() == this.index){
+    		    tabPanel.setSelectedIndex(StaticUtilities.antiNegativeOne(this.index - 1));
+    		}
+    		if(tabPanel.getTabCount() == 2){
+    		    tabPanel.setSelectedIndex( 1 );
+    		}
+    		tabPanel.remove(this.index);
+    		tabList.remove(this.index);
+		    tabPanel.updateIndecies();
+		}
+	}
+	
+	/**
+	 * updateIndex updates the commands index when other tabs
+	 * are closed.
+	 * @param newIndex
+	 */
+	public void updateIndex(int newIndex){
+		this.index = newIndex;
+	}
+
+}

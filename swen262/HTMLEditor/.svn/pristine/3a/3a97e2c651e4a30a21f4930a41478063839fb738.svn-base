@@ -1,0 +1,171 @@
+package main;
+
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+import Command.InsertHTMLConstructCommand;
+
+/**
+ * JFrame that is used to collect data from the user of the settings
+ * for a table tag that will be inserted
+ */
+@SuppressWarnings("serial")
+public class TableOptionsSelector extends JFrame {
+
+    /**
+     * Check box for whether or not to include a table caption
+     */
+    private JCheckBox caption;
+    
+    /**
+     * Check box for whether or not to include a row of headers
+     */
+    private JCheckBox headerRow;
+    /**
+     * How many headers to include
+     */
+    private JTextField headers;
+    
+    /**
+     * How many rows to include
+     */
+    private JTextField dataRows;
+    /**
+     * How many columns to include in each row
+     */
+    private JTextField dataColumns;
+    
+    /**
+     * Create the window and all its properties
+     * @param addTableListener - An InsertHTMLConstructCommand that will listen for 
+     *                          It should add a table
+     */
+    public TableOptionsSelector(InsertHTMLConstructCommand addTableListener){
+        //Super with appropriate name
+        super("Table Options Selector");
+        //Set the window to get the data from as this for the listener
+        addTableListener.addSelectorWithData( this );
+        //Set the size and layout
+        super.setLayout( new GridLayout(10,1) );
+        super.setSize( 400 , 400 );
+        super.setResizable( false );
+        //Create the objects for selection and add them to the window
+        caption = new JCheckBox("Add Caption To Table?");
+        headerRow = new JCheckBox("Add a Row of Headers?");
+        headers = new JTextField("0");
+        headers.setEnabled( false );
+        dataRows = new JTextField("0");
+        dataColumns = new JTextField("0");
+        super.add(caption,0);
+        super.add(headerRow,1);
+        super.add(new JLabel("Number of headers: "), 2);
+        super.add(headers,3);
+        super.add(new JLabel("Number of rows: "), 4);
+        super.add(dataRows,5);
+        super.add(new JLabel("Number of columns: "), 6);
+        super.add(dataColumns,7);
+        super.add( new JLabel("Note: For any columns to show, there must be atleast 1 row"),8 );
+        JPanel buttons = new JPanel(new GridLayout(1, 2));
+        JButton accept = new JButton("Accept");
+        accept.addActionListener( addTableListener );
+        JButton cancel = new JButton("Cancel");
+        //Add a cancel button listener to close this windows and reactivate the main display
+        //When the cancel button is clicked
+        cancel.addActionListener( new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Display.display.setEnabled( true );
+                TableOptionsSelector.this.setEnabled( false );
+                TableOptionsSelector.this.setVisible( false );
+            }
+        });
+        buttons.add( accept, 0 );
+        buttons.add( cancel, 1);
+        super.add( buttons, 9);
+        //Do the same for if the x button is clicked as if the cancel button is clicked
+        this.setDefaultCloseOperation( DO_NOTHING_ON_CLOSE );
+        this.addWindowListener(new WindowAdapter(){
+            public void windowClosing(WindowEvent e){
+                Display.display.setEnabled( true );
+                TableOptionsSelector.this.setEnabled( false );
+                TableOptionsSelector.this.setVisible( false );
+            }
+        });
+        
+        //Add a listener to update the enabled-ness of the number of headers as whether 
+        //The check box for row of headers is enabled
+        headerRow.addActionListener( new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                headers.setEnabled( TableOptionsSelector.this.headerRow.isSelected() );
+            }
+        } );
+        
+        this.setVisible( true );
+    }
+    
+    /**
+     * @return - Whether the table will have a caption or not
+     */
+    public boolean getCaption(){
+        return caption.isSelected();
+    }
+    
+    /**
+     * @return - Whether the table will have a row of headers or not
+     */
+    public boolean getRowOfHeaders(){
+        return headerRow.isSelected();
+    }
+    
+    /**
+     * @return - How many headers will be in the header row
+     */
+    public int getHeaders(){
+        int numOfHeaders = 0;
+        if(headers.getText() != null && headers.getText() != ""){
+            numOfHeaders = Integer.parseInt( headers.getText() );
+        }
+        return numOfHeaders;
+    }
+    
+    /**
+     * @return How many rows will be in the table
+     */
+    public int getRows(){
+        int numOfRows = 0;
+        if(dataRows.getText() != null && dataRows.getText() != ""){
+            numOfRows = Integer.parseInt( dataRows.getText() );
+        }
+        return numOfRows;
+    }
+    
+    /**
+     * @return - How many columns will be in each row of the table
+     */
+    public int getColumns(){
+        int numOfColumns = 0;
+        if(dataColumns.getText() != null && dataColumns.getText() != ""){
+            numOfColumns = Integer.parseInt( dataColumns.getText() );
+        }
+        return numOfColumns;
+    }
+    
+    /**
+     * Close the windows by disabling and hiding it
+     */
+    public void close(){
+        this.setEnabled( false );
+        this.setVisible( false );
+    }
+}
