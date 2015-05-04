@@ -1,0 +1,25 @@
+SWEN-250 Activity Reflection
+Python - WordCount
+
+Name: Jon O'Brien
+
+================================================================
+Start
+Estimated Time 01 30
+Plan:
+ To write the code, compile it often and ensure good coding
+practices are used to regularly commit changes, etc.
+
+Complete
+Actual Time	2HH 15MM
+Observations:
+After much research about forgotten coding practices of python,
+I completed the program.  I encountered problems with remembering
+proper python syntax and whitespace rules, as well as the use of
+vim for editing and compiling the python code.  One hard aspect
+of this assignment was the correct use of the standard output for
+the file name to be used by ritwc.py.
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+
+================================================================

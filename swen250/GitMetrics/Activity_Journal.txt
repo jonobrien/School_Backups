@@ -1,0 +1,34 @@
+SWEN-250 Activity Reflection
+Ruby - Git Repository Metrics
+
+Name: Jon O'Brien
+
+================================================================
+Start
+Estimated Time	3HH 40MM
+Plan:
+(Order of implementation, testing approach, etc.)
+
+I will begin with separating out the number of commits.  I will
+search line by line for the keyword "commit" then I will increment
+a counter by 1 for every line that contains that keyword.  Next I 
+will implement the method to count the number of authors, searching
+for "Author: " and incrementing a counter for every unique instance
+in the log.  Finally will be the number of days in development. I will
+use the DateTime class and count the total days, sort them, and subtract
+the proper order to calculate the number of days.
+
+Complete
+Actual Time	2HH 50MM
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+I learned about DateTime and how to sort date/time lines in Ruby. 
+I encountered a problem with the DateTime at first but after some
+trial and error, there was much rejoicing. I tested my program on both
+the small and full git log files and achieved the same answers as was given
+in the requirements documentation on the SE website.  I tested on my own git
+log as well and can see how long I have been in the class, versus coding,
+and it is interesting to see.
+================================================================
+

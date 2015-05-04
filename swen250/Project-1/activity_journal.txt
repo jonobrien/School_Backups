@@ -1,0 +1,222 @@
+SWEN-250 Activity Journal
+Ruby – Grades CSV
+
+Name: Jon O'Brien
+
+RELEASE 1 - grades_util.rb & test_grades.rb
+================================================================
+Release 1 Implement & Test get_CSV_line() - Start
+Estimated Time 2HH 10MM
+Plan for this level:  I will be looking over all the documentation
+involved with the lines and how the files will handle the praamaters
+and complete the required returns. I wll be looking into CSV tags and
+gaining knowledge on those as well.
+
+Level 1 – Complete
+Actual Time	1HH 05MM
+Notes: Lessons learned, problems encountered, obstacles overcome, etc.
+
+I learned about CSV tags and how to iterate over the lines properly, 
+after reading the instructions carefully, and several times to 
+ensure I fully understood all that I had to do for this part. I
+had some problems with the arrays, but I figured it out in the end.
+================================================================
+
+================================================================
+Release 1 Implement & Test numeric_to_letter() - Start
+Estimated Time	1HH 20MM
+Plan for this level:  I will look over documentation on accessing 
+dictionaries and the different ways of doing so and which is the
+fastest or most simple way of going about this for the purpose of 
+this project.
+
+Level 1 – Complete
+Actual Time	0HH 30MM
+Notes: Lessons learned, problems encountered, obstacles overcome, etc.
+
+I encountered problems initially with the ranges for the letters
+in the method, but increased the upper limit to 101 instead of 100
+and ensuring cases matched the data structure given.
+================================================================
+
+================================================================
+Release 1 Implement & Test sum_weights() - Start
+Estimated Time	2HH 25MM
+Plan for this level:  I will look into the documentation about 
+CSV and their indices and how to manage conversions from strings
+to integers.  I will look into indexing and handling multiple lines
+of input and the arrays looping to work with that.
+
+Level 1 – Complete
+Actual Time	1HH 10MM
+Notes: Lessons learned, problems encountered, obstacles overcome, etc.
+
+I had problems figuring out what was meant my an empty field, but 
+after I realized what was meant by that I was able to finish quite
+more quickly than expected. I figured out how to convert to an integer
+and that made the proces quite easy. 
+================================================================
+
+================================================================
+Release 1 Implement & Test compute_grade() - Start
+Estimated Time	2HH 30MM
+Plan for this level: For this method I will have to read over 
+documentation on converting strings to floats and all the requirements
+involved in that part of the method and the intertwined workings of
+the floats and ints and any problems I could face in the interactions
+in regards to ruby, also how to round the grade value to 2 decimal points.
+
+Level 1 – Complete
+Actual Time	1HH 18MM
+Notes: Lessons learned, problems encountered, obstacles overcome, etc.
+
+I learned about numeric typeing in ruby and how to go from one type 
+to another, like from int to float or vice-versa, even to string or not.
+I had problems with the checking if numeric or letter, but that was solved
+with a quick documentation lookup and several attempts as well.
+================================================================
+
+RELEASE 2 - grades.rb
+================================================================
+Release 2 -Level 1 – Start
+Estimated Time	1HH 30MM
+Plan for this level:  For this transition of level 1 of release 2 I will
+format the required print statements for headers and weights and check 
+the test cases that I will have to test to ensure the lines print
+correctly and have the proper formatting as needed based on the 
+weights value, empty or not.
+
+Level 1 – Complete
+Actual Time	1HH 04MM
+Notes : Lessons learned, problems encountered, obstacles overcome, etc.
+
+I learned about formatting print statements in Ruby and I had to add the
+lines of the input from standard in to an array to have the prints
+correct and the numbers formatted properly.  I had a problem with the
+iteration through the 2d-array I made,but I conquered this by just
+printing the associated indices through the first 2 lines of the file.
+================================================================
+
+================================================================
+Release 2 -Level 2 – Start
+Estimated Time	0HH 45MM
+Plan for this level:  For the second level of Release 2 I will have to
+alter the reading of the lines and indices to accommodate the new 
+weights that could show up instead of the numbers.  The grades that 
+could now be numbers. I will have to check for the weights to 
+be exactly 100.  
+
+Level 1 – Complete
+Actual Time	0HH 30MM
+Notes : Lessons learned, problems encountered, obstacles overcome, etc.
+
+I learned about "abort" method in Ruby that will end the program if the 
+parameter is met, in this case, if the weights add up to something that
+is not exactly 100.  I also learned about more unit testing methods and 
+wrote more to match new cases that could appear in the csv files that
+I would have catch and handle carefully over the running of the program.
+================================================================
+
+================================================================
+Release 2 -Level 3 – Start
+Estimated Time	1HH 45MM
+Plan for this level: For the third level of Release 2 I will have to alter
+the print statements to compute the student grades as well as the inital
+headers and weights and then compute any grades that are required to be 
+converted to the proper format either for printing the grade report or for
+the computation of the grades.  The final prints will have the headers, and the
+weights and then each student with their grades and the summary information
+from the requirements docs.
+
+Level 1 – Complete
+Actual Time	2HH 01MM
+Notes : Lessons learned, problems encountered, obstacles overcome, etc.
+
+I learned about the looping through the indices in my for loops through 
+the 2d-array and printing out the indices for each student.  Each student's
+information was printed and I had some toying with the arrays in the loops
+to catch the nil errors from indices out of range. 
+================================================================
+
+================================================================
+Release 2 -Level 4 – Start
+Estimated Time	3HH 06MM
+Plan for this level: For the fourth level of releasre 2 I will have to add 
+in the computation for the final numeric grades and the letter grade as well
+and I will have to associate each grade with a letter value and print out 
+properly.  I will have to investigate into conversions in Ruby with parameters 
+of if checks for casing and the letters with upper or lower here as well.
+
+
+Level 1 – Complete
+Actual Time	2HH 20MM
+Notes : Lessons learned, problems encountered, obstacles overcome, etc.
+
+I learned how to work with the for loops and the if statements and the conversions
+of the typing from floats to ints to strings to check comparisons for the grade 
+values that were calculated and converted for weights and final grades that were
+computed. I had trouble with the indexing again and I had to go back in and redo 
+some loops and change some ranges in my for loops.  
+================================================================
+
+================================================================
+Release 2 -Level 5 – Start
+Estimated Time	2HH 30MM
+Plan for this level: For the fifth level of release 2 I will have to add letter grade
+and number grade support for the computational aspects of the students' grades.
+ I will have to add numeric or letter checks to every support function that could have
+a letter or number field now with the fifth level being addressed on this second release.
+ The cases will have to be checked and fixed according to hash table checks or prints. 
+The csv lines will have to be adjusted when testing the files to see completion and tests
+will be written to adjust for cases and letters with and without symblos.
+
+Level 1 – Complete
+Actual Time	3HH 10MM
+Notes : Lessons learned, problems encountered, obstacles overcome, etc.
+
+I learned to work iteratively with the hash checks and print out lots of things to see
+how my if statements work in regards to casing and conversions with and without symbols.
+I had problems with the printing of the input letter with symbol index, but fixed that
+in the for loops with a new variable assignment and reduction in code statements.  I
+had to adjust for more students with different input types and I found that the indexing
+with the loops was sometimes altered so my ranges would return nil statements and I had 
+to fix that again. I had to adjust how I was going about accessing my hash tables and 
+getting values from them throughout the files and programs.
+================================================================
+
+================================================================
+Release 2 -Level 6 – Start
+Estimated Time	1HH 30MM
+Plan for this level:  The sixth and final level of Release 2 will be the calculation of the 
+GPA for the classs as a whole.  The sumary will print the number of letters for the whole
+student body and give a total count printed after all the headers/weights and student info.
+ I wiil have to incorporate the grade weight calculation as well in order to calculate the
+GPA for the whole class as well, when that is printed finally, and I will have to ensure
+I don't cross any types in the files when I pass in the parameters from one function to the
+next as I iterate over the students and their grades.
+
+Level 1 – Complete
+Actual Time	0HH 20MM
+Notes : Lessons learned, problems encountered, obstacles overcome, etc.
+
+I learned about accessing hash tables efficiently and that you don't need to have a variable
+to call the hash index, you can make changes to the parameter right in the brackets[] and 
+still have the code work as expected.  This was done and the prints were performed to match
+the required output on the requirements documents on the website and are added to more students
+as expected.  I encountered diffculty with the GPA at first, but that was lead back to my 
+initial indexing and the calculations of the proper grade qualitites hash in grades_util.rb
+and that was easily fixed with a single fix.  This level was only a few lines of code and it
+was a lot shorter than I expected.
+================================================================
+
+OVERALL SUMMARY
+================================================================
+Estimated Total Time	19HH 21MM
+Actual Total Time	13HH 28MM
+Project reflection: I had a lot of trouble with the indexing and the hash tables initially
+ and I was able to get around that using the 2d-array that I made over time and gradually grasped 
+everything that I was supposed to, along with the for loops and the conversions from the various types.
+I had difficulty in places, and I consulted the Ruby-docs to get a better grasp of the situation and
+how the language was syntactically different from the other languages I am more accustomed to
+ and how I could incorporate that way of thinking to overcome any challenges I faced with
+this program.

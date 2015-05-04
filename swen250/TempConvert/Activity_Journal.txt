@@ -1,0 +1,34 @@
+SWEN-250 Activity Reflection
+C - TempConvert
+
+Name: Jon O'Brien
+
+================================================================
+Start
+Estimated Time	1HH 30MM
+Plan:
+(Order of implementation, testing approach, etc.)
+
+I will have to look up how to start the program, read the powerpoints
+and determine how to format the strings.  I am going to have to look
+up the different typing keywords and determine how C handles these
+in regards to the strings and character handling.  I am also going to
+have to look up the different ways that C handles justification of
+lines and newlines, using formatting lines.
+
+Complete
+Actual Time	0HH 30MM
+Number of times compiled: 15
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+I learned how to define variables of different types in C and how
+C handles these differently than other languages in regards to 
+printing lines on the screen.  I learned how to format the lines
+appropriately according to the requirements document and I was able
+to quickly complete this assignment due to my efforts being more
+focused than in the past.  I encountered a problem with the formatting
+originally, but I was able to overcome this quickly with some googling
+and completed this assignment quickly.
+================================================================
+

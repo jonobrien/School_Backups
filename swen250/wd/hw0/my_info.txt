@@ -1,0 +1,13 @@
+Name: Josh Woodward
+Major: Software Engineering
+Minor: Computer Engineering
+Expected Graduation: May 2016
+JQuery: In-Depth Knowledge
+Javascript: In Depth Knowledge
+HTML/CSS: In Depth Knowledge
+SQL Server: Comfortable Knowledge
+Python: Comfortable Knowledge
+Java: Comfortable Knowledge
+Ruby: Comfortable Knowledge
+VBScript (Classic ASP Web framework): Comfortable Knowledge
+C: Relatively new, grasping concepts, but still not 100% confident when coding 

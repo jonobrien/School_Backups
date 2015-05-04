@@ -1,0 +1,68 @@
+*********************************** C++ Program
+i. Positives:
+	1. This program is easy to understand because it makes use of the
+	LinearFit class. With an object of this class, storing data and 
+	performing calculations on the data is relatively simple, as the
+	data is the state of the object, and this state is easily accessable
+	by the instance methods. 
+ 
+	2. The fact that this program utilizes two List<Double> variables 
+	to keep track of the data points is an advantage over the C program
+	in terms of ease of use. No manual memory management needs to take 
+	place on the programmers end, and all of the internal operations
+	(management related) are hidden from the programmer
+  
+	3.The List<Double> structures that are use bring another advantage
+	in the fact that c++ provides a great iterator for lists. The
+	programmer can be "blind" to the size of the list, and simply
+	writes a loop that executes until the iterator has reached its end
+
+	4. Lastly, this program has provided class methods that take 
+	advantage of o-o programming, and are able to access data members 
+	such as getnumberofpoints(), getcoefficient(), and getconstant().
+	  
+ii. Negatives:
+	1. The List structures that are used to hold the data points are 
+	not nearly as efficient as they could be. The program does not 
+	utulize c++'s ability to manage memory, and instead uses a newer 
+	list structure that allows the programmer to blindly add items to 
+	the list. This ease of use sacrifices efficiency.
+ 
+	2. The execution of both the getConstant and getLinearCoefficient
+	methods could have been written in a way that better takes
+	advantage of the LinearFit class. Currently, both methods check
+	the instance variable [Coefficients Computed], and based on that, 
+	will run a method to compute the coefficients and then return the 
+	corresponding variable (A or B).
+	A suggested alternative would be to (in main()), call ComputeCoefficients()
+	to compute and store A and B, and then have the two previously mentioned "get" methods
+	return the coefficients that have already been calculated. This
+	allows this tacky flag to be removed from the program.  
+
+
+*********************************** C Program
+i. Positives:
+	1. This program utilizes the DynamicArray struct. This provides a massive
+	computational advantage over the C++ program for many reasons. At any given point, 
+	the array will only be consuming as much memory as it currently needs. 
+	When storing any dynamic amount of data, the implementation of a dynamic array
+	allows the list to grow as needed, but never be too large and consume too many 
+	resources.
+	
+	2. Any methods that are called within this program are efficient in the sense
+	that they make use of pointers. The biggest example of this is the DynamicArray 
+	"object" \ "struct instance" that is used to store all of the data of this program. 
+	The PushToDArray method needs to access this list, and rather than passing in all 
+	of the information in the list, just the address of the DynamicArray instance is given.
+	Passing in an address is extremely cheap and efficient and is smart C programmint	 
+
+ii. Negatives:
+	1. Strictly from a readability standpoint, this program requires disection and 
+	reverse engineering beyond what would be required for a c++ program. Rather than
+	containing all state and behavior in a class, the information is scattered and 
+	requires attention to detail when implementing program.
+
+	2. Althought the implementation of the DyanamicArrays results in an efficient 
+	program, there is a large opportunity for errors related to memory when 
+	dynamicaly allocating, reallocating, and copying information from one 
+	memory location to another. 

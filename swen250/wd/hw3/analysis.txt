@@ -1,0 +1,15 @@
+The implementation of both the TestList and TestSearch methods were 
+made relatively simple after the LinkedLists module was complete. Having
+a module that is able to manage its resources internally is essential in 
+programming. In TestList and TestSearch, it is convenient being able to 
+construct the arbitrary MyData node and then simply adding it to the list.
+
+In implementing the search function, there are many ways that it could have
+been programmed to take advantage of the doubly linked list. 
+Although the function currently starts at the front and "walks" across each 
+node until it reaches the end, smarter methods could have been applied
+to exploit the fact that it is doubly linked. 
+
+The results of the program are nothing other than expected, and can
+be found in results.txt
+

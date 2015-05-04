@@ -1,0 +1,33 @@
+SWEN-250 Activity Reflection
+C - Linked List
+
+Name: Jon O'Brien
+
+================================================================
+Start
+Estimated Time	2HH 15MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+
+    I will have to look up documentation on malloc and pointers to
+better understand how c does linked lists and allocates memory
+to the nodes that I create in the linkedList.
+
+Complete
+Actual Time	4HH 15MM
+Number of Compiles: 36
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+    I struggled with the initial bug of having the copylist return the
+pointer and not knowing how to deal with that problem.  I fixed that
+in class with Meneely telling everyone how to solve that problem and 
+reassigning the head node and deleting the extra instances of head
+and creating the copy() in main(). I had to deal with the obstacle
+of the compiling and for some reason main wanted an integer to be
+returned in main() but I fixed that by copying the files to a new folder
+and recompiling and everything worked.
+================================================================
+
+
+

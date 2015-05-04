@@ -1,0 +1,166 @@
+v
+v
+v
+v
+v
+v
+SWEN-250 Project Activity Journal
+C Health Monitoring System Project - Part 1
+
+Name: Jon O'Brien
+
+===========  Stage 1  ==========================================
+Start
+Estimated Time	1HH 20MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+
+     I will have to look up different ways of printing everything out.
+In addition to that, I will have to print the different fields
+in a way that is valid for the desired output.  I will have to 
+lookup documentation on formatting more prints because this time
+there are spaces in the fields, which have been different
+that those we encountered in the past.
+
+
+Complete
+Actual Time	15HH 20MM
+number of compiles: 65
+ratio --> 11.5
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+     I learned to figure out many different ways of printing the csv
+lines and many different ways to pass the information around
+when dealing with pointers or addressing or passing the variables
+to the print statement.  I had a lot of problems with the formatting
+of the variables and passing everything properly.
+
+===========  Stage 2  ==========================================
+Start
+Estimated Time	10HH 20MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+
+     I will have to look up documentation on structs of this type and 
+add values in that manner, albeit with or without pointers.  I will
+have to move the printing to another function for later usability
+and reuse of code, following Meneely's DRY concept.
+
+Complete
+Actual Time	5HH 40MM
+Number of Compiles: 40
+ratio --> 0.55
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+     I had trouble with the printing. I had problems with the 
+multiple accessing of the struct for each line and incrementing the
+indices and properly storing and accessing the information from 
+the struct with the proper information.  This ratio was reduced due
+to the easiness of the level in respect to the prior ones.
+
+===========  Stage 3  ==========================================
+Start
+Estimated Time	2HH 00MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+
+     For part 3 I will have to look up how to print according to id
+and keep track of all the information to properly print everything.
+To fully accomplish this part I will have to deal with the circular
+buffer and I will also have to print according to a single patient
+id, instead of just printing one single line and waiting for the next
+index in the line to be printed.
+
+Complete
+Actual Time	2HH 00MM
+Number of Compiles: 54
+ratio --> 1.00
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+     I was having problems with the circular buffer and the syntax
+associated with that part of the code. The struct becomes more
+and more complicated, the more I use it and the more things we have
+to do to the part of the struct, the more difficult it becomes to
+access the arrays and keep track of the information stored there.
+The ratio did not cause any problems in this case, i performed
+as I expected for this part.
+
+===========  Stage 4  ==========================================
+Start
+Estimated Time	4HH 20MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+
+     For the fourth level of the project I will have to look up more info on
+the struct becasue I am still having problems with the struct and addressing
+the particular parts of the code that require me to use pointers and which 
+requirements are needed for the multiple line handling by the print and adding functions.
+
+Complete
+Actual Time 2HH 10MM
+Number of Compiles: 68
+ratio --> .5
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+     The ratio here was reduced such that it was easier to complete 
+this level than previous levels and achieve the proper completion for 
+that level.  I had to deal with the circular buffer and deal with 
+values that would exceed that buffer and cause me to reformat that 
+such that it will not be exceeded and controlled in a safe manner 
+for the code to deal with the 4th part.
+
+===========  Stage 5  ==========================================
+Start
+Estimated Time	0HH 30MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+
+     I will just have to make small changes to format the code for multiple
+patients. I will just have to add a couple for loops to change the 
+index for the patient id and reassign the parameters being passed to 
+my print function. I will have to ensure that the output is consistent 
+across many tests and many different input types and patient 
+numbers and criteria provided.
+
+Complete
+Actual Time	3HH 30MM
+Number of Compiles: 82
+ratio --> 7.00
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+     I had problems with the EOF catching with my while loop.  
+I think I was putting in the wrong loop and it kept messing up as I went.
+I finally tried to resolve that iussue here, and you will see a lot of 
+commented out attempted locations that I tried to use for the testing 
+and proper printing.  The ratio spiked here and that was caused by 
+the increase in bugs I created in the final part in my attempts to 
+complete the project properly.
+
+===========  PROJECT PART 1 SUMMARY REFLECTION  =======================
+     I found the project informative.  It attempted to have us learn about
+pointers and addressing for a large part of the project, be it built in pointers
+based on the scope, or the ones we explicitly defined.  I found the printing 
+initially to be one of the hardest part, due to the pointers and the many different
+parameters I had to think about as I struggled to grasp the initial struct
+structure/layout.  I enjoyed the difficulty of the other levels, but I believe 4 and 5 
+were made quite difficult in and off themselves becasue of the large changes you had to 
+make to the initial code you started with.  my estimates for the code generally
+decreased as I increased in efficiency and improved in my understanding of the project
+but one drawback and one bug could have led to a huge decrease in my efficiency
+and my time of completion was drastically reduced.
+
+TOTAL ESTIMATED TIME: 18HH 30MM
+TOTAL ACTUAL TIME:    28HH 40MM
+RATIO: 1.55
+
+(Replace this text with a couple of paragraphs summarizing your
+experience with this project. What is too easy or too hard? What
+was the most challenging technical problem you faced? How
+did your estimated and actual time compare? Did your estimates
+improve as you advanced to later stages? Why or why not?)
+================================================================

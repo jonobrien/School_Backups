@@ -1,0 +1,40 @@
+SWEN-250 Activity Reflection
+C - LongestLine
+
+Name: Jon O'Brien
+
+================================================================
+Start
+Estimated Time	3HH 10MM
+Plan:
+(Order of implementation, testing approach, etc.)
+
+I will have to look up documentation for the from[] and readline 
+function.  I will also have to look up what [] is actually defined
+as in C and how to handle maxline counts of a file or a line being
+input to the program.
+
+
+Complete
+Actual Time	1HH 20MM
+Number of compiles: 15
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+I learned about working with ctrl-d and passing arrays from one
+function to another.  I had some difficulty with the eof originally
+but I was able to overcome it and get the copying function to
+work as expected.  I dealt with the character arrays and sending
+the information from one function, to another without much
+difficulty as I had with csv previously, but I believe it would
+have been just as difficult this time as last time had I not
+spent so much time before. Now that I am more familiar with these
+types of problems, I hope that I will be able to complete things
+much faster and bring my practicum grade up, as I need to do well
+in order to pass the class with something I can live with.
+These assignments help me to understand C and working with it
+more and more I come to understand the syntax and how it works 
+with all the different features including the preprocessor
+and compile-time functions.
+================================================================
+

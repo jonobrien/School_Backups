@@ -1,0 +1,31 @@
+
+SWEN-250 Activity Reflection
+Ruby - Phonetic
+ 
+Name: Jon O'Brien
+ 
+================================================================
+Start
+Estimated Time 3HH 20MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+ 
+I will go through the documentation and learn about 2d arrays and 
+how ruby will handle them and how to access them using loops and 
+indexing and other arrays to hold the keys and values associated with
+the different dimensions of the array.  I will test all the functions 
+and try multiple words, cases, and whether or not the translate properly
+calls the other two functions.
+
+Complete
+Actual Time    6HH 50MM
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+ 
+ I learned to work more iteratively, go piece by piece or else you will
+have a bad time trying to debug the code in attempts to fix indexing errors
+and arrays not printing properly in ruby.  I learned the ruby way of ranges
+and that helped with the for-loops I used and how to access the arrays.
+================================================================
+ 
+ 

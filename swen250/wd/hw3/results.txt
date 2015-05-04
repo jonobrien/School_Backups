@@ -1,0 +1,39 @@
+Results of running TestList:
+
+
+Generating List...
+There are 206591 words in the input file
+List Generated!
+
+Displaying Contents Of First Four List Nodes!
+
+dermatitis is at position 0 in the list.
+toxins is at position 1 in the list.
+wisted is at position 2 in the list.
+benedictions is at position 3 in the list.
+
+Displaying Contents of Last Four List Nodes!
+
+besotting is at position 206589 in the list.
+pressurize is at position 206588 in the list.
+intercohort is at position 206587 in the list.
+Sidman's is at position 206586 in the list.
+
+********************************************************************
+
+Results of running TestSearch (using search.txt as "search file"):
+
+Generating List...
+List Generated!
+
+Searching for word <gjfjf> in the list....
+Word <gjfjf> not found in the list
+
+Searching for word <tree> in the list....
+Word <tree> found in position #203862 of the list
+
+Searching for word <mousets> in the list....
+Word <mousets> not found in the list
+
+Searching for word <cheese> in the list....
+Word <cheese> found in position #101121 of the list

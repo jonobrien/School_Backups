@@ -1,0 +1,200 @@
+4010-350 Process & Reflection
+Rails – Thought Share
+
+Name: Jon O'Brien
+**I rounded ratios up to nearest hundredth**
+================================================================
+Level 0 – Start
+Estimated Time	0HH 30MM
+Plan for this level:
+          For this level I will have to setup the rails/ruby versions that are 
+in the lab and then I will have to locate the files that are associated with 
+the mistakes on the home page of the web application.  I will then look for the 
+correct file associated with the button on the application, and the posts as 
+well.  I will have to look more in-depth into interactions of the files and 
+what is called, which files actually output to the application and how errors
+are handled.  I will have to ensure that the proper version of rails is always
+used when I run the rails commands and setup/seed/migrate things for this project.
+
+Level 0 – Complete
+Actual Time	0HH 40MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+           I had some difficulty installing rails and ruby versions that were 
+equal to the lab versions. I resolved this with the bundle gem install/uninstall 
+commands. Then I found I had to just run any rails command with the "bundle exec"
+before the command so the correct version of the software could be used according
+to the code denoted in the given files. The installation was not difficult at all,
+it just took a couple tries to install/uninstall gems and the proper versions.
+
+Level 0 - Ratio -> 1.33
+     This ratio was caused by the installation of the software, and I would have
+had the actual setup with the rake db:setup/seed was a relatively trivial process.
+The spelling mistakes were found and I just had to reseed and refresh the page to
+finish the corrections for this level, but it could have been faster if I had just
+used a lab machine.
+
+================================================================
+Level 1 – Start
+Estimated Time	1HH 10MM
+Plan for this level:
+          For this level I will have to look up validation checks for the input
+from the user and check that versus regex statements or character lengths too.
+I will have to lookup how to determine the proper syntax for this and how to
+restrict character count, and the proper regex statements could be a time-
+consuming as well.  The proper files will also have to be located and I will
+have to make sure I am writing the lines in the proper files that actually
+has the proper effects on the code and restricts user input.
+
+Level 1 – Complete
+Actual Time	1HH 30MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+          I learned how to work with the validation checks in rails and I'm
+sure that that knowledge will help me later.  I encountered obstacles with the
+exact syntax for the validation checks and the proper symbol names for the url or
+the name that was associated with the formatting of the user input in regards to
+the database and its' tables and columns, etc.
+
+Level 1 - Ratio -> 1.29
+     I was slowed by the url syntax for the regex.  I had to mess with the given
+in order to make it work properly.  This proved tricky with the proper use of
+colons and commas to denote the different symbols for the validations.
+
+================================================================
+Level 2 – Start
+Estimated Time	0HH 30MM
+Plan for this level:
+          I plan on looking for the files associated with the mine button.
+I have to determine how to differentiate between the different thinkers
+and the thoughts that they made.  I will have to look at how the db gets
+called and accessed for the button aspect of the application and the files
+that are associated with that part of the application as well.
+
+Level 2 – Complete
+Actual Time	0HH 15MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+          I learned that the sorting is done is specific calls to the db and the 
+db will give back certain thinkers or thoughts based on the call to the db.  I
+had to figure out what to write based on the calls to the db and the debugging
+for this part took me a little while to sort out the calls to the db.
+
+Level 2 Ratio -> .50
+    This part went quickly because I was able to find the files quickly
+sort out what had to be changed to accommodate the small change in code that was
+needed to sort the thoughts based on thinker relatively easily.  
+
+================================================================
+Level 3 – Start
+Estimated Time	1HH 00MM
+Plan for this level:
+          I will have to figure out how to make the new method, determine if the
+placement inside the file has a problem, and determine how to acquire the IDs of
+the thinkers and thoughts that are associated with the new page that will be created
+and then how to use the rails application to make the new page properly based on 
+those findings and go from there. I will have to format the html page to keep the
+same formatting and not have any code duplication, which could cause a problem if
+that proves to be difficult.
+
+Level 3 – Complete
+Actual Time	1HH 30MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+           I learned that there was an error in the given match line, and I had
+to switch the first set of :id and :action for the line to work properly.  This 
+led me to be confused for some time as to why I did not see any changes being 
+reflected in the application that was given and I wondered as to why none of my
+code was working.  This obstacle was overcome and I had to resolve it with some
+searching and messing around on the rails documentation pages.
+		   
+Level 3 Ratio -> 1.50
+     This level took more time than expected because of the issues I encountered
+with the rails commands on the command line.  I had to fumble around working
+with the different commands because I had this installed on my laptop, working
+with the different gems and getting the proper set to work, was confusing at 
+first, but I recovered and finished the part.
+
+================================================================
+Level 4 – Start
+Estimated Time	1HH 45MM
+Plan for this level:
+          For this part I will have to figure out what a database migration
+actually does and how it works with all the files that were given and how to
+ensure that I am working with the correct set of files as I work through this
+level and complete the email additions to the application and input parts. The
+validation checks will be easy with the regex being given, so I don't expect
+any difficulties from that part.  The addition of the profile page may cause
+problems but I hope that it will not give me too many obstacles.
+
+Level 4 – Complete
+Actual Time	2HH 30MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+          I encountered problems with the commands to migrate the database
+and get it reseeded and resetup.  I did not know the process for completing
+this step with the command line, and the steps required to rework the application
+and fix the changed emails to work properly.  I encountered a lot of nil:nilClass
+errors becasue of these changes not being fully implemented in rails with my 
+migration not working properly.  I also had to go into the migration file and I did
+not know that I had to edit code in there for a while too; I had to search for that
+on the internet as well, checking documentation and the other migration files for
+hints on the required changes.
+		  
+Level 4 Ratio -> 1.43
+     This level took longer than expected because of the issues with the database 
+commands and the error checking caused by that.  Once I resolved those issues, I
+was able to finish the rest of the level with some speed that I could have had
+a reversed ratio but was delayed due to a lack of conveyed knowledge, but I 
+overcame that obstacle after some trial and error with the commands, restarting 
+the server a few times, and testing that way.
+
+================================================================
+Level 5 – Start
+Estimated Time	1HH 30MM
+Plan for this level:
+          For this level I will have to do some validation checking for the
+uniqueness in the thumbers of a particular thought and ensure that the thumb 
+is only added if the thinker has not thumbed the thought before, also ensuring
+that the thinker is also unique.  This will probably involve some database
+changes as well and I will probably have to look in multiple places to ensure
+the validation is actually affecting what I want it to change and restrict at
+both the top level and at the model level.
+		  
+Level 5 – Complete
+Actual Time	1HH 00MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+          I was able to overcome the issue of validating uniqueness for the 
+thumbers in such a way that no changes were name at the model level, as was
+requested of in the requirements document, but that is ok as this fix was
+relatively straight forward and was less work than expected.  I was able to
+locate the file quickly and make a small change to accomplish this level 
+and complete the requested modification to the model much faster than expected.
+
+Level 5 Ratio -> .67
+     This level took less time than expected due to the small amount of code
+that was actually needed to be written for this part, just a small if statement
+and some minor formatting changes.
+
+================================================================
+Overall Summary
+Estimated Total Time   6HH 25MM
+Actual Total Time	   7HH 25MM
+Project Overall Ratio -> 1.17
+     This project ratio changed over time as I completed more parts in more 
+or less time than expected.  I would increase the time as I took longer for a
+previous part or if I thought that the part would take a longer amount of time
+because it had more parts to do in each level.  It shifted from far from 1 to 
+closer to 1 dependent on the changes described above.  I can learn from this 
+for later projects and have a better expectation of the time it will take for
+me to complete future projects.
+
+Project reflection:
+     I made changes on the last day of class when Prof. Meneely said how to change
+the code to accommodate the actual match line for routes that was given, and I 
+should not have done that because I am not sure if that messed with anything 
+that was working before the changes that I made to my code. I learned some 
+things from this project.  I learned how to manage my time and how to look 
+over the rails documentation for examples of the parts that I was working on.  
+I think I became more proficient in Ruby, but only time will tell if this is true.  
+I think this project was moderately difficult, but I was able to overcome my 
+problems with help from the Internet and researching. I think you should give 
+a hint that most of the rails code needed in the html page that you create is 
+given in the other parts of the project, and you just have to search through 
+the given files for the particular part you are writing rails code for and 
+somewhere there is a given piece that you can paste in and it works for you.

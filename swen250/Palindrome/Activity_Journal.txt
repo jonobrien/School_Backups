@@ -1,0 +1,36 @@
+SWEN-250 Activity Reflection
+Python - Palindrome
+
+Name: Jon O'Brien
+
+================================================================
+Start
+Estimated Time	2HH 30MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+
+	I plan on having the file input working, then the removal
+ of the whitespace and the non-letter characters. Then the 
+program will iterate through the remaining characters and determine
+palindromes.  I will compile after every few lines of new code to 
+keep the code error-free, then commit to have good practice.
+
+Complete
+Actual Time	5HH 30MM
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+	I encountered problems with my personal laptop's wireless 
+card not wanting to stay connected to the Wifi all the time, so 
+that was slowing the process down, forcing me to commit more 
+often to avoid having to constantly recover the corrupted file 
+from a disconnected session.  Besides that, there was just syntax 
+memory problems, from not using some features of python since 
+last semester and the ins-and-outs of vim and the command line 
+still being a little touchy.  The biggest problem I had was 
+having the pointers properly being assigned, and having the lines
+properly being read over by the program.
+
+
+================================================================
+

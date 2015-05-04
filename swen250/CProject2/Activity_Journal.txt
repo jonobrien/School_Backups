@@ -1,0 +1,181 @@
+4010-250 Project Journal
+C Health Monitoring System Project - Part 2
+
+Name: Jon O'Brien
+
+===========  Stage 1  ==========================================
+Start
+Estimated Time	01HH 00MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+
+    For level 1 I will have to make an instance of the global chart
+and then read and store the values from stdin to the instance.
+I will then have to print out the values that were taken in and 
+stored to complete the level.
+
+Complete
+Actual Time	  00HH 30MM
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+    Seeing as this level was pretty much the same level as it was for
+the first part, I was able to redo it quickly, and I did not want
+to just copy my code so that I could learn it better than that.
+
+===========  Stage 2  ==========================================
+Start
+Estimated Time	02HH 00MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+
+    For this level I will have to connect in the health types to the
+patients in the charts' buffer and then link that to the patientList
+and charts accordingly. I will also have to take care to keep my
+code readible and I go through this and complete things.
+
+Complete
+Actual Time	  01HH 00MM
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+    I was able to complete this level very quickly as I understood
+the structs with much more knowledge than for the other parts and
+for the first part of the project. I had problems with the initial
+pointing but I think I was able to figure it out easily and it 
+should be relatively similar for most of the functions in the 
+health_util.c file, which was very straight forward.
+
+===========  Stage 3  ==========================================
+Start
+Estimated Time	02HH 00MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+
+    I estimate that time for this level because I will have to
+iterate to the next circular buffer and I will have to ensure I 
+keep the ID's correct as I work with the input and the data taken. 
+I will also have to keep track of the timestamps and the printing
+may prove to be difficult if there are problems.
+
+Complete
+Actual Time	 02HH 00MM
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+    I learned about pointers some more and I learned that you need
+to mess with some things to see just how they work to learn how to
+manipulate the structs to get what you need from them.
+
+===========  Stage 4  ==========================================
+Start
+Estimated Time	01HH 30MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+
+    I think this level will be easy becasue it is just manipulating
+the circular buffers and working with those as you traverse the
+structs and complete this level.
+
+Complete
+Actual Time	  02HH 30MM
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+    I learned how to deal with the circular buffer and complete this
+level with much ease.  I was having problems at first, but once I 
+had a better understanding of the process involved, I completed
+everything quickly.  I also had to have a better understanding of 
+how to given structs worked in their linked fashion, and not as an
+array with the chart ordering and which chart was in which position,
+it was just in how they were input.
+
+===========  Stage 5  ==========================================
+Start
+Estimated Time	01HH 00MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+
+    I think this level will be easy, I will only have to modify the
+circular buffer to accept multiple types, and use the struct to its
+fullest potential. I will have to check it by printing many times
+and confirming that I am doing what I want to do with the struct
+and that everything is actually working.
+
+Complete
+Actual Time	  2HH 00MM
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+    I encountered a Segmentation Fault that I had to overcome with
+an additional null check in the method I was working in and add
+other checks in other methods to accommodate accordingly.
+
+===========  Stage 6  ==========================================
+Start
+Estimated Time	00HH 30MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+
+    I perceive this level as being quick as it only is an additional
+couple edits in the struct and I believe that should be quite easy, 
+but we shall see. I will have to keep to watching my nulls and proper
+id numbers when I print so that I do not mess anything else up in the
+formatting.
+
+Complete
+Actual Time	  01HH 30MM
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+    I learned how to work with the pointers and keep the patient id 
+numbers intact when working with the struct and the charts accordingly.
+I was also able to get the printing to be formatted as expected in the 
+test given.  I believe my printing works as expected but I piped in
+through a test file so I'm not sure if that will mess things up, I
+thought the input given was confusing.
+
+
+===========  Stage 7  ==========================================
+Start
+Estimated Time	3HH 00MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+
+    Since this level is last, and requires 2 additional methods, I
+think it will take the longest, and I will probably have trouble with
+the free() part and I'm not sure if I will be able to get it.
+
+update: I tried things and I kept getting segfaults with direct input,
+but when using my test files, after editing to move from level 6 to 7,
+I received no errors anyway, but only through pasting lines directly
+into ./health, but running my make tests didn't give me the errors.
+
+update2: stuck, not working, have more important things to do, this is
+only worth 5 points, so not a super huge deal breaker, not worth stressing over.
+
+Complete
+Actual Time	HH MM
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+
+===========  PROJECT SUMMARY REFLECTION  =======================
+
+total estimate: 8
+total actual: 9.5
+overall ratio: 9.5/8 = 1.2
+
+    I enjoyed the project and I had an interesting time learning
+through this method.  My ratio changed over time as I struggled with different 
+levels of the project and I compensated with following levels with increased time
+ratios and I either did better or worse than expected. The first level was quite easy.
+I found level 7 very difficult and I was unable to complete it in the alloted time.
+I als ohad a lot of problems with segfaults and I still don't know
+why there are no errors shown when I pipe in the text file versus
+just manually entering the lines and getting errors instead that way.
+I also had difficulty understanding the structs layout at first, 
+and that caused me some grief as I struggled to understand how
+the whole setup worked.
+
+================================================================

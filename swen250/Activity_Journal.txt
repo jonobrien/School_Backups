@@ -1,0 +1,19 @@
+SWEN-250 Activity Reflection
+Python - WordCount
+
+Name: Jon O'Brien
+
+================================================================
+Start
+Estimated Time 01 30
+Plan:
+ To write the code, compile it often and ensure good coding
+practices are used to regularly commit changes, etc.
+
+Complete
+Actual Time	HH MM
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+
+================================================================

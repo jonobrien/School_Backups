@@ -1,0 +1,20 @@
+SWEN-250 Activity Reflection
+Ruby - Histogram
+
+Name: Jon O'Brien
+
+================================================================
+Start
+Estimated Time	2HH 15MM
+Plan:
+(Order of implementation, testing approach, etc.)
+    I will go through the instructions to make small incremental additions to my code as I go.  I will check to ensure the code is working as I work and only commit working code.  I will test each part of the code as I work and print out different parts to ensure i am doing what is required.
+
+Complete
+Actual Time	5HH 30MM
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+I had trouble with the sorting and alphabetical portions of the assignment, and I used the prints statements to work through the code and debug my code.  I used a lot of the ruby-docs to help me learn the syntax as well.
+================================================================
+

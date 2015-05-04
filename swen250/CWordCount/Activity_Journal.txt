@@ -1,0 +1,35 @@
+SWEN-250 Activity Reflection
+C - WordCount
+
+Name: Jon O'Brien
+
+================================================================
+Start
+Estimated Time	2HH 30MM
+Plan:
+(Order of implementation, testing approach, etc.)
+
+I will have to look online for documentation about the three libraries
+referenced with the #include keyword at the beginning of the file.  I
+will have to look up end of file documentation and how that works
+in C with returning, and more documentation on getchar() and more
+formatting for C lines as well.  I expect this assignment to be 
+more difficult than our python or ruby inplementations because of
+the way C handles strings as integers.
+
+Complete
+Actual Time	2HH 12MM
+Number of compiles: 16
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+I learned that I had to do everything in a single while loop that
+was based on the EOF and changed the value of the characer that 
+was being looked at as the loop progressed over the file to ensure
+every character is looped over and assessed accordingly. The final
+print statement was easy, now that formatting is becoming more 
+common in our coding assignments. I will have to spend more time 
+reading documentation and looking at examples online for better
+understanding of the code and how it works in differnet situations.
+================================================================
+

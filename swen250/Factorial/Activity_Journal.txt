@@ -1,0 +1,29 @@
+SWEN-250 Activity Reflection
+Ruby - Factorial with Unit Testing
+
+Name:
+
+================================================================
+Start
+Estimated Time	2HH 30MM
+Plan:
+(Order of implementation, testing approach, etc.)
+
+I will follow the directions step by step.  I will only code when the 
+directions say to write code.  I will run the tests to test the code 
+as specified in the directions.
+
+
+
+Complete
+Actual Time	2HH 00MM
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+I learned about unit testing in Ruby, how to raise assertions or equals as 
+well as how to work with scripting in ruby.  I encountered problems with
+checking for negatives and for strings, but this was overcome with the use
+of if statements and simple checks for type.
+
+================================================================
+

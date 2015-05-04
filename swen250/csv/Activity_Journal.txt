@@ -1,0 +1,29 @@
+SWEN-250 Activity Reflection
+C - csv.c
+
+Name: Jon O'Brien
+
+================================================================
+Start
+Estimated Time	4HH 30MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+
+I will have to look up structs and how to work with those
+and I will have to look up how c handles character arrays and
+passes parameters into other functions.  I will have to also look
+up how to print based on csv fields and anything associated with 
+that as well.
+
+Complete
+Actual Time	3HH 30MM
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+I had some initial problems with working with the struct and I 
+received some help from Tina on the initialization of the struct
+for use in the code. I also had problems with formatting the 
+print statements, and that took some work to get the min function
+implemented into the print statements.
+================================================================
+

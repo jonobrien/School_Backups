@@ -1,0 +1,25 @@
+SWEN-250 Activity Reflection
+Python - Amino_Acids.py
+
+Name: Jon O'Brien
+
+================================================================
+Start
+Estimated Time	1HH 30MM
+Plan:
+(Order of implementation, testing approach, etc.)
+
+    Use dictionaries to print strings of characters relating to rna codons.
+Use scripts to test the python file according to the requirements of new
+lines and characters to ignore.
+
+Complete
+Actual Time	2HH 09MM
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+I worked on getting the three codons to calculate properly with the
+looping over the lines and prointing properly after encountering a stop
+codon and restarting when encountering a new start codon.
+
+================================================================

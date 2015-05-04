@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "LinkedLists.h"
+
+int main(int argc, char *argv[]){
+
+	/* Check to make ure there are no additional cmdline args */
+	if(argc==3){
+
+		/* Declare FILE variable for the words to store in the list */
+		FILE* inputFile;
+
+		/* Declare FILE variable for the words to search for */
+		FILE* searchFile;
+
+		/* Attempt to open files provided in command line args */
+		inputFile=fopen(argv[1],"r");
+		searchFile=fopen(argv[2],"r");
+
+		/* Check to make sure both files were opened properly */
+		if((inputFile==NULL)||(searchFile==NULL)){
+
+			/* Send message to stderr, and return 2 to OS */
+			fprintf(stderr,"One of the files cannot be opend\n");
+			return 2;
+
+		}else{
+			/* File was opened properly, perform calculations */
+
+			
+
+
+
+		}
+		/* End check for file unable to be opened */
+
+
+
+	}else{
+
+		/* Send message to stderr, and return 1 to OS */
+		fprintf(stderr, "\nUsage: %s american-english-words.txt <WordsToSearchFor>.txt\n\n", argv[0]);	
+
+
+	}
+	/* End check for proper # of cmdline args */
+
+	/* Program completed successfully, return 0 to OS */
+	return 0;
+
+}
+/* end main method */

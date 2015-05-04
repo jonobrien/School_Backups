@@ -1,0 +1,37 @@
+SWEN-250 Activity Reflection
+C - Pointers
+
+Name: Jon O'Brien
+
+================================================================
+Start
+Estimated Time 2HH 30MM
+Plan:
+(Order of implementation, testing approach, estimation technique)
+
+I will have to loop up more information on pointers and C and more
+ways of accomplishing past tasks with method that involve pointers
+and all the aspects of the structs and pointing to the arrays and 
+dereferencing properly. Pointers will be confusing to work with
+and I will have to probably retry multiple steps to see the output
+that I will be expecting.
+
+Complete
+Actual Time	2HH 30MM
+Number of Compiles: 25
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+
+I learned about addressing and dereferencing with pointers in this
+assignment.  I was able to properly pass the pointers and address
+arguments between functions and files as was the aim of this 
+assignment.  I had some confusing moments about the proper way to
+pass the pointer to the specified instance, but I was able to figure
+everything out in the end.
+
+The lack of given standard output examples leaves the solution quite
+ambiguous for the completion of the assignment. I was able to have
+the values print properly after being passed from stdin to the
+functions and pointers and then reprint them after parsing the line.
+================================================================
+
