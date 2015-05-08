@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>Sports Field Complex Scheduler</title></head>
+  <body>
+    <h2 style="text-align: center;"><span style="font-family: Helvetica,Arial,sans-serif;">Alloy
+        Dynamic Model Exam<br>
+        Sports Field Complex Scheduler</span></h2>
+    <h3><span style="font-family: Helvetica,Arial,sans-serif;"> Overview</span></h3>
+    <p>For this exam you will complete a dynamic model skeleton. The problem is
+      that of scheduling games at a sports field complex without conflicts.&nbsp;</p><p>Descritpion of the starting files:</p>
+    
+    <strong>FieldComplex_static.als</strong><br>
+    <div style="margin-left: 40px;">The original static model, with three facts
+      constraining the legal solutions. While you don't have to consult this -
+      everything you need is in the dynamic solution skeleton - it may help you
+      get a feel for how the scheduling system works.</div>
+    <br>
+    <strong>FieldComplex_dynamic.als</strong><br>
+    <div style="margin-left: 40px;">The transformed static model, with an
+      ordered <strong>Step</strong> set, relations modified to have a <strong>Step</strong>
+      column, facts changed to step-variant predicates, and the <strong>Invariant</strong>
+      and <span style="font-weight: bold;">init</span> predicates defined for you. There are skeletons for the&nbsp;<strong></strong> operation predicates to schedule, cancel and reschedule
+      games. The closure assertions and existence predicates are provided for
+      you.</div>
+    <br>
+    <strong>FieldComplex.thm</strong><br>
+    <div style="margin-left: 40px;">A theme that may help you in visualizing
+      solutions.</div>
+    <h3><span style="font-family: Helvetica,Arial,sans-serif;"> Problem</span></h3>
+    <p>Your task it to fill in the <strong>init</strong> predicate and the
+      operation predicates <strong>scheduleGame</strong>, <strong>cancelGame</strong>,
+      and <strong>rescheduleGame</strong>. Comments at the head of each
+      predicate specify what is to be done. Places where you are to provide your
+      statements are marked</p>
+    <p style="margin-left: 40px;"><span style="font-family: Courier New,Courier,monospace; font-weight: bold;">//
+        Fill This In</span></p>
+    <p>Of course the results must be consistent with the provided closure
+      assertions and the existence predicates as well.</p>
+    <p><strong style="font-family: Helvetica,Arial,sans-serif;">Note:</strong>
+      the operation predicates have a <strong>let</strong> statement defining
+      the next step in comments - this is so you can develop and test each
+      component separately without syntax errors. When you start work on an
+      operation predicate, remove the comments.</p>
+    <p>The <strong></strong>the
+      <strong>scheduleGame</strong> and <strong>cancelGame</strong> predicates
+      are each worth 12 points, and <strong>rescheduleGame</strong> is worth 6
+      points, for a total of 30 points.</p>
+    <h3><span style="font-family: Helvetica,Arial,sans-serif;"> </span></h3>
+    <h3><span style="font-family: Helvetica,Arial,sans-serif;">Deliverables</span>
+    </h3>
+    <p> Submit your dynamic model named <strong><em><span style="text-decoration: underline;">exactly</span></em></strong>
+      <strong style="color: rgb(204, 0, 0);">FieldComplex_dynamic.als</strong> to the <strong>Alloy&nbsp;Exam&nbsp;#2</strong>
+      drop-box by the end of the class period (50 minutes after the class
+      starts) </p>
+  </body></html>

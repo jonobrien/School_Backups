@@ -1,0 +1,19 @@
+never Safety {    /* !((! (([] (customerWaiting[2])) && (! (cashierBusy)))) || ((customerOrder[2]==PIZZA))) */
+accept_init:
+T0_init:
+	if
+	:: ((! (cashierBusy)) && ! (((customerOrder[2]==PIZZA))) && (customerWaiting[2])) -> goto accept_S3
+	fi;
+accept_S3:
+T0_S3:
+	if
+	:: ((customerWaiting[2])) -> goto accept_S3
+	fi;
+}
+never Liveness {    /* !((! ([] (customerWaiting[2]))) || (<> (custPlacedOrder[2]))) */
+accept_init:
+T0_init:
+	if
+	:: (! ((custPlacedOrder[2])) && (customerWaiting[2])) -> goto T0_init
+	fi;
+}

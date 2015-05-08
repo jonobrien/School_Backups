@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<alloy>
+
+<view>
+
+<projection> <type name="Step"/> </projection>
+
+<defaultnode/>
+
+<defaultedge/>
+
+<node>
+   <type name="Int"/>
+   <type name="Step"/>
+   <type name="String"/>
+   <type name="univ"/>
+   <type name="ordering/Ord"/>
+   <type name="seq/Int"/>
+   <set name="$cancelGame_exists_g" type="Game"/>
+   <set name="$cancelGame_exists_st" type="Step"/>
+   <set name="First" type="ordering/Ord"/>
+   <set name="Next" type="ordering/Ord"/>
+</node>
+
+<node color="Blue">
+   <type name="Field"/>
+</node>
+
+<node color="Green">
+   <type name="Date"/>
+</node>
+
+<node color="Red">
+   <type name="Game"/>
+</node>
+
+<node color="Yellow">
+   <type name="FieldComplex"/>
+</node>
+
+<edge color="Blue">
+   <relation name="where"> <type name="Game"/> <type name="Field"/> </relation>
+</edge>
+
+<edge color="Green">
+   <relation name="when"> <type name="Game"/> <type name="Date"/> </relation>
+</edge>
+
+<edge color="Red">
+   <relation name="schedule"> <type name="FieldComplex"/> <type name="Game"/> </relation>
+</edge>
+
+</view>
+
+</alloy>

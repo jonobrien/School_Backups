@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<alloy>
+
+<view nodetheme="Martha">
+
+<defaultnode/>
+
+<defaultedge/>
+
+<node>
+   <type name="Int"/>
+   <type name="Picture"/>
+   <type name="String"/>
+   <type name="univ"/>
+   <type name="seq/Int"/>
+</node>
+
+<node shape="Circle" color="Green">
+   <type name="Museum"/>
+</node>
+
+<node shape="Lined Circle" color="Red">
+   <type name="Client"/>
+</node>
+
+</view>
+
+</alloy>
