@@ -5,13 +5,8 @@
 <div class="row">
     <div class="col-sm-8">
         <div class="page-header">
-            {% if user.is_comm_admin %}
-            <h1>Hi {{user.username}}, you're Community Admin</h1>
-            {% elif user.is_shed_admin %}
-            <h1>Hi {{user.username}}, you're a Shed Admin</h1>
-           {% endif %}
-                        <h2>Welcome to {{ comm.name }}</h2>
-
+            <h1>Hi {{user.username}},</h1>
+            <h2>Welcome to {{ comm.name }}</h2>
         </div>
             <h3>What's happening in {{ comm.name }}? </h3>
 
@@ -61,7 +56,7 @@
 
     {% if tools %}
     <div class="col-sm-4 homeside">
-        <center> <h2>Some tools in {{ comm.name }}</h2> </center>
+        <h2>Some tools in {{ comm.name }}</h2>
         <table class="table table-striped table-hover ">
             <thead>
               <tr>

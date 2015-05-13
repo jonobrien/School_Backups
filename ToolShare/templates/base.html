@@ -91,7 +91,7 @@
               </ul>
             </li>
 
-            {% if user.is_shed_admin or user.is_comm_admin %}
+            {% if user.is_shed_admin %}
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                <i class="fa fa-gear"></i> Manage
@@ -99,11 +99,7 @@
               </a>
               <ul class="dropdown-menu" role="menu">
 	            <li><a href="/toolshare/viewsheds">Manage sheds</a></li>
-
-                {% if user.is_comm_admin %}
                 <li><a href="/toolshare/updatecommunity/{{user.community.id}}/">Manage community</a></li>
-                {% endif %}
-
               </ul>
             </li>
 	        {% endif %}
@@ -168,6 +164,19 @@
   {% endfor %}
 {% endif %}
 
+
+
+
+<!--&lt;!&ndash;this is for success notifications for the navbar extended pages&ndash;&gt; -->
+<!--
+{% if notify %}
+    <div class="alert alert-dismissable alert-success">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        <p>base notify {{ notify }}</p>
+    </div>
+{% endif %}
+
+-->
 
 
 

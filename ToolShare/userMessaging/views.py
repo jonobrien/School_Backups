@@ -9,7 +9,6 @@ from ToolShare.decorators import loggedin
 from django.contrib import messages
 
 # view for sending a message
-from ToolShare.toolshareapp import admin
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'
 
@@ -32,7 +31,13 @@ def send_message(request):
                 return render_to_response('send_message.html', args)
             else: #store the current user as the sender and the time sent as now
                 message.create(temp_user)
-                #creates success message saying send successful
+
+
+
+                args['notify'] = 'You successfully sent a message to ' + message.receiver.username
+
+
+                #supposed to make a success message appear
                 messages.success(request, 'You sent a message to ' + message.receiver.username)
 
                 args['form'] = form
@@ -84,25 +89,11 @@ def inbox(request):
 @loggedin
 def sent_messages(request):
     user = get_object_or_404(ourUser, username=request.user.username)
-
-    #flags are used to filter out messages used to act as system users/admins and were creating long tables
     flag1 = "Your tool has been returned"
     flag2 = "Expired Reservation"
     flag3 = "User Community Change"
-    flag4 = admin.username + " has updated your community."
-    #need to filter out the sent messages for feedback
-    flag5 = "Please provide feed back for"
-
     args = {}
-    my_inbox = Message.objects.filter(sender=user,deleted_sender=False).exclude(sender=community.admin).exclude(subject=flag1).exclude(subject=flag2).exclude(subject=flag3).exclude(contents=flag4)
-
-    #Message module doesn't support indexing
-    """
-    for message in my_inbox:
-        if message.subject.startswith(flag5):
-            my_inbox.filter(message)
-    """
-
+    my_inbox = Message.objects.filter(sender=user,deleted_sender=False).exclude(subject=flag1).exclude(subject=flag2).exclude(subject=flag3)
     args['messagesInbox'] = my_inbox #messages is avalible in template, is list in user's inbox
     args['name'] = "Sent Mail"
     args['user'] = user

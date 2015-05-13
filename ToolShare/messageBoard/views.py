@@ -6,8 +6,6 @@ from messageBoard.forms import communityWall_form, post_form
 from messageBoard.models import communityWall, Post
 from userManagement.models import ourUser
 from ToolShare.decorators import loggedin
-from django.contrib import messages
-
 
 
 #makes a community_wall
@@ -95,14 +93,7 @@ def delete_post(request, post_id=1):
     user = get_object_or_404(ourUser,id=request.user.id)
     post = get_object_or_404(Post, id=post_id)
     if post.poster == user or user == user.community.admin:
-        messages.success(request, 'You have successfully deleted the post')
-        post.delete(user)
-
-        if user == user.community.admin and post.poster != user.community.admin:
-            pass
-            #send a message to the owner that the admin deleted the message
-
-
+        post.delete()
         return HttpResponseRedirect('/user/home/')
     else:
         args = {}

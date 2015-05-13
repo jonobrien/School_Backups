@@ -1,8 +1,7 @@
 from django.core.exceptions import ValidationError
 
 
-#supposed to check for spaces, so can't name anything just ' ' or
-# any variation as to prevent unusable data (no clickable button per text names)
+#supposed to check for spaces, doesn't do anything though...
 def validate_txt_feild(value):
     for char in value:
         if char != ' ':

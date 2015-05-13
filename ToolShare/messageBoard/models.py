@@ -1,9 +1,6 @@
 from django.db import models
 import datetime
-from userMessaging.models import Message
 from ToolShare.validators import validate_txt_feild
-from django.shortcuts import get_object_or_404
-from userManagement.models import ourUser
 
 """
 #Community Wall class
@@ -64,19 +61,7 @@ class Post(models.Model):
         args['user'] = user
         return args
 
-    def delete(self, user):
-        #if current user is admin, but post is made by a regular user
-        if user == user.community.admin and self.poster is not user.community.admin:
-            sender = get_object_or_404(ourUser,username=user.username)
-            receiver = self.poster
-            subject = "your post has been removed"
-            message = Message(
-                date_sent=datetime.datetime.now(), subject=subject,
-                contents="temp", sender=sender, receiver=receiver,sent_by_system=False)
-
-            contents = "Your post: {" + self.content  + "} has been deleted."
-            message.contents = contents
-            message.save()
+    def delete(self):
 
         deleted = list(communityWall.objects.filter(wall_name="deleted").filter(community=self.poster.community))
         self.wall = deleted[0]

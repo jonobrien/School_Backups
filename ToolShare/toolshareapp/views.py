@@ -96,7 +96,6 @@ def accept_request(request, res_id):
         reservation.save()
         args['user'] = user
         args['status'] = "Tool reservation accepted."
-        messages.success(request, "You have successfully accepted the request from " + reservation.borrower.username + " to borrow " + reservation.tool.name)
         return HttpResponseRedirect('/user/inbox/')
         #return render_to_response('reserve_tools.html', args, context_instance=RequestContext(request))
     else:
@@ -369,8 +368,8 @@ def reserve_tool(request, tool):
 
 @loggedin
 def return_tool(request, tool):
-    tool = get_object_or_404(Tool, id=tool)
     args = {}
+    tool = get_object_or_404(Tool, id=tool)
     borrower = get_object_or_404(ourUser, id=tool.borrower.id)
     user = get_object_or_404(ourUser,id=request.user.id)
     args['user'] = user

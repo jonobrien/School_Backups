@@ -1,7 +1,20 @@
 ToolShare - By: To The Moon!
 
+developed with: 
+	Bootstrap (with Bootswatch) 3.2.0
+	Django 1.6.5
+	Python 3.2.2
+	Windows 8/Ubuntu 14.04
+
+5/1/15 - double checked compatible with:
+	Bootstrap (with Bootswatch) 3.2.0
+	Django 1.6.5
+	Python 3.4.1
+	Windows 8
+
+
 Seeded Users with password 'password':
-MC
+MC (community admin)
 John_Stamos
 Doctor_Who
 Sherlock
@@ -16,20 +29,22 @@ ToolShare Instructions:
 
 Installation (For Internet Explorer users):
 
-1.) Ensure that Javascript is enabled in Internet Explorer. If you are unsure how to enable Javascript in IE, consult Microsoft support.
+1.) Ensure that Javascript is enabled in Internet Explorer. If you are unsure how to enable Javascript in IE, consult Microsoft support/forums.
 2.) Proceed with the normal installation instructions.
 
 Installation:
 
 1.) In the windows file explorer, navigate to the folder you downloaded the ToolShare application to after decompressing files. Make sure the ToolShare application is NOT in a zipped/compressed folder.
 2.) double click on the run.py file in the ToolShare folder.
-3.) When you are asked to make a super user account, type "no", then press enter.
-4.) Minimize the command prompt window that pops up. Keep this open for the duration of using the program.
+3.) When you are asked to make a super user account, for ease of use type "no", then press enter, otherwise fill out the information.
+4.) Minimize the command prompt window that pops up. Keep this open/minimized for the duration of using the program.
 5.) Open your browser of choice and type 127.0.0.1:8000 in the URL. The home page for ToolShare should pop up.
+5a.) if something doesn't pop-up open a new command prompt in the base toolShare directory and type 'python run.py and copy down the error that results
+5b.) if error is issue with packages or not having a version of python/django/bootstrap installed, please consult StackOverflow, otherwise contact devs
 
 
 
-Using ToolShare:
+Using ToolShare (not in any particular order, features available):
 
 
 Registering and Logging In:
@@ -247,21 +262,26 @@ Closing ToolShare:
 
 **************************************************************************
 
-Known Bugs and Disclaimers:
+Known Bugs and Disclaimers: (updated 4/10/15 - with a *)
+a*.) Most unit tests run will fail, as last minute changes were made to backend that 
+    Test Lead did not know, and thus did not fix or account for these changes)
 
-1.) For nearly every form on the site, all fields are deleted if any invalid data is in the fields upon submission. Other forms on the site don’t have this behavior.
+1.) For a large number of forms on the site, all fields are deleted if any invalid data is in the fields upon submission.
 
 2.) Inconsistent warning messages: For removing a message, the warning message is an alert popup, but for banning users, the warning message is a popup built into the page.
 
-3.) Joining a community when logging in the first time brings you to the URL 127.0.0.1:8000/toolshare/select, but changing communities at any other time (after logging in, for instance) brings you to the URL 127.0.0.1:8000/toolshare/change_community with an identical page. A user can still get to 127.0.0.1:8000/toolshare/select by typing it into the URL bar after logging in the first time.
+3.) Joining a community when logging in the first time brings you to the URL 127.0.0.1:8000/toolshare/select, but changing communities at any other time (after logging in, for instance) 
+	brings you to the URL 127.0.0.1:8000/toolshare/change_community with an identical page. A user can still get to 127.0.0.1:8000/toolshare/select by typing it into the URL bar after logging in the first time.
 
 4.) "Edit my info" (next to "Log Out") navigates to a broken page.
+    (fixed*)
 
 5.) Some forms don't notify you of the exact problem with the fields if they're filled in incorrectly, or if they're left blank.
 
 6.) Usernames are case sensitive on login.
 
 7.) A tool can be edited, including moving it from home to shed or vice versa, after someone requests to borrow it.
+    (was a requirement at the time*)
 
 8.) Reservation/blackout dates can be set before the current date.
 
@@ -270,3 +290,4 @@ Known Bugs and Disclaimers:
 10.) For convenience, the list of users appears at the bottom of the page when searching for tools. That way, a user can be found by searching for a tool that the user has.
 
 11.) Clicking “Home” on the top nav bar is not always a required step. The top nav bar should always be there, and all options from the nav bar should be accessible from every page, but if not, going to the home screen guarantees this behavior.
+    (fixed?*)

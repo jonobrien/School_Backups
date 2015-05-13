@@ -1,4 +1,4 @@
-from jango.test import TestCase
+from django.test import TestCase
 
 from toolshareapp.views import search_objects
 from toolshareapp.models import Tool, Shed, Community, Reservation

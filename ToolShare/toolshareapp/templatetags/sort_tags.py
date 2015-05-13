@@ -8,11 +8,6 @@ def sort_url(context, field, value):
     #makes a copy so I don't alter the data
     request = context['request']
     args = request.GET.copy()
-    # #if the table is empty, like when borrowed tool table is empty immediately after returning tool
-    #supposed to check for empty table and just not sort it, but breaks instead
-    if value is None:
-        return args.urlencode()
-
     #if it has been sorted already, sort it the other way
     if field == 'order_by' and field in args.keys():
         if args[field].startswith('-') and args[field].lstrip('-') == value:
