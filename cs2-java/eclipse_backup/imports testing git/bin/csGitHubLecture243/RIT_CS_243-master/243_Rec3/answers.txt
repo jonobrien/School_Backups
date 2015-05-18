@@ -1,8 +1,0 @@
-1.
-	No implementation in Interface
-	Cannot instantiate with type interface
-2.
-	Polymorphism is the extension of classes and interfaces
-3.
-	It must have the methods defined in Edible
-	Apple is a derived type of Edible
