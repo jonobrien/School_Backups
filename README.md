@@ -1,5 +1,5 @@
 # School_Backups
-backups for code from class team SE projects and personal SE
+Code backups from team projects(SE) and CS labs/homeworks
 
 Cs1 - Python
 
