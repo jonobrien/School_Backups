@@ -1,6 +1,8 @@
 # School_Backups
 Code backups from team projects(SE) and CS labs/homeworks
 
+TODO - break up into separate classes/etc
+
 Cs1 - Python
 
 Cs2 - Java
