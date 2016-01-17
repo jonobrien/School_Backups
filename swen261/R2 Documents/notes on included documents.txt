@@ -1,0 +1,10 @@
+- Some fixes post final release were made, failing tests may actually pass
+given the changes in maintenance.
+
+- Some documentation may be incomplete or unnecessary, but were required 
+per class project requirements, and were included as a 'complete' overview
+of what was done by the team over the course of the semester.
+
+- Roles assigned were loosely kept to at points throughout the project, and 
+changed dynamically as different sections of the project were implemented or 
+more problematic than others, or as requirements changed
