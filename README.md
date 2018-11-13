@@ -1,4 +1,7 @@
 # School_Backups
+
+When you're dumb and fork this I email professors about your idocy. :wink:
+
 Code backups from team projects(SE) and CS labs/homeworks
 
 TODO - break up into separate classes/etc
